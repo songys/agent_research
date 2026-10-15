@@ -1,7 +1,7 @@
 % 자동 생성: paper/scripts/05_make_paper_tables.py --lda (정본 topics_lda_20261015.json)
 \begin{widetable}
 \centering
-\caption{LDA 토픽 25개(arXiv 20,107편, 전체 편수가 많은 순). 상위 단어는 각 토픽에서 단어 확률이 높은 순으로 5개의 단어를 추출한 값이다. 전체 열은 총 편수(비중 \%)와 연도별 편수 2023/2024/2025/2026(1$\sim$9월)이다. 언어 열은 사람의 검수로 확정한 집합의 관측 편수(전체 집합 기준 기대 편수; 언어명 언급 논문 기준 기대 편수)이다. 기대 편수는 비교 집합의 토픽 비중에 해당 언어 집합의 논문 수를 곱하여 구하였다. $\uparrow$는 관측 편수가 전체 집합 기준 기대 편수의 1.5배 초과, $\downarrow$는 절반 미만(기대 1편 미만은 표시하지 않음). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 화살표는 기술적 비교 표시이다.}
+\caption{LDA 토픽 25개(arXiv 20,107편, 전체 편수가 많은 순). 상위 단어는 각 토픽에서 단어 확률이 높은 순으로 5개의 단어를 추출한 값이다. 전체 열은 총 편수(비중 \%)와 연도별 편수 2023/2024/2025/2026(1$\sim$9월)이다. 언어 열은 사람의 검수로 확정한 집합의 관측 편수(전체 집합 기준 기대 편수; 언어명 언급 논문 기준 기대 편수)이다. 기대 편수는 비교 집합의 토픽 비중에 해당 언어 집합의 논문 수를 곱하여 구하였다. $\uparrow$는 관측 편수가 전체 집합 기준 기대 편수의 1.5배 초과, $\downarrow$는 절반 미만(기대 편수가 1편 이상인 경우). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 화살표는 기술적 비교 표시이다.}
 \label{tab:topics}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{rlrrrrr}
@@ -9,16 +9,16 @@
 순위 & 상위 단어 & 전체 편수 (\%) & 연도별 편수 & 한국어 (25) & 중국어 (186) & 일본어 (17) \\
 \midrule
 1 & benchmark, score, run, control, evaluation & 1,602 (8.0) & 1/1/36/1,564 & 2 (2.0; 3.4) & 13 (14.8; 25.5) & 1 (1.4; 2.3) \\
-2 & evaluation, benchmark, evaluate, capability, research & 1,300 (6.5) & 25/173/559/543 & 2 (1.6; 1.5) & 27 (12.0; 11.3)$\uparrow$ & 2 (1.1; 1.0)$\uparrow$ \\
+2 & evaluation, benchmark, evaluate, capability, research & 1,300 (6.5) & 25/173/559/543 & 2 (1.6; 1.5) & \textbf{27} (12.0; 11.3)$\uparrow$ & 2 (1.1; 1.0)$\uparrow$ \\
 3 & workflow, clinical, design, medical, multi & 1,264 (6.3) & 29/224/565/446 & 2 (1.6; 1.8) & 14 (11.7; 13.6) & 1 (1.1; 1.2) \\
 4 & learning, game, environment, learn, decision & 1,100 (5.5) & 168/317/443/172 & 0 (1.4; 0.8)$\downarrow$ & 6 (10.2; 5.9) & 2 (0.9; 0.5) \\
-5 & reasoning, multi, enhance, dataset, generate & 1,091 (5.4) & 68/321/515/187 & 3 (1.4; 2.8)$\uparrow$ & 41 (10.1; 20.7)$\uparrow$ & 0 (0.9; 1.9) \\
+5 & reasoning, multi, enhance, dataset, generate & 1,091 (5.4) & 68/321/515/187 & 3 (1.4; 2.8)$\uparrow$ & \textbf{41} (10.1; 20.7)$\uparrow$ & 0 (0.9; 1.9) \\
 6 & software, execution, failure, test, workflow & \textbf{997} (5.0) & 4/38/184/771 & \textbf{0} (1.2; 1.5)$\downarrow$ & 1 (9.2; 11.3)$\downarrow$ & 0 (0.8; 1.0) \\
 7 & optimization, design, search, generation, agentic & 966 (4.8) & 10/55/302/599 & 0 (1.2; 0.5)$\downarrow$ & 4 (8.9; 3.6)$\downarrow$ & 0 (0.8; 0.3) \\
 8 & retrieval, graph, knowledge, query, answer & \textbf{926} (4.6) & 17/72/278/559 & \textbf{0} (1.2; 2.1)$\downarrow$ & \textbf{13} (8.6; 15.4)$\uparrow$ & 0 (0.8; 1.4) \\
 \midrule
 9 & planning, action, reasoning, plan, environment & 924 (4.6) & 57/138/323/406 & 0 (1.1; 0.2)$\downarrow$ & 1 (8.5; 1.8)$\downarrow$ & 0 (0.8; 0.2) \\
-10 & social, human, simulation, behavior, generative & 888 (4.4) & 55/175/342/316 & 2 (1.1; 2.5)$\uparrow$ & 6 (8.2; 19.0) & 4 (0.8; 1.7) \\
+10 & social, human, simulation, behavior, generative & 888 (4.4) & 55/175/342/316 & 2 (1.1; 2.5)$\uparrow$ & 6 (8.2; 19.0) & \textbf{4} (0.8; 1.7) \\
 11 & memory, skill, long, context, experience & 882 (4.4) & 6/11/108/757 & 0 (1.1; 0.1)$\downarrow$ & 2 (8.2; 0.6)$\downarrow$ & 0 (0.7; 0.1) \\
 12 & behavior, bias, alignment, decision, uncertainty & 848 (4.2) & 23/81/234/510 & 0 (1.1; 0.5)$\downarrow$ & 3 (7.8; 3.6)$\downarrow$ & 2 (0.7; 0.3) \\
 13 & reward, policy, learning, trajectory, reinforcement & 828 (4.1) & 20/48/201/559 & 0 (1.0; 0.0)$\downarrow$ & 1 (7.7; 0.0)$\downarrow$ & 0 (0.7; 0.0) \\

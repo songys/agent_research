@@ -71,7 +71,7 @@ def prepare(output):
     ignore = shutil.ignore_patterns("__pycache__", "*.aux", "*.log", "*.fls", "*.fdb_latexmk", "*.pdf", "hclt_ocr")
     for rel in paths:
         shutil.copytree(ROOT / rel, work / rel, ignore=ignore)
-    for rel in ["analysis/output/cache/lemmas_2023_2026q3.jsonl", "analysis/output/cache/agent_colloc_2023_2026q3.jsonl", "analysis/output/hclt_tokens.csv", "analysis/output/arxiv_lemma_families_2023_2026q3.csv", "analysis/output/figures/fig2b_lda_obs_vs_exp_lang.png", "analysis/output/figures/fig1_corpus_growth.png"]:
+    for rel in ["analysis/output/cache/lemmas_2023_2026q3.jsonl", "analysis/output/cache/agent_colloc_2023_2026q3.jsonl", "analysis/output/hclt_tokens.csv", "analysis/output/arxiv_lemma_families_2023_2026q3.csv", "analysis/output/figures/fig2b_lda_obs_vs_exp_lang.png", "analysis/output/figures/fig2b_lda_obs_vs_exp_lang.pdf", "paper/figures/fig2b_lda_obs_vs_exp_lang.pdf", "analysis/output/figures/fig1_corpus_growth.png"]:
         dst = work / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / rel, dst)

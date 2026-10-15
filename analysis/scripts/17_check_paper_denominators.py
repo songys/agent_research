@@ -89,7 +89,7 @@ for slot,word,phrase in [('before','coding','coding agent'),('after','workflow',
  expected=[str(Decimal(str(row[f'pct_{y}'])).quantize(Decimal('0.1'),rounding=ROUND_HALF_UP)) for y in [2023,2026]]
  check(actual==expected,f'table 3 {phrase}: percentages agree with collocation JSON')
 
-for name in ['fig2b_lda_obs_vs_exp_lang.png', 'fig1_corpus_growth.png']:
+for name in ['fig2b_lda_obs_vs_exp_lang.png', 'fig2b_lda_obs_vs_exp_lang.pdf', 'fig1_corpus_growth.png']:
  fig=Path('figures')/name
  check((R/'paper'/fig).read_bytes()==(R/'analysis/output'/fig).read_bytes(),'paper figure byte-identical to current analysis figure: '+name)
 for entry in json.loads((R/'preprocessing/output/corpus_manifest.json').read_text())['files'][:2]:

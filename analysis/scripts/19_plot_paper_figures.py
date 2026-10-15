@@ -40,7 +40,7 @@ def plot_language_topics(table, sizes, output):
     apply_style()
     order = table.sort_values('n_all', ascending=False).index
     sub = table.loc[order]
-    fig, axes = plt.subplots(1, 3, figsize=(13, 0.16 * len(table) + 1.2), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(7.5, 4.0), sharey=True)
     names = {'ko': '한국어', 'zh': '중국어', 'ja': '일본어'}
     for ax, lang in zip(axes, names):
         y = np.arange(len(table))
@@ -54,16 +54,21 @@ def plot_language_topics(table, sizes, output):
         for cut in (7.5, 16.5):
             ax.axhline(cut, color='#7F8C8D', lw=0.7, ls=':')
         ax.set_yticks(y)
-        ax.set_yticklabels([f'{i+1}. {sub.loc[t, "label"]}' for i, t in enumerate(order)], fontsize=7.5)
-        ax.set_title(f'{names[lang]} ({sizes[lang]}편)')
-        ax.set_xlabel('논문 수(편)')
+        ax.set_yticklabels([f'{i+1}. {sub.loc[t, "label"]}' for i, t in enumerate(order)], fontsize=8.5)
+        ax.set_title(f'{names[lang]} ({sizes[lang]}편)', fontsize=10)
+        ax.set_xlabel('논문 수(편)', fontsize=9)
+        ax.tick_params(axis='x', labelsize=8)
+        ax.tick_params(axis='y', length=0, pad=3)
+        ax.margins(y=0.015)
         ax.set_xlim(0, xmax * 1.08)
         ax.grid(axis='y', visible=False)
     axes[0].invert_yaxis()
-    axes[1].legend(loc='lower right', fontsize=8)
-    fig.suptitle('대상 언어별 토픽 분포', y=1.0, fontsize=12)
-    fig.tight_layout()
-    fig.savefig(output, dpi=200, bbox_inches='tight')
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc='lower center', ncol=3, fontsize=8.5,
+               frameon=False, handlelength=1.3, columnspacing=1.3)
+    fig.subplots_adjust(left=0.225, right=0.995, top=0.93, bottom=0.15, wspace=0.12)
+    fig.savefig(output, dpi=300, bbox_inches='tight')
+    fig.savefig(output.with_suffix('.pdf'), bbox_inches='tight')
     plt.close(fig)
 
 
@@ -107,6 +112,7 @@ def main():
     for name in ['fig1_corpus_growth.png', 'fig2b_lda_obs_vs_exp_lang.png']:
         shutil.copy2(output/name, paper/name)
         print(name)
+    shutil.copy2(output/'fig2b_lda_obs_vs_exp_lang.pdf', paper/'fig2b_lda_obs_vs_exp_lang.pdf')
 
 
 if __name__ == '__main__':

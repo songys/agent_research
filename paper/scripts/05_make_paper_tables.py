@@ -63,18 +63,19 @@ def make_lda_tables() -> None:
         label = tuple(ld["topics"][t]["top_words"][:2])
         expansion = label in (("software", "execution"), ("retrieval", "graph"))
         ko_focus = expansion or label == ("training", "fine")
-        zh_focus = label == ("retrieval", "graph")
+        zh_focus = label in (("retrieval", "graph"), ("reasoning", "multi"), ("evaluation", "benchmark"))
+        ja_focus = label == ("social", "human")
         world = f"{int(r['world_total']):,}"
         if expansion:
             world = f"\\textbf{{{world}}}"
         yc = "/".join(f"{int(r[f'world_n_{y}']):,}" for y in (2023, 2024, 2025, 2026))
-        lines.append(f"{int(r['world_rank'])} & {words} & {world} ({r1(100 * r['world_total'] / N)}) & {yc} & {cell(r, 'ko', ko_focus)} & {cell(r, 'zh', zh_focus)} & {cell(r, 'ja')} \\\\")
+        lines.append(f"{int(r['world_rank'])} & {words} & {world} ({r1(100 * r['world_total'] / N)}) & {yc} & {cell(r, 'ko', ko_focus)} & {cell(r, 'zh', zh_focus)} & {cell(r, 'ja', ja_focus)} \\\\")
         if int(r["world_rank"]) in (8, 17):
             lines.append("\\midrule")
     tex2 = ("% 자동 생성: paper/scripts/05_make_paper_tables.py --lda (정본 topics_lda_" + ld["generated"] + ".json)\n"
             "\\begin{widetable}\n\\centering\n\\caption{LDA 토픽 " + str(ld["K"]) + f"개(arXiv {N:,}편, 전체 편수가 많은 순). 상위 단어는 각 토픽에서 단어 확률이 높은 순으로 5개의 단어를 추출한 값이다. 전체 열은 총 편수(비중 \\%)와 연도별 편수 2023/2024/2025/2026(1$\\sim$9월)이다. "
             "언어 열은 사람의 검수로 확정한 집합의 관측 편수(전체 집합 기준 기대 편수; 언어명 언급 논문 기준 기대 편수)이다. 기대 편수는 비교 집합의 토픽 비중에 해당 언어 집합의 논문 수를 곱하여 구하였다. "
-            "$\\uparrow$는 관측 편수가 전체 집합 기준 기대 편수의 1.5배 초과, $\\downarrow$는 절반 미만(기대 1편 미만은 표시하지 않음). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 화살표는 기술적 비교 표시이다.}\n\\label{tab:topics}\n"
+            "$\\uparrow$는 관측 편수가 전체 집합 기준 기대 편수의 1.5배 초과, $\\downarrow$는 절반 미만(기대 편수가 1편 이상인 경우). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 화살표는 기술적 비교 표시이다.}\n\\label{tab:topics}\n"
             "\\resizebox{\\textwidth}{!}{\n\\begin{tabular}{rlrrrrr}\n\\toprule\n"
             f"순위 & 상위 단어 & 전체 편수 (\\%) & 연도별 편수 & 한국어 ({sizes['ko']}) & 중국어 ({sizes['zh']}) & 일본어 ({sizes['ja']}) \\\\\n\\midrule\n"
             + "\n".join(lines) + "\n\\bottomrule\n\\end{tabular}}\n\\end{widetable}\n")
@@ -86,7 +87,7 @@ def make_lda_tables() -> None:
             continue
         rows.append(f"{tex_escape(f.replace('_', ' '))} & {r['arXiv world']:.1f} & {int(r['n Korean'])} ({r['Korean']:.0f}) & {int(r['n Chinese'])} ({r['Chinese']:.0f}) & {int(r['n Japanese'])} ({r['Japanese']:.0f}) & {int(r['n HCLT 2023-26'])} ({r['HCLT 2023-26']:.0f}) \\\\")
     tex4 = ("% 자동 생성: paper/scripts/05_make_paper_tables.py --lda (정본 hclt_notebook_" + hn["generated"] + ".json)\n"
-            "\\begin{table}[!t]\n\\centering\n\\caption{키워드군별 논문 비율(\\%). 전체·언어별 열은 arXiv 자료이다. 전체 열은 비율, 나머지 열은 편수(비율)이다. 용어 목록과 판정 기준은 \\ref{sec:method-families}절에 설명하였다.}\n\\label{tab:families}\n\\setlength{\\tabcolsep}{2.5pt}\n\\resizebox{\\columnwidth}{!}{\n\\begin{tabular}{lrrrrr}\n\\toprule\n"
+            "\\begin{table}[!t]\n\\centering\n\\caption{키워드군별 논문 비율(\\%). 전체·언어별 열은 arXiv 자료이다. 전체 열은 비율, 나머지 열은 편수(비율)이다.}\n\\label{tab:families}\n\\setlength{\\tabcolsep}{2.5pt}\n\\resizebox{\\columnwidth}{!}{\n\\begin{tabular}{lrrrrr}\n\\toprule\n"
             f"키워드군 & \\shortstack{{전체\\\\({n['arXiv world']:,})}} & \\shortstack{{한국어\\\\({n['Korean']})}} & \\shortstack{{중국어\\\\({n['Chinese']})}} & \\shortstack{{일본어\\\\({n['Japanese']})}} & \\shortstack{{HCLT\\\\논문집\\\\({n['HCLT 2023-26']})}} \\\\\n\\midrule\n"
             + "\n".join(rows) + "\n\\bottomrule\n\\end{tabular}}\n\\end{table}\n")
     (out_dir / "tab_families.tex").write_text(tex4)
@@ -111,7 +112,7 @@ def make_collocation_summary() -> None:
     tex = (
         "% 자동 생성: verification/agent_colloc_20261015.json\n"
         "\\begin{widetable}\n\\centering\n"
-        "\\caption{주요 연어의 비중 변화와 연구 대상의 구체화. 비율은 각 연도 전체 집합에서 해당 연어가 나타난 논문의 비율이며, 2026년은 1$\\sim$9월이다.}\n"
+        "\\caption{주요 연어의 비중 변화와 연구 대상의 구체화. 비율의 분모는 각 연도의 전체 집합이며, 2026년은 1$\\sim$9월이다.}\n"
         "\\label{tab:colloc-direction}\n"
         "\\setlength{\\tabcolsep}{5pt}\n"
         "\\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{0.20\\textwidth}>{\\raggedright\\arraybackslash}p{0.20\\textwidth}>{\\centering\\arraybackslash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.36\\textwidth}@{}}\n"
