@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """- 입력: verification의 자료·LDA·키워드군 정본.
-- 출력: paper/tables의 표 1·2·3.
+- 출력: paper/tables의 표 1·2·3·4.
 - 실행: python paper/scripts/05_make_paper_tables.py --lda
 """
 from __future__ import annotations
@@ -90,10 +90,42 @@ def make_lda_tables() -> None:
             f"키워드군 & \\shortstack{{전체\\\\({n['arXiv world']:,})}} & \\shortstack{{한국어\\\\({n['Korean']})}} & \\shortstack{{중국어\\\\({n['Chinese']})}} & \\shortstack{{일본어\\\\({n['Japanese']})}} & \\shortstack{{HCLT\\\\논문집\\\\({n['HCLT 2023-26']})}} \\\\\n\\midrule\n"
             + "\n".join(rows) + "\n\\bottomrule\n\\end{tabular}}\n\\end{table}\n")
     (out_dir / "tab_families.tex").write_text(tex4)
-    print("표 1·2·3 생성(--lda):", "tab_data_year.tex, tab_lda_topics.tex, tab_families.tex")
+    print("자료·LDA·키워드군 표 생성(--lda):", "tab_data_year.tex, tab_lda_topics.tex, tab_families.tex")
+
+
+def make_collocation_summary() -> None:
+    """- 저장된 연어 비율에서 네 가지 표현의 연도별 비교 표를 생성한다."""
+    source = ROOT / "verification/agent_colloc_20261015.json"
+    data = json.loads(source.read_text())
+    entries = [
+        ("수행하는 작업", "before", "coding", "coding agent", "코딩처럼 수행 목적을 명시한 에이전트 연구의 확대"),
+        ("작업을 연결하는 절차", "after", "workflow", "agent workflow", "여러 단계의 작업을 어떻게 구성하고 연결할지에 관한 관심"),
+        ("작업 중 정보를 유지하는 방식", "after", "memory", "agent memory", "기억을 에이전트의 구성 요소로 다루는 연구의 확대"),
+        ("수행 결과를 비교하는 기준", "after", "benchmark", "agent benchmark", "에이전트의 수행 능력을 평가하는 연구의 확대"),
+    ]
+    rows = []
+    for subject, side, word, phrase, meaning in entries:
+        row = data["world"][side][word]
+        change = f"{r1(row['pct_2023'])}\\% $\\rightarrow$ {r1(row['pct_2026'])}\\%"
+        rows.append(f"{subject} & {phrase} & {change} & {meaning} " + r"\\")
+    tex = (
+        "% 자동 생성: verification/agent_colloc_20261015.json\n"
+        "\\begin{widetable}\n\\centering\n"
+        "\\caption{주요 연어의 비중 변화와 연구 대상의 구체화. 비율은 각 연도 전체 집합에서 해당 연어가 나타난 논문의 비율이며, 2026년은 1$\\sim$9월이다.}\n"
+        "\\label{tab:colloc-direction}\n"
+        "\\setlength{\\tabcolsep}{5pt}\n"
+        "\\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{0.20\\textwidth}>{\\raggedright\\arraybackslash}p{0.20\\textwidth}>{\\centering\\arraybackslash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.36\\textwidth}@{}}\n"
+        "\\toprule\n구체화되는 연구 대상 & 연어 & 2023년 $\\rightarrow$ 2026년 & 읽을 수 있는 변화 \\\\\n\\midrule\n"
+        + "\n\\addlinespace[3pt]\n".join(rows)
+        + "\n\\bottomrule\n\\end{tabular}\n\\end{widetable}\n"
+    )
+    (ROOT / "paper/tables/tab_colloc_direction.tex").write_text(tex)
+    print("연어 변화 표 생성: tab_colloc_direction.tex")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--lda", action="store_true", help="표 1·2·3 생성")
+    parser.add_argument("--lda", action="store_true", help="표 1·2·3·4 생성")
     parser.parse_args()
     make_lda_tables()
+    make_collocation_summary()

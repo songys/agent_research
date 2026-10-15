@@ -3,7 +3,7 @@
 
 입력: preprocessing/output, analysis/output, verification(20261015 기준).
 출력: check는 터미널만, tables/notebooks는 --output의 새 격리 사본과 실행 기록.
-논문 위치: 3장 표 1, 4장 표 2·3/그림 1·2/본문 수치. 수집/API 호출은 하지 않는다.
+논문 위치: 3장 표 1, 4장 표 2·3·4/그림 1·2/본문 수치. 수집/API 호출은 하지 않는다.
 """
 from __future__ import annotations
 
@@ -30,7 +30,7 @@ NOTEBOOKS = {
     "08": ("08_keyness", "meta_keyness", ["n_vocab", "set_sizes", "n_2026", "n_prior", "lang_top", "lang_bottom", "y2026_top", "y2026_bottom"]),
     "10": ("10_topic_covariates", "meta_topic_covariates", ["year_adjusted", "logit", "significant"]),
 }
-TABLES = ["tab_data_year.tex", "tab_lda_topics.tex", "tab_families.tex"]
+TABLES = ["tab_data_year.tex", "tab_lda_topics.tex", "tab_colloc_direction.tex", "tab_families.tex"]
 
 
 def digest(path):

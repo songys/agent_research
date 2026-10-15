@@ -34,7 +34,7 @@ arXiv 제목·초록·서지정보를 제공한다. 학술대회 자료는 제�
 # 저장된 문서 배정·분모·표 수치 검증
 python paper_code/run.py check
 
-# 표 1·2·3 생성 및 대조
+# 표 1·2·3·4 생성 및 대조
 python paper_code/run.py tables --output /tmp/agent-tables
 
 # 자료·키워드군·연어·특징 어휘·회귀 재계산

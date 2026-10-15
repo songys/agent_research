@@ -78,6 +78,17 @@ for line in tex.splitlines():
  for part,l in zip(parts[4:7],['ko','zh','ja']):
   vals=re.search(r'(\d+) \(([\d.]+); ([\d.]+)\)',part).groups()
   check(tuple(map(float,vals))==(w[f'{l}_obs'],w[f'{l}_exp'],w[f'{l}_exp_lm']),f'table 2 rank {rank}: {l} cell agrees')
+
+# 표 3의 네 행을 연어 정본의 표시 비율과 대조한다.
+from decimal import Decimal, ROUND_HALF_UP
+colloc_tex=(R/'paper/tables/tab_colloc_direction.tex').read_text()
+for slot,word,phrase in [('before','coding','coding agent'),('after','workflow','agent workflow'),('after','memory','agent memory'),('after','benchmark','agent benchmark')]:
+ row=a['world'][slot][word]
+ line=next(line for line in colloc_tex.splitlines() if f' & {phrase} & ' in line)
+ actual=re.findall(r'(\d+\.\d+)\\%',line)
+ expected=[str(Decimal(str(row[f'pct_{y}'])).quantize(Decimal('0.1'),rounding=ROUND_HALF_UP)) for y in [2023,2026]]
+ check(actual==expected,f'table 3 {phrase}: percentages agree with collocation JSON')
+
 for name in ['fig2b_lda_obs_vs_exp_lang.png', 'fig1_corpus_growth.png']:
  fig=Path('figures')/name
  check((R/'paper'/fig).read_bytes()==(R/'analysis/output'/fig).read_bytes(),'paper figure byte-identical to current analysis figure: '+name)

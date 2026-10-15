@@ -7,7 +7,7 @@
 | 명령 | 계산 | 대조 대상 |
 |---|---|---|
 | `run.py check` | 저장된 문서 배정·언어 판정 재집계 | 분모·관측·기대 편수·표 2 |
-| `run.py tables` | 정본에서 LaTeX 표 생성 | 표 1·2·3의 바이트 일치 |
+| `run.py tables` | 정본에서 LaTeX 표 생성 | 표 1·2·3·4의 바이트 일치 |
 | `run.py notebooks` | 01·05·07·08·10번 전체 실행 | 원고 관련 JSON 키 |
 | `run.py notebooks --notebooks 01 02 05 07 08 10` | 위 집계와 LDA 재학습·순열 검정 | 토픽 배정·추세·검정값 포함 |
 
@@ -55,4 +55,4 @@ python analysis/scripts/20_lda_sensitivity.py --summarize-only --out /tmp/lda-se
 
 저장된 12개 모델의 문서 배정과 상위 단어에서 비교 수치를 다시 계산한다. 재학습은 `--summarize-only` 없이 실행하며, 결과는 `--out`으로 별도 저장한다. [분석 안내](notes/LDA_SENSITIVITY_WALKTHROUGH_20261015.md)와 `analysis/notebooks/13_lda_sensitivity.ipynb`에서 설정·대응 방법·검증 범위를 확인할 수 있다.
 
-OCR 검증 결과는 `verification/hclt_ocr_audit_20261015.json`에 있다. 원본 PDF·OCR 텍스트·보정 텍스트를 배포하지 않으므로 공개 자료로는 원문 대조를 다시 수행할 수 없다. 기존 문서별 판정에서 표 3을 재집계하는 범위는 유지된다.
+OCR 검증 결과는 `verification/hclt_ocr_audit_20261015.json`에 있다. 원본 PDF·OCR 텍스트·보정 텍스트를 배포하지 않으므로 공개 자료로는 원문 대조를 다시 수행할 수 없다. 기존 문서별 판정에서 표 4를 재집계하는 범위는 유지된다.

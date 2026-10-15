@@ -10,10 +10,10 @@
 | 4.2.1 그림 2 | 두 기준의 기대 편수 | `topics_lda.project_lang` | [그림 생성](../analysis/scripts/19_plot_paper_figures.py) | [ ] |
 | 4.1 그림 1 | 연도별 편수·비율 | `overview_notebook.table1` | [그림 생성](../analysis/scripts/19_plot_paper_figures.py) | [ ] |
 | 4장·4.1·4.2 | 토픽 설정 민감도와 연도별 비중 | `lda_sensitivity.runs` | [13](../analysis/notebooks/13_lda_sensitivity.ipynb) | [ ] |
-| 4.1.1 | 인접 연어의 비율 | `agent_colloc.world`, `set_sizes` | [추출](../analysis/scripts/12_agent_collocations.py), [07](../analysis/notebooks/07_agent_collocations.ipynb) | [ ] |
+| 4.1.1 표 3 | 인접 연어의 비율과 해석 | `agent_colloc.world`, `set_sizes` | [추출](../analysis/scripts/12_agent_collocations.py), [07](../analysis/notebooks/07_agent_collocations.ipynb) | [ ] |
 | 4.1.1 | 특징 어휘의 비율 | `meta_keyness.y2026_top`, `n_2026`, `n_prior` | [08](../analysis/notebooks/08_keyness.ipynb) | [ ] |
-| 4.2.2 표 3 | 키워드군 비율 | `hclt_notebook.family_by_set` | [형태소 처리](../analysis/scripts/09_hclt_morph.py), [05](../analysis/notebooks/05_hclt.ipynb) | [ ] |
-| 표 1·2·3 | LaTeX 표 | 위 세 정본 | [표 생성](../paper/scripts/05_make_paper_tables.py) `--lda` | [ ] |
+| 4.2.2 표 4 | 키워드군 비율 | `hclt_notebook.family_by_set` | [형태소 처리](../analysis/scripts/09_hclt_morph.py), [05](../analysis/notebooks/05_hclt.ipynb) | [ ] |
+| 표 1·2·3·4 | LaTeX 표 | 자료·LDA·연어·키워드군 정본 | [표 생성](../paper/scripts/05_make_paper_tables.py) `--lda` | [ ] |
 
 ## 실행
 
