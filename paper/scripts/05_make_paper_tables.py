@@ -87,7 +87,7 @@ def make_lda_tables() -> None:
             continue
         rows.append(f"{tex_escape(f.replace('_', ' '))} & {r['arXiv world']:.1f} & {int(r['n Korean'])} ({r['Korean']:.0f}) & {int(r['n Chinese'])} ({r['Chinese']:.0f}) & {int(r['n Japanese'])} ({r['Japanese']:.0f}) & {int(r['n HCLT 2023-26'])} ({r['HCLT 2023-26']:.0f}) \\\\")
     tex4 = ("% 자동 생성: paper/scripts/05_make_paper_tables.py --lda (정본 hclt_notebook_" + hn["generated"] + ".json)\n"
-            "\\begin{table}[!htbp]\n\\centering\n\\caption{키워드군별 논문 비율(\\%). 세계·언어별 열은 arXiv 자료이다. 세계 열은 비율, 나머지 열은 편수(비율)이다. 용어 목록과 판정 기준은 \\ref{sec:method-families}절에 설명하였다.}\n\\label{tab:families}\n\\setlength{\\tabcolsep}{2.5pt}\n\\resizebox{\\columnwidth}{!}{\n\\begin{tabular}{lrrrrr}\n\\toprule\n"
+            "\\begin{table}[H]\n\\centering\n\\caption{키워드군별 논문 비율(\\%). 세계·언어별 열은 arXiv 자료이다. 세계 열은 비율, 나머지 열은 편수(비율)이다. 용어 목록과 판정 기준은 \\ref{sec:method-families}절에 설명하였다.}\n\\label{tab:families}\n\\setlength{\\tabcolsep}{2.5pt}\n\\resizebox{\\columnwidth}{!}{\n\\begin{tabular}{lrrrrr}\n\\toprule\n"
             f"키워드군 & \\shortstack{{세계\\\\({n['arXiv world']:,})}} & \\shortstack{{한국어\\\\({n['Korean']})}} & \\shortstack{{중국어\\\\({n['Chinese']})}} & \\shortstack{{일본어\\\\({n['Japanese']})}} & \\shortstack{{한글 및 한국어\\\\정보처리 학술대회\\\\논문집\\\\({n['HCLT 2023-26']})}} \\\\\n\\midrule\n"
             + "\n".join(rows) + "\n\\bottomrule\n\\end{tabular}}\n\\end{table}\n")
     (out_dir / "tab_families.tex").write_text(tex4)
