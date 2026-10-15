@@ -40,13 +40,13 @@ def plot_language_topics(table, sizes, output):
     apply_style()
     order = table.sort_values('n_all', ascending=False).index
     sub = table.loc[order]
-    fig, axes = plt.subplots(1, 3, figsize=(13, 0.3 * len(table) + 1.8), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(13, 0.16 * len(table) + 1.2), sharey=True)
     names = {'ko': '한국어', 'zh': '중국어', 'ja': '일본어'}
     for ax, lang in zip(axes, names):
         y = np.arange(len(table))
         for offset, field, color, label in [
             (-0.27, f'obs_{lang}', '#46B07B', '관측 편수'),
-            (0, f'exp_{lang}', '#BDC3C7', '기대 편수: 세계 전체 기준'),
+            (0, f'exp_{lang}', '#BDC3C7', '기대 편수: 전체 집합 기준'),
             (0.27, f'exp_lm_{lang}', '#FFD080', '기대 편수: 언어명 언급 기준'),
         ]:
             ax.barh(y + offset, sub[field], 0.27, color=color, label=label, zorder=3)
