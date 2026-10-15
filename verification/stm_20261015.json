@@ -1,0 +1,1354 @@
+{
+  "generated": "2026-10-15",
+  "script": "analysis/scripts/16_stm.R",
+  "K": 25,
+  "seed": 42,
+  "max_em_its": 150,
+  "converged": true,
+  "em_iterations": 45,
+  "elapsed_min": 2.3,
+  "n_docs": 20107,
+  "vocab_size": 6675,
+  "prevalence": "~ lang_ko + lang_zh + lang_ja + factor(year)",
+  "init": "Spectral",
+  "r_version": "R version 4.6.1 (2026-06-24)",
+  "stm_version": "1.3.8",
+  "input": {
+    "file": "stm_input_20261015.json",
+    "set_sizes": {
+      "lang_ko": 25,
+      "lang_zh": 186,
+      "lang_ja": 17
+    },
+    "corpus_sha256": "426f74f8c655493bf885ec73c1377337e38e7d5314d0ec40b4ac42c0971c8537",
+    "vocab_sha256": "9e75644c6165d68f2f4674bde45c7e80320338ad823f7530c50dfca02ca54c33"
+  },
+  "topics": [
+    {
+      "topic": 1,
+      "mean_theta": 0.029584,
+      "prob_words": "simulation behavior social game interaction human dynamic strategic simulate communication",
+      "frex_words": "game cooperative strategic player simulation cooperation emergent tom social collective",
+      "label": "simulation·behavior"
+    },
+    {
+      "topic": 2,
+      "mean_theta": 0.032731,
+      "prob_words": "skill self evolve improve experience evolution harness update execution reusable",
+      "frex_words": "skill reusable evolution evolve harness procedural experience library self continual",
+      "label": "skill·self"
+    },
+    {
+      "topic": 3,
+      "mean_theta": 0.027685,
+      "prob_words": "network generative time drive intelligence analysis digital real platform event",
+      "frex_words": "urban forecasting mobility digital story smart network series traffic narrative",
+      "label": "network·generative"
+    },
+    {
+      "topic": 4,
+      "mean_theta": 0.056428,
+      "prob_words": "test run benchmark failure score single point fix repair frontier",
+      "frex_words": "repair swe claude run bug pass commit gate oracle repository",
+      "label": "test·run"
+    },
+    {
+      "topic": 5,
+      "mean_theta": 0.082487,
+      "prob_words": "capability challenge application research open world real comprehensive domain potential",
+      "frex_words": "comprehensive application advancement advanced survey significant facilitate potential technique general",
+      "label": "capability·challenge"
+    },
+    {
+      "topic": 6,
+      "mean_theta": 0.049669,
+      "prob_words": "visual multimodal vision video image vlm spatial object scene text",
+      "frex_words": "video scene visual vlm mllm image vision spatial gui vln",
+      "label": "visual·multimodal"
+    },
+    {
+      "topic": 7,
+      "mean_theta": 0.039515,
+      "prob_words": "human bias alignment cognitive persona finding personality participant value prompt",
+      "frex_words": "personality ethical cultural trait participant moral linguistic bias political agency",
+      "label": "human·bias"
+    },
+    {
+      "topic": 8,
+      "mean_theta": 0.034671,
+      "prob_words": "user interaction dialogue conversational turn response conversation preference intent assistant",
+      "frex_words": "speech user conversational dialogue conversation voice recommender personal proactive character",
+      "label": "user·interaction"
+    },
+    {
+      "topic": 9,
+      "mean_theta": 0.022319,
+      "prob_words": "clinical evidence medical causal diagnostic diagnosis patient decision support health",
+      "frex_words": "clinical medical patient clinician causal diagnosis care health healthcare disease",
+      "label": "clinical·evidence"
+    },
+    {
+      "topic": 10,
+      "mean_theta": 0.031082,
+      "prob_words": "attack safety prompt risk security adversarial vulnerability defense injection threat",
+      "frex_words": "attack vulnerability defense red malicious jailbreak injection threat attacker adversarial",
+      "label": "attack·safety"
+    },
+    {
+      "topic": 11,
+      "mean_theta": 0.039367,
+      "prob_words": "reasoning problem step benchmark solve chain thought capability improve reason",
+      "frex_words": "thought reasoning cot mathematical symbolic logical chain problem solve debate",
+      "label": "reasoning·problem"
+    },
+    {
+      "topic": 12,
+      "mean_theta": 0.037016,
+      "prob_words": "decision uncertainty market confidence financial information selection condition prediction choice",
+      "frex_words": "market trading price uncertainty probability consensus bayesian calibration confidence regime",
+      "label": "decision·uncertainty"
+    },
+    {
+      "topic": 13,
+      "mean_theta": 0.036992,
+      "prob_words": "agentic control layer architecture protocol policy autonomous runtime rule governance",
+      "frex_words": "governance compliance contract enforce layer enforcement deterministic autonomy govern runtime",
+      "label": "agentic·control"
+    },
+    {
+      "topic": 14,
+      "mean_theta": 0.048947,
+      "prob_words": "design generation workflow engineering automate generate software agentic end optimization",
+      "frex_words": "engineering software program manual automation specification engineer automate workflow circuit",
+      "label": "design·generation"
+    },
+    {
+      "topic": 15,
+      "mean_theta": 0.032126,
+      "prob_words": "memory long context horizon term history interaction temporal store information",
+      "frex_words": "memory long horizon window store history term context episodic length",
+      "label": "memory·long"
+    },
+    {
+      "topic": 16,
+      "mean_theta": 0.049753,
+      "prob_words": "evaluation benchmark evaluate quality human metric dataset generate generation judge",
+      "frex_words": "rubric metric evaluation quality legal judge translation annotation judgment criterion",
+      "label": "evaluation·benchmark"
+    },
+    {
+      "topic": 17,
+      "mean_theta": 0.043319,
+      "prob_words": "retrieval knowledge graph query question answer search augment rag information",
+      "frex_words": "rag graph query sql retrieval document hop table answer entity",
+      "label": "retrieval·knowledge"
+    },
+    {
+      "topic": 18,
+      "mean_theta": 0.050221,
+      "prob_words": "training reward learning fine trajectory policy train reinforcement tuning optimization",
+      "frex_words": "reward tuning training grpo sft supervise tune reinforcement train supervision",
+      "label": "training·reward"
+    },
+    {
+      "topic": 19,
+      "mean_theta": 0.047066,
+      "prob_words": "action environment planning decision learning world plan exploration learn goal",
+      "frex_words": "planning robot plan exploration action planner goal demonstration robotic environment",
+      "label": "action·environment"
+    },
+    {
+      "topic": 20,
+      "mean_theta": 0.027333,
+      "prob_words": "detection detect monitor probe label content false text positive channel",
+      "frex_words": "false monitor detect detection steering activation detector auditing probe channel",
+      "label": "detection·detect"
+    },
+    {
+      "topic": 21,
+      "mean_theta": 0.061739,
+      "prob_words": "multi address complex enhance experiment challenge single exist multiple collaboration",
+      "frex_words": "multi collaboration collaborative mas dynamically extensive employ superior enhance module",
+      "label": "multi·address"
+    },
+    {
+      "topic": 22,
+      "mean_theta": 0.025859,
+      "prob_words": "research scientific discovery science hypothesis literature analysis material autonomous design",
+      "frex_words": "scientific discovery scientist molecular literature hypothesis protein physics science biological",
+      "label": "research·scientific"
+    },
+    {
+      "topic": 23,
+      "mean_theta": 0.041553,
+      "prob_words": "cost token inference time reduce latency efficient low high scale",
+      "frex_words": "cache gpu latency cost kernel token routing router scheduling slm",
+      "label": "cost·token"
+    },
+    {
+      "topic": 24,
+      "mean_theta": 0.037456,
+      "prob_words": "tool execution web benchmark environment real step agentic evaluate interface",
+      "frex_words": "tool mcp web api apis execution invocation server invoke interface",
+      "label": "tool·execution"
+    },
+    {
+      "topic": 25,
+      "mean_theta": 0.015081,
+      "prob_words": "feedback reflection learning student learn self error correction teacher education",
+      "frex_words": "student educational learner education reflection feedback reflective tutoring teaching pedagogical",
+      "label": "feedback·reflection"
+    }
+  ],
+  "theta_by_set": [
+    {
+      "topic": 1,
+      "label": "simulation·behavior",
+      "theta_world": 0.029584,
+      "theta_ko": 0.021175,
+      "theta_zh": 0.024187,
+      "theta_ja": 0.064278,
+      "ratio_ko": 0.715763,
+      "ratio_zh": 0.817547,
+      "ratio_ja": 2.172696
+    },
+    {
+      "topic": 2,
+      "label": "skill·self",
+      "theta_world": 0.032731,
+      "theta_ko": 0.007421,
+      "theta_zh": 0.019572,
+      "theta_ja": 0.001594,
+      "ratio_ko": 0.226743,
+      "ratio_zh": 0.597967,
+      "ratio_ja": 0.0487
+    },
+    {
+      "topic": 3,
+      "label": "network·generative",
+      "theta_world": 0.027685,
+      "theta_ko": 0.04619,
+      "theta_zh": 0.02598,
+      "theta_ja": 0.017003,
+      "ratio_ko": 1.668434,
+      "ratio_zh": 0.93843,
+      "ratio_ja": 0.614163
+    },
+    {
+      "topic": 4,
+      "label": "test·run",
+      "theta_world": 0.056428,
+      "theta_ko": 0.05827,
+      "theta_zh": 0.028135,
+      "theta_ja": 0.024142,
+      "ratio_ko": 1.03265,
+      "ratio_zh": 0.4986,
+      "ratio_ja": 0.42784
+    },
+    {
+      "topic": 5,
+      "label": "capability·challenge",
+      "theta_world": 0.082487,
+      "theta_ko": 0.092576,
+      "theta_zh": 0.103657,
+      "theta_ja": 0.067186,
+      "ratio_ko": 1.122316,
+      "ratio_zh": 1.256653,
+      "ratio_ja": 0.814508
+    },
+    {
+      "topic": 6,
+      "label": "visual·multimodal",
+      "theta_world": 0.049669,
+      "theta_ko": 0.021071,
+      "theta_zh": 0.045386,
+      "theta_ja": 0.014306,
+      "ratio_ko": 0.424223,
+      "ratio_zh": 0.913767,
+      "ratio_ja": 0.288016
+    },
+    {
+      "topic": 7,
+      "label": "human·bias",
+      "theta_world": 0.039515,
+      "theta_ko": 0.074923,
+      "theta_zh": 0.04996,
+      "theta_ja": 0.283238,
+      "ratio_ko": 1.896064,
+      "ratio_zh": 1.264322,
+      "ratio_ja": 7.167887
+    },
+    {
+      "topic": 8,
+      "label": "user·interaction",
+      "theta_world": 0.034671,
+      "theta_ko": 0.043053,
+      "theta_zh": 0.08291,
+      "theta_ja": 0.087417,
+      "ratio_ko": 1.241746,
+      "ratio_zh": 2.39132,
+      "ratio_ja": 2.521312
+    },
+    {
+      "topic": 9,
+      "label": "clinical·evidence",
+      "theta_world": 0.022319,
+      "theta_ko": 0.032585,
+      "theta_zh": 0.042584,
+      "theta_ja": 0.012393,
+      "ratio_ko": 1.459954,
+      "ratio_zh": 1.907973,
+      "ratio_ja": 0.55528
+    },
+    {
+      "topic": 10,
+      "label": "attack·safety",
+      "theta_world": 0.031082,
+      "theta_ko": 0.020109,
+      "theta_zh": 0.013017,
+      "theta_ja": 0.015234,
+      "ratio_ko": 0.646962,
+      "ratio_zh": 0.418794,
+      "ratio_ja": 0.490109
+    },
+    {
+      "topic": 11,
+      "label": "reasoning·problem",
+      "theta_world": 0.039367,
+      "theta_ko": 0.04062,
+      "theta_zh": 0.032657,
+      "theta_ja": 0.014754,
+      "ratio_ko": 1.031844,
+      "ratio_zh": 0.82955,
+      "ratio_ja": 0.374791
+    },
+    {
+      "topic": 12,
+      "label": "decision·uncertainty",
+      "theta_world": 0.037016,
+      "theta_ko": 0.035987,
+      "theta_zh": 0.041189,
+      "theta_ja": 0.044493,
+      "ratio_ko": 0.972191,
+      "ratio_zh": 1.112713,
+      "ratio_ja": 1.201995
+    },
+    {
+      "topic": 13,
+      "label": "agentic·control",
+      "theta_world": 0.036992,
+      "theta_ko": 0.040014,
+      "theta_zh": 0.014488,
+      "theta_ja": 0.008524,
+      "ratio_ko": 1.081673,
+      "ratio_zh": 0.391659,
+      "ratio_ja": 0.230424
+    },
+    {
+      "topic": 14,
+      "label": "design·generation",
+      "theta_world": 0.048947,
+      "theta_ko": 0.023276,
+      "theta_zh": 0.019245,
+      "theta_ja": 0.021097,
+      "ratio_ko": 0.475539,
+      "ratio_zh": 0.393186,
+      "ratio_ja": 0.431029
+    },
+    {
+      "topic": 15,
+      "label": "memory·long",
+      "theta_world": 0.032126,
+      "theta_ko": 0.019248,
+      "theta_zh": 0.023927,
+      "theta_ja": 0.000676,
+      "ratio_ko": 0.599148,
+      "ratio_zh": 0.744799,
+      "ratio_ja": 0.021037
+    },
+    {
+      "topic": 16,
+      "label": "evaluation·benchmark",
+      "theta_world": 0.049753,
+      "theta_ko": 0.165336,
+      "theta_zh": 0.171068,
+      "theta_ja": 0.106301,
+      "ratio_ko": 3.323164,
+      "ratio_zh": 3.438374,
+      "ratio_ja": 2.136589
+    },
+    {
+      "topic": 17,
+      "label": "retrieval·knowledge",
+      "theta_world": 0.043319,
+      "theta_ko": 0.02758,
+      "theta_zh": 0.052041,
+      "theta_ja": 0.019928,
+      "ratio_ko": 0.636659,
+      "ratio_zh": 1.201334,
+      "ratio_ja": 0.460022
+    },
+    {
+      "topic": 18,
+      "label": "training·reward",
+      "theta_world": 0.050221,
+      "theta_ko": 0.055609,
+      "theta_zh": 0.036502,
+      "theta_ja": 0.018556,
+      "ratio_ko": 1.107294,
+      "ratio_zh": 0.726837,
+      "ratio_ja": 0.369493
+    },
+    {
+      "topic": 19,
+      "label": "action·environment",
+      "theta_world": 0.047066,
+      "theta_ko": 0.006937,
+      "theta_zh": 0.020112,
+      "theta_ja": 0.000028,
+      "ratio_ko": 0.147379,
+      "ratio_zh": 0.42731,
+      "ratio_ja": 0.000593
+    },
+    {
+      "topic": 20,
+      "label": "detection·detect",
+      "theta_world": 0.027333,
+      "theta_ko": 0.01916,
+      "theta_zh": 0.021045,
+      "theta_ja": 0.042096,
+      "ratio_ko": 0.700963,
+      "ratio_zh": 0.769953,
+      "ratio_ja": 1.540124
+    },
+    {
+      "topic": 21,
+      "label": "multi·address",
+      "theta_world": 0.061739,
+      "theta_ko": 0.040468,
+      "theta_zh": 0.063683,
+      "theta_ja": 0.040942,
+      "ratio_ko": 0.655464,
+      "ratio_zh": 1.031486,
+      "ratio_ja": 0.663151
+    },
+    {
+      "topic": 22,
+      "label": "research·scientific",
+      "theta_world": 0.025859,
+      "theta_ko": 0.007029,
+      "theta_zh": 0.01928,
+      "theta_ja": 0.015051,
+      "ratio_ko": 0.271803,
+      "ratio_zh": 0.74557,
+      "ratio_ja": 0.582014
+    },
+    {
+      "topic": 23,
+      "label": "cost·token",
+      "theta_world": 0.041553,
+      "theta_ko": 0.056942,
+      "theta_zh": 0.01715,
+      "theta_ja": 0.037156,
+      "ratio_ko": 1.370338,
+      "ratio_zh": 0.412729,
+      "ratio_ja": 0.894188
+    },
+    {
+      "topic": 24,
+      "label": "tool·execution",
+      "theta_world": 0.037456,
+      "theta_ko": 0.039725,
+      "theta_zh": 0.016599,
+      "theta_ja": 0.009501,
+      "ratio_ko": 1.060576,
+      "ratio_zh": 0.44316,
+      "ratio_ja": 0.253649
+    },
+    {
+      "topic": 25,
+      "label": "feedback·reflection",
+      "theta_world": 0.015081,
+      "theta_ko": 0.004697,
+      "theta_zh": 0.015625,
+      "theta_ja": 0.034104,
+      "ratio_ko": 0.311436,
+      "ratio_zh": 1.036071,
+      "ratio_ja": 2.261346
+    }
+  ],
+  "effects_lang": [
+    {
+      "topic": 1,
+      "label": "simulation·behavior",
+      "covariate": "lang_ko",
+      "estimate": -0.007416,
+      "se": 0.019399,
+      "p": 0.702264,
+      "ci_low": -0.045438,
+      "ci_high": 0.030607
+    },
+    {
+      "topic": 1,
+      "label": "simulation·behavior",
+      "covariate": "lang_zh",
+      "estimate": -0.006348,
+      "se": 0.006911,
+      "p": 0.358332,
+      "ci_low": -0.019894,
+      "ci_high": 0.007197
+    },
+    {
+      "topic": 1,
+      "label": "simulation·behavior",
+      "covariate": "lang_ja",
+      "estimate": 0.035516,
+      "se": 0.034056,
+      "p": 0.297031,
+      "ci_low": -0.031235,
+      "ci_high": 0.102266
+    },
+    {
+      "topic": 2,
+      "label": "skill·self",
+      "covariate": "lang_ko",
+      "estimate": -0.025889,
+      "se": 0.01698,
+      "p": 0.127361,
+      "ci_low": -0.059171,
+      "ci_high": 0.007392
+    },
+    {
+      "topic": 2,
+      "label": "skill·self",
+      "covariate": "lang_zh",
+      "estimate": -0.00909,
+      "se": 0.006471,
+      "p": 0.160095,
+      "ci_low": -0.021773,
+      "ci_high": 0.003592
+    },
+    {
+      "topic": 2,
+      "label": "skill·self",
+      "covariate": "lang_ja",
+      "estimate": -0.029403,
+      "se": 0.020282,
+      "p": 0.14715,
+      "ci_low": -0.069154,
+      "ci_high": 0.010349
+    },
+    {
+      "topic": 3,
+      "label": "network·generative",
+      "covariate": "lang_ko",
+      "estimate": 0.022348,
+      "se": 0.021816,
+      "p": 0.305668,
+      "ci_low": -0.020412,
+      "ci_high": 0.065108
+    },
+    {
+      "topic": 3,
+      "label": "network·generative",
+      "covariate": "lang_zh",
+      "estimate": -0.002569,
+      "se": 0.006418,
+      "p": 0.688971,
+      "ci_low": -0.015147,
+      "ci_high": 0.01001
+    },
+    {
+      "topic": 3,
+      "label": "network·generative",
+      "covariate": "lang_ja",
+      "estimate": -0.011159,
+      "se": 0.019603,
+      "p": 0.569207,
+      "ci_low": -0.049582,
+      "ci_high": 0.027264
+    },
+    {
+      "topic": 4,
+      "label": "test·run",
+      "covariate": "lang_ko",
+      "estimate": 0.003392,
+      "se": 0.024745,
+      "p": 0.890983,
+      "ci_low": -0.045109,
+      "ci_high": 0.051892
+    },
+    {
+      "topic": 4,
+      "label": "test·run",
+      "covariate": "lang_zh",
+      "estimate": -0.018373,
+      "se": 0.008471,
+      "p": 0.030088,
+      "ci_low": -0.034976,
+      "ci_high": -0.001771
+    },
+    {
+      "topic": 4,
+      "label": "test·run",
+      "covariate": "lang_ja",
+      "estimate": -0.01929,
+      "se": 0.027395,
+      "p": 0.481358,
+      "ci_low": -0.072985,
+      "ci_high": 0.034405
+    },
+    {
+      "topic": 5,
+      "label": "capability·challenge",
+      "covariate": "lang_ko",
+      "estimate": 0.01854,
+      "se": 0.02235,
+      "p": 0.4068,
+      "ci_low": -0.025265,
+      "ci_high": 0.062345
+    },
+    {
+      "topic": 5,
+      "label": "capability·challenge",
+      "covariate": "lang_zh",
+      "estimate": 0.008823,
+      "se": 0.008034,
+      "p": 0.272169,
+      "ci_low": -0.006925,
+      "ci_high": 0.02457
+    },
+    {
+      "topic": 5,
+      "label": "capability·challenge",
+      "covariate": "lang_ja",
+      "estimate": -0.013182,
+      "se": 0.026698,
+      "p": 0.6215,
+      "ci_low": -0.065509,
+      "ci_high": 0.039146
+    },
+    {
+      "topic": 6,
+      "label": "visual·multimodal",
+      "covariate": "lang_ko",
+      "estimate": -0.024014,
+      "se": 0.028392,
+      "p": 0.397678,
+      "ci_low": -0.079662,
+      "ci_high": 0.031634
+    },
+    {
+      "topic": 6,
+      "label": "visual·multimodal",
+      "covariate": "lang_zh",
+      "estimate": -0.007614,
+      "se": 0.011869,
+      "p": 0.521179,
+      "ci_low": -0.030877,
+      "ci_high": 0.015648
+    },
+    {
+      "topic": 6,
+      "label": "visual·multimodal",
+      "covariate": "lang_ja",
+      "estimate": -0.036001,
+      "se": 0.032494,
+      "p": 0.267909,
+      "ci_low": -0.09969,
+      "ci_high": 0.027688
+    },
+    {
+      "topic": 7,
+      "label": "human·bias",
+      "covariate": "lang_ko",
+      "estimate": 0.03375,
+      "se": 0.030096,
+      "p": 0.262131,
+      "ci_low": -0.025239,
+      "ci_high": 0.092738
+    },
+    {
+      "topic": 7,
+      "label": "human·bias",
+      "covariate": "lang_zh",
+      "estimate": 0.006117,
+      "se": 0.008433,
+      "p": 0.468245,
+      "ci_low": -0.010412,
+      "ci_high": 0.022646
+    },
+    {
+      "topic": 7,
+      "label": "human·bias",
+      "covariate": "lang_ja",
+      "estimate": 0.199573,
+      "se": 0.048836,
+      "p": 0.000044,
+      "ci_low": 0.103854,
+      "ci_high": 0.295292
+    },
+    {
+      "topic": 8,
+      "label": "user·interaction",
+      "covariate": "lang_ko",
+      "estimate": 0.009096,
+      "se": 0.022348,
+      "p": 0.683986,
+      "ci_low": -0.034705,
+      "ci_high": 0.052898
+    },
+    {
+      "topic": 8,
+      "label": "user·interaction",
+      "covariate": "lang_zh",
+      "estimate": 0.045691,
+      "se": 0.009181,
+      "p": 6.528711e-07,
+      "ci_low": 0.027695,
+      "ci_high": 0.063686
+    },
+    {
+      "topic": 8,
+      "label": "user·interaction",
+      "covariate": "lang_ja",
+      "estimate": 0.048754,
+      "se": 0.027634,
+      "p": 0.077703,
+      "ci_low": -0.005409,
+      "ci_high": 0.102917
+    },
+    {
+      "topic": 9,
+      "label": "clinical·evidence",
+      "covariate": "lang_ko",
+      "estimate": 0.006373,
+      "se": 0.019179,
+      "p": 0.739663,
+      "ci_low": -0.031217,
+      "ci_high": 0.043963
+    },
+    {
+      "topic": 9,
+      "label": "clinical·evidence",
+      "covariate": "lang_zh",
+      "estimate": 0.02229,
+      "se": 0.008969,
+      "p": 0.012956,
+      "ci_low": 0.004711,
+      "ci_high": 0.03987
+    },
+    {
+      "topic": 9,
+      "label": "clinical·evidence",
+      "covariate": "lang_ja",
+      "estimate": -0.012566,
+      "se": 0.021026,
+      "p": 0.550094,
+      "ci_low": -0.053778,
+      "ci_high": 0.028646
+    },
+    {
+      "topic": 10,
+      "label": "attack·safety",
+      "covariate": "lang_ko",
+      "estimate": -0.009219,
+      "se": 0.022843,
+      "p": 0.686524,
+      "ci_low": -0.05399,
+      "ci_high": 0.035552
+    },
+    {
+      "topic": 10,
+      "label": "attack·safety",
+      "covariate": "lang_zh",
+      "estimate": -0.017222,
+      "se": 0.007949,
+      "p": 0.030277,
+      "ci_low": -0.032801,
+      "ci_high": -0.001642
+    },
+    {
+      "topic": 10,
+      "label": "attack·safety",
+      "covariate": "lang_ja",
+      "estimate": -0.005964,
+      "se": 0.028694,
+      "p": 0.83536,
+      "ci_low": -0.062204,
+      "ci_high": 0.050277
+    },
+    {
+      "topic": 11,
+      "label": "reasoning·problem",
+      "covariate": "lang_ko",
+      "estimate": 0.001496,
+      "se": 0.016815,
+      "p": 0.929085,
+      "ci_low": -0.031461,
+      "ci_high": 0.034454
+    },
+    {
+      "topic": 11,
+      "label": "reasoning·problem",
+      "covariate": "lang_zh",
+      "estimate": -0.006572,
+      "se": 0.005707,
+      "p": 0.24955,
+      "ci_low": -0.017758,
+      "ci_high": 0.004615
+    },
+    {
+      "topic": 11,
+      "label": "reasoning·problem",
+      "covariate": "lang_ja",
+      "estimate": -0.022438,
+      "se": 0.017988,
+      "p": 0.212265,
+      "ci_low": -0.057694,
+      "ci_high": 0.012818
+    },
+    {
+      "topic": 12,
+      "label": "decision·uncertainty",
+      "covariate": "lang_ko",
+      "estimate": -0.003748,
+      "se": 0.020498,
+      "p": 0.854927,
+      "ci_low": -0.043923,
+      "ci_high": 0.036428
+    },
+    {
+      "topic": 12,
+      "label": "decision·uncertainty",
+      "covariate": "lang_zh",
+      "estimate": 0.003106,
+      "se": 0.009033,
+      "p": 0.730943,
+      "ci_low": -0.014599,
+      "ci_high": 0.020812
+    },
+    {
+      "topic": 12,
+      "label": "decision·uncertainty",
+      "covariate": "lang_ja",
+      "estimate": 0.011263,
+      "se": 0.02677,
+      "p": 0.673967,
+      "ci_low": -0.041207,
+      "ci_high": 0.063732
+    },
+    {
+      "topic": 13,
+      "label": "agentic·control",
+      "covariate": "lang_ko",
+      "estimate": -0.001956,
+      "se": 0.023335,
+      "p": 0.933193,
+      "ci_low": -0.047694,
+      "ci_high": 0.043781
+    },
+    {
+      "topic": 13,
+      "label": "agentic·control",
+      "covariate": "lang_zh",
+      "estimate": -0.017412,
+      "se": 0.007118,
+      "p": 0.014451,
+      "ci_low": -0.031364,
+      "ci_high": -0.00346
+    },
+    {
+      "topic": 13,
+      "label": "agentic·control",
+      "covariate": "lang_ja",
+      "estimate": -0.024774,
+      "se": 0.022365,
+      "p": 0.268012,
+      "ci_low": -0.06861,
+      "ci_high": 0.019062
+    },
+    {
+      "topic": 14,
+      "label": "design·generation",
+      "covariate": "lang_ko",
+      "estimate": -0.023853,
+      "se": 0.018849,
+      "p": 0.205726,
+      "ci_low": -0.060797,
+      "ci_high": 0.013092
+    },
+    {
+      "topic": 14,
+      "label": "design·generation",
+      "covariate": "lang_zh",
+      "estimate": -0.027914,
+      "se": 0.006878,
+      "p": 0.00005,
+      "ci_low": -0.041395,
+      "ci_high": -0.014433
+    },
+    {
+      "topic": 14,
+      "label": "design·generation",
+      "covariate": "lang_ja",
+      "estimate": -0.02366,
+      "se": 0.022953,
+      "p": 0.302639,
+      "ci_low": -0.068648,
+      "ci_high": 0.021328
+    },
+    {
+      "topic": 15,
+      "label": "memory·long",
+      "covariate": "lang_ko",
+      "estimate": -0.01056,
+      "se": 0.017983,
+      "p": 0.557042,
+      "ci_low": -0.045806,
+      "ci_high": 0.024686
+    },
+    {
+      "topic": 15,
+      "label": "memory·long",
+      "covariate": "lang_zh",
+      "estimate": -0.004652,
+      "se": 0.006763,
+      "p": 0.491576,
+      "ci_low": -0.017908,
+      "ci_high": 0.008604
+    },
+    {
+      "topic": 15,
+      "label": "memory·long",
+      "covariate": "lang_ja",
+      "estimate": -0.030397,
+      "se": 0.019656,
+      "p": 0.122013,
+      "ci_low": -0.068923,
+      "ci_high": 0.008129
+    },
+    {
+      "topic": 16,
+      "label": "evaluation·benchmark",
+      "covariate": "lang_ko",
+      "estimate": 0.103232,
+      "se": 0.023568,
+      "p": 0.000012,
+      "ci_low": 0.05704,
+      "ci_high": 0.149425
+    },
+    {
+      "topic": 16,
+      "label": "evaluation·benchmark",
+      "covariate": "lang_zh",
+      "estimate": 0.10777,
+      "se": 0.009732,
+      "p": 2.040946e-28,
+      "ci_low": 0.088695,
+      "ci_high": 0.126846
+    },
+    {
+      "topic": 16,
+      "label": "evaluation·benchmark",
+      "covariate": "lang_ja",
+      "estimate": 0.039701,
+      "se": 0.027981,
+      "p": 0.155966,
+      "ci_low": -0.015143,
+      "ci_high": 0.094544
+    },
+    {
+      "topic": 17,
+      "label": "retrieval·knowledge",
+      "covariate": "lang_ko",
+      "estimate": -0.016019,
+      "se": 0.019504,
+      "p": 0.411473,
+      "ci_low": -0.054247,
+      "ci_high": 0.022209
+    },
+    {
+      "topic": 17,
+      "label": "retrieval·knowledge",
+      "covariate": "lang_zh",
+      "estimate": 0.009691,
+      "se": 0.007995,
+      "p": 0.225441,
+      "ci_low": -0.005978,
+      "ci_high": 0.025361
+    },
+    {
+      "topic": 17,
+      "label": "retrieval·knowledge",
+      "covariate": "lang_ja",
+      "estimate": -0.022293,
+      "se": 0.02284,
+      "p": 0.329049,
+      "ci_low": -0.06706,
+      "ci_high": 0.022474
+    },
+    {
+      "topic": 18,
+      "label": "training·reward",
+      "covariate": "lang_ko",
+      "estimate": 0.006366,
+      "se": 0.021042,
+      "p": 0.762235,
+      "ci_low": -0.034877,
+      "ci_high": 0.04761
+    },
+    {
+      "topic": 18,
+      "label": "training·reward",
+      "covariate": "lang_zh",
+      "estimate": -0.010857,
+      "se": 0.007963,
+      "p": 0.172774,
+      "ci_low": -0.026465,
+      "ci_high": 0.004751
+    },
+    {
+      "topic": 18,
+      "label": "training·reward",
+      "covariate": "lang_ja",
+      "estimate": -0.027729,
+      "se": 0.023826,
+      "p": 0.244521,
+      "ci_low": -0.074428,
+      "ci_high": 0.018971
+    },
+    {
+      "topic": 19,
+      "label": "action·environment",
+      "covariate": "lang_ko",
+      "estimate": -0.033262,
+      "se": 0.017998,
+      "p": 0.06461,
+      "ci_low": -0.068539,
+      "ci_high": 0.002015
+    },
+    {
+      "topic": 19,
+      "label": "action·environment",
+      "covariate": "lang_zh",
+      "estimate": -0.028842,
+      "se": 0.006941,
+      "p": 0.000033,
+      "ci_low": -0.042445,
+      "ci_high": -0.015238
+    },
+    {
+      "topic": 19,
+      "label": "action·environment",
+      "covariate": "lang_ja",
+      "estimate": -0.041854,
+      "se": 0.021641,
+      "p": 0.053125,
+      "ci_low": -0.08427,
+      "ci_high": 0.000562
+    },
+    {
+      "topic": 20,
+      "label": "detection·detect",
+      "covariate": "lang_ko",
+      "estimate": -0.005972,
+      "se": 0.017969,
+      "p": 0.739619,
+      "ci_low": -0.041191,
+      "ci_high": 0.029246
+    },
+    {
+      "topic": 20,
+      "label": "detection·detect",
+      "covariate": "lang_zh",
+      "estimate": -0.002356,
+      "se": 0.006191,
+      "p": 0.703603,
+      "ci_low": -0.014491,
+      "ci_high": 0.00978
+    },
+    {
+      "topic": 20,
+      "label": "detection·detect",
+      "covariate": "lang_ja",
+      "estimate": 0.02017,
+      "se": 0.024084,
+      "p": 0.402335,
+      "ci_low": -0.027035,
+      "ci_high": 0.067376
+    },
+    {
+      "topic": 21,
+      "label": "multi·address",
+      "covariate": "lang_ko",
+      "estimate": -0.019735,
+      "se": 0.016852,
+      "p": 0.24157,
+      "ci_low": -0.052764,
+      "ci_high": 0.013294
+    },
+    {
+      "topic": 21,
+      "label": "multi·address",
+      "covariate": "lang_zh",
+      "estimate": -0.000066,
+      "se": 0.006507,
+      "p": 0.991912,
+      "ci_low": -0.012819,
+      "ci_high": 0.012687
+    },
+    {
+      "topic": 21,
+      "label": "multi·address",
+      "covariate": "lang_ja",
+      "estimate": -0.0232,
+      "se": 0.020276,
+      "p": 0.252539,
+      "ci_low": -0.062941,
+      "ci_high": 0.01654
+    },
+    {
+      "topic": 22,
+      "label": "research·scientific",
+      "covariate": "lang_ko",
+      "estimate": -0.021006,
+      "se": 0.018079,
+      "p": 0.245302,
+      "ci_low": -0.056441,
+      "ci_high": 0.01443
+    },
+    {
+      "topic": 22,
+      "label": "research·scientific",
+      "covariate": "lang_zh",
+      "estimate": -0.007217,
+      "se": 0.007136,
+      "p": 0.311878,
+      "ci_low": -0.021203,
+      "ci_high": 0.00677
+    },
+    {
+      "topic": 22,
+      "label": "research·scientific",
+      "covariate": "lang_ja",
+      "estimate": -0.00847,
+      "se": 0.022694,
+      "p": 0.708998,
+      "ci_low": -0.05295,
+      "ci_high": 0.036011
+    },
+    {
+      "topic": 23,
+      "label": "cost·token",
+      "covariate": "lang_ko",
+      "estimate": 0.006841,
+      "se": 0.020082,
+      "p": 0.733383,
+      "ci_low": -0.03252,
+      "ci_high": 0.046202
+    },
+    {
+      "topic": 23,
+      "label": "cost·token",
+      "covariate": "lang_zh",
+      "estimate": -0.019841,
+      "se": 0.006966,
+      "p": 0.004401,
+      "ci_low": -0.033495,
+      "ci_high": -0.006187
+    },
+    {
+      "topic": 23,
+      "label": "cost·token",
+      "covariate": "lang_ja",
+      "estimate": -0.00048,
+      "se": 0.025767,
+      "p": 0.985126,
+      "ci_low": -0.050984,
+      "ci_high": 0.050023
+    },
+    {
+      "topic": 24,
+      "label": "tool·execution",
+      "covariate": "lang_ko",
+      "estimate": 0.003657,
+      "se": 0.017923,
+      "p": 0.838311,
+      "ci_low": -0.031472,
+      "ci_high": 0.038787
+    },
+    {
+      "topic": 24,
+      "label": "tool·execution",
+      "covariate": "lang_zh",
+      "estimate": -0.017697,
+      "se": 0.005707,
+      "p": 0.001932,
+      "ci_low": -0.028883,
+      "ci_high": -0.006511
+    },
+    {
+      "topic": 24,
+      "label": "tool·execution",
+      "covariate": "lang_ja",
+      "estimate": -0.024345,
+      "se": 0.018895,
+      "p": 0.197618,
+      "ci_low": -0.06138,
+      "ci_high": 0.01269
+    },
+    {
+      "topic": 25,
+      "label": "feedback·reflection",
+      "covariate": "lang_ko",
+      "estimate": -0.012277,
+      "se": 0.0124,
+      "p": 0.322138,
+      "ci_low": -0.036581,
+      "ci_high": 0.012027
+    },
+    {
+      "topic": 25,
+      "label": "feedback·reflection",
+      "covariate": "lang_zh",
+      "estimate": 0.001044,
+      "se": 0.005682,
+      "p": 0.854233,
+      "ci_low": -0.010094,
+      "ci_high": 0.012182
+    },
+    {
+      "topic": 25,
+      "label": "feedback·reflection",
+      "covariate": "lang_ja",
+      "estimate": 0.022491,
+      "se": 0.020667,
+      "p": 0.276488,
+      "ci_low": -0.018016,
+      "ci_high": 0.062998
+    }
+  ],
+  "significant": [
+    {
+      "topic": 4,
+      "label": "test·run",
+      "covariate": "lang_zh",
+      "estimate": -0.018373,
+      "se": 0.008471,
+      "p": 0.030088,
+      "ci_low": -0.034976,
+      "ci_high": -0.001771
+    },
+    {
+      "topic": 7,
+      "label": "human·bias",
+      "covariate": "lang_ja",
+      "estimate": 0.199573,
+      "se": 0.048836,
+      "p": 0.000044,
+      "ci_low": 0.103854,
+      "ci_high": 0.295292
+    },
+    {
+      "topic": 8,
+      "label": "user·interaction",
+      "covariate": "lang_zh",
+      "estimate": 0.045691,
+      "se": 0.009181,
+      "p": 6.528711e-07,
+      "ci_low": 0.027695,
+      "ci_high": 0.063686
+    },
+    {
+      "topic": 9,
+      "label": "clinical·evidence",
+      "covariate": "lang_zh",
+      "estimate": 0.02229,
+      "se": 0.008969,
+      "p": 0.012956,
+      "ci_low": 0.004711,
+      "ci_high": 0.03987
+    },
+    {
+      "topic": 10,
+      "label": "attack·safety",
+      "covariate": "lang_zh",
+      "estimate": -0.017222,
+      "se": 0.007949,
+      "p": 0.030277,
+      "ci_low": -0.032801,
+      "ci_high": -0.001642
+    },
+    {
+      "topic": 13,
+      "label": "agentic·control",
+      "covariate": "lang_zh",
+      "estimate": -0.017412,
+      "se": 0.007118,
+      "p": 0.014451,
+      "ci_low": -0.031364,
+      "ci_high": -0.00346
+    },
+    {
+      "topic": 14,
+      "label": "design·generation",
+      "covariate": "lang_zh",
+      "estimate": -0.027914,
+      "se": 0.006878,
+      "p": 0.00005,
+      "ci_low": -0.041395,
+      "ci_high": -0.014433
+    },
+    {
+      "topic": 16,
+      "label": "evaluation·benchmark",
+      "covariate": "lang_ko",
+      "estimate": 0.103232,
+      "se": 0.023568,
+      "p": 0.000012,
+      "ci_low": 0.05704,
+      "ci_high": 0.149425
+    },
+    {
+      "topic": 16,
+      "label": "evaluation·benchmark",
+      "covariate": "lang_zh",
+      "estimate": 0.10777,
+      "se": 0.009732,
+      "p": 2.040946e-28,
+      "ci_low": 0.088695,
+      "ci_high": 0.126846
+    },
+    {
+      "topic": 19,
+      "label": "action·environment",
+      "covariate": "lang_zh",
+      "estimate": -0.028842,
+      "se": 0.006941,
+      "p": 0.000033,
+      "ci_low": -0.042445,
+      "ci_high": -0.015238
+    },
+    {
+      "topic": 23,
+      "label": "cost·token",
+      "covariate": "lang_zh",
+      "estimate": -0.019841,
+      "se": 0.006966,
+      "p": 0.004401,
+      "ci_low": -0.033495,
+      "ci_high": -0.006187
+    },
+    {
+      "topic": 24,
+      "label": "tool·execution",
+      "covariate": "lang_zh",
+      "estimate": -0.017697,
+      "se": 0.005707,
+      "p": 0.001932,
+      "ci_low": -0.028883,
+      "ci_high": -0.006511
+    }
+  ]
+}

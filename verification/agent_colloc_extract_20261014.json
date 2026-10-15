@@ -1,0 +1,20 @@
+{
+ "generated": "2026-10-14",
+ "script": "analysis/scripts/12_agent_collocations.py",
+ "input": "preprocessing/output/corpus_llm_agent_all_2023_2026q3.csv",
+ "spacy": "3.8.16",
+ "model": "en_core_web_sm 3.8.0",
+ "n_docs": 20107,
+ "n_docs_with_agent_head": 18237,
+ "n_head_occurrences": 63160,
+ "n_agentic_occurrences": 9475,
+ "rules": {
+  "head": "^(?:(?P<prefix>[a-z0-9]+(?:-[a-z0-9]+)*)-)?agents?$",
+  "max_skip_stop_punct": 2,
+  "unit": "hyphen-joined tokens merged(surface, punctuation stripped); noun → lemma; adjective/participle(JJ*,VBG,VBN) → surface; other POS are not collocates",
+  "left_skip": "DET/PRON only",
+  "right": "noun or compound immediately after head",
+  "doc_frequency": "노트북에서 논문당 1로 센다"
+ },
+ "output": "analysis/output/cache/agent_colloc_2023_2026q3.jsonl"
+}

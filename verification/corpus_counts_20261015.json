@@ -1,0 +1,424 @@
+{
+  "generated": "2026-10-15",
+  "script": "preprocessing/scripts/01_build_corpus.py",
+  "inputs": [
+    {
+      "file": "arxiv_cs_AI_20221101_20260228_enriched.csv",
+      "sha256": "11d575e8c87f1dcb44946c50a0d7034c255945383480b36007fc662341e44cc3"
+    },
+    {
+      "file": "arxiv_cs_CL_20221101_20260228_enriched.csv",
+      "sha256": "9cd351dcde603be683bc151a384ddaceacd437edceaafb0cbbe34d8c7745f4bc"
+    },
+    {
+      "file": "arxiv_cs_CV_20221101_20260228_enriched.csv",
+      "sha256": "c6ef8c0be7372ef8d8b16e48dac1ed31b4744f43683cb7ae8155da487c413116"
+    },
+    {
+      "file": "arxiv_cs_CY_20221101_20260228_enriched.csv",
+      "sha256": "15b2f3ebeab8479ce73dd2fe827acd266081a4365b610b66202393a4a80731f0"
+    },
+    {
+      "file": "arxiv_cs_LG_20221101_20260228_enriched.csv",
+      "sha256": "09e27a261f8e2740557c4585b5df516ff489463fa76793177d782a8044ff6d59"
+    },
+    {
+      "file": "arxiv_cs_AI_20260301_20260930.json",
+      "sha256": "a50afde8ad88b2e22b07a89d177853bcc77bc77c3a00a29f922976f7ee0dd8ae"
+    },
+    {
+      "file": "arxiv_cs_CL_20260301_20260930.json",
+      "sha256": "20c31204829c470e78d8e84856f11ffd85a4938189b1e4df0cc520f9cd14a4b7"
+    },
+    {
+      "file": "arxiv_cs_CV_20260301_20260930.json",
+      "sha256": "e98c72c5205f4671bc94179e7d0dfafddb05e4c293cec139f57220c788ed0e57"
+    },
+    {
+      "file": "arxiv_cs_CY_20260301_20260930.json",
+      "sha256": "7554d400f418521a1bc6f67d71b8cc8827cd0614c218b9cf24591f03751234e0"
+    },
+    {
+      "file": "arxiv_cs_LG_20260301_20260930.json",
+      "sha256": "a11ce9bee9eb3ec7e8f82baf10b1bbd3af6eac17b05bcf573af44146a4cff1ef"
+    }
+  ],
+  "definitions": {
+    "llm_agent": "title+abstract: LLM_AGENT_ADJ_RE 또는 (AGENT_RE and LLM_RE)",
+    "target_language": "detected_keywords in {'korean','chinese','japanese'} (제목·초록 키워드, PACLIC 2026과 동일) = 신호(lang_*_signal); 최종 집합 = 신호 ∧ 사람 라벨 '그 언어의 텍스트를 실제 연구 대상으로 다룸' (D36). '다국어 실험의 한 언어로 포함'은 집합 밖, 별도 집계",
+    "country_aux": "country(PDF 첫 페이지 → 비전 LLM, 폴백 LaTeX → 텍스트 LLM) → ISO 정규화; 보조 정보",
+    "period": "2023-01-01 ~ 2026-09-30 (D30 기간), 연도 기준 = id (published: 수집본 날짜, id: arXiv id 접두 최초 제출 월). 2026-03~09는 소속 국가 없음(D24)",
+    "year_basis": "id"
+  },
+  "pipeline": {
+    "rows_raw_all_files": 576116,
+    "unique_ids_all_years": 388291,
+    "same_title_different_id": {
+      "groups": 102,
+      "rows": 204,
+      "removed": 102,
+      "rule": "제목 정규화(소문자·영숫자) 20자 이상이 같으면 id가 빠른 한 편만 남김"
+    },
+    "new_style_ids": 388280,
+    "year_published_vs_id_prefix_mismatch": 57750,
+    "unique_ids_in_period": 357431,
+    "unique_by_year": {
+      "2023": 67040,
+      "2024": 86745,
+      "2025": 102205,
+      "2026": 101441
+    },
+    "unique_by_year_other_basis": {
+      "2022": 129,
+      "2023": 52419,
+      "2024": 81296,
+      "2025": 114230,
+      "2026": 109357
+    },
+    "unique_by_year_month_2026": {
+      "1": 8470,
+      "2": 9925,
+      "3": 11636,
+      "4": 10746,
+      "5": 13925,
+      "6": 12524,
+      "7": 9995,
+      "8": 11382,
+      "9": 12838
+    },
+    "rows_2026_oai_files": 153110,
+    "llm_agent_all": 20107,
+    "llm_agent_cjk_signal": 257,
+    "llm_agent_cjk_lang": 226,
+    "llm_agent_cjk_lang_multi_tag": 2,
+    "llm_agent_cjk_signal_unlabeled": 0,
+    "country_fill_rate_by_year_all_papers": {
+      "2023": 0.8965,
+      "2024": 0.7362,
+      "2025": 0.6997,
+      "2026": 0.1748
+    },
+    "country_missing_in_cjk_lang": 125
+  },
+  "language_label_review": {
+    "main_file": "verification/review_review_lang_tag_2023_2026_20261014.jsonl",
+    "recheck_file": "verification/review_review_lang_tag_recheck_20261014.jsonl",
+    "n_main": 257,
+    "n_recheck": 24,
+    "n_recheck_changed": 8,
+    "corrections_file": "verification/review_review_lang_tag_corrections_20261015.jsonl",
+    "n_corrections": 2,
+    "label_counts": {
+      "그 언어의 텍스트를 실제 연구 대상으로 다룸": 226,
+      "다국어 실험의 한 언어로 포함": 29,
+      "오탐(알고리즘·문자 체계·인명 등)": 1,
+      "폴란드 언어가 대상": 1
+    },
+    "label_by_signal": {
+      "ja": {
+        "그 언어의 텍스트를 실제 연구 대상으로 다룸": 15,
+        "다국어 실험의 한 언어로 포함": 4
+      },
+      "ko": {
+        "그 언어의 텍스트를 실제 연구 대상으로 다룸": 25
+      },
+      "ko;ja": {
+        "다국어 실험의 한 언어로 포함": 1
+      },
+      "ko;zh": {
+        "다국어 실험의 한 언어로 포함": 1
+      },
+      "ko;zh;ja": {
+        "다국어 실험의 한 언어로 포함": 1
+      },
+      "zh": {
+        "그 언어의 텍스트를 실제 연구 대상으로 다룸": 184,
+        "다국어 실험의 한 언어로 포함": 19,
+        "오탐(알고리즘·문자 체계·인명 등)": 1,
+        "폴란드 언어가 대상": 1
+      },
+      "zh;ja": {
+        "다국어 실험의 한 언어로 포함": 3,
+        "그 언어의 텍스트를 실제 연구 대상으로 다룸": 2
+      }
+    },
+    "signal_by_lang_total": {
+      "ko": 28,
+      "zh": 212,
+      "ja": 26
+    },
+    "multilingual_by_lang_total": {
+      "ko": 3,
+      "zh": 24,
+      "ja": 9
+    },
+    "multilingual_by_lang_year": {
+      "ko": {
+        "2024": 1,
+        "2026": 2
+      },
+      "zh": {
+        "2023": 1,
+        "2024": 1,
+        "2025": 7,
+        "2026": 15
+      },
+      "ja": {
+        "2024": 1,
+        "2025": 3,
+        "2026": 5
+      }
+    },
+    "excluded_ids_by_label": {
+      "다국어 실험의 한 언어로 포함": [
+        "2310.13132",
+        "2405.17840",
+        "2412.03801",
+        "2505.02024",
+        "2508.01710",
+        "2508.05670",
+        "2509.24405",
+        "2510.08605",
+        "2510.12845",
+        "2511.04914",
+        "2511.11334",
+        "2601.01739",
+        "2601.05366",
+        "2601.12091",
+        "2603.04904",
+        "2604.04532",
+        "2604.25737",
+        "2605.16716",
+        "2605.30274",
+        "2605.30947",
+        "2606.03618",
+        "2606.26040",
+        "2607.13189",
+        "2608.01395",
+        "2608.22432",
+        "2608.23026",
+        "2609.07029",
+        "2609.15079",
+        "2609.32082"
+      ],
+      "오탐(알고리즘·문자 체계·인명 등)": [
+        "2503.03743"
+      ],
+      "폴란드 언어가 대상": [
+        "2507.01259"
+      ]
+    }
+  },
+  "cjk_signal_by_lang_year": {
+    "ko": {
+      "2024": 2,
+      "2025": 10,
+      "2026": 16
+    },
+    "zh": {
+      "2023": 8,
+      "2024": 35,
+      "2025": 73,
+      "2026": 96
+    },
+    "ja": {
+      "2024": 3,
+      "2025": 10,
+      "2026": 13
+    }
+  },
+  "llm_agent_by_year": {
+    "2023": 689,
+    "2024": 2382,
+    "2025": 6149,
+    "2026": 10887
+  },
+  "cjk_lang_by_year": {
+    "2023": 7,
+    "2024": 37,
+    "2025": 80,
+    "2026": 102
+  },
+  "cjk_lang_by_lang_year": {
+    "ko": {
+      "2024": 1,
+      "2025": 10,
+      "2026": 14
+    },
+    "zh": {
+      "2023": 7,
+      "2024": 34,
+      "2025": 64,
+      "2026": 81
+    },
+    "ja": {
+      "2024": 2,
+      "2025": 7,
+      "2026": 8
+    }
+  },
+  "cjk_lang_by_lang_total": {
+    "ko": 25,
+    "zh": 186,
+    "ja": 17
+  },
+  "cjk_lang_by_country": {
+    "(missing)": 125,
+    "CN": 69,
+    "KR": 9,
+    "JP": 6,
+    "US": 6,
+    "GB": 3,
+    "NL": 2,
+    "Australia": 1,
+    "Canada": 1,
+    "India": 1,
+    "Vietnam": 1,
+    "UAE": 1,
+    "TW": 1
+  },
+  "cjk_lang_by_primary_category": {
+    "cs.AI": 58,
+    "cs.CE": 1,
+    "cs.CL": 121,
+    "cs.CR": 3,
+    "cs.CV": 15,
+    "cs.CY": 4,
+    "cs.HC": 7,
+    "cs.IR": 4,
+    "cs.LG": 5,
+    "cs.MA": 2,
+    "cs.RO": 1,
+    "cs.SD": 1,
+    "hep-ex": 1,
+    "physics.soc-ph": 1,
+    "q-fin.PM": 1,
+    "q-fin.ST": 1
+  },
+  "language_target_papers_all_topics": {
+    "ko": {
+      "total": 489,
+      "llm_agent": 28,
+      "llm_agent_final": 25,
+      "by_year_total": {
+        "2023": 55,
+        "2024": 107,
+        "2025": 150,
+        "2026": 177
+      },
+      "basis": "키워드 신호(검수 없음); llm_agent_final만 D36 라벨 반영"
+    },
+    "zh": {
+      "total": 3007,
+      "llm_agent": 212,
+      "llm_agent_final": 186,
+      "by_year_total": {
+        "2023": 557,
+        "2024": 714,
+        "2025": 910,
+        "2026": 826
+      },
+      "basis": "키워드 신호(검수 없음); llm_agent_final만 D36 라벨 반영"
+    },
+    "ja": {
+      "total": 680,
+      "llm_agent": 26,
+      "llm_agent_final": 17,
+      "by_year_total": {
+        "2023": 103,
+        "2024": 171,
+        "2025": 190,
+        "2026": 216
+      },
+      "basis": "키워드 신호(검수 없음); llm_agent_final만 D36 라벨 반영"
+    }
+  },
+  "loose_agent_tag_reference": {
+    "ko": 43,
+    "zh": 293,
+    "ja": 47
+  },
+  "agent_tag_exploration": {
+    "n": 46987,
+    "by_year": {
+      "2023": 5448,
+      "2024": 8041,
+      "2025": 13531,
+      "2026": 19967
+    },
+    "llm_agent_share": 0.4279,
+    "concept_rate": {
+      "llm": 0.4706,
+      "physical": 0.3047,
+      "multiagent_system": 0.2855,
+      "rl": 0.2417,
+      "simulation": 0.2072,
+      "tool": 0.1821,
+      "human": 0.3975,
+      "safety": 0.2331,
+      "planning": 0.1407,
+      "memory": 0.1129,
+      "evaluation": 0.5388,
+      "software": 0.22,
+      "gui_web": 0.0433
+    },
+    "concept_regex": {
+      "llm": "\\b(llms?|large language models?|language models?|gpt|chatgpt|foundation models?|generative ai|vlms?)\\b",
+      "physical": "\\b(embodied|robots?|robotic\\w*|physical|manipulat\\w*|locomotion|autonomous driving|vehicles?|drones?|sim-to-real|real-world environments?)\\b",
+      "multiagent_system": "\\b(multi-?agent|agent systems?|agentic systems?|collaborat\\w*|coordinat\\w*|cooperat\\w*)\\b",
+      "rl": "\\b(reinforcement learning|rl|rewards?|policy optimization|markov decision|q-learning)\\b",
+      "simulation": "\\b(simulat\\w*|social|society|societal|economic|opinion)\\b",
+      "tool": "\\b(tool[- ]?use|tools?|apis?|function calling|mcp)\\b",
+      "human": "\\b(humans?|users?|interaction|interactive|human-in-the-loop)\\b",
+      "safety": "\\b(safety|safe|attacks?|adversarial|security|jailbreak\\w*|alignment)\\b",
+      "planning": "\\b(planning|planner|plans?|task decomposition)\\b",
+      "memory": "\\b(memory|long-term|long-context)\\b",
+      "evaluation": "\\b(benchmarks?|evaluat\\w*)\\b",
+      "software": "\\b(software|code generation|coding|programming|github)\\b",
+      "gui_web": "\\b(gui|web agents?|web navigation|browser|mobile|app)\\b"
+    }
+  },
+  "country_cjk_reference_llm_agent": {
+    "CN": {
+      "2023": 164,
+      "2024": 574,
+      "2025": 1368,
+      "2026": 612
+    },
+    "JP": {
+      "2023": 14,
+      "2024": 23,
+      "2025": 60,
+      "2026": 28
+    },
+    "KR": {
+      "2023": 11,
+      "2024": 28,
+      "2025": 107,
+      "2026": 40
+    }
+  },
+  "country_vs_language_overlap_llm_agent": {
+    "KR|ko": {
+      "country_n": 186,
+      "country_with_lang_tag": 8,
+      "lang_n": 25,
+      "lang_with_country": 8,
+      "lang_country_missing": 16
+    },
+    "CN|zh": {
+      "country_n": 2718,
+      "country_with_lang_tag": 69,
+      "lang_n": 186,
+      "lang_with_country": 69,
+      "lang_country_missing": 101
+    },
+    "JP|ja": {
+      "country_n": 125,
+      "country_with_lang_tag": 6,
+      "lang_n": 17,
+      "lang_with_country": 6,
+      "lang_country_missing": 8
+    }
+  }
+}

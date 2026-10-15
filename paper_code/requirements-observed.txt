@@ -1,0 +1,19 @@
+# 2026-10-15 정리 시 로컬 Python 3.13.5 환경의 직접 의존성 버전.
+# 전이 의존성까지 잠근 lock 파일이나 새 환경 설치 검증 결과는 아니다.
+pandas==2.3.3
+numpy==2.4.1
+scipy==1.17.0
+scikit-learn==1.8.0
+gensim==4.4.0
+matplotlib==3.10.8
+spacy==3.8.16
+kiwipiepy==0.23.2
+statsmodels==0.15.0
+networkx==3.6.1
+nbformat==5.10.4
+nbconvert==7.17.0
+ipykernel==7.2.0
+jupyter==1.1.1
+pytest==9.0.3
+pyLDAvis==3.4.1
+# spaCy 모델: en_core_web_sm 3.8.0 (별도 설치)

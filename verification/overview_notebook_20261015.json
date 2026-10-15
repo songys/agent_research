@@ -1,0 +1,211 @@
+{
+ "generated": "20261015",
+ "notebook": "analysis/notebooks/01_corpus_overview.ipynb",
+ "period": "2023-01-01 ~ 2026-09-30 (D30 기간), 연도 기준 = id (published: 수집본 날짜, id: arXiv id 접두 최초 제출 월). 2026-03~09는 소속 국가 없음(D24)",
+ "year_basis": "id",
+ "table1": {
+  "2023": {
+   "cs papers (5 categories)": 67040,
+   "LLM-agent papers": 689,
+   "LLM-agent share %": 1.03,
+   "target Korean": 0,
+   "target Chinese": 7,
+   "target Japanese": 0,
+   "target CJK (any)": 7
+  },
+  "2024": {
+   "cs papers (5 categories)": 86745,
+   "LLM-agent papers": 2382,
+   "LLM-agent share %": 2.75,
+   "target Korean": 1,
+   "target Chinese": 34,
+   "target Japanese": 2,
+   "target CJK (any)": 37
+  },
+  "2025": {
+   "cs papers (5 categories)": 102205,
+   "LLM-agent papers": 6149,
+   "LLM-agent share %": 6.02,
+   "target Korean": 10,
+   "target Chinese": 64,
+   "target Japanese": 7,
+   "target CJK (any)": 80
+  },
+  "2026 (Jan-Sep)": {
+   "cs papers (5 categories)": 101441,
+   "LLM-agent papers": 10887,
+   "LLM-agent share %": 10.73,
+   "target Korean": 14,
+   "target Chinese": 81,
+   "target Japanese": 8,
+   "target CJK (any)": 102
+  },
+  "total": {
+   "cs papers (5 categories)": 357431,
+   "LLM-agent papers": 20107,
+   "LLM-agent share %": 5.63,
+   "target Korean": 25,
+   "target Chinese": 186,
+   "target Japanese": 17,
+   "target CJK (any)": 226
+  }
+ },
+ "table0_year_basis": {
+  "2022": {
+   "id prefix (first submission month, D31)": 0,
+   "published (harvest-time latest version)": 129
+  },
+  "2023": {
+   "id prefix (first submission month, D31)": 67040,
+   "published (harvest-time latest version)": 52419
+  },
+  "2024": {
+   "id prefix (first submission month, D31)": 86745,
+   "published (harvest-time latest version)": 81296
+  },
+  "2025": {
+   "id prefix (first submission month, D31)": 102205,
+   "published (harvest-time latest version)": 114230
+  },
+  "2026": {
+   "id prefix (first submission month, D31)": 101441,
+   "published (harvest-time latest version)": 109357
+  }
+ },
+ "same_title_dedup": {
+  "groups": 102,
+  "rows": 204,
+  "removed": 102,
+  "rule": "제목 정규화(소문자·영숫자) 20자 이상이 같으면 id가 빠른 한 편만 남김"
+ },
+ "sensitivity": {
+  "label_rule_reversed_set": {
+   "ko": 19,
+   "zh": 113,
+   "ja": 10,
+   "any": 142
+  },
+  "label_rule_note": "'english'가 제목·초록에 있는 실제-대상 논문을 다국어로 간주했을 때 남는 편수",
+  "agent_tag_outside_definition": 26880,
+  "outside_with_llm_agent_cues": {
+   "2023": 97,
+   "2024": 179,
+   "2025": 778,
+   "2026": 2341
+  },
+  "cues": [
+   "agentic",
+   "ai agent",
+   "coding agent",
+   "web agent",
+   "gui agent",
+   "computer-use agent",
+   "computer use agent",
+   "tool calling",
+   "tool-calling",
+   "function calling",
+   " mcp"
+  ]
+ },
+ "table1b_lang_label_review": {
+  "per_lang": {
+   "Korean": {
+    "signal": 28,
+    "target (in set)": 25,
+    "multilingual (out)": 3,
+    "other (out)": 0
+   },
+   "Chinese": {
+    "signal": 212,
+    "target (in set)": 186,
+    "multilingual (out)": 24,
+    "other (out)": 2
+   },
+   "Japanese": {
+    "signal": 26,
+    "target (in set)": 17,
+    "multilingual (out)": 9,
+    "other (out)": 0
+   }
+  },
+  "label_by_signal": {
+   "ja": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 15,
+    "다국어 실험의 한 언어로 포함": 4,
+    "오탐(알고리즘·문자 체계·인명 등)": 0,
+    "폴란드 언어가 대상": 0,
+    "total": 19
+   },
+   "ko": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 25,
+    "다국어 실험의 한 언어로 포함": 0,
+    "오탐(알고리즘·문자 체계·인명 등)": 0,
+    "폴란드 언어가 대상": 0,
+    "total": 25
+   },
+   "ko;ja": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 0,
+    "다국어 실험의 한 언어로 포함": 1,
+    "오탐(알고리즘·문자 체계·인명 등)": 0,
+    "폴란드 언어가 대상": 0,
+    "total": 1
+   },
+   "ko;zh": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 0,
+    "다국어 실험의 한 언어로 포함": 1,
+    "오탐(알고리즘·문자 체계·인명 등)": 0,
+    "폴란드 언어가 대상": 0,
+    "total": 1
+   },
+   "ko;zh;ja": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 0,
+    "다국어 실험의 한 언어로 포함": 1,
+    "오탐(알고리즘·문자 체계·인명 등)": 0,
+    "폴란드 언어가 대상": 0,
+    "total": 1
+   },
+   "zh": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 184,
+    "다국어 실험의 한 언어로 포함": 19,
+    "오탐(알고리즘·문자 체계·인명 등)": 1,
+    "폴란드 언어가 대상": 1,
+    "total": 205
+   },
+   "zh;ja": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 2,
+    "다국어 실험의 한 언어로 포함": 3,
+    "오탐(알고리즘·문자 체계·인명 등)": 0,
+    "폴란드 언어가 대상": 0,
+    "total": 5
+   },
+   "total": {
+    "그 언어의 텍스트를 실제 연구 대상으로 다룸": 226,
+    "다국어 실험의 한 언어로 포함": 29,
+    "오탐(알고리즘·문자 체계·인명 등)": 1,
+    "폴란드 언어가 대상": 1,
+    "total": 257
+   }
+  },
+  "review_files": [
+   "verification/review_review_lang_tag_2023_2026_20261014.jsonl",
+   "verification/review_review_lang_tag_recheck_20261014.jsonl"
+  ]
+ },
+ "table3": {
+  "Korean": {
+   "target-language papers (all topics)": 489.0,
+   "LLM-agent among them": 28.0,
+   "share %": 5.73
+  },
+  "Chinese": {
+   "target-language papers (all topics)": 3007.0,
+   "LLM-agent among them": 212.0,
+   "share %": 7.05
+  },
+  "Japanese": {
+   "target-language papers (all topics)": 680.0,
+   "LLM-agent among them": 26.0,
+   "share %": 3.82
+  }
+ }
+}

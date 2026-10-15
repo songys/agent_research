@@ -1,0 +1,2692 @@
+{
+ "generated": "20261015",
+ "notebook": "analysis/notebooks/08_keyness.ipynb",
+ "coword_network": {
+  "top60": {
+   "all": [
+    {
+     "keyword": "multi",
+     "df": 8493
+    },
+    {
+     "keyword": "reasoning",
+     "df": 6925
+    },
+    {
+     "keyword": "human",
+     "df": 5755
+    },
+    {
+     "keyword": "tool",
+     "df": 5091
+    },
+    {
+     "keyword": "agentic",
+     "df": 5003
+    },
+    {
+     "keyword": "baseline",
+     "df": 4513
+    },
+    {
+     "keyword": "environment",
+     "df": 4228
+    },
+    {
+     "keyword": "learning",
+     "df": 4069
+    },
+    {
+     "keyword": "training",
+     "df": 3965
+    },
+    {
+     "keyword": "knowledge",
+     "df": 3780
+    },
+    {
+     "keyword": "prompt",
+     "df": 3745
+    },
+    {
+     "keyword": "decision",
+     "df": 3651
+    },
+    {
+     "keyword": "user",
+     "df": 3561
+    },
+    {
+     "keyword": "action",
+     "df": 3332
+    },
+    {
+     "keyword": "integrate",
+     "df": 3220
+    },
+    {
+     "keyword": "execution",
+     "df": 3105
+    },
+    {
+     "keyword": "step",
+     "df": 3049
+    },
+    {
+     "keyword": "fine",
+     "df": 3039
+    },
+    {
+     "keyword": "strategy",
+     "df": 2957
+    },
+    {
+     "keyword": "scenario",
+     "df": 2895
+    },
+    {
+     "keyword": "retrieval",
+     "df": 2850
+    },
+    {
+     "keyword": "mechanism",
+     "df": 2823
+    },
+    {
+     "keyword": "rely",
+     "df": 2823
+    },
+    {
+     "keyword": "test",
+     "df": 2799
+    },
+    {
+     "keyword": "pipeline",
+     "df": 2769
+    },
+    {
+     "keyword": "question",
+     "df": 2749
+    },
+    {
+     "keyword": "identify",
+     "df": 2682
+    },
+    {
+     "keyword": "structured",
+     "df": 2667
+    },
+    {
+     "keyword": "train",
+     "df": 2666
+    },
+    {
+     "keyword": "autonomous",
+     "df": 2643
+    },
+    {
+     "keyword": "cost",
+     "df": 2607
+    },
+    {
+     "keyword": "workflow",
+     "df": 2603
+    },
+    {
+     "keyword": "reveal",
+     "df": 2576
+    },
+    {
+     "keyword": "memory",
+     "df": 2570
+    },
+    {
+     "keyword": "architecture",
+     "df": 2558
+    },
+    {
+     "keyword": "self",
+     "df": 2552
+    },
+    {
+     "keyword": "structure",
+     "df": 2507
+    },
+    {
+     "keyword": "improvement",
+     "df": 2504
+    },
+    {
+     "keyword": "policy",
+     "df": 2503
+    },
+    {
+     "keyword": "evidence",
+     "df": 2494
+    },
+    {
+     "keyword": "perform",
+     "df": 2480
+    },
+    {
+     "keyword": "natural",
+     "df": 2448
+    },
+    {
+     "keyword": "trajectory",
+     "df": 2442
+    },
+    {
+     "keyword": "guide",
+     "df": 2440
+    },
+    {
+     "keyword": "finding",
+     "df": 2429
+    },
+    {
+     "keyword": "text",
+     "df": 2416
+    },
+    {
+     "keyword": "semantic",
+     "df": 2410
+    },
+    {
+     "keyword": "reinforcement",
+     "df": 2406
+    },
+    {
+     "keyword": "aware",
+     "df": 2384
+    },
+    {
+     "keyword": "success",
+     "df": 2374
+    },
+    {
+     "keyword": "automate",
+     "df": 2360
+    },
+    {
+     "keyword": "answer",
+     "df": 2352
+    },
+    {
+     "keyword": "failure",
+     "df": 2316
+    },
+    {
+     "keyword": "fail",
+     "df": 2309
+    },
+    {
+     "keyword": "limitation",
+     "df": 2304
+    },
+    {
+     "keyword": "end",
+     "df": 2270
+    },
+    {
+     "keyword": "paradigm",
+     "df": 2246
+    },
+    {
+     "keyword": "output",
+     "df": 2230
+    },
+    {
+     "keyword": "focus",
+     "df": 2224
+    },
+    {
+     "keyword": "construct",
+     "df": 2208
+    }
+   ],
+   "2023_2025": [
+    {
+     "keyword": "multi",
+     "df": 3887
+    },
+    {
+     "keyword": "human",
+     "df": 3273
+    },
+    {
+     "keyword": "reasoning",
+     "df": 3202
+    },
+    {
+     "keyword": "environment",
+     "df": 2195
+    },
+    {
+     "keyword": "learning",
+     "df": 2168
+    },
+    {
+     "keyword": "tool",
+     "df": 1996
+    },
+    {
+     "keyword": "knowledge",
+     "df": 1978
+    },
+    {
+     "keyword": "integrate",
+     "df": 1956
+    },
+    {
+     "keyword": "user",
+     "df": 1926
+    },
+    {
+     "keyword": "training",
+     "df": 1778
+    },
+    {
+     "keyword": "prompt",
+     "df": 1770
+    },
+    {
+     "keyword": "scenario",
+     "df": 1661
+    },
+    {
+     "keyword": "decision",
+     "df": 1625
+    },
+    {
+     "keyword": "strategy",
+     "df": 1592
+    },
+    {
+     "keyword": "agentic",
+     "df": 1573
+    },
+    {
+     "keyword": "baseline",
+     "df": 1555
+    },
+    {
+     "keyword": "fine",
+     "df": 1512
+    },
+    {
+     "keyword": "action",
+     "df": 1425
+    },
+    {
+     "keyword": "limitation",
+     "df": 1352
+    },
+    {
+     "keyword": "train",
+     "df": 1338
+    },
+    {
+     "keyword": "step",
+     "df": 1337
+    },
+    {
+     "keyword": "improvement",
+     "df": 1332
+    },
+    {
+     "keyword": "natural",
+     "df": 1332
+    },
+    {
+     "keyword": "focus",
+     "df": 1327
+    },
+    {
+     "keyword": "question",
+     "df": 1315
+    },
+    {
+     "keyword": "perform",
+     "df": 1287
+    },
+    {
+     "keyword": "autonomous",
+     "df": 1265
+    },
+    {
+     "keyword": "explore",
+     "df": 1262
+    },
+    {
+     "keyword": "automate",
+     "df": 1217
+    },
+    {
+     "keyword": "planning",
+     "df": 1197
+    },
+    {
+     "keyword": "advance",
+     "df": 1195
+    },
+    {
+     "keyword": "mechanism",
+     "df": 1187
+    },
+    {
+     "keyword": "reinforcement",
+     "df": 1185
+    },
+    {
+     "keyword": "lack",
+     "df": 1172
+    },
+    {
+     "keyword": "text",
+     "df": 1161
+    },
+    {
+     "keyword": "identify",
+     "df": 1158
+    },
+    {
+     "keyword": "retrieval",
+     "df": 1142
+    },
+    {
+     "keyword": "finding",
+     "df": 1140
+    },
+    {
+     "keyword": "lead",
+     "df": 1137
+    },
+    {
+     "keyword": "rely",
+     "df": 1121
+    },
+    {
+     "keyword": "reveal",
+     "df": 1113
+    },
+    {
+     "keyword": "response",
+     "df": 1100
+    },
+    {
+     "keyword": "architecture",
+     "df": 1088
+    },
+    {
+     "keyword": "test",
+     "df": 1084
+    },
+    {
+     "keyword": "guide",
+     "df": 1074
+    },
+    {
+     "keyword": "employ",
+     "df": 1072
+    },
+    {
+     "keyword": "self",
+     "df": 1045
+    },
+    {
+     "keyword": "insight",
+     "df": 1035
+    },
+    {
+     "keyword": "vision",
+     "df": 1021
+    },
+    {
+     "keyword": "solution",
+     "df": 992
+    },
+    {
+     "keyword": "answer",
+     "df": 983
+    },
+    {
+     "keyword": "augment",
+     "df": 976
+    },
+    {
+     "keyword": "feedback",
+     "df": 975
+    },
+    {
+     "keyword": "paradigm",
+     "df": 974
+    },
+    {
+     "keyword": "workflow",
+     "df": 968
+    },
+    {
+     "keyword": "solve",
+     "df": 966
+    },
+    {
+     "keyword": "multimodal",
+     "df": 965
+    },
+    {
+     "keyword": "combine",
+     "df": 957
+    },
+    {
+     "keyword": "power",
+     "df": 953
+    },
+    {
+     "keyword": "structured",
+     "df": 949
+    }
+   ],
+   "2026": [
+    {
+     "keyword": "multi",
+     "df": 4606
+    },
+    {
+     "keyword": "reasoning",
+     "df": 3723
+    },
+    {
+     "keyword": "agentic",
+     "df": 3430
+    },
+    {
+     "keyword": "tool",
+     "df": 3095
+    },
+    {
+     "keyword": "baseline",
+     "df": 2958
+    },
+    {
+     "keyword": "human",
+     "df": 2482
+    },
+    {
+     "keyword": "execution",
+     "df": 2196
+    },
+    {
+     "keyword": "training",
+     "df": 2187
+    },
+    {
+     "keyword": "evidence",
+     "df": 2045
+    },
+    {
+     "keyword": "environment",
+     "df": 2033
+    },
+    {
+     "keyword": "decision",
+     "df": 2026
+    },
+    {
+     "keyword": "prompt",
+     "df": 1975
+    },
+    {
+     "keyword": "action",
+     "df": 1907
+    },
+    {
+     "keyword": "learning",
+     "df": 1901
+    },
+    {
+     "keyword": "failure",
+     "df": 1883
+    },
+    {
+     "keyword": "pipeline",
+     "df": 1862
+    },
+    {
+     "keyword": "knowledge",
+     "df": 1802
+    },
+    {
+     "keyword": "trajectory",
+     "df": 1789
+    },
+    {
+     "keyword": "memory",
+     "df": 1760
+    },
+    {
+     "keyword": "structured",
+     "df": 1718
+    },
+    {
+     "keyword": "test",
+     "df": 1715
+    },
+    {
+     "keyword": "step",
+     "df": 1712
+    },
+    {
+     "keyword": "retrieval",
+     "df": 1708
+    },
+    {
+     "keyword": "rely",
+     "df": 1702
+    },
+    {
+     "keyword": "cost",
+     "df": 1696
+    },
+    {
+     "keyword": "mechanism",
+     "df": 1636
+    },
+    {
+     "keyword": "workflow",
+     "df": 1635
+    },
+    {
+     "keyword": "user",
+     "df": 1635
+    },
+    {
+     "keyword": "policy",
+     "df": 1634
+    },
+    {
+     "keyword": "aware",
+     "df": 1609
+    },
+    {
+     "keyword": "semantic",
+     "df": 1588
+    },
+    {
+     "keyword": "structure",
+     "df": 1570
+    },
+    {
+     "keyword": "fail",
+     "df": 1564
+    },
+    {
+     "keyword": "score",
+     "df": 1531
+    },
+    {
+     "keyword": "fine",
+     "df": 1527
+    },
+    {
+     "keyword": "identify",
+     "df": 1524
+    },
+    {
+     "keyword": "self",
+     "df": 1507
+    },
+    {
+     "keyword": "architecture",
+     "df": 1470
+    },
+    {
+     "keyword": "reveal",
+     "df": 1463
+    },
+    {
+     "keyword": "gain",
+     "df": 1460
+    },
+    {
+     "keyword": "success",
+     "df": 1453
+    },
+    {
+     "keyword": "question",
+     "df": 1434
+    },
+    {
+     "keyword": "inference",
+     "df": 1415
+    },
+    {
+     "keyword": "loop",
+     "df": 1389
+    },
+    {
+     "keyword": "autonomous",
+     "df": 1378
+    },
+    {
+     "keyword": "answer",
+     "df": 1369
+    },
+    {
+     "keyword": "guide",
+     "df": 1366
+    },
+    {
+     "keyword": "strategy",
+     "df": 1365
+    },
+    {
+     "keyword": "turn",
+     "df": 1339
+    },
+    {
+     "keyword": "condition",
+     "df": 1338
+    },
+    {
+     "keyword": "signal",
+     "df": 1338
+    },
+    {
+     "keyword": "train",
+     "df": 1328
+    },
+    {
+     "keyword": "end",
+     "df": 1324
+    },
+    {
+     "keyword": "span",
+     "df": 1323
+    },
+    {
+     "keyword": "cross",
+     "df": 1316
+    },
+    {
+     "keyword": "target",
+     "df": 1308
+    },
+    {
+     "keyword": "output",
+     "df": 1306
+    },
+    {
+     "keyword": "construct",
+     "df": 1295
+    },
+    {
+     "keyword": "finding",
+     "df": 1289
+    },
+    {
+     "keyword": "prior",
+     "df": 1287
+    }
+   ]
+  },
+  "only_2026": [
+   "aware",
+   "condition",
+   "construct",
+   "cost",
+   "cross",
+   "end",
+   "evidence",
+   "execution",
+   "fail",
+   "failure",
+   "gain",
+   "inference",
+   "loop",
+   "memory",
+   "output",
+   "pipeline",
+   "policy",
+   "prior",
+   "score",
+   "semantic",
+   "signal",
+   "span",
+   "structure",
+   "success",
+   "target",
+   "trajectory",
+   "turn"
+  ],
+  "only_2023_2025": [
+   "advance",
+   "augment",
+   "automate",
+   "combine",
+   "employ",
+   "explore",
+   "feedback",
+   "focus",
+   "improvement",
+   "insight",
+   "integrate",
+   "lack",
+   "lead",
+   "limitation",
+   "multimodal",
+   "natural",
+   "paradigm",
+   "perform",
+   "planning",
+   "power",
+   "reinforcement",
+   "response",
+   "scenario",
+   "solution",
+   "solve",
+   "text",
+   "vision"
+  ],
+  "edges": 250
+ },
+ "method": "log-odds ratio with informative Dirichlet prior (Monroe et al. 2008), alpha0=1000, vocab min count 20, language names excluded",
+ "n_vocab": 5587,
+ "set_sizes": {
+  "ko": 25,
+  "zh": 186,
+  "ja": 17
+ },
+ "n_2026": 10887,
+ "n_prior": 9220,
+ "lang_top": {
+  "ko": [
+   {
+    "word": "solar",
+    "n_in": 10,
+    "n_rest": 34,
+    "log_odds": 5.223,
+    "z": 14.53,
+    "df_in": 1,
+    "df_rest": 18,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.09
+   },
+   {
+    "word": "stance",
+    "n_in": 10,
+    "n_rest": 165,
+    "log_odds": 3.649,
+    "z": 11.24,
+    "df_in": 2,
+    "df_rest": 81,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 0.4
+   },
+   {
+    "word": "emergency",
+    "n_in": 8,
+    "n_rest": 84,
+    "log_odds": 4.098,
+    "z": 11.1,
+    "df_in": 1,
+    "df_rest": 49,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.24
+   },
+   {
+    "word": "national",
+    "n_in": 6,
+    "n_rest": 56,
+    "log_odds": 4.215,
+    "z": 9.83,
+    "df_in": 3,
+    "df_rest": 49,
+    "pct_docs_in": 12.0,
+    "pct_docs_rest": 0.24
+   },
+   {
+    "word": "triage",
+    "n_in": 8,
+    "n_rest": 170,
+    "log_odds": 3.398,
+    "z": 9.43,
+    "df_in": 1,
+    "df_rest": 104,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.52
+   },
+   {
+    "word": "diamond",
+    "n_in": 4,
+    "n_rest": 34,
+    "log_odds": 4.307,
+    "z": 8.16,
+    "df_in": 1,
+    "df_rest": 28,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.14
+   },
+   {
+    "word": "culture",
+    "n_in": 5,
+    "n_rest": 81,
+    "log_odds": 3.666,
+    "z": 7.98,
+    "df_in": 1,
+    "df_rest": 48,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.24
+   },
+   {
+    "word": "open",
+    "n_in": 31,
+    "n_rest": 5728,
+    "log_odds": 1.306,
+    "z": 7.53,
+    "df_in": 11,
+    "df_rest": 4096,
+    "pct_docs_in": 44.0,
+    "pct_docs_rest": 20.4
+   },
+   {
+    "word": "automation",
+    "n_in": 12,
+    "n_rest": 963,
+    "log_odds": 2.094,
+    "z": 7.33,
+    "df_in": 1,
+    "df_rest": 683,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 3.4
+   },
+   {
+    "word": "census",
+    "n_in": 3,
+    "n_rest": 21,
+    "log_odds": 4.501,
+    "z": 7.3,
+    "df_in": 2,
+    "df_rest": 17,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 0.08
+   },
+   {
+    "word": "cultural",
+    "n_in": 7,
+    "n_rest": 330,
+    "log_odds": 2.611,
+    "z": 6.9,
+    "df_in": 5,
+    "df_rest": 142,
+    "pct_docs_in": 20.0,
+    "pct_docs_rest": 0.71
+   },
+   {
+    "word": "corporate",
+    "n_in": 4,
+    "n_rest": 83,
+    "log_odds": 3.42,
+    "z": 6.71,
+    "df_in": 2,
+    "df_rest": 56,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 0.28
+   },
+   {
+    "word": "mae",
+    "n_in": 3,
+    "n_rest": 34,
+    "log_odds": 4.021,
+    "z": 6.69,
+    "df_in": 1,
+    "df_rest": 25,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.12
+   },
+   {
+    "word": "news",
+    "n_in": 6,
+    "n_rest": 274,
+    "log_odds": 2.642,
+    "z": 6.46,
+    "df_in": 1,
+    "df_rest": 145,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.72
+   },
+   {
+    "word": "expense",
+    "n_in": 3,
+    "n_rest": 43,
+    "log_odds": 3.787,
+    "z": 6.36,
+    "df_in": 1,
+    "df_rest": 41,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.2
+   },
+   {
+    "word": "browsecomp",
+    "n_in": 4,
+    "n_rest": 109,
+    "log_odds": 3.15,
+    "z": 6.22,
+    "df_in": 1,
+    "df_rest": 69,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.34
+   },
+   {
+    "word": "political",
+    "n_in": 5,
+    "n_rest": 197,
+    "log_odds": 2.787,
+    "z": 6.21,
+    "df_in": 2,
+    "df_rest": 93,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 0.46
+   },
+   {
+    "word": "mixture",
+    "n_in": 6,
+    "n_rest": 318,
+    "log_odds": 2.496,
+    "z": 6.13,
+    "df_in": 3,
+    "df_rest": 227,
+    "pct_docs_in": 12.0,
+    "pct_docs_rest": 1.13
+   },
+   {
+    "word": "article",
+    "n_in": 5,
+    "n_rest": 239,
+    "log_odds": 2.597,
+    "z": 5.81,
+    "df_in": 1,
+    "df_rest": 180,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.9
+   },
+   {
+    "word": "domestic",
+    "n_in": 2,
+    "n_rest": 19,
+    "log_odds": 4.196,
+    "z": 5.66,
+    "df_in": 2,
+    "df_rest": 13,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 0.06
+   },
+   {
+    "word": "finance",
+    "n_in": 5,
+    "n_rest": 266,
+    "log_odds": 2.492,
+    "z": 5.58,
+    "df_in": 2,
+    "df_rest": 203,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 1.01
+   },
+   {
+    "word": "deliberation",
+    "n_in": 5,
+    "n_rest": 269,
+    "log_odds": 2.482,
+    "z": 5.56,
+    "df_in": 1,
+    "df_rest": 155,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.77
+   },
+   {
+    "word": "exception",
+    "n_in": 3,
+    "n_rest": 81,
+    "log_odds": 3.159,
+    "z": 5.4,
+    "df_in": 1,
+    "df_rest": 51,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 0.25
+   },
+   {
+    "word": "predecessor",
+    "n_in": 2,
+    "n_rest": 29,
+    "log_odds": 3.775,
+    "z": 5.18,
+    "df_in": 2,
+    "df_rest": 27,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 0.13
+   },
+   {
+    "word": "comparably",
+    "n_in": 2,
+    "n_rest": 31,
+    "log_odds": 3.709,
+    "z": 5.1,
+    "df_in": 2,
+    "df_rest": 31,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 0.15
+   }
+  ],
+  "zh": [
+   {
+    "word": "legal",
+    "n_in": 89,
+    "n_rest": 519,
+    "log_odds": 2.817,
+    "z": 24.58,
+    "df_in": 17,
+    "df_rest": 202,
+    "pct_docs_in": 9.1,
+    "pct_docs_rest": 1.01
+   },
+   {
+    "word": "mobile",
+    "n_in": 71,
+    "n_rest": 703,
+    "log_odds": 2.288,
+    "z": 18.42,
+    "df_in": 17,
+    "df_rest": 287,
+    "pct_docs_in": 9.1,
+    "pct_docs_rest": 1.44
+   },
+   {
+    "word": "cultural",
+    "n_in": 42,
+    "n_rest": 295,
+    "log_odds": 2.63,
+    "z": 15.97,
+    "df_in": 11,
+    "df_rest": 136,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.68
+   },
+   {
+    "word": "bilingual",
+    "n_in": 23,
+    "n_rest": 32,
+    "log_odds": 4.245,
+    "z": 15.54,
+    "df_in": 18,
+    "df_rest": 29,
+    "pct_docs_in": 9.7,
+    "pct_docs_rest": 0.15
+   },
+   {
+    "word": "financial",
+    "n_in": 65,
+    "n_rest": 921,
+    "log_odds": 1.931,
+    "z": 15.1,
+    "df_in": 16,
+    "df_rest": 398,
+    "pct_docs_in": 8.6,
+    "pct_docs_rest": 2.0
+   },
+   {
+    "word": "translation",
+    "n_in": 48,
+    "n_rest": 531,
+    "log_odds": 2.177,
+    "z": 14.48,
+    "df_in": 12,
+    "df_rest": 243,
+    "pct_docs_in": 6.5,
+    "pct_docs_rest": 1.22
+   },
+   {
+    "word": "alpha",
+    "n_in": 25,
+    "n_rest": 116,
+    "log_odds": 3.042,
+    "z": 13.81,
+    "df_in": 6,
+    "df_rest": 62,
+    "pct_docs_in": 3.2,
+    "pct_docs_rest": 0.31
+   },
+   {
+    "word": "judicial",
+    "n_in": 17,
+    "n_rest": 35,
+    "log_odds": 3.854,
+    "z": 13.04,
+    "df_in": 7,
+    "df_rest": 19,
+    "pct_docs_in": 3.8,
+    "pct_docs_rest": 0.1
+   },
+   {
+    "word": "dialogue",
+    "n_in": 88,
+    "n_rest": 2140,
+    "log_odds": 1.396,
+    "z": 12.9,
+    "df_in": 32,
+    "df_rest": 978,
+    "pct_docs_in": 17.2,
+    "pct_docs_rest": 4.91
+   },
+   {
+    "word": "court",
+    "n_in": 16,
+    "n_rest": 26,
+    "log_odds": 4.09,
+    "z": 12.88,
+    "df_in": 4,
+    "df_rest": 17,
+    "pct_docs_in": 2.2,
+    "pct_docs_rest": 0.09
+   },
+   {
+    "word": "consultation",
+    "n_in": 21,
+    "n_rest": 123,
+    "log_odds": 2.81,
+    "z": 11.92,
+    "df_in": 6,
+    "df_rest": 74,
+    "pct_docs_in": 3.2,
+    "pct_docs_rest": 0.37
+   },
+   {
+    "word": "market",
+    "n_in": 44,
+    "n_rest": 749,
+    "log_odds": 1.748,
+    "z": 11.31,
+    "df_in": 13,
+    "df_rest": 325,
+    "pct_docs_in": 7.0,
+    "pct_docs_rest": 1.63
+   },
+   {
+    "word": "multilingual",
+    "n_in": 27,
+    "n_rest": 296,
+    "log_odds": 2.185,
+    "z": 10.9,
+    "df_in": 17,
+    "df_rest": 156,
+    "pct_docs_in": 9.1,
+    "pct_docs_rest": 0.78
+   },
+   {
+    "word": "meme",
+    "n_in": 13,
+    "n_rest": 39,
+    "log_odds": 3.477,
+    "z": 10.87,
+    "df_in": 3,
+    "df_rest": 13,
+    "pct_docs_in": 1.6,
+    "pct_docs_rest": 0.07
+   },
+   {
+    "word": "terminology",
+    "n_in": 15,
+    "n_rest": 70,
+    "log_odds": 3.036,
+    "z": 10.68,
+    "df_in": 6,
+    "df_rest": 64,
+    "pct_docs_in": 3.2,
+    "pct_docs_rest": 0.32
+   },
+   {
+    "word": "ancient",
+    "n_in": 10,
+    "n_rest": 16,
+    "log_odds": 4.105,
+    "z": 10.19,
+    "df_in": 4,
+    "df_rest": 13,
+    "pct_docs_in": 2.2,
+    "pct_docs_rest": 0.07
+   },
+   {
+    "word": "gui",
+    "n_in": 57,
+    "n_rest": 1457,
+    "log_odds": 1.346,
+    "z": 10.02,
+    "df_in": 11,
+    "df_rest": 386,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 1.94
+   },
+   {
+    "word": "statute",
+    "n_in": 10,
+    "n_rest": 25,
+    "log_odds": 3.659,
+    "z": 9.79,
+    "df_in": 6,
+    "df_rest": 13,
+    "pct_docs_in": 3.2,
+    "pct_docs_rest": 0.07
+   },
+   {
+    "word": "counseling",
+    "n_in": 16,
+    "n_rest": 116,
+    "log_odds": 2.597,
+    "z": 9.75,
+    "df_in": 4,
+    "df_rest": 41,
+    "pct_docs_in": 2.2,
+    "pct_docs_rest": 0.21
+   },
+   {
+    "word": "character",
+    "n_in": 31,
+    "n_rest": 507,
+    "log_odds": 1.788,
+    "z": 9.7,
+    "df_in": 14,
+    "df_rest": 242,
+    "pct_docs_in": 7.5,
+    "pct_docs_rest": 1.21
+   },
+   {
+    "word": "culture",
+    "n_in": 12,
+    "n_rest": 74,
+    "log_odds": 2.758,
+    "z": 8.87,
+    "df_in": 6,
+    "df_rest": 43,
+    "pct_docs_in": 3.2,
+    "pct_docs_rest": 0.22
+   },
+   {
+    "word": "mining",
+    "n_in": 17,
+    "n_rest": 194,
+    "log_odds": 2.145,
+    "z": 8.5,
+    "df_in": 7,
+    "df_rest": 126,
+    "pct_docs_in": 3.8,
+    "pct_docs_rest": 0.63
+   },
+   {
+    "word": "melody",
+    "n_in": 7,
+    "n_rest": 13,
+    "log_odds": 3.956,
+    "z": 8.44,
+    "df_in": 2,
+    "df_rest": 7,
+    "pct_docs_in": 1.1,
+    "pct_docs_rest": 0.04
+   },
+   {
+    "word": "dataset",
+    "n_in": 126,
+    "n_rest": 5956,
+    "log_odds": 0.741,
+    "z": 8.31,
+    "df_in": 67,
+    "df_rest": 4003,
+    "pct_docs_in": 36.0,
+    "pct_docs_rest": 20.09
+   },
+   {
+    "word": "stock",
+    "n_in": 14,
+    "n_rest": 139,
+    "log_odds": 2.284,
+    "z": 8.16,
+    "df_in": 8,
+    "df_rest": 70,
+    "pct_docs_in": 4.3,
+    "pct_docs_rest": 0.35
+   }
+  ],
+  "ja": [
+   {
+    "word": "expressive",
+    "n_in": 12,
+    "n_rest": 96,
+    "log_odds": 4.56,
+    "z": 14.92,
+    "df_in": 3,
+    "df_rest": 82,
+    "pct_docs_in": 17.6,
+    "pct_docs_rest": 0.41
+   },
+   {
+    "word": "pronoun",
+    "n_in": 7,
+    "n_rest": 21,
+    "log_odds": 5.537,
+    "z": 12.7,
+    "df_in": 2,
+    "df_rest": 9,
+    "pct_docs_in": 11.8,
+    "pct_docs_rest": 0.04
+   },
+   {
+    "word": "humor",
+    "n_in": 5,
+    "n_rest": 29,
+    "log_odds": 4.878,
+    "z": 10.09,
+    "df_in": 1,
+    "df_rest": 15,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.07
+   },
+   {
+    "word": "trait",
+    "n_in": 11,
+    "n_rest": 404,
+    "log_odds": 3.047,
+    "z": 10.05,
+    "df_in": 2,
+    "df_rest": 203,
+    "pct_docs_in": 11.8,
+    "pct_docs_rest": 1.01
+   },
+   {
+    "word": "terminology",
+    "n_in": 6,
+    "n_rest": 79,
+    "log_odds": 4.062,
+    "z": 9.62,
+    "df_in": 1,
+    "df_rest": 69,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.34
+   },
+   {
+    "word": "personality",
+    "n_in": 12,
+    "n_rest": 629,
+    "log_odds": 2.698,
+    "z": 9.36,
+    "df_in": 1,
+    "df_rest": 209,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 1.04
+   },
+   {
+    "word": "learner",
+    "n_in": 9,
+    "n_rest": 316,
+    "log_odds": 3.091,
+    "z": 9.21,
+    "df_in": 2,
+    "df_rest": 159,
+    "pct_docs_in": 11.8,
+    "pct_docs_rest": 0.79
+   },
+   {
+    "word": "identity",
+    "n_in": 11,
+    "n_rest": 581,
+    "log_odds": 2.691,
+    "z": 8.94,
+    "df_in": 2,
+    "df_rest": 342,
+    "pct_docs_in": 11.8,
+    "pct_docs_rest": 1.7
+   },
+   {
+    "word": "culturally",
+    "n_in": 5,
+    "n_rest": 82,
+    "log_odds": 3.843,
+    "z": 8.37,
+    "df_in": 5,
+    "df_rest": 61,
+    "pct_docs_in": 29.4,
+    "pct_docs_rest": 0.3
+   },
+   {
+    "word": "voice",
+    "n_in": 7,
+    "n_rest": 307,
+    "log_odds": 2.872,
+    "z": 7.58,
+    "df_in": 3,
+    "df_rest": 164,
+    "pct_docs_in": 17.6,
+    "pct_docs_rest": 0.82
+   },
+   {
+    "word": "pathological",
+    "n_in": 3,
+    "n_rest": 22,
+    "log_odds": 4.644,
+    "z": 7.56,
+    "df_in": 1,
+    "df_rest": 16,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.08
+   },
+   {
+    "word": "multilingual",
+    "n_in": 7,
+    "n_rest": 316,
+    "log_odds": 2.843,
+    "z": 7.51,
+    "df_in": 4,
+    "df_rest": 169,
+    "pct_docs_in": 23.5,
+    "pct_docs_rest": 0.84
+   },
+   {
+    "word": "interview",
+    "n_in": 6,
+    "n_rest": 218,
+    "log_odds": 3.056,
+    "z": 7.44,
+    "df_in": 1,
+    "df_rest": 143,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.71
+   },
+   {
+    "word": "format",
+    "n_in": 9,
+    "n_rest": 606,
+    "log_odds": 2.453,
+    "z": 7.41,
+    "df_in": 4,
+    "df_rest": 480,
+    "pct_docs_in": 23.5,
+    "pct_docs_rest": 2.39
+   },
+   {
+    "word": "resume",
+    "n_in": 4,
+    "n_rest": 75,
+    "log_odds": 3.71,
+    "z": 7.26,
+    "df_in": 1,
+    "df_rest": 43,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.21
+   },
+   {
+    "word": "interpersonal",
+    "n_in": 3,
+    "n_rest": 29,
+    "log_odds": 4.368,
+    "z": 7.22,
+    "df_in": 1,
+    "df_rest": 28,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.14
+   },
+   {
+    "word": "acoustic",
+    "n_in": 4,
+    "n_rest": 78,
+    "log_odds": 3.671,
+    "z": 7.19,
+    "df_in": 1,
+    "df_rest": 44,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.22
+   },
+   {
+    "word": "stylize",
+    "n_in": 3,
+    "n_rest": 34,
+    "log_odds": 4.21,
+    "z": 7.01,
+    "df_in": 1,
+    "df_rest": 26,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.13
+   },
+   {
+    "word": "exam",
+    "n_in": 4,
+    "n_rest": 90,
+    "log_odds": 3.529,
+    "z": 6.94,
+    "df_in": 1,
+    "df_rest": 74,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.37
+   },
+   {
+    "word": "copyright",
+    "n_in": 3,
+    "n_rest": 36,
+    "log_odds": 4.153,
+    "z": 6.93,
+    "df_in": 1,
+    "df_rest": 19,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.09
+   },
+   {
+    "word": "chatgpt",
+    "n_in": 7,
+    "n_rest": 438,
+    "log_odds": 2.524,
+    "z": 6.71,
+    "df_in": 2,
+    "df_rest": 265,
+    "pct_docs_in": 11.8,
+    "pct_docs_rest": 1.32
+   },
+   {
+    "word": "examination",
+    "n_in": 4,
+    "n_rest": 107,
+    "log_odds": 3.358,
+    "z": 6.63,
+    "df_in": 1,
+    "df_rest": 93,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.46
+   },
+   {
+    "word": "command",
+    "n_in": 7,
+    "n_rest": 474,
+    "log_odds": 2.447,
+    "z": 6.52,
+    "df_in": 1,
+    "df_rest": 340,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 1.69
+   },
+   {
+    "word": "bar",
+    "n_in": 3,
+    "n_rest": 49,
+    "log_odds": 3.847,
+    "z": 6.49,
+    "df_in": 1,
+    "df_rest": 37,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 0.18
+   },
+   {
+    "word": "conversational",
+    "n_in": 13,
+    "n_rest": 1830,
+    "log_odds": 1.747,
+    "z": 6.46,
+    "df_in": 6,
+    "df_rest": 1045,
+    "pct_docs_in": 35.3,
+    "pct_docs_rest": 5.2
+   }
+  ]
+ },
+ "lang_bottom": {
+  "ko": [
+   {
+    "word": "memory",
+    "n_in": 0,
+    "n_rest": 8360,
+    "log_odds": -1.324,
+    "z": -2.49,
+    "df_in": 0,
+    "df_rest": 2570,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 12.8
+   },
+   {
+    "word": "action",
+    "n_in": 0,
+    "n_rest": 6434,
+    "log_odds": -1.324,
+    "z": -2.19,
+    "df_in": 0,
+    "df_rest": 3332,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 16.59
+   },
+   {
+    "word": "generate",
+    "n_in": 1,
+    "n_rest": 7766,
+    "log_odds": -1.059,
+    "z": -2.19,
+    "df_in": 1,
+    "df_rest": 5313,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 26.46
+   },
+   {
+    "word": "world",
+    "n_in": 1,
+    "n_rest": 6795,
+    "log_odds": -1.026,
+    "z": -2.02,
+    "df_in": 1,
+    "df_rest": 4266,
+    "pct_docs_in": 4.0,
+    "pct_docs_rest": 21.24
+   },
+   {
+    "word": "environment",
+    "n_in": 2,
+    "n_rest": 7227,
+    "log_odds": -0.821,
+    "z": -1.85,
+    "df_in": 2,
+    "df_rest": 4226,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 21.04
+   },
+   {
+    "word": "knowledge",
+    "n_in": 2,
+    "n_rest": 7068,
+    "log_odds": -0.813,
+    "z": -1.82,
+    "df_in": 2,
+    "df_rest": 3778,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 18.81
+   },
+   {
+    "word": "reward",
+    "n_in": 0,
+    "n_rest": 3995,
+    "log_odds": -1.323,
+    "z": -1.72,
+    "df_in": 0,
+    "df_rest": 1824,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 9.08
+   },
+   {
+    "word": "semantic",
+    "n_in": 0,
+    "n_rest": 3976,
+    "log_odds": -1.323,
+    "z": -1.72,
+    "df_in": 0,
+    "df_rest": 2410,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 12.0
+   },
+   {
+    "word": "learning",
+    "n_in": 2,
+    "n_rest": 6572,
+    "log_odds": -0.783,
+    "z": -1.71,
+    "df_in": 2,
+    "df_rest": 4067,
+    "pct_docs_in": 8.0,
+    "pct_docs_rest": 20.25
+   },
+   {
+    "word": "autonomous",
+    "n_in": 0,
+    "n_rest": 3899,
+    "log_odds": -1.323,
+    "z": -1.7,
+    "df_in": 0,
+    "df_rest": 2643,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 13.16
+   }
+  ],
+  "zh": [
+   {
+    "word": "tool",
+    "n_in": 35,
+    "n_rest": 12152,
+    "log_odds": -1.142,
+    "z": -7.22,
+    "df_in": 25,
+    "df_rest": 5066,
+    "pct_docs_in": 13.4,
+    "pct_docs_rest": 25.43
+   },
+   {
+    "word": "environment",
+    "n_in": 24,
+    "n_rest": 7205,
+    "log_odds": -1.012,
+    "z": -5.26,
+    "df_in": 21,
+    "df_rest": 4207,
+    "pct_docs_in": 11.3,
+    "pct_docs_rest": 21.12
+   },
+   {
+    "word": "agentic",
+    "n_in": 43,
+    "n_rest": 9651,
+    "log_odds": -0.751,
+    "z": -5.14,
+    "df_in": 27,
+    "df_rest": 4976,
+    "pct_docs_in": 14.5,
+    "pct_docs_rest": 24.98
+   },
+   {
+    "word": "memory",
+    "n_in": 35,
+    "n_rest": 8325,
+    "log_odds": -0.803,
+    "z": -4.98,
+    "df_in": 21,
+    "df_rest": 2549,
+    "pct_docs_in": 11.3,
+    "pct_docs_rest": 12.8
+   },
+   {
+    "word": "policy",
+    "n_in": 18,
+    "n_rest": 5204,
+    "log_odds": -0.978,
+    "z": -4.39,
+    "df_in": 13,
+    "df_rest": 2490,
+    "pct_docs_in": 7.0,
+    "pct_docs_rest": 12.5
+   },
+   {
+    "word": "action",
+    "n_in": 28,
+    "n_rest": 6406,
+    "log_odds": -0.767,
+    "z": -4.24,
+    "df_in": 15,
+    "df_rest": 3317,
+    "pct_docs_in": 8.1,
+    "pct_docs_rest": 16.65
+   },
+   {
+    "word": "attack",
+    "n_in": 1,
+    "n_rest": 3318,
+    "log_odds": -2.655,
+    "z": -4.12,
+    "df_in": 1,
+    "df_rest": 1111,
+    "pct_docs_in": 0.5,
+    "pct_docs_rest": 5.58
+   },
+   {
+    "word": "trajectory",
+    "n_in": 16,
+    "n_rest": 4503,
+    "log_odds": -0.954,
+    "z": -4.03,
+    "df_in": 11,
+    "df_rest": 2431,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 12.2
+   },
+   {
+    "word": "execution",
+    "n_in": 22,
+    "n_rest": 5295,
+    "log_odds": -0.813,
+    "z": -4.0,
+    "df_in": 14,
+    "df_rest": 3091,
+    "pct_docs_in": 7.5,
+    "pct_docs_rest": 15.52
+   },
+   {
+    "word": "problem",
+    "n_in": 17,
+    "n_rest": 4417,
+    "log_odds": -0.882,
+    "z": -3.83,
+    "df_in": 12,
+    "df_rest": 2970,
+    "pct_docs_in": 6.5,
+    "pct_docs_rest": 14.91
+   }
+  ],
+  "ja": [
+   {
+    "word": "reasoning",
+    "n_in": 2,
+    "n_rest": 16122,
+    "log_odds": -0.88,
+    "z": -2.62,
+    "df_in": 1,
+    "df_rest": 6924,
+    "pct_docs_in": 5.9,
+    "pct_docs_rest": 34.46
+   },
+   {
+    "word": "agentic",
+    "n_in": 0,
+    "n_rest": 9694,
+    "log_odds": -1.135,
+    "z": -2.3,
+    "df_in": 0,
+    "df_rest": 5003,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 24.9
+   },
+   {
+    "word": "tool",
+    "n_in": 2,
+    "n_rest": 12185,
+    "log_odds": -0.809,
+    "z": -2.17,
+    "df_in": 2,
+    "df_rest": 5089,
+    "pct_docs_in": 11.8,
+    "pct_docs_rest": 25.33
+   },
+   {
+    "word": "memory",
+    "n_in": 0,
+    "n_rest": 8360,
+    "log_odds": -1.135,
+    "z": -2.14,
+    "df_in": 0,
+    "df_rest": 2570,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 12.79
+   },
+   {
+    "word": "benchmark",
+    "n_in": 3,
+    "n_rest": 12938,
+    "log_odds": -0.7,
+    "z": -2.04,
+    "df_in": 3,
+    "df_rest": 7823,
+    "pct_docs_in": 17.6,
+    "pct_docs_rest": 38.94
+   },
+   {
+    "word": "action",
+    "n_in": 0,
+    "n_rest": 6434,
+    "log_odds": -1.134,
+    "z": -1.87,
+    "df_in": 0,
+    "df_rest": 3332,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 16.59
+   },
+   {
+    "word": "long",
+    "n_in": 0,
+    "n_rest": 6039,
+    "log_odds": -1.134,
+    "z": -1.82,
+    "df_in": 0,
+    "df_rest": 3340,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 16.63
+   },
+   {
+    "word": "policy",
+    "n_in": 0,
+    "n_rest": 5222,
+    "log_odds": -1.134,
+    "z": -1.69,
+    "df_in": 0,
+    "df_rest": 2503,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 12.46
+   },
+   {
+    "word": "step",
+    "n_in": 0,
+    "n_rest": 4843,
+    "log_odds": -1.134,
+    "z": -1.63,
+    "df_in": 0,
+    "df_rest": 3049,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 15.18
+   },
+   {
+    "word": "search",
+    "n_in": 0,
+    "n_rest": 4548,
+    "log_odds": -1.134,
+    "z": -1.58,
+    "df_in": 0,
+    "df_rest": 2074,
+    "pct_docs_in": 0.0,
+    "pct_docs_rest": 10.32
+   }
+  ]
+ },
+ "y2026_top": [
+  {
+   "word": "skill",
+   "n_in": 4412,
+   "n_rest": 660,
+   "log_odds": 1.62,
+   "z": 38.86,
+   "df_2026": 941,
+   "df_prior": 359,
+   "pct_docs_2026": 8.64,
+   "pct_docs_prior": 3.89
+  },
+  {
+   "word": "evidence",
+   "n_in": 4064,
+   "n_rest": 664,
+   "log_odds": 1.531,
+   "z": 36.63,
+   "df_2026": 2045,
+   "df_prior": 449,
+   "pct_docs_2026": 18.78,
+   "pct_docs_prior": 4.87
+  },
+  {
+   "word": "memory",
+   "n_in": 6292,
+   "n_rest": 2068,
+   "log_odds": 0.834,
+   "z": 32.93,
+   "df_2026": 1760,
+   "df_prior": 810,
+   "pct_docs_2026": 16.17,
+   "pct_docs_prior": 8.79
+  },
+  {
+   "word": "failure",
+   "n_in": 3054,
+   "n_rest": 647,
+   "log_odds": 1.271,
+   "z": 29.41,
+   "df_2026": 1883,
+   "df_prior": 433,
+   "pct_docs_2026": 17.3,
+   "pct_docs_prior": 4.7
+  },
+  {
+   "word": "harness",
+   "n_in": 1865,
+   "n_rest": 179,
+   "log_odds": 2.06,
+   "z": 26.39,
+   "df_2026": 670,
+   "df_prior": 160,
+   "pct_docs_2026": 6.15,
+   "pct_docs_prior": 1.74
+  },
+  {
+   "word": "execution",
+   "n_in": 3963,
+   "n_rest": 1354,
+   "log_odds": 0.794,
+   "z": 25.25,
+   "df_2026": 2196,
+   "df_prior": 909,
+   "pct_docs_2026": 20.17,
+   "pct_docs_prior": 9.86
+  },
+  {
+   "word": "run",
+   "n_in": 1723,
+   "n_rest": 285,
+   "log_odds": 1.518,
+   "z": 23.77,
+   "df_2026": 1144,
+   "df_prior": 233,
+   "pct_docs_2026": 10.51,
+   "pct_docs_prior": 2.53
+  },
+  {
+   "word": "trajectory",
+   "n_in": 3361,
+   "n_rest": 1158,
+   "log_odds": 0.786,
+   "z": 23.07,
+   "df_2026": 1789,
+   "df_prior": 653,
+   "pct_docs_2026": 16.43,
+   "pct_docs_prior": 7.08
+  },
+  {
+   "word": "trace",
+   "n_in": 1527,
+   "n_rest": 289,
+   "log_odds": 1.383,
+   "z": 21.59,
+   "df_2026": 996,
+   "df_prior": 221,
+   "pct_docs_2026": 9.15,
+   "pct_docs_prior": 2.4
+  },
+  {
+   "word": "budget",
+   "n_in": 1263,
+   "n_rest": 164,
+   "log_odds": 1.759,
+   "z": 21.23,
+   "df_2026": 772,
+   "df_prior": 108,
+   "pct_docs_2026": 7.09,
+   "pct_docs_prior": 1.17
+  },
+  {
+   "word": "agentic",
+   "n_in": 6557,
+   "n_rest": 3137,
+   "log_odds": 0.458,
+   "z": 21.12,
+   "df_2026": 3430,
+   "df_prior": 1573,
+   "pct_docs_2026": 31.51,
+   "pct_docs_prior": 17.06
+  },
+  {
+   "word": "horizon",
+   "n_in": 2041,
+   "n_rest": 575,
+   "log_odds": 0.986,
+   "z": 20.91,
+   "df_2026": 1181,
+   "df_prior": 363,
+   "pct_docs_2026": 10.85,
+   "pct_docs_prior": 3.94
+  },
+  {
+   "word": "signal",
+   "n_in": 1866,
+   "n_rest": 536,
+   "log_odds": 0.967,
+   "z": 19.74,
+   "df_2026": 1338,
+   "df_prior": 400,
+   "pct_docs_2026": 12.29,
+   "pct_docs_prior": 4.34
+  },
+  {
+   "word": "point",
+   "n_in": 1713,
+   "n_rest": 471,
+   "log_odds": 1.01,
+   "z": 19.44,
+   "df_2026": 1260,
+   "df_prior": 388,
+   "pct_docs_2026": 11.57,
+   "pct_docs_prior": 4.21
+  },
+  {
+   "word": "frontier",
+   "n_in": 1481,
+   "n_rest": 364,
+   "log_odds": 1.122,
+   "z": 19.2,
+   "df_2026": 1083,
+   "df_prior": 303,
+   "pct_docs_2026": 9.95,
+   "pct_docs_prior": 3.29
+  },
+  {
+   "word": "fix",
+   "n_in": 1491,
+   "n_rest": 378,
+   "log_odds": 1.091,
+   "z": 18.97,
+   "df_2026": 1212,
+   "df_prior": 307,
+   "pct_docs_2026": 11.13,
+   "pct_docs_prior": 3.33
+  },
+  {
+   "word": "layer",
+   "n_in": 1453,
+   "n_rest": 372,
+   "log_odds": 1.082,
+   "z": 18.63,
+   "df_2026": 897,
+   "df_prior": 233,
+   "pct_docs_2026": 8.24,
+   "pct_docs_prior": 2.53
+  },
+  {
+   "word": "artifact",
+   "n_in": 938,
+   "n_rest": 111,
+   "log_odds": 1.851,
+   "z": 18.48,
+   "df_2026": 627,
+   "df_prior": 91,
+   "pct_docs_2026": 5.76,
+   "pct_docs_prior": 0.99
+  },
+  {
+   "word": "deterministic",
+   "n_in": 947,
+   "n_rest": 132,
+   "log_odds": 1.688,
+   "z": 18.2,
+   "df_2026": 712,
+   "df_prior": 112,
+   "pct_docs_2026": 6.54,
+   "pct_docs_prior": 1.21
+  },
+  {
+   "word": "judge",
+   "n_in": 1570,
+   "n_rest": 456,
+   "log_odds": 0.956,
+   "z": 17.98,
+   "df_2026": 911,
+   "df_prior": 275,
+   "pct_docs_2026": 8.37,
+   "pct_docs_prior": 2.98
+  },
+  {
+   "word": "token",
+   "n_in": 2244,
+   "n_rest": 824,
+   "log_odds": 0.722,
+   "z": 17.73,
+   "df_2026": 1256,
+   "df_prior": 512,
+   "pct_docs_2026": 11.54,
+   "pct_docs_prior": 5.55
+  },
+  {
+   "word": "gate",
+   "n_in": 822,
+   "n_rest": 53,
+   "log_odds": 2.455,
+   "z": 17.38,
+   "df_2026": 512,
+   "df_prior": 28,
+   "pct_docs_2026": 4.7,
+   "pct_docs_prior": 0.3
+  },
+  {
+   "word": "candidate",
+   "n_in": 1249,
+   "n_rest": 318,
+   "log_odds": 1.087,
+   "z": 17.32,
+   "df_2026": 853,
+   "df_prior": 255,
+   "pct_docs_2026": 7.84,
+   "pct_docs_prior": 2.77
+  },
+  {
+   "word": "runtime",
+   "n_in": 1010,
+   "n_rest": 208,
+   "log_odds": 1.299,
+   "z": 17.07,
+   "df_2026": 648,
+   "df_prior": 144,
+   "pct_docs_2026": 5.95,
+   "pct_docs_prior": 1.56
+  },
+  {
+   "word": "loop",
+   "n_in": 1943,
+   "n_rest": 692,
+   "log_odds": 0.752,
+   "z": 17.0,
+   "df_2026": 1389,
+   "df_prior": 527,
+   "pct_docs_2026": 12.76,
+   "pct_docs_prior": 5.72
+  },
+  {
+   "word": "family",
+   "n_in": 916,
+   "n_rest": 167,
+   "log_odds": 1.42,
+   "z": 16.9,
+   "df_2026": 707,
+   "df_prior": 148,
+   "pct_docs_2026": 6.49,
+   "pct_docs_prior": 1.61
+  },
+  {
+   "word": "control",
+   "n_in": 3387,
+   "n_rest": 1523,
+   "log_odds": 0.519,
+   "z": 16.84,
+   "df_2026": 2271,
+   "df_prior": 993,
+   "pct_docs_2026": 20.86,
+   "pct_docs_prior": 10.77
+  },
+  {
+   "word": "preserve",
+   "n_in": 1365,
+   "n_rest": 394,
+   "log_odds": 0.962,
+   "z": 16.83,
+   "df_2026": 1165,
+   "df_prior": 354,
+   "pct_docs_2026": 10.7,
+   "pct_docs_prior": 3.84
+  },
+  {
+   "word": "boundary",
+   "n_in": 859,
+   "n_rest": 142,
+   "log_odds": 1.518,
+   "z": 16.78,
+   "df_2026": 617,
+   "df_prior": 123,
+   "pct_docs_2026": 5.67,
+   "pct_docs_prior": 1.33
+  },
+  {
+   "word": "ground",
+   "n_in": 3077,
+   "n_rest": 1367,
+   "log_odds": 0.531,
+   "z": 16.36,
+   "df_2026": 2129,
+   "df_prior": 1031,
+   "pct_docs_2026": 19.56,
+   "pct_docs_prior": 11.18
+  },
+  {
+   "word": "match",
+   "n_in": 1227,
+   "n_rest": 341,
+   "log_odds": 0.999,
+   "z": 16.34,
+   "df_2026": 1034,
+   "df_prior": 302,
+   "pct_docs_2026": 9.5,
+   "pct_docs_prior": 3.28
+  },
+  {
+   "word": "reach",
+   "n_in": 1107,
+   "n_rest": 281,
+   "log_odds": 1.09,
+   "z": 16.33,
+   "df_2026": 937,
+   "df_prior": 261,
+   "pct_docs_2026": 8.61,
+   "pct_docs_prior": 2.83
+  },
+  {
+   "word": "score",
+   "n_in": 2259,
+   "n_rest": 902,
+   "log_odds": 0.638,
+   "z": 16.2,
+   "df_2026": 1531,
+   "df_prior": 670,
+   "pct_docs_2026": 14.06,
+   "pct_docs_prior": 7.27
+  },
+  {
+   "word": "reusable",
+   "n_in": 724,
+   "n_rest": 95,
+   "log_odds": 1.748,
+   "z": 16.05,
+   "df_2026": 597,
+   "df_prior": 86,
+   "pct_docs_2026": 5.48,
+   "pct_docs_prior": 0.93
+  },
+  {
+   "word": "condition",
+   "n_in": 1764,
+   "n_rest": 634,
+   "log_odds": 0.743,
+   "z": 16.05,
+   "df_2026": 1338,
+   "df_prior": 503,
+   "pct_docs_2026": 12.29,
+   "pct_docs_prior": 5.46
+  },
+  {
+   "word": "record",
+   "n_in": 860,
+   "n_rest": 170,
+   "log_odds": 1.339,
+   "z": 15.98,
+   "df_2026": 639,
+   "df_prior": 135,
+   "pct_docs_2026": 5.87,
+   "pct_docs_prior": 1.46
+  },
+  {
+   "word": "persistent",
+   "n_in": 915,
+   "n_rest": 200,
+   "log_odds": 1.239,
+   "z": 15.89,
+   "df_2026": 738,
+   "df_prior": 178,
+   "pct_docs_2026": 6.78,
+   "pct_docs_prior": 1.93
+  },
+  {
+   "word": "span",
+   "n_in": 1418,
+   "n_rest": 459,
+   "log_odds": 0.847,
+   "z": 15.79,
+   "df_2026": 1323,
+   "df_prior": 442,
+   "pct_docs_2026": 12.15,
+   "pct_docs_prior": 4.79
+  },
+  {
+   "word": "cross",
+   "n_in": 1797,
+   "n_rest": 666,
+   "log_odds": 0.712,
+   "z": 15.71,
+   "df_2026": 1316,
+   "df_prior": 492,
+   "pct_docs_2026": 12.09,
+   "pct_docs_prior": 5.34
+  },
+  {
+   "word": "share",
+   "n_in": 1187,
+   "n_rest": 343,
+   "log_odds": 0.961,
+   "z": 15.68,
+   "df_2026": 931,
+   "df_prior": 295,
+   "pct_docs_2026": 8.55,
+   "pct_docs_prior": 3.2
+  }
+ ],
+ "y2026_bottom": [
+  {
+   "word": "enhance",
+   "n_in": 854,
+   "n_rest": 3047,
+   "log_odds": -1.553,
+   "z": -40.15,
+   "df_2026": 706,
+   "df_prior": 2381,
+   "pct_docs_2026": 6.48,
+   "pct_docs_prior": 25.82
+  },
+  {
+   "word": "human",
+   "n_in": 4644,
+   "n_rest": 6818,
+   "log_odds": -0.667,
+   "z": -35.08,
+   "df_2026": 2482,
+   "df_prior": 3273,
+   "pct_docs_2026": 22.8,
+   "pct_docs_prior": 35.5
+  },
+  {
+   "word": "challenge",
+   "n_in": 2506,
+   "n_rest": 4287,
+   "log_odds": -0.819,
+   "z": -32.58,
+   "df_2026": 2123,
+   "df_prior": 3379,
+   "pct_docs_2026": 19.5,
+   "pct_docs_prior": 36.65
+  },
+  {
+   "word": "potential",
+   "n_in": 710,
+   "n_rest": 2139,
+   "log_odds": -1.383,
+   "z": -31.96,
+   "df_2026": 638,
+   "df_prior": 1863,
+   "pct_docs_2026": 5.86,
+   "pct_docs_prior": 20.21
+  },
+  {
+   "word": "leverage",
+   "n_in": 959,
+   "n_rest": 2204,
+   "log_odds": -1.113,
+   "z": -28.79,
+   "df_2026": 890,
+   "df_prior": 2010,
+   "pct_docs_2026": 8.17,
+   "pct_docs_prior": 21.8
+  },
+  {
+   "word": "dataset",
+   "n_in": 2345,
+   "n_rest": 3737,
+   "log_odds": -0.748,
+   "z": -28.39,
+   "df_2026": 1683,
+   "df_prior": 2387,
+   "pct_docs_2026": 15.46,
+   "pct_docs_prior": 25.89
+  },
+  {
+   "word": "base",
+   "n_in": 8220,
+   "n_rest": 9494,
+   "log_odds": -0.427,
+   "z": -28.38,
+   "df_2026": 5038,
+   "df_prior": 5234,
+   "pct_docs_2026": 46.28,
+   "pct_docs_prior": 56.77
+  },
+  {
+   "word": "complex",
+   "n_in": 2192,
+   "n_rest": 3534,
+   "log_odds": -0.759,
+   "z": -27.94,
+   "df_2026": 1830,
+   "df_prior": 2697,
+   "pct_docs_2026": 16.81,
+   "pct_docs_prior": 29.25
+  },
+  {
+   "word": "application",
+   "n_in": 1174,
+   "n_rest": 2390,
+   "log_odds": -0.992,
+   "z": -27.84,
+   "df_2026": 899,
+   "df_prior": 1806,
+   "pct_docs_2026": 8.26,
+   "pct_docs_prior": 19.59
+  },
+  {
+   "word": "ability",
+   "n_in": 990,
+   "n_rest": 2138,
+   "log_odds": -1.051,
+   "z": -27.35,
+   "df_2026": 858,
+   "df_prior": 1649,
+   "pct_docs_2026": 7.88,
+   "pct_docs_prior": 17.89
+  },
+  {
+   "word": "significant",
+   "n_in": 767,
+   "n_rest": 1821,
+   "log_odds": -1.145,
+   "z": -26.62,
+   "df_2026": 714,
+   "df_prior": 1672,
+   "pct_docs_2026": 6.56,
+   "pct_docs_prior": 18.13
+  },
+  {
+   "word": "comprehensive",
+   "n_in": 613,
+   "n_rest": 1563,
+   "log_odds": -1.216,
+   "z": -25.54,
+   "df_2026": 548,
+   "df_prior": 1343,
+   "pct_docs_2026": 5.03,
+   "pct_docs_prior": 14.57
+  },
+  {
+   "word": "like",
+   "n_in": 770,
+   "n_rest": 1717,
+   "log_odds": -1.082,
+   "z": -24.97,
+   "df_2026": 646,
+   "df_prior": 1422,
+   "pct_docs_2026": 5.93,
+   "pct_docs_prior": 15.42
+  },
+  {
+   "word": "datum",
+   "n_in": 4231,
+   "n_rest": 5266,
+   "log_odds": -0.501,
+   "z": -24.27,
+   "df_2026": 2445,
+   "df_prior": 2720,
+   "pct_docs_2026": 22.46,
+   "pct_docs_prior": 29.5
+  },
+  {
+   "word": "generate",
+   "n_in": 3375,
+   "n_rest": 4392,
+   "log_odds": -0.545,
+   "z": -23.83,
+   "df_2026": 2457,
+   "df_prior": 2857,
+   "pct_docs_2026": 22.57,
+   "pct_docs_prior": 30.99
+  },
+  {
+   "word": "effectiveness",
+   "n_in": 672,
+   "n_rest": 1468,
+   "log_odds": -1.062,
+   "z": -22.81,
+   "df_2026": 621,
+   "df_prior": 1352,
+   "pct_docs_2026": 5.7,
+   "pct_docs_prior": 14.66
+  },
+  {
+   "word": "highlight",
+   "n_in": 699,
+   "n_rest": 1494,
+   "log_odds": -1.04,
+   "z": -22.71,
+   "df_2026": 692,
+   "df_prior": 1434,
+   "pct_docs_2026": 6.36,
+   "pct_docs_prior": 15.55
+  },
+  {
+   "word": "explore",
+   "n_in": 679,
+   "n_rest": 1453,
+   "log_odds": -1.041,
+   "z": -22.41,
+   "df_2026": 620,
+   "df_prior": 1262,
+   "pct_docs_2026": 5.69,
+   "pct_docs_prior": 13.69
+  },
+  {
+   "word": "integrate",
+   "n_in": 1420,
+   "n_rest": 2277,
+   "log_odds": -0.753,
+   "z": -22.28,
+   "df_2026": 1264,
+   "df_prior": 1956,
+   "pct_docs_2026": 11.61,
+   "pct_docs_prior": 21.21
+  },
+  {
+   "word": "advancement",
+   "n_in": 166,
+   "n_rest": 775,
+   "log_odds": -1.82,
+   "z": -21.3,
+   "df_2026": 164,
+   "df_prior": 734,
+   "pct_docs_2026": 1.51,
+   "pct_docs_prior": 7.96
+  },
+  {
+   "word": "diverse",
+   "n_in": 1486,
+   "n_rest": 2250,
+   "log_odds": -0.696,
+   "z": -20.82,
+   "df_2026": 1289,
+   "df_prior": 1861,
+   "pct_docs_2026": 11.84,
+   "pct_docs_prior": 20.18
+  },
+  {
+   "word": "learning",
+   "n_in": 2918,
+   "n_rest": 3656,
+   "log_odds": -0.507,
+   "z": -20.43,
+   "df_2026": 1901,
+   "df_prior": 2168,
+   "pct_docs_2026": 17.46,
+   "pct_docs_prior": 23.51
+  },
+  {
+   "word": "planning",
+   "n_in": 1645,
+   "n_rest": 2378,
+   "log_odds": -0.649,
+   "z": -20.26,
+   "df_2026": 955,
+   "df_prior": 1197,
+   "pct_docs_2026": 8.77,
+   "pct_docs_prior": 12.98
+  },
+  {
+   "word": "development",
+   "n_in": 933,
+   "n_rest": 1620,
+   "log_odds": -0.832,
+   "z": -20.26,
+   "df_2026": 668,
+   "df_prior": 1254,
+   "pct_docs_2026": 6.14,
+   "pct_docs_prior": 13.6
+  },
+  {
+   "word": "new",
+   "n_in": 1556,
+   "n_rest": 2284,
+   "log_odds": -0.665,
+   "z": -20.23,
+   "df_2026": 1356,
+   "df_prior": 1845,
+   "pct_docs_2026": 12.46,
+   "pct_docs_prior": 20.01
+  }
+ ]
+}

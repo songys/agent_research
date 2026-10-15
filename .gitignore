@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+dist/
+analysis/output/cache/
+preprocessing/output/corpus_agent_tag_2023_2026q3.csv
+preprocessing/output/corpus_llm_agent_all_2023_2026q3.csv

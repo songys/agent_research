@@ -1,0 +1,20 @@
+% 자동 생성: paper/scripts/05_make_paper_tables.py --lda (정본 overview_notebook_20261015.json)
+\begin{table}[!htbp]
+\centering
+\caption{arXiv 연도별 자료 규모. 연도는 arXiv 식별자의 최초 제출 연월이며 2026년은 1$\sim$9월이다. 전체는 다섯 개 분류에서 중복을 제거한 논문 수, LLM 에이전트는 정의(\ref{sec:method-data}절)에 따라 추출한 편수, 언어 열은 사람의 검수로 확정한 대상 언어 집합의 편수이다. 논문 한 편이 두 개의 대상 언어를 함께 다루면 각 언어 열에 한 편씩 집계하고, 합집합에서는 한 편으로 센다.}
+\label{tab:data}
+\setlength{\tabcolsep}{2.5pt}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{lrrrrrrr}
+\toprule
+연도 & 전체 & \shortstack{LLM\\에이전트} & 비중(\%) & 한국어 & 중국어 & 일본어 & 합집합 \\
+\midrule
+2023 & 67,040 & 689 & 1.03 & 0 & 7 & 0 & 7 \\
+2024 & 86,745 & 2,382 & 2.75 & 1 & 34 & 2 & 37 \\
+2025 & 102,205 & 6,149 & 6.02 & 10 & 64 & 7 & 80 \\
+2026 (1$\sim$9월) & 101,441 & 10,887 & 10.73 & 14 & 81 & 8 & 102 \\
+\midrule
+합계 & 357,431 & 20,107 & 5.63 & 25 & 186 & 17 & 226 \\
+\bottomrule
+\end{tabular}}
+\end{table}

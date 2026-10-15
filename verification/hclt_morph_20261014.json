@@ -1,0 +1,477 @@
+{
+ "generated": "20261014",
+ "script": "analysis/scripts/09_hclt_morph.py",
+ "method": "kiwipiepy content-morpheme forms (ko) + spaCy en_core_web_sm lemmas (en); dictionary terms analyzed by the same tools; n-gram (<=4) exact match; no regex for keyword matching",
+ "versions": {
+  "kiwipiepy": "0.23.2",
+  "spacy": "3.8.16",
+  "en_core_web_sm": "3.8.0"
+ },
+ "family_terms": {
+  "agent": {
+   "en": [
+    "agent",
+    "agents",
+    "agentic",
+    "multi-agent"
+   ],
+   "ko": [
+    "에이전트"
+   ]
+  },
+  "llm": {
+   "en": [
+    "llm",
+    "llms",
+    "large language model",
+    "language model",
+    "gpt",
+    "chatgpt",
+    "foundation model",
+    "generative ai",
+    "vlm",
+    "sllm"
+   ],
+   "ko": [
+    "언어모델",
+    "언어 모델",
+    "생성형",
+    "거대 언어",
+    "초거대",
+    "대규모 언어",
+    "LLM",
+    "GPT",
+    "sLLM",
+    "VLM"
+   ]
+  },
+  "rag": {
+   "en": [
+    "rag",
+    "retrieval-augmented",
+    "retrieval"
+   ],
+   "ko": [
+    "검색증강",
+    "검색 기반",
+    "리트리벌",
+    "RAG"
+   ]
+  },
+  "transformer": {
+   "en": [
+    "transformer",
+    "transformers"
+   ],
+   "ko": [
+    "트랜스포머"
+   ]
+  },
+  "multimodal": {
+   "en": [
+    "multimodal",
+    "multi-modal",
+    "vision-language",
+    "image",
+    "visual"
+   ],
+   "ko": [
+    "멀티모달",
+    "다중모달",
+    "시각",
+    "이미지",
+    "비전"
+   ]
+  },
+  "diffusion": {
+   "en": [
+    "diffusion"
+   ],
+   "ko": [
+    "확산모델",
+    "디퓨전"
+   ]
+  },
+  "reinforcement_learning": {
+   "en": [
+    "reinforcement learning",
+    "rl",
+    "reward",
+    "policy"
+   ],
+   "ko": [
+    "강화학습",
+    "보상",
+    "RLHF",
+    "GRPO",
+    "DPO"
+   ]
+  },
+  "robotics": {
+   "en": [
+    "robot",
+    "robots",
+    "robotic",
+    "embodied",
+    "manipulation"
+   ],
+   "ko": [
+    "로봇",
+    "체화",
+    "로보틱스"
+   ]
+  },
+  "fine_tuning": {
+   "en": [
+    "fine-tuning",
+    "fine-tune",
+    "finetuning",
+    "finetune",
+    "lora",
+    "instruction tuning"
+   ],
+   "ko": [
+    "미세조정",
+    "파인튜닝",
+    "지시학습",
+    "LoRA"
+   ]
+  },
+  "tabular": {
+   "en": [
+    "tabular",
+    "table",
+    "tables",
+    "sql"
+   ],
+   "ko": [
+    "표 데이터",
+    "테이블",
+    "SQL",
+    "표형"
+   ]
+  },
+  "question_answering": {
+   "en": [
+    "question answering",
+    "qa"
+   ],
+   "ko": [
+    "질의응답",
+    "질문답변",
+    "QA"
+   ]
+  },
+  "translation": {
+   "en": [
+    "translation",
+    "machine translation"
+   ],
+   "ko": [
+    "번역",
+    "기계번역"
+   ]
+  },
+  "tool": {
+   "en": [
+    "tool use",
+    "tool",
+    "tools",
+    "api",
+    "apis",
+    "function calling",
+    "mcp"
+   ],
+   "ko": [
+    "도구사용",
+    "도구호출",
+    "함수호출",
+    "도구",
+    "API",
+    "MCP"
+   ]
+  },
+  "simulation": {
+   "en": [
+    "simulation",
+    "simulate",
+    "social",
+    "society",
+    "opinion"
+   ],
+   "ko": [
+    "시뮬레이션",
+    "사회",
+    "여론",
+    "모사"
+   ]
+  },
+  "human": {
+   "en": [
+    "human",
+    "humans",
+    "user",
+    "users",
+    "interaction",
+    "interactive"
+   ],
+   "ko": [
+    "사용자",
+    "인간",
+    "상호작용",
+    "사람"
+   ]
+  },
+  "safety": {
+   "en": [
+    "safety",
+    "safe",
+    "attack",
+    "attacks",
+    "adversarial",
+    "security",
+    "jailbreak",
+    "jailbreaking",
+    "alignment",
+    "harmful"
+   ],
+   "ko": [
+    "안전",
+    "공격",
+    "적대적",
+    "보안",
+    "탈옥",
+    "정렬",
+    "유해"
+   ]
+  },
+  "evaluation": {
+   "en": [
+    "benchmark",
+    "benchmarks",
+    "evaluation",
+    "evaluate"
+   ],
+   "ko": [
+    "벤치마크",
+    "평가"
+   ]
+  },
+  "physical": {
+   "en": [
+    "embodied",
+    "robot",
+    "robots",
+    "physical",
+    "manipulation",
+    "navigation",
+    "autonomous driving",
+    "vehicle",
+    "vehicles"
+   ],
+   "ko": [
+    "체화",
+    "로봇",
+    "물리",
+    "내비게이션",
+    "자율주행"
+   ]
+  }
+ },
+ "hclt": {
+  "papers_by_year": {
+   "2023": 127,
+   "2024": 106,
+   "2025": 118,
+   "2026": 174
+  },
+  "llm_agent_human_by_year": {
+   "2023": 1,
+   "2024": 3,
+   "2025": 20,
+   "2026": 38
+  },
+  "llm_agent_morph_by_year": {
+   "2023": 1,
+   "2024": 3,
+   "2025": 16,
+   "2026": 28
+  },
+  "morph_vs_human": {
+   "tp": 48,
+   "fp": 0,
+   "fn": 14,
+   "precision": 1.0,
+   "recall": 0.774,
+   "fn_ids": [
+    "hclt2025-p187",
+    "hclt2025-p289",
+    "hclt2025-p503",
+    "hclt2025-p645",
+    "hclt2026-p262",
+    "hclt2026-p324",
+    "hclt2026-p330",
+    "hclt2026-p711",
+    "hclt2026-p717",
+    "hclt2026-p739",
+    "hclt2026-p753",
+    "hclt2026-p870",
+    "hclt2026-p882",
+    "hclt2026-p1047"
+   ],
+   "fp_ids": []
+  }
+ },
+ "n": {
+  "arxiv_world": 20107,
+  "arxiv_KR": 186,
+  "hclt_2023_2025": 24,
+  "hclt_2026": 38
+ },
+ "family_rate_pct": {
+  "agent": {
+   "arxiv_world": 99.9,
+   "arxiv_KR": 100.0,
+   "hclt_2023_2025": 95.8,
+   "hclt_2026": 100.0,
+   "n_hclt_2023_2025": 23,
+   "n_hclt_2026": 38
+  },
+  "llm": {
+   "arxiv_world": 96.7,
+   "arxiv_KR": 97.8,
+   "hclt_2023_2025": 87.5,
+   "hclt_2026": 73.7,
+   "n_hclt_2023_2025": 21,
+   "n_hclt_2026": 28
+  },
+  "rag": {
+   "arxiv_world": 14.8,
+   "arxiv_KR": 11.3,
+   "hclt_2023_2025": 20.8,
+   "hclt_2026": 13.2,
+   "n_hclt_2023_2025": 5,
+   "n_hclt_2026": 5
+  },
+  "transformer": {
+   "arxiv_world": 1.5,
+   "arxiv_KR": 1.1,
+   "hclt_2023_2025": 0.0,
+   "hclt_2026": 0.0,
+   "n_hclt_2023_2025": 0,
+   "n_hclt_2026": 0
+  },
+  "multimodal": {
+   "arxiv_world": 19.4,
+   "arxiv_KR": 25.3,
+   "hclt_2023_2025": 4.2,
+   "hclt_2026": 18.4,
+   "n_hclt_2023_2025": 1,
+   "n_hclt_2026": 7
+  },
+  "diffusion": {
+   "arxiv_world": 1.2,
+   "arxiv_KR": 0.0,
+   "hclt_2023_2025": 0.0,
+   "hclt_2026": 0.0,
+   "n_hclt_2023_2025": 0,
+   "n_hclt_2026": 0
+  },
+  "reinforcement_learning": {
+   "arxiv_world": 22.4,
+   "arxiv_KR": 14.0,
+   "hclt_2023_2025": 8.3,
+   "hclt_2026": 5.3,
+   "n_hclt_2023_2025": 2,
+   "n_hclt_2026": 2
+  },
+  "robotics": {
+   "arxiv_world": 8.4,
+   "arxiv_KR": 10.2,
+   "hclt_2023_2025": 4.2,
+   "hclt_2026": 0.0,
+   "n_hclt_2023_2025": 1,
+   "n_hclt_2026": 0
+  },
+  "fine_tuning": {
+   "arxiv_world": 11.3,
+   "arxiv_KR": 10.2,
+   "hclt_2023_2025": 0.0,
+   "hclt_2026": 13.2,
+   "n_hclt_2023_2025": 0,
+   "n_hclt_2026": 5
+  },
+  "tabular": {
+   "arxiv_world": 2.6,
+   "arxiv_KR": 2.2,
+   "hclt_2023_2025": 0.0,
+   "hclt_2026": 2.6,
+   "n_hclt_2023_2025": 0,
+   "n_hclt_2026": 1
+  },
+  "question_answering": {
+   "arxiv_world": 6.4,
+   "arxiv_KR": 9.7,
+   "hclt_2023_2025": 16.7,
+   "hclt_2026": 15.8,
+   "n_hclt_2023_2025": 4,
+   "n_hclt_2026": 6
+  },
+  "translation": {
+   "arxiv_world": 1.3,
+   "arxiv_KR": 0.5,
+   "hclt_2023_2025": 4.2,
+   "hclt_2026": 7.9,
+   "n_hclt_2023_2025": 1,
+   "n_hclt_2026": 3
+  },
+  "tool": {
+   "arxiv_world": 28.2,
+   "arxiv_KR": 18.3,
+   "hclt_2023_2025": 16.7,
+   "hclt_2026": 21.1,
+   "n_hclt_2023_2025": 4,
+   "n_hclt_2026": 8
+  },
+  "simulation": {
+   "arxiv_world": 15.9,
+   "arxiv_KR": 10.8,
+   "hclt_2023_2025": 16.7,
+   "hclt_2026": 7.9,
+   "n_hclt_2023_2025": 4,
+   "n_hclt_2026": 3
+  },
+  "human": {
+   "arxiv_world": 52.5,
+   "arxiv_KR": 57.0,
+   "hclt_2023_2025": 41.7,
+   "hclt_2026": 39.5,
+   "n_hclt_2023_2025": 10,
+   "n_hclt_2026": 15
+  },
+  "safety": {
+   "arxiv_world": 22.5,
+   "arxiv_KR": 18.3,
+   "hclt_2023_2025": 4.2,
+   "hclt_2026": 15.8,
+   "n_hclt_2023_2025": 1,
+   "n_hclt_2026": 6
+  },
+  "evaluation": {
+   "arxiv_world": 64.8,
+   "arxiv_KR": 72.0,
+   "hclt_2023_2025": 70.8,
+   "hclt_2026": 71.1,
+   "n_hclt_2023_2025": 17,
+   "n_hclt_2026": 27
+  },
+  "physical": {
+   "arxiv_world": 13.1,
+   "arxiv_KR": 15.1,
+   "hclt_2023_2025": 4.2,
+   "hclt_2026": 0.0,
+   "n_hclt_2023_2025": 1,
+   "n_hclt_2026": 0
+  }
+ }
+}

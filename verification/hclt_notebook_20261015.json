@@ -1,0 +1,761 @@
+{
+ "generated": "20261015",
+ "notebook": "analysis/notebooks/05_hclt.ipynb",
+ "n": {
+  "hclt_2023_2025": 24,
+  "hclt_2026": 38
+ },
+ "family_by_set": {
+  "n": {
+   "arXiv world": 20107,
+   "Korean": 25,
+   "Chinese": 186,
+   "Japanese": 17,
+   "HCLT 2023-26": 62
+  },
+  "rows": {
+   "agent": {
+    "arXiv world": 99.9,
+    "Korean": 100.0,
+    "Chinese": 100.0,
+    "Japanese": 94.1,
+    "HCLT 2023-26": 98.4,
+    "n Korean": 25,
+    "n Chinese": 186,
+    "n Japanese": 16,
+    "n HCLT 2023-26": 61
+   },
+   "llm": {
+    "arXiv world": 96.7,
+    "Korean": 100.0,
+    "Chinese": 96.8,
+    "Japanese": 100.0,
+    "HCLT 2023-26": 79.0,
+    "n Korean": 25,
+    "n Chinese": 180,
+    "n Japanese": 17,
+    "n HCLT 2023-26": 49
+   },
+   "evaluation": {
+    "arXiv world": 64.8,
+    "Korean": 80.0,
+    "Chinese": 82.8,
+    "Japanese": 58.8,
+    "HCLT 2023-26": 71.0,
+    "n Korean": 20,
+    "n Chinese": 154,
+    "n Japanese": 10,
+    "n HCLT 2023-26": 44
+   },
+   "human": {
+    "arXiv world": 52.5,
+    "Korean": 40.0,
+    "Chinese": 55.4,
+    "Japanese": 58.8,
+    "HCLT 2023-26": 40.3,
+    "n Korean": 10,
+    "n Chinese": 103,
+    "n Japanese": 10,
+    "n HCLT 2023-26": 25
+   },
+   "tool": {
+    "arXiv world": 28.2,
+    "Korean": 24.0,
+    "Chinese": 16.7,
+    "Japanese": 11.8,
+    "HCLT 2023-26": 19.4,
+    "n Korean": 6,
+    "n Chinese": 31,
+    "n Japanese": 2,
+    "n HCLT 2023-26": 12
+   },
+   "safety": {
+    "arXiv world": 22.5,
+    "Korean": 36.0,
+    "Chinese": 22.6,
+    "Japanese": 29.4,
+    "HCLT 2023-26": 11.3,
+    "n Korean": 9,
+    "n Chinese": 42,
+    "n Japanese": 5,
+    "n HCLT 2023-26": 7
+   },
+   "reinforcement_learning": {
+    "arXiv world": 22.4,
+    "Korean": 20.0,
+    "Chinese": 15.6,
+    "Japanese": 0.0,
+    "HCLT 2023-26": 6.5,
+    "n Korean": 5,
+    "n Chinese": 29,
+    "n Japanese": 0,
+    "n HCLT 2023-26": 4
+   },
+   "multimodal": {
+    "arXiv world": 19.4,
+    "Korean": 8.0,
+    "Chinese": 22.6,
+    "Japanese": 0.0,
+    "HCLT 2023-26": 12.9,
+    "n Korean": 2,
+    "n Chinese": 42,
+    "n Japanese": 0,
+    "n HCLT 2023-26": 8
+   },
+   "simulation": {
+    "arXiv world": 15.9,
+    "Korean": 16.0,
+    "Chinese": 24.2,
+    "Japanese": 47.1,
+    "HCLT 2023-26": 11.3,
+    "n Korean": 4,
+    "n Chinese": 45,
+    "n Japanese": 8,
+    "n HCLT 2023-26": 7
+   },
+   "rag": {
+    "arXiv world": 14.8,
+    "Korean": 12.0,
+    "Chinese": 18.3,
+    "Japanese": 5.9,
+    "HCLT 2023-26": 16.1,
+    "n Korean": 3,
+    "n Chinese": 34,
+    "n Japanese": 1,
+    "n HCLT 2023-26": 10
+   },
+   "physical": {
+    "arXiv world": 13.1,
+    "Korean": 8.0,
+    "Chinese": 7.0,
+    "Japanese": 5.9,
+    "HCLT 2023-26": 1.6,
+    "n Korean": 2,
+    "n Chinese": 13,
+    "n Japanese": 1,
+    "n HCLT 2023-26": 1
+   },
+   "fine_tuning": {
+    "arXiv world": 11.3,
+    "Korean": 4.0,
+    "Chinese": 17.2,
+    "Japanese": 0.0,
+    "HCLT 2023-26": 8.1,
+    "n Korean": 1,
+    "n Chinese": 32,
+    "n Japanese": 0,
+    "n HCLT 2023-26": 5
+   },
+   "robotics": {
+    "arXiv world": 8.4,
+    "Korean": 8.0,
+    "Chinese": 3.8,
+    "Japanese": 5.9,
+    "HCLT 2023-26": 1.6,
+    "n Korean": 2,
+    "n Chinese": 7,
+    "n Japanese": 1,
+    "n HCLT 2023-26": 1
+   },
+   "question_answering": {
+    "arXiv world": 6.4,
+    "Korean": 12.0,
+    "Chinese": 8.6,
+    "Japanese": 0.0,
+    "HCLT 2023-26": 16.1,
+    "n Korean": 3,
+    "n Chinese": 16,
+    "n Japanese": 0,
+    "n HCLT 2023-26": 10
+   },
+   "tabular": {
+    "arXiv world": 2.6,
+    "Korean": 0.0,
+    "Chinese": 1.6,
+    "Japanese": 0.0,
+    "HCLT 2023-26": 1.6,
+    "n Korean": 0,
+    "n Chinese": 3,
+    "n Japanese": 0,
+    "n HCLT 2023-26": 1
+   },
+   "transformer": {
+    "arXiv world": 1.5,
+    "Korean": 0.0,
+    "Chinese": 1.1,
+    "Japanese": 0.0,
+    "HCLT 2023-26": 0.0,
+    "n Korean": 0,
+    "n Chinese": 2,
+    "n Japanese": 0,
+    "n HCLT 2023-26": 0
+   },
+   "translation": {
+    "arXiv world": 1.3,
+    "Korean": 4.0,
+    "Chinese": 6.5,
+    "Japanese": 5.9,
+    "HCLT 2023-26": 6.5,
+    "n Korean": 1,
+    "n Chinese": 12,
+    "n Japanese": 1,
+    "n HCLT 2023-26": 4
+   },
+   "diffusion": {
+    "arXiv world": 1.2,
+    "Korean": 0.0,
+    "Chinese": 1.1,
+    "Japanese": 5.9,
+    "HCLT 2023-26": 0.0,
+    "n Korean": 0,
+    "n Chinese": 2,
+    "n Japanese": 1,
+    "n HCLT 2023-26": 0
+   }
+  }
+ },
+ "family_lift": {
+  "families": [
+   "evaluation",
+   "human",
+   "tool",
+   "safety",
+   "reinforcement_learning",
+   "multimodal",
+   "simulation",
+   "rag",
+   "physical",
+   "fine_tuning",
+   "robotics",
+   "question_answering",
+   "tabular",
+   "transformer",
+   "translation",
+   "diffusion"
+  ],
+  "share_pct": {
+   "evaluation": 64.8,
+   "human": 52.5,
+   "tool": 28.2,
+   "safety": 22.5,
+   "reinforcement_learning": 22.4,
+   "multimodal": 19.4,
+   "simulation": 15.9,
+   "rag": 14.8,
+   "physical": 13.1,
+   "fine_tuning": 11.3,
+   "robotics": 8.4,
+   "question_answering": 6.4,
+   "tabular": 2.6,
+   "transformer": 1.5,
+   "translation": 1.3,
+   "diffusion": 1.2
+  },
+  "lift": {
+   "evaluation": {
+    "evaluation": null,
+    "human": 0.98,
+    "tool": 1.04,
+    "safety": 1.05,
+    "reinforcement_learning": 0.95,
+    "multimodal": 1.06,
+    "simulation": 0.93,
+    "rag": 1.07,
+    "physical": 0.95,
+    "fine_tuning": 0.98,
+    "robotics": 0.92,
+    "question_answering": 1.18,
+    "tabular": 1.06,
+    "transformer": 0.8,
+    "translation": 0.97,
+    "diffusion": 0.81
+   },
+   "human": {
+    "evaluation": 0.98,
+    "human": null,
+    "tool": 0.98,
+    "safety": 1.0,
+    "reinforcement_learning": 0.95,
+    "multimodal": 1.07,
+    "simulation": 1.31,
+    "rag": 0.89,
+    "physical": 1.08,
+    "fine_tuning": 0.95,
+    "robotics": 1.13,
+    "question_answering": 0.9,
+    "tabular": 0.88,
+    "transformer": 0.82,
+    "translation": 0.98,
+    "diffusion": 1.01
+   },
+   "tool": {
+    "evaluation": 1.04,
+    "human": 0.98,
+    "tool": null,
+    "safety": 1.12,
+    "reinforcement_learning": 1.01,
+    "multimodal": 0.86,
+    "simulation": 0.75,
+    "rag": 1.09,
+    "physical": 0.68,
+    "fine_tuning": 0.97,
+    "robotics": 0.63,
+    "question_answering": 1.02,
+    "tabular": 1.12,
+    "transformer": 0.59,
+    "translation": 0.97,
+    "diffusion": 0.6
+   },
+   "safety": {
+    "evaluation": 1.05,
+    "human": 1.0,
+    "tool": 1.12,
+    "safety": null,
+    "reinforcement_learning": 0.99,
+    "multimodal": 0.88,
+    "simulation": 1.14,
+    "rag": 0.8,
+    "physical": 1.09,
+    "fine_tuning": 0.91,
+    "robotics": 1.07,
+    "question_answering": 0.65,
+    "tabular": 0.61,
+    "transformer": 0.91,
+    "translation": 1.06,
+    "diffusion": 1.11
+   },
+   "reinforcement_learning": {
+    "evaluation": 0.95,
+    "human": 0.95,
+    "tool": 1.01,
+    "safety": 0.99,
+    "reinforcement_learning": null,
+    "multimodal": 0.96,
+    "simulation": 0.92,
+    "rag": 0.76,
+    "physical": 1.14,
+    "fine_tuning": 1.58,
+    "robotics": 1.24,
+    "question_answering": 0.93,
+    "tabular": 0.65,
+    "transformer": 1.1,
+    "translation": 0.63,
+    "diffusion": 1.08
+   },
+   "multimodal": {
+    "evaluation": 1.06,
+    "human": 1.07,
+    "tool": 0.86,
+    "safety": 0.88,
+    "reinforcement_learning": 0.96,
+    "multimodal": null,
+    "simulation": 0.81,
+    "rag": 0.85,
+    "physical": 2.28,
+    "fine_tuning": 1.35,
+    "robotics": 2.45,
+    "question_answering": 1.67,
+    "tabular": 0.98,
+    "transformer": 1.45,
+    "translation": 0.85,
+    "diffusion": 2.87
+   },
+   "simulation": {
+    "evaluation": 0.93,
+    "human": 1.31,
+    "tool": 0.75,
+    "safety": 1.14,
+    "reinforcement_learning": 0.92,
+    "multimodal": 0.81,
+    "simulation": null,
+    "rag": 0.59,
+    "physical": 1.4,
+    "fine_tuning": 0.77,
+    "robotics": 1.4,
+    "question_answering": 0.49,
+    "tabular": 0.4,
+    "transformer": 0.8,
+    "translation": 0.72,
+    "diffusion": 1.37
+   },
+   "rag": {
+    "evaluation": 1.07,
+    "human": 0.89,
+    "tool": 1.09,
+    "safety": 0.8,
+    "reinforcement_learning": 0.76,
+    "multimodal": 0.85,
+    "simulation": 0.59,
+    "rag": null,
+    "physical": 0.66,
+    "fine_tuning": 0.97,
+    "robotics": 0.54,
+    "question_answering": 2.5,
+    "tabular": 1.62,
+    "transformer": 0.7,
+    "translation": 0.77,
+    "diffusion": 0.44
+   },
+   "physical": {
+    "evaluation": 0.95,
+    "human": 1.08,
+    "tool": 0.68,
+    "safety": 1.09,
+    "reinforcement_learning": 1.14,
+    "multimodal": 2.28,
+    "simulation": 1.4,
+    "rag": 0.66,
+    "physical": null,
+    "fine_tuning": 1.14,
+    "robotics": 7.1,
+    "question_answering": 1.04,
+    "tabular": 0.52,
+    "transformer": 1.64,
+    "translation": 0.54,
+    "diffusion": 2.32
+   },
+   "fine_tuning": {
+    "evaluation": 0.98,
+    "human": 0.95,
+    "tool": 0.97,
+    "safety": 0.91,
+    "reinforcement_learning": 1.58,
+    "multimodal": 1.35,
+    "simulation": 0.77,
+    "rag": 0.97,
+    "physical": 1.14,
+    "fine_tuning": null,
+    "robotics": 1.15,
+    "question_answering": 1.52,
+    "tabular": 0.83,
+    "transformer": 1.9,
+    "translation": 1.53,
+    "diffusion": 0.95
+   },
+   "robotics": {
+    "evaluation": 0.92,
+    "human": 1.13,
+    "tool": 0.63,
+    "safety": 1.07,
+    "reinforcement_learning": 1.24,
+    "multimodal": 2.45,
+    "simulation": 1.4,
+    "rag": 0.54,
+    "physical": 7.1,
+    "fine_tuning": 1.15,
+    "robotics": null,
+    "question_answering": 0.97,
+    "tabular": 0.43,
+    "transformer": 1.82,
+    "translation": 0.75,
+    "diffusion": 2.25
+   },
+   "question_answering": {
+    "evaluation": 1.18,
+    "human": 0.9,
+    "tool": 1.02,
+    "safety": 0.65,
+    "reinforcement_learning": 0.93,
+    "multimodal": 1.67,
+    "simulation": 0.49,
+    "rag": 2.5,
+    "physical": 1.04,
+    "fine_tuning": 1.52,
+    "robotics": 0.97,
+    "question_answering": null,
+    "tabular": 2.03,
+    "transformer": 0.76,
+    "translation": 0.49,
+    "diffusion": 0.26
+   },
+   "tabular": {
+    "evaluation": 1.06,
+    "human": 0.88,
+    "tool": 1.12,
+    "safety": 0.61,
+    "reinforcement_learning": 0.65,
+    "multimodal": 0.98,
+    "simulation": 0.4,
+    "rag": 1.62,
+    "physical": 0.52,
+    "fine_tuning": 0.83,
+    "robotics": 0.43,
+    "question_answering": 2.03,
+    "tabular": null,
+    "transformer": 0.98,
+    "translation": 2.37,
+    "diffusion": 0.93
+   },
+   "transformer": {
+    "evaluation": 0.8,
+    "human": 0.82,
+    "tool": 0.59,
+    "safety": 0.91,
+    "reinforcement_learning": 1.1,
+    "multimodal": 1.45,
+    "simulation": 0.8,
+    "rag": 0.7,
+    "physical": 1.64,
+    "fine_tuning": 1.9,
+    "robotics": 1.82,
+    "question_answering": 0.76,
+    "tabular": 0.98,
+    "transformer": null,
+    "translation": 2.82,
+    "diffusion": 6.42
+   },
+   "translation": {
+    "evaluation": 0.97,
+    "human": 0.98,
+    "tool": 0.97,
+    "safety": 1.06,
+    "reinforcement_learning": 0.63,
+    "multimodal": 0.85,
+    "simulation": 0.72,
+    "rag": 0.77,
+    "physical": 0.54,
+    "fine_tuning": 1.53,
+    "robotics": 0.75,
+    "question_answering": 0.49,
+    "tabular": 2.37,
+    "transformer": 2.82,
+    "translation": null,
+    "diffusion": 0.65
+   },
+   "diffusion": {
+    "evaluation": 0.81,
+    "human": 1.01,
+    "tool": 0.6,
+    "safety": 1.11,
+    "reinforcement_learning": 1.08,
+    "multimodal": 2.87,
+    "simulation": 1.37,
+    "rag": 0.44,
+    "physical": 2.32,
+    "fine_tuning": 0.95,
+    "robotics": 2.25,
+    "question_answering": 0.26,
+    "tabular": 0.93,
+    "transformer": 6.42,
+    "translation": 0.65,
+    "diffusion": null
+   }
+  },
+  "top_pairs": [
+   [
+    "physical",
+    "robotics",
+    7.1,
+    1568
+   ],
+   [
+    "transformer",
+    "diffusion",
+    6.42,
+    24
+   ],
+   [
+    "multimodal",
+    "diffusion",
+    2.87,
+    136
+   ],
+   [
+    "transformer",
+    "translation",
+    2.82,
+    11
+   ],
+   [
+    "rag",
+    "question_answering",
+    2.5,
+    473
+   ],
+   [
+    "multimodal",
+    "robotics",
+    2.45,
+    802
+   ],
+   [
+    "tabular",
+    "translation",
+    2.37,
+    16
+   ],
+   [
+    "physical",
+    "diffusion",
+    2.32,
+    74
+   ],
+   [
+    "multimodal",
+    "physical",
+    2.28,
+    1167
+   ],
+   [
+    "robotics",
+    "diffusion",
+    2.25,
+    46
+   ],
+   [
+    "question_answering",
+    "tabular",
+    2.03,
+    69
+   ],
+   [
+    "fine_tuning",
+    "transformer",
+    1.9,
+    66
+   ],
+   [
+    "robotics",
+    "transformer",
+    1.82,
+    47
+   ],
+   [
+    "multimodal",
+    "question_answering",
+    1.67,
+    417
+   ],
+   [
+    "physical",
+    "transformer",
+    1.64,
+    66
+   ]
+  ],
+  "bottom_pairs": [
+   [
+    "tool",
+    "robotics",
+    0.63,
+    298
+   ],
+   [
+    "reinforcement_learning",
+    "translation",
+    0.63,
+    36
+   ],
+   [
+    "safety",
+    "tabular",
+    0.61,
+    73
+   ],
+   [
+    "tool",
+    "diffusion",
+    0.6,
+    41
+   ],
+   [
+    "tool",
+    "transformer",
+    0.59,
+    51
+   ],
+   [
+    "simulation",
+    "rag",
+    0.59,
+    279
+   ],
+   [
+    "rag",
+    "robotics",
+    0.54,
+    134
+   ],
+   [
+    "physical",
+    "translation",
+    0.54,
+    18
+   ],
+   [
+    "physical",
+    "tabular",
+    0.52,
+    36
+   ],
+   [
+    "simulation",
+    "question_answering",
+    0.49,
+    99
+   ],
+   [
+    "question_answering",
+    "translation",
+    0.49,
+    8
+   ],
+   [
+    "rag",
+    "diffusion",
+    0.44,
+    16
+   ],
+   [
+    "robotics",
+    "tabular",
+    0.43,
+    19
+   ],
+   [
+    "simulation",
+    "tabular",
+    0.4,
+    34
+   ],
+   [
+    "question_answering",
+    "diffusion",
+    0.26,
+    4
+   ]
+  ]
+ },
+ "year_counts": {
+  "2023": {
+   "papers": 127,
+   "llm_agent": 1,
+   "share_pct": 0.8,
+   "arxiv_llm_agent": 689
+  },
+  "2024": {
+   "papers": 106,
+   "llm_agent": 3,
+   "share_pct": 2.8,
+   "arxiv_llm_agent": 2382
+  },
+  "2025": {
+   "papers": 118,
+   "llm_agent": 20,
+   "share_pct": 16.9,
+   "arxiv_llm_agent": 6149
+  },
+  "2026": {
+   "papers": 174,
+   "llm_agent": 38,
+   "share_pct": 21.8,
+   "arxiv_llm_agent": 10887
+  },
+  "합계(2023~2026)": {
+   "papers": 525,
+   "llm_agent": 62,
+   "share_pct": 11.8,
+   "arxiv_llm_agent": 20107
+  }
+ }
+}

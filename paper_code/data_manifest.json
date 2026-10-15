@@ -1,0 +1,21 @@
+{
+  "baseline": "20261015",
+  "files": {
+    "preprocessing/output/corpus_agent_tag_2023_2026q3.csv": {
+      "bytes": 75930655,
+      "sha256": "4bea5b7cc46c84347955b3cb0a6af02b894dc840ac6dfbeea9406944812afe99"
+    },
+    "analysis/output/cache/lemmas_2023_2026q3.jsonl": {
+      "bytes": 27200801,
+      "sha256": "c4e6211dba1de6678a6a49a1e979d973c45625f6f1bb5b6ad2d5ad8885adbd4b"
+    },
+    "analysis/output/cache/agent_colloc_2023_2026q3.jsonl": {
+      "bytes": 3608298,
+      "sha256": "c28c941823afcd35c2c0b4ae27ab4d9333e452c4355b0d5d479d71df2c7dd1eb"
+    },
+    "preprocessing/output/corpus_llm_agent_all_2023_2026q3.csv": {
+      "bytes": 33804069,
+      "sha256": "426f74f8c655493bf885ec73c1377337e38e7d5314d0ec40b4ac42c0971c8537"
+    }
+  }
+}

@@ -1,0 +1,526 @@
+id,year,printed_page,pdf_page,title_ko,authors_ko,source,agent_tag,llm_tag,is_llm_agent,is_llm_agent_human,kw_families
+hclt2023-p23,2023,3,23,복수 대규모 언어 모델에 기반한 제어 가능형 데이터 증강 프레임워크,"강현석, 남궁혁, 정지수, 정상근 (충남대학교)",text,False,True,False,False,"llm,multimodal"
+hclt2023-p29,2023,9,29,KFREB: 생성형 한국어 대규모 언어 모델의 검색 기반 생성 평가 데이터셋,"이정섭, 손준영 (고려대학교), 이태민 (Human-inspired AI 연구소), 박찬준 (Upstage), 강명훈 (고려대학교),",text,False,True,False,False,"llm,rag,evaluation"
+hclt2023-p34,2023,14,34,대규모 언어 모델 기반 한국어 휴지 예측 연구,"나정호, 이정, 나승훈 (전북대학교), 정정범, 최맹식, 이충희 (엔씨소프트)",text,False,True,False,False,"llm,fine_tuning,safety,evaluation"
+hclt2023-p39,2023,19,39,Large Language Model을 활용한 키워드 기반 대화 생성,"이주환, 허탁성, 김지수, 정민수, 이경욱, 김경선 (NHN Diquest)",text,False,True,False,False,llm
+hclt2023-p45,2023,25,45,초거대 언어모델의 재치에 관한 고찰: 수수께끼 해결 능력을 중심으로,"어수경 (고려대학교), 박찬준 (Upstage), 문현석, 서재형 (고려대학교), 허윤아 (Human-inspired AI 연구소),",text,False,True,False,False,"llm,evaluation"
+hclt2023-p51,2023,31,51,거대 언어 모델의 내재된 지식을 활용한 질의 응답 방법,"심묘섭, 민경구, 박민준, 최주영, 정해민, 최정규 (LG AI Research)",ocr,False,True,False,False,"llm,question_answering"
+hclt2023-p59,2023,39,59,피쳐 퓨전 모듈을 이용한 콘포머 기반의 노인 음성 인식,"이민식, 김지희 (동국대학교)",text,False,False,False,False,"translation,human,evaluation"
+hclt2023-p64,2023,44,64,"[우수논문] 챗봇을 위한 성향별 맞춤화된 청자의 공감적 반응 패턴 연구 - MBTI 심리기능 분류 ST, NF를 중심으로","성지민 (스피링크), 김한샘 (연세대학교)",text,False,False,False,False,human
+hclt2023-p70,2023,50,70,[우수논문] 프롬프트 튜닝기법을 적용한 한국어 속성기반 감정분석,"김봉수, 전현규, 최승호, 김지윤, 장정훈 (와이즈넛)",text,False,False,False,False,
+hclt2023-p76,2023,56,76,한국어 노인 음성 데이터 증강 및 인식 연구,"김건희, 박서윤, 김한샘 (연세대학교)",ocr,False,False,False,False,fine_tuning
+hclt2023-p81,2023,61,81,한국어 맞춤법 교정을 위한 초거대 언어 모델의 잠재적 능력 탐색,"구선민 (고려대학교), 박찬준 (Upstage), 박정배 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2023-p86,2023,66,86,거대 언어 모델(LLM)을 이용한 비훈련 이진 감정 분류,"안형진, 황태욱, 정상근 (충남대학교)",text,False,True,False,False,"llm,fine_tuning"
+hclt2023-p95,2023,75,95,[우수논문] 생성형 언어모델을 이용한 테이블 질의응답 평가,"민경구, 최주영, 심묘섭, 정해민, 박민준, 최정규 (LG AI연구원)",text,False,True,False,False,"llm,fine_tuning,tabular,question_answering,evaluation"
+hclt2023-p100,2023,80,100,한국어 기계 번역에서의 품질 검증을 위한 치명적인 오류 범위 탐지 모델,"정다현, 이승윤, 어수경 (고려대학교), 박찬준 (Upstage), 이재욱 (고려대학교), 박기남 (Human-inspired AI",text,False,True,False,False,"llm,translation,simulation,human"
+hclt2023-p106,2023,86,106,사전 정보를 활용한 신경망 기계 번역,"전현규, 김지윤, 최승호, 김봉수 (와이즈넛)",text,False,True,False,False,"llm,translation,evaluation"
+hclt2023-p111,2023,91,111,[우수논문] 한국어 발화 문장에 대한 비언어 표현 정보를 자동으로 생성하는 모델,"김재윤, 장진예, 김산, 정민영 (한국전자기술연구원), 강현욱 (전남대학교), 신사임 (한국전자기술연구원)",text,True,True,True,True,"llm,multimodal,human"
+hclt2023-p115,2023,95,115,적정성 조건을 활용한 생성 AI의 혐오 화행 이해 평가,"강조은, 김유진, 김한샘 (연세대학교)",ocr,False,False,False,False,evaluation
+hclt2023-p121,2023,101,121,대규모 언어모델 활용을 통한 통계자료 처리 및 온라인 가격지표 개발 방법론 연구,"오교중, 최호진 (KAIST), 안현각, 김일구, 차원석 (아일리스프런티어)",text,False,True,False,False,"llm,simulation"
+hclt2023-p127,2023,107,127,대조학습을 활용한 새로운 의도 카테고리 발견,"서승연, 이근배 (포항공과대학교)",text,False,False,False,False,"multimodal,human"
+hclt2023-p133,2023,113,133,난이도 조절 가능한 어구 단위 빈칸 추론 문항 생성 시스템,"강석훈, 이근배 (포항공과대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2023-p139,2023,119,139,효과적인 한국어 교차언어 전송을 위한 특성 연구,"윤태준, 김태욱 (한양대학교)",text,False,True,False,False,llm
+hclt2023-p145,2023,125,145,한국어 문서 분류를 위한 신경망 구조 탐색,지병규 (고려대학교),text,False,False,False,False,reinforcement_learning
+hclt2023-p151,2023,131,151,언어 모델의 뉴스 도메인 요약 성능 비교 분석,"류상원, 김윤수, 이근배 (포항공과대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2023-p157,2023,137,157,문서 요약 데이터셋을 이용한 생성형 근거 추론 방법,"장예진, 장영진, 김학수 (건국대학교)",ocr,False,True,False,False,"llm,human"
+hclt2023-p163,2023,143,163,[우수논문] KF-DeBERTa: 금융 도메인 특화 사전학습 언어모델,"전은광, 김정대 (카카오뱅크), 송민상, 유주현 (에프엔가이드)",ocr,False,True,False,False,"llm,evaluation"
+hclt2023-p169,2023,149,169,100 K-Poison: 한국어 생성 모델을 위한 독성 텍스트 저항력 검증 데이터셋,"비립, 강예지, 박서윤, 장연지, 김한샘 (연세대학교)",ocr,False,False,False,False,
+hclt2023-p175,2023,155,175,사실관계 확인을 위한 다중 대규모 언어모델의 입출력 제어 구조화 방법,"정지수, 이치현, 강현석, 정상근 (충남대학교), 노윤형 (한국전자통신연구원)",text,False,True,False,False,"llm,evaluation"
+hclt2023-p182,2023,162,182,[우수논문] 거대언어모델을 위한 한국어 상식추론 기반 평가,"서재형 (고려대학교), 박찬준 (Upstage), 문현석, 어수경 (고려대학교), 소아람 (Human-inspired AI 연구소),",text,False,True,False,False,"llm,simulation,human,evaluation"
+hclt2023-p188,2023,168,188,Long-KE-T5: 긴 맥락 파악이 가능한 한국어-영어 언어 모델 구축,"김산, 장진예, 정민영, 신사임 (한국전자기술연구원)",text,False,True,False,False,"llm,evaluation"
+hclt2023-p191,2023,171,191,대형 언어 모델의 한국어 Text-to-SQL 변환 능력 평가,"최주영, 민경구, 심묘섭, 정해민, 박민준, 최정규 (LG AI Research)",text,False,True,False,False,"llm,tabular,translation,evaluation"
+hclt2023-p199,2023,179,199,상담 전략을 통합한 정서 교감형 챗봇 개발을 위한 데이터셋 구조 제안,"신동혁, 양재희, 장진예, 신사임 (한국전자기술연구원)",text,False,False,False,False,"robotics,human,physical"
+hclt2023-p205,2023,185,205,Text to SPARQL을 위한 지식 증강 프롬프팅 연구,"이연진, 남정재, 김우영, 김우주 (연세대학교)",text,False,True,False,False,"llm,question_answering,translation,evaluation"
+hclt2023-p210,2023,190,210,유머 자동 처리를 위한 유머 데이터 평가 및 활용,"강조은, 이재원, 오채은, 김한샘 (연세대학교)",ocr,False,True,False,False,"llm,human,evaluation"
+hclt2023-p216,2023,196,216,[우수논문] 구름(KULLM): 한국어 지시어 데이터셋 구축 및 지시어를 따르는 언어 모델,"이승준 (고려대학교), 이태민 (Human-inspired AI 연구소), 이정우, 장윤나, 임희석 (고려대학교)",text,False,True,False,False,llm
+hclt2023-p223,2023,203,223,대규모 언어 모델 및 인컨텍스트 러닝을 활용한 수치 추론 데이터셋 증강,"황예찬, 임진수, 이영준, 최호진 (KAIST)",text,False,True,False,False,llm
+hclt2023-p229,2023,209,229,과거 상담대화를 활용한 개인화 대화생성을 위한 프롬프트 기반 데이터 증강,"임채균 (KAIST), 이혜우, 오경진, 성주원 (KT), 최호진 (KAIST)",text,False,True,False,False,"llm,human,evaluation"
+hclt2023-p237,2023,217,237,"Llama, OPT 모델을 활용한 Supervised Fine Tuning, Reinforcement Learning, Chain-of-Hindsight 성능 비교","이현민, 나승훈 (전북대학교), 임준호 (한국전자통신연구원), 김태형, 류휘정, 장두성 (KT)",text,False,True,False,False,"llm,reinforcement_learning,fine_tuning"
+hclt2023-p242,2023,222,242,환각 현상 완화를 위한 단위 사실 기반 사후 교정,"이용환 (전북대학교), 신정완 (경북대학교), 송현제 (전북대학교)",text,False,True,False,False,"llm,rag,human"
+hclt2023-p248,2023,228,248,생성형 AI 모델을 활용한 요약 성능 평가 연구,"최규리, 박서윤, 강예지, 김한샘 (연세대학교)",ocr,False,True,False,False,"llm,human,evaluation"
+hclt2023-p253,2023,233,253,패턴 추출 학습을 통한 한국어 주장 탐지 및 입장 분류,"이우진 (건국대학교), 정석원 (강원대학교), 김태일, 최성원 (네이버), 김학수 (건국대학교)",ocr,False,True,False,False,"llm,human,evaluation"
+hclt2023-p259,2023,179,259,다국어 정보 검색을 위한 적대적 언어 적응을 활용한 ColBERT,"김종휘, 김윤수, 이근배 (포항공과대학교)",text,False,False,False,False,"rag,safety,evaluation"
+hclt2023-p265,2023,245,265,인간 피드백 기반 강화학습 (RLHF)에서 보상 모델의 효과적인 훈련 방법에 관한 연구,"김정욱 (고려대학교), Aiyanyo Imatitikua Danielle (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,True,False,False,"llm,reinforcement_learning,human"
+hclt2023-p273,2023,253,273,이미지-텍스트 자질을 이용한 행동 포착 비디오 기반 대화시스템,"임정우, 장윤나, 손준영, 이승윤 (고려대학교), 박기남 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,False,False,False,"multimodal,robotics,human,safety,physical"
+hclt2023-p278,2023,258,278,공황장애 상담을 위한 멀티모달 과제 지향 대화 태스크 구축,"김수빈, 이근배 (포항공과대학교)",text,False,True,False,False,"llm,multimodal,human,evaluation"
+hclt2023-p283,2023,263,283,대화 맥락을 반영한 백채널 예측 모델,"최용석, 박요한, Wencke Liermann, 이공주 (충남대학교)",text,False,False,False,False,
+hclt2023-p289,2023,269,289,Deep Prompt Tuning 기반 한국어 질의응답 기계 독해,"김주형, 강상우 (가천대학교)",ocr,False,True,False,False,"llm,fine_tuning,question_answering,evaluation"
+hclt2023-p301,2023,281,301,[우수논문] 페르소나 기반의 장기 대화를 위한 다각적 어텐션을 활용한 생성 모델,"금빛나, 김홍진 (건국대학교), 황금하, 권오욱 (한국전자통신연구원), 김학수(건국대학교)",text,False,False,False,False,human
+hclt2023-p309,2023,289,309,Instruction Tuning을 통한 한국어 언어 모델 문장 생성 제어,"장진희 (전북대학교), 서대룡, 전동현, 강인호 (네이버), 나승훈 (전북대학교)",text,False,True,False,False,"llm,fine_tuning,tool"
+hclt2023-p315,2023,295,315,Large Language Model을 통한 대화 데이터셋 자동 생성 및 검색 성능 향상,"최형준 (전북대학교), 홍범석, 최원석, 한영섭, 전병기 (LG 유플러스), 나승훈 (전북대학교)",text,False,True,False,False,"llm,human"
+hclt2023-p321,2023,301,321,코드 스위칭 코퍼스 기반 다국어 LLM의 지식 전이 연구,"김성현, 이강희, 정민수, 이정우 (신한AI)",ocr,False,True,False,False,llm
+hclt2023-p326,2023,306,326,KoQuality: 한국어 언어 모델을 위한 고품질 명령어 데이터 큐레이션,"나요한, 김다혜, 채동규 (한양대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2023-p332,2023,312,332,[우수논문] 한국어-영어 공감대화 데이터셋과 성격을 기반으로 한 언어모델 평가,"이영준, 현종환 (KAIST), 이도경, 성주원 (KT), 최호진 (KAIST)",text,False,True,False,False,"llm,human,evaluation"
+hclt2023-p339,2023,319,339,Ko-ATOMIC 2.0: 한국어 상식 지식 그래프 구축,"이재욱, 서재형, 정다현 (고려대학교), 박찬준 (Upstage), Imatitikua Aiyanyo (Human-inspired AI 연구소),",text,False,True,False,False,"llm,question_answering"
+hclt2023-p347,2023,327,347,에세이 자동 평가 모델 성능 향상을 위한 데이터 증강과 전처리,"고강희, 김도국 (인하대학교)",ocr,False,False,False,False,evaluation
+hclt2023-p353,2023,333,353,토익 문제 풀이 모델 학습을 위한 유의어/반의어 기반 데이터 증강 기법,"이정우 (고려대학교), Aiyanyo Imatitikua Danielle (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,False,False,False,"human,evaluation"
+hclt2023-p356,2023,336,356,감성적 광고 카피 자동 생성을 위한 데이터 구축 방법론,"성지민, 신하은, 강지윤 (스피링크)",ocr,False,True,False,False,"llm,human"
+hclt2023-p362,2023,342,362,OK-KGD:오픈 도메인 한국어 지식 기반 대화 데이터셋 구축,"문선아, 김산, 장진예, 정민영, 신사임 (한국전자기술연구원)",text,False,False,False,False,"translation,human"
+hclt2023-p366,2023,346,366,LLM을 활용한 오픈 도메인 대화 시스템의 유해성을 완화하는 데이터 증강 기법,"김산, 이근배 (포항공과대학교)",text,False,True,False,False,"llm,safety"
+hclt2023-p372,2023,352,372,Chain-of-Thought와 Program-aided Language Models을 이용한 전제-가설-라벨 삼중항 자동 생성,"조희진, 이창기 (강원대학교), 배경만 (한국전자통신연구원)",text,False,True,False,False,llm
+hclt2023-p381,2023,361,381,계층적 검색 모델을 이용한 정답 문장 탐색,"최승호, 전현규, 김지윤, 김봉수 (와이즈넛)",text,False,False,False,False,question_answering
+hclt2023-p386,2023,366,386,검색 모델 성능 향상을 위한 Hard Negative 추출 및 False Negative 문제 완화 방법,"박성흠, 김홍진 (건국대학교), 황금하, 권오욱 (한국전자통신연구원), 김학수 (건국대학교)",text,False,False,False,False,"rag,question_answering"
+hclt2023-p392,2023,372,392,Prompting 기반 매개변수 효율적인 멀티 모달 영상 하이라이트 검출 연구,"한동훈, 남성욱, 박은환 (버즈니), 곽노준 (서울대학교)",text,False,False,False,False,"transformer,multimodal"
+hclt2023-p397,2023,377,397,Textual Entailment Feedback 기반 효율적인 문서 재순위화기,"남성욱, 한동훈, 박은환 (버즈니), 나승훈 (전북대학교)",text,False,True,False,False,llm
+hclt2023-p402,2023,382,402,Super In-Context Learning을 활용한 생성 방법론,"홍성태, 이승준 (고려대학교), 김경민 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,True,False,False,"llm,fine_tuning,translation,evaluation"
+hclt2023-p408,2023,388,408,"스팬 기반 개체 추출을 위한 자질, 모델, 학습 방법 비교",이승우 (한국과학기술정보연구원),ocr,False,True,False,False,"llm,fine_tuning"
+hclt2023-p415,2023,395,415,프롬프트를 이용한 표 질의응답의 성능향상,"박정연, 이동혁, 신형진, 조경빈, 이재성 (충북대학교)",ocr,False,True,False,False,"llm,tabular,question_answering,evaluation"
+hclt2023-p419,2023,399,419,Zero-shot 기반 다중 문서 그라운딩된 대화 시스템,"박준범 (전북대학교), 홍범석, 최원석, 전병기 (LG 유플러스), 나승훈 (전북대학교)",text,False,True,False,False,llm
+hclt2023-p424,2023,404,424,대화 맥락에 기반한 한국어 휴지 예측 모델,"이정, 나정호 (전북대학교), 정정범, 최맹식, 이충희 (NCSOFT), 나승훈 (전북대학교)",text,False,False,False,False,human
+hclt2023-p429,2023,409,429,전문 지식 및 대화 정책 예측이 결합된 프롬프트를 활용한 지식 기반 대화 생성,"주어진, 임채균 (KAIST), 이도경, 윤준영, 성주원 (KT), 최호진 (KAIST)",text,False,True,False,False,"llm,reinforcement_learning,fine_tuning,human"
+hclt2023-p435,2023,415,435,테이블 구조 정보를 활용한 헤더 텍스트 생성,"정해민, 심묘섭, 민경구, 최주영, 박민준, 최정규 (LG AI 연구원)",text,False,False,False,False,"tabular,evaluation"
+hclt2023-p439,2023,419,439,한국어 자연어 추론을 위한 다양한 프롬프트 방법,"최요한, 이창기 (강원대학교), 배경만 (한국전자통신연구원)",ocr,False,False,False,False,"fine_tuning,human"
+hclt2023-p445,2023,425,445,대규모 언어 모델을 활용한 새로운 의도 발견 방법과 액티브 러닝 전략,"천창우, 임송요 (현대자동차)",text,False,True,False,False,llm
+hclt2023-p452,2023,432,452,[우수논문] KoCheckGPT: 한국어 초거대언어모델 작성 글 판별기,"강명훈, 이정섭, 이승윤, 홍성태 (고려대학교), 박정배 (Human-inspired AI Research), 임희석 (고려대학교)",text,False,True,False,False,"llm,tool,human,safety"
+hclt2023-p457,2023,437,457,Wanda Pruning에 기반한 한국어 언어 모델 경량화,"윤준호 (전북대학교), 서대룡, 전동현, 강인호 (네이버), 나승훈 (전북대학교)",text,False,True,False,False,llm
+hclt2023-p463,2023,443,463,[우수논문] In-Context 검색 증강형 한국어 언어 모델,"이성민, 이정(전북대학교), 서대룡, 전동현, 강인호 (네이버), 나승훈(전북대학교)",text,False,True,False,False,"llm,rag,question_answering"
+hclt2023-p468,2023,448,468,[우수논문] FubaoLM : 연쇄적 사고 증류와 앙상블 학습에 의한 대규모 언어 모델 자동 평가,"김희주 (고려대학교), 전동현, 권오준, 권순환, 김한수, 이인권 (네이버), 김도현 (서울대학교), 강인호 (네이버)",text,False,True,False,False,"llm,human,evaluation"
+hclt2023-p474,2023,454,474,대규모 언어 모델의 언어 패턴 다양화를 위한 반복적 피드백 기반 성격 페르소나 생성법,"황태호, 송호윤, 신지수, 조석민, 박종철 (KAIST)",text,False,True,False,False,"llm,human"
+hclt2023-p483,2023,463,483,사전 학습 모델의 위치 임베딩 길이 제한 문제를 극복하기 위한 방법론,"정민수, 허탁성, 이주환, 김지수, 이경욱, 김경선 (NHN Diquest)",text,False,True,False,False,"llm,transformer,fine_tuning,question_answering"
+hclt2023-p488,2023,468,488,언어학 관점에서의 한국어 대조학습 기반 문장 임베딩의 허위 문맥화에 대한 고찰,"정유현, 한명수, 채동규 (한양대학교)",ocr,False,True,False,False,"llm,safety,evaluation"
+hclt2023-p494,2023,474,494,계층적 레이블 임베딩을 이용한 주장-증거 쌍 추출 모델,"심유진, 김담린 (건국대학교), 김태일, 최성원 (네이버),  김학수 (건국대학교)",text,False,False,False,False,
+hclt2023-p499,2023,479,499,[우수논문] 의도 정보를 활용한 다중 레이블 오픈 의도 분류,"박나현, 조성민, 송현제 (전북대학교)",text,False,False,False,False,
+hclt2023-p505,2023,485,505,자연어 처리 태스크에 대한 기계와 인간의 성능 상관관계 연구,"박서윤, 김희재, 이성우, 강예지, 장연지, 김한샘 (연세대학교)",ocr,False,True,False,False,"llm,human"
+hclt2023-p511,2023,491,511,비지도 대조 학습에서 한국어 문장 표현을 위한 특수 토큰 컷오프 방법의 유효성 분석,"한명수, 정유현, 채동규 (한양대학교)",ocr,False,True,False,False,"llm,evaluation"
+hclt2023-p519,2023,499,519,개인정보 특화 개체명 주석 대화 데이터셋 기반 생성AI 활용 개체명 탐지,"강예지, 비립, 장연지, 박서윤, 김한샘 (연세대학교)",ocr,False,False,False,False,evaluation
+hclt2023-p525,2023,505,525,지식증류를 활용한 지속적 한국어 개체명 인식,"장준서, 박성식, 김학수 (건국대학교)",ocr,False,False,False,False,evaluation
+hclt2023-p530,2023,510,530,LyriKOR: 음절을 맞춘 영한 노래 가사 번역 모델,"조혜진, 홍은빈, 오지민, 박정환, 이병준 (고려대학교)",text,False,False,False,False,"translation,human,safety"
+hclt2023-p537,2023,517,537,MAdapter: 효율적인 중간 층 도입을 통한 Adapter 구조 개선,"김진현, 김태욱 (한양대학교)",text,False,True,False,False,"llm,fine_tuning"
+hclt2023-p542,2023,522,542,특허문서의 한국어 화합물 개체명 인식,"신진섭, 김경민, 김성찬 (한국과학기술정보연구원), 이문용 (KAIST)",ocr,False,False,False,False,"fine_tuning,translation"
+hclt2023-p545,2023,525,545,온라인 범죄 예방을 위한 실시간 조기 위험 감지 시스템,"안진명, 이근배 (포항공과대학교)",text,False,False,False,False,"reinforcement_learning,human,safety,evaluation"
+hclt2023-p553,2023,533,553,주제어 문장거리를 이용한 뉴스 편향성 분석 그래프 학습,"조찬우, 조찬형 (부산대학교)",ocr,False,False,False,False,
+hclt2023-p559,2023,539,559,[우수논문] 한국의 사회적 맥락에서의 ChatGPT의 독성 및 편향성 분석,"이승윤 (고려대학교), 박찬준 (Upstage), 김경민 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,True,False,False,"llm,multimodal,simulation,safety"
+hclt2023-p566,2023,546,566,데이터 불균형 기법의 부작용 완화를 위한 어텐션 기반 앙상블,"박요한, 최용석, Wencke Liermann, 이공주 (충남대학교)",text,False,False,False,False,evaluation
+hclt2023-p572,2023,552,572,[우수논문] 거대 언어 모델의 정치적 편향과 하위 작업에서의 영향,"서정연, 조석민, 박종철 (KAIST)",text,False,True,False,False,"llm,human,safety"
+hclt2023-p578,2023,558,578,한국어 언어모델의 속성 및 정량적 편향 분석: 영어 언어모델과의 비교 및 개선 제안,"김재민, 채동규 (한양대학교)",text,False,True,False,False,"llm,simulation,evaluation"
+hclt2023-p583,2023,563,583,인공지능 기반 사회 통계 생산 방법론 고도화 방안: 가계동향조사와 생활시간조사 사례,"오교중, 최호진 (KAIST), 김일구, 한승우 (아일리스프런티어), 김건수 (통계청)",text,False,False,False,False,simulation
+hclt2023-p591,2023,571,591,대화형 생성 모델을 위한 인권 코퍼스 구축,"송영숙 (Sionic AI), 심상진 (한양대학교), 김성현 (신한AI)",text,False,False,False,False,"question_answering,human"
+hclt2023-p597,2023,577,597,KcBERT를 활용한 한국어 악플 탐지 분석 및 개선방안 연구,"정세영, 김병진, 김대식, 김우영, 김태용, 윤현수, 김우주 (연세대학교)",text,False,True,False,False,"llm,fine_tuning,translation"
+hclt2023-p601,2023,581,601,문맥 요약을 접목한 한국어 생성형 질의응답 모델 연구,"남정재, 김우영, 백상덕, 이원준, 김태용, 윤현수, 김우주 (연세대학교)",text,False,True,False,False,"llm,question_answering"
+hclt2023-p606,2023,586,606,한국어에서 T5를 사용한 속성 기반 감성 분류 모델,"류상연, 강상우 (가천대학교)",text,False,False,False,False,
+hclt2023-p611,2023,591,611,언어 번역 모델을 통한 한국어 지시 학습 데이터 세트 구축,"임영서, 추현창, 김산, 장진예, 정민영, 신사임 (한국전자기술연구원)",text,False,False,False,False,"fine_tuning,translation"
+hclt2023-p616,2023,596,616,상품명 및 리뷰를 기반으로 한 브랜드-트렌드 연관성을 통한 이커머스 경쟁력 강화,"신기영 (한양대학교), 정헌영 (디자이노블)",text,False,False,False,False,
+hclt2023-p620,2023,600,620,문장 난이도 측정을 위한 도메인 특화 언어 모델 연구,"왕규현, 오동규, 이수진 (웅진씽크빅 에듀테크연구소)",text,False,True,False,False,"llm,fine_tuning"
+hclt2023-p623,2023,603,623,ChatGPT 기반 한국어 Vision-Language Pre-training을 위한 고품질 멀티모달 데이터셋 구축 방법론,"성진 (ETRI), 한승헌 (충북대학교), 신종훈, 임수종, 권오욱 (ETRI)",ocr,False,True,False,False,"llm,multimodal"
+hclt2023-p629,2023,609,629,디코더를 활용한 기계독해 모델의 근거 추출 방법,"한규빈, 장영진, 김학수 (건국대학교)",text,False,False,False,False,human
+hclt2023-p635,2023,615,635,의존관계 패턴에 기반한 한국어 명사구의 추출,"강승식 (국민대학교), 이상모 (한국법제연구원), 이민행 (연세대학교)",ocr,False,False,False,False,
+hclt2023-p638,2023,618,638,검색모델과 LLM의 상호작용을 활용한 사고사슬 기반의 한국어 질의응답,"박민준, 심묘섭, 민경구, 최주영, 정해민, 최정규 (LG AI Research)",text,False,True,False,False,"llm,question_answering,translation,human"
+hclt2023-p642,2023,622,642,라벨 정보를 이용한 Few-shot Learning 환경에 강건한 중첩 개체명 인식 모델,"황현선, 이창기 (강원대학교), 고우영, 강명철 (국가보안기술연구소)",text,False,False,False,False,
+hclt2023-p647,2023,627,647,지시문 및 번역 데이터셋을 활용한 Llama2 Cross-lingual 한국어 확장,"장규식, 이현민, 나승훈 (전북대학교), 임준호 (한국전자통신연구원), 김태형, 류휘정, 장두성 (KT)",text,False,True,False,False,"llm,translation"
+hclt2023-p653,2023,633,653,암시적 비윤리 데이터를 활용한 언어 모델의 강건성 평가,"김유진, 정가연, 김한샘 (연세대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2023-p658,2023,638,658,SVD에 기반한 모델 경량화를 통한 문서 그라운딩된 응답 생성,"이검 (전북대학교), 서대룡, 전동현, 강인호 (네이버), 나승훈 (전북대학교)",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2023-p664,2023,644,664,한국어 토큰-프리 사전학습 언어모델 KeByT5를 이용한 한국어 생성 기반 대화 상태 추적,"이기영, 신종훈, 임수종, 권오욱 (ETRI)",ocr,False,True,False,False,"llm,fine_tuning,human"
+hclt2023-p668,2023,648,668,거대 언어 모델을 활용한 한국어 제로샷 관계 추출 비교 연구,"김진성 (고려대학교), 김경민, 박기남 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,True,False,False,"llm,question_answering"
+hclt2023-p674,2023,654,674,중간 문맥 식별 및 검색을 활용한 문서간 관계 추출,"손준영, 김진성, 임정우, 장윤나 (고려대학교), 소아람 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,False,False,False,"question_answering,evaluation"
+hclt2023-p679,2023,659,679,한국어 자모단위 음성인식 결과 후보정을 위한 신경망 기반 자모 병합 방법론,"임솔이, 이원준, 이근배, 김윤수 (포항공과대학교)",text,False,False,False,False,
+hclt2023-p684,2023,664,684,퓨샷 개체명 인식을 위한 Maximal Marginal Relevance 기반의 라벨 단어 집합 생성,"최효림, 황현선, 이창기 (강원대학교)",ocr,False,True,False,False,llm
+hclt2023-p692,2023,672,692,Prefix-Tuning 기반 Open-Ended Knowledge Tracing 모델 연구,"손수현, 강명훈 (고려대학교), 소아람 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,False,False,False,
+hclt2023-p697,2023,677,697,어체에 따른 초거대언어모델의 한국어 환각 현상 분석,"문현석, 어수경, 서재형 (고려대학교), 박찬준 (Upstage), 허윤아 (Human-inspired AI 연구소), 임희석",text,False,True,False,False,llm
+hclt2023-p703,2023,683,703,QA Pair Passage RAG 기반 LLM 한국어 챗봇 서비스,"신중민 (Human-inspired AI 연구소), 이재욱 (고려대학교), 김경민, 이태민 (Human-inspired AI 연구소),",text,False,True,False,False,"llm,rag,question_answering"
+hclt2023-p710,2023,690,710,검색 증강 LLM을 통한 한국어 질의응답,"서민택, 나승훈 (전북대학교), 임준호 (한국전자통신연구원), 김태형, 류휘정, 장두성 (KT)",text,False,True,False,False,"llm,rag,question_answering"
+hclt2023-p714,2023,694,714,Sparse Attention 모델을 활용한 효율적인 문맥 이해,허태훈 (한림대학교),text,False,False,False,False,
+hclt2023-p718,2023,698,718,영어 교육을 위한 거대 언어 모델 활용 말뭉치 확장 프레임워크,"정진우, 정상근(충남대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2023-p724,2023,704,724,KorSciDeBERTa: 한국어 과학기술 분야를 위한 DeBERTa 기반 사전학습 언어모델,"김성찬, 김경민, 김은희, 이민호, 이승우, 최명석 (KISTI)",text,False,True,False,False,"llm,evaluation"
+hclt2023-p727,2023,707,727,생성형 언어모델을 이용한 관계추출,"허정, 신종훈, 임수종, 권오욱 (한국전자통신연구원)",ocr,False,True,False,False,"llm,tool"
+hclt2023-p731,2023,711,731,한국어 중심의 토큰-프리 언어 이해-생성 모델 사전학습 연구,"신종훈, 허정, 류지희, 이기영, 서영애, 성진, 임수종 (한국전자통신연구원)",text,False,True,False,False,llm
+hclt2023-p736,2023,716,736,Bi-LSTM 보조 신경망 모델을 결합한 생성형 한국어 Inverse Text Normalization 모델,"조정제, 신동수, 조경빈, 한영섭, 전병기 (LG 유플러스)",ocr,False,True,False,False,llm
+hclt2023-p742,2023,722,742,Zero-shot learning 기반 대규모 언어 모델 한국어 품질 비교 분석,"허윤아, 소아람, 이태민, 신중민, 박정배, 박기남 (Human-inspired AI 연구소), 안성민(O2O), 임희석",text,False,True,False,False,"llm,translation"
+hclt2023-p746,2023,726,746,발화 내 페르소나 트리플 추출 방법 연구,"장윤나 (고려대학교), 양기수 (바이브컴퍼니), 허윤아 (Human-inspired AI 연구소), 임희석 (고려대학교)",text,False,True,False,False,llm
+hclt2024-p23,2024,3,23,[우수논문] 대규모 언어 모델의 지식 편집을 위한 지식 삭제 기반 접근법 연구,"정다현(고려대), 박찬준(업스테이지), 허윤아(Human-inspired AI 연구원), 임희석(고려대/Human-inspired AI",text,False,True,False,False,llm
+hclt2024-p28,2024,8,28,[우수논문] 관련성 게이트를 활용한 FiD 시스템의 패시지 선별 및 답변 생성 성능 향상,"최승호, 박시현, 김민상, 박찬솔, 왕준호, 김지윤, 김봉수(와이즈넛)",text,False,False,False,False,"rag,question_answering,evaluation"
+hclt2024-p35,2024,15,35,[우수논문] SelQ: 한국어 Instruction-tuned 모델의 선택적 양자화,"김민혁(고려대학교), Aiyanyo Imatitikua Danielle(Human-Inspired AI 연구소), 임희석(고려대학교)",text,False,True,False,False,llm
+hclt2024-p45,2024,25,45,복합 추론을 위한 한국어 중심의 소형 생성 언어모델 구축,"신종훈, 허정, 류지희, 임수종, 권오욱(ETRI)",text,False,True,False,False,llm
+hclt2024-p53,2024,33,53,Seq2Seq 모델 기반 문서 품질 개선 방법,"박찬솔, 최승호, 박시현, 김민상, 김지윤, 왕준호, 김봉수(와이즈넛)",text,False,True,False,False,"llm,rag,human"
+hclt2024-p59,2024,39,59,구조화된 플롯팅과 작가 페르소나를 활용한 언어모델의 장편 이야기 생성,"차수연(중앙대), 노영빈, 이승진((주)엔씨소프트)",text,False,True,False,False,"llm,human,evaluation"
+hclt2024-p65,2024,45,65,KONVERSE: 영어 음성을 한국어 텍스트로 번역하는 End-to-End 모델,"전용찬(고려대), 박찬준(Upstage), 김동준(고려대), 박정배(Human-Inspired AI 연구원), 임희석(고려대학교,",text,False,False,False,False,"translation,evaluation"
+hclt2024-p70,2024,50,70,이미지 생성모델을 활용한 한글 손글씨 생성 서비스,"조영원, Avinash Kumar, 양의종, 장진영, 김다은, 최재영(숭실대)",text,False,False,False,False,"multimodal,safety"
+hclt2024-p76,2024,56,76,준지도 학습을 통한 저비용의 노인 헬스 케어 보조용 음성 인식 모델 학습,"서현수, 최종은, 김한샘(연세대)",ocr,False,False,False,False,"tool,simulation,human"
+hclt2024-p89,2024,69,89,프롬프트 압축을 통한 대규모 언어모델의 장문 맥락 모델링,"안수민, 서홍석(고려대)",text,False,True,False,False,llm
+hclt2024-p93,2024,73,93,[우수논문] DCAE: 이중압축을 통한 검색 증강 생성의 효율화 및 성능 향상,"최형준, 나승훈(전북대학교)",text,False,True,False,False,"llm,rag,evaluation"
+hclt2024-p98,2024,78,98,지속학습을 위한 하드 네거티브 샘플링 기반 검색 모델 향상 기법,"김민상, 최승호, 박시현, 박찬솔, 왕준호, 김지윤, 김봉수(와이즈넛)",text,False,False,False,False,
+hclt2024-p104,2024,84,104,Preference 최적화에 기반한 대형 언어 모델의 암묵적 지식을 활용한 문서 Reranking,"박영준, 나승훈(전북대학교)",text,False,True,False,False,"llm,rag,reinforcement_learning,question_answering,safety"
+hclt2024-p109,2024,89,109,[우수논문] 대규모언어모델의 언어전이를 위한 X-Optimization 제안,"이정섭, 문현석(고려대), 이태민, 박기남(Human-inspired AI 연구소), 임희석(고려대, Human-inspired AI",text,False,True,False,False,"llm,reinforcement_learning,safety,evaluation"
+hclt2024-p114,2024,94,114,언어간 전이학습에서의 언어능력과 태스크능력 분석,"허정, 신종훈, 서영애, 임수종, 권오욱(ETRI)",text,False,False,False,False,"translation,evaluation"
+hclt2024-p121,2024,101,121,[우수논문] 초거대언어모델 토큰화 전략에 의한 한국어 불이익,"문현석(고려대학교), 소아람(Human-inspired AI), 임희석(고려대학교;Human-inspired AI)",text,False,True,False,False,llm
+hclt2024-p127,2024,107,127,감정 발화에 대응하는 LLM 생성 발화의 공감성 분석,"최혜지, 최규리, 강채안, 김민선, 안수빈, 김한샘(연세대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2024-p133,2024,113,133,[우수논문] 위험 요소가 포함된 유머를 활용한 LLM 안전성 평가,"강조은, 정가연, 김한샘(연세대학교)",text,False,True,False,False,"llm,human,safety,evaluation"
+hclt2024-p138,2024,118,138,질문 유형에 따른 검색 증강 생성의 질의응답 성능 분석,"이동건(POSTECH), 박아정(TmaxCoreAI), 이혜리(독립연구자), 남현서(KT), 맹윤호(이화여자대학교)",text,False,True,False,False,"llm,rag,question_answering,evaluation"
+hclt2024-p144,2024,124,144,언어모델과 검색기를 활용한 한국어 생성 문서의 사실성 평가 연구,"노지현, 김민호, 배경만(한국전자통신연구원)",text,False,True,False,False,"llm,translation,evaluation"
+hclt2024-p148,2024,128,148,[최우수논문] 부정형 텍스트와 거대언어모델의 새로운 환각 현상,"서재형(고려대학교), 소아람(Human-inspired AI 연구원), 임희석(고려대학교 / Human-inspired AI 연구원)",text,False,True,False,False,"llm,transformer,evaluation"
+hclt2024-p157,2024,137,157,피드백 가능한 이야기 다시 말하기 평가 시스템,"서희재, 이근배(포항공과대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2024-p163,2024,143,163,고품질 문서 생성을 위한 파인튜닝 및 디코딩 방법 연구,"고준용, 정훈(딥모달), 최정윤(미디어젠)",text,False,True,False,False,"llm,multimodal,fine_tuning"
+hclt2024-p167,2024,147,167,한국어 학습자를 위한 문법 오류 교정 및 피드백 시스템,"박태희, 이근배(포항공과대학교)",text,False,False,False,False,fine_tuning
+hclt2024-p173,2024,153,173,LLM 기반 질의 분해 모델 개선을 위한 향상된 세부 질의 후보 생성 방안,"심상진, 신재훈, 김세종, 한형동, 유승학, 김용범(네이버)",text,False,True,False,False,"llm,rag,human,evaluation"
+hclt2024-p179,2024,159,179,[우수논문] 평가 기준 자가 발굴을 통한 LLM 성능 평가 프롬프트 자동 개선,"김세종, 신재훈, 심상진, 한형동, 유승학, 김용범(네이버)",text,False,True,False,False,"llm,evaluation"
+hclt2024-p185,2024,165,185,OCR과 CoT 프롬프트를 결합한 한국어 이미지 캡셔닝,"홍민기, 윤영식, 박소현, 김지희(동국대학교)",text,False,False,False,False,multimodal
+hclt2024-p191,2024,171,191,생성형 AI 환각 탐지 및 완화를 위한 진실성 데이터셋 설계: 사전조사 결과,"신동혁, 정민영, 장진예, 신사임(한국전자기술연구원)",text,False,True,False,False,llm
+hclt2024-p197,2024,177,197,Narrative-to-Statutes Dataset: 한국 형사사건의 법조문 분류를 위한 데이터셋 제안,"양동일, 이수연, 김민진, 여진영(연세대학교)",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2024-p202,2024,182,202,초거대 언어 모델 기반 한국어 검색 벤치마크 구축 연구,"손준영(고려대학교), 장영준(Human-Inspired AI 연구소), 최순우, 이병구(온더아이티), 이태민(Human-Inspired",text,False,True,False,False,"llm,rag,evaluation"
+hclt2024-p207,2024,187,207,한국어 BART 와 BERT 모델을 이용한 질의응답쌍 생성 및 검증,"김승민, 이공주(충남대학교)",text,False,True,False,False,"llm,fine_tuning,question_answering"
+hclt2024-p211,2024,191,211,생성 기반 감정 반영 및 메모리 업데이트 : 장기 대화를 위한 KEEM 데이터셋 구축,"강정현, 김홍진, 김학수(건국대학교)",text,False,False,False,False,human
+hclt2024-p217,2024,197,217,TSKEB: 시간 정보를 고려한 지식 편집 평가를 위한 벤치마크,"이재욱, 정다현(고려대학교), 박기남(HIAI Research), 임희석(고려대학교, HIAI Research)",text,False,True,False,False,"llm,evaluation"
+hclt2024-p225,2024,205,225,자연어와 수치 정보 임베딩을 활용한 정형 데이터 예측 성능 향상,최진경(한양대학교),text,False,True,False,False,llm
+hclt2024-p231,2024,211,231,북한어-영어 번역을 위한 효율적인 임베딩 전이 방법론,"홍성태, 이승윤(고려대학교), 박정배(Human-inspired AI 연구원), 임희석(고려대학교, Human-inspired AI",text,False,True,False,False,"llm,translation"
+hclt2024-p237,2024,217,237,한국어 특화 대규모 언어모델을 위한 임베딩 전이,"이승윤, 홍성태(고려대학교), 박찬준(업스테이지), 박정배(Human-inspired AI 연구원), 임희석(고려대학교 /",text,False,True,False,False,"llm,safety"
+hclt2024-p243,2024,223,243,양방향 Chain of Thought 증류를 통한 SLM의 추론 능력 향상,"장준서, 김홍진, 김학수(건국대학교)",text,False,True,False,False,llm
+hclt2024-p248,2024,228,248,Coding Core: 거대 언어 모델의 코딩 능력 탐색,"김동준(고려대학교), 박찬준(Upstage), 전용찬(고려대학교), 박정배(Human-Inspired AI Research),",text,False,True,False,False,"llm,evaluation"
+hclt2024-p253,2024,233,253,한국어 멀티모달 감성 데이터를 활용한 결측 모달리티 문제 분석,"최한준, 신사임, 장진예(한국전자기술연구원)",text,False,False,False,False,multimodal
+hclt2024-p259,2024,239,259,KoE5: 한국어 임베딩 성능 향상을 위한 새로운 데이터셋 및 모델,"장영준(Human-Inspired AI 연구소), 손준영(고려대학교), 박찬준(업스테이지), 최순우, 이병구(온더아이티),",text,False,True,False,False,"llm,rag,question_answering,evaluation"
+hclt2024-p265,2024,245,265,[최우수논문] KR-HumanEval을 활용한 언어 모델의 한국어 프로그램 합성 성능 분석,"강덕영, 김태욱(한양대학교)",text,False,True,False,False,"llm,translation,evaluation"
+hclt2024-p271,2024,251,271,Hidden-Rad: 방사선 진단보고서의 숨겨진 인과관계 발견 데이터셋,"조유상, 한주혁, 채경민, 최기선(건양대학교)",text,False,False,False,False,"multimodal,evaluation"
+hclt2024-p276,2024,256,276,공공데이터를 활용한 한국어 검색 증강 생성 데이터셋 구축 및 평가,"전현규, 정민교,김광륜,김강열,박주혜(롯데이노베이트(주))",text,False,True,False,False,"llm,rag,human,evaluation"
+hclt2024-p281,2024,261,281,[우수논문] 과학기술정보 전문분야 한국어 벤치마크,"이민지, 육정훈, 이병호(국립한밭대학교), 임경태(서울과학기술대학교), 이경하(한국과학기술정보연구원),",text,False,True,False,False,"llm,evaluation"
+hclt2024-p287,2024,267,287,Out-of-Distribution 탐지와 클러스터링을 활용한 자연어 추론 학습데이터 생성 규칙 발굴,"한주영, 이창기(강원대학교)",text,False,True,False,False,llm
+hclt2024-p295,2024,275,295,Sparse RAG를 활용한 Document-Grounded Dialogue Systems,"최낙현(전북대학교), 서대룡, 전동현, 강인호(네이버), 나승훈(전북대학교)",text,False,True,False,False,"llm,rag,evaluation"
+hclt2024-p300,2024,280,300,LLM을 활용한 한국어 학습자 대상 추론적 읽기 문제 자동 생성 시스템,"임성원, 류법모(부산외국어대학교)",ocr,False,True,False,False,"llm,evaluation"
+hclt2024-p306,2024,286,306,한국어 맞춤법 교정을 위한 소형 언어 모델 실험적 연구: 한국어 뉴스 기사의 문법 오류를 중심으로,"류하경, 안효준, 최성필(경기대학교)",text,False,True,False,False,"llm,tool,safety"
+hclt2024-p312,2024,292,312,병렬 코퍼스를 활용한 남-북한 기계 번역 및 분석,"전혜선, 이찬주(한동대학교), 최현규(한국과학기술정보원), 홍참길(한동대학교)",text,False,False,False,False,"translation,evaluation"
+hclt2024-p318,2024,298,318,대규모 언어모델을 활용한 수학 교과 유형 및 문제 생성 프레임워크,"정지수, 정상근(충남대학교)",text,False,True,False,False,"llm,rag,question_answering,human,evaluation"
+hclt2024-p324,2024,304,324,한국어 광학 문자 인식 후보정 데이터 세트 구축 및 KoBART 기반 후보정 연구,"허인범, 황태욱, 정상근(충남대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2024-p333,2024,313,333,KBS한국어능력시험을 통한 언어모델의 한국어 사용능력 측정 및 분석,"장윤나, 양기수(고려대학교),박기남(Human-inspired AI 연구원),임희석(고려대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2024-p339,2024,319,339,AI의 남북 관계 이해도 평가,"최규리, 정가연, 최혜지, 안수빈, 김민선, 강채안, 김한샘(연세대학교)",text,False,True,False,False,"llm,simulation,evaluation"
+hclt2024-p345,2024,325,345,공감 대화 생성에서 대규모 언어 모델의 한국 문화 이해도 평가,"심유진, 이우진, 김홍진, 김학수(건국대학교)",text,True,True,True,True,"llm,simulation,human,evaluation"
+hclt2024-p355,2024,335,355,상호 참조 데이터 세트를 활용한 GPT-4의 다면적 한국어 성능 평가,"송영숙(Sionic AI), 강아름(충남대학교)",text,False,True,False,False,"llm,tool,evaluation"
+hclt2024-p360,2024,340,360,대규모 생성형 언어 모델의 한국어 대화 상태 추적 성능 평가,"최재웅(울산대학교), 이요한, 황금하(한국전자통신연구원)",text,False,True,False,False,"llm,human,evaluation"
+hclt2024-p367,2024,347,367,Mamba-Mini: 한국어 Mamba 모델의 지식 증류,"이승호(전북대학교), 서대룡, 전동현, 강인호(네이버), 나승훈(전북대학교)",text,False,False,False,False,evaluation
+hclt2024-p373,2024,353,373,형태소 토큰 기반 검색을 이용한 오픈 도메인 질의 응답,"정세진, 나승훈(전북대학교), 김태형, 류휘정, 장두성(KT)",text,False,False,False,False,"rag,question_answering,human"
+hclt2024-p378,2024,358,378,신뢰성과 투명성을 위한 Pointer Network 기반 근거 문장 추론 방법,"한규빈, 장영진, 김학수(건국대학교)",text,False,True,False,False,"llm,human"
+hclt2024-p384,2024,364,384,DOWA: 문서 및 단어 층위의 이중 레이블링을 통한 검색 증강 생성 평가 방법론,"박찬희(Human-inspired AI 연구원), 박찬준(업스테이지), Aiyanyo Imatitikua Danielle (Human-inspired AI",text,False,False,False,False,"rag,question_answering,human,evaluation"
+hclt2024-p390,2024,370,390,대규모 언어 모델의 비윤리적 프롬프트 대응 전략 검출 및 분석,김산(한국전자기술연구원),text,False,True,False,False,"llm,human,safety"
+hclt2024-p400,2024,380,400,한국어 언어 모델 학습에서 Pause Token의 적용,"오정환, 나승훈(전북대학교)",text,False,True,False,False,"llm,fine_tuning,tool,evaluation"
+hclt2024-p409,2024,389,409,엔티티 기반 추론을 통한 거대 언어 모델의 한국어 질의응답 능력 연구,"구선민, 김진성(고려대학교), 박찬준(업스테이지), 박기남(Human-inspired AI 연구원), 임희석(고려대학교)",text,False,True,False,False,"llm,rag,question_answering"
+hclt2024-p415,2024,395,415,질의 변형에 따른 거대 언어모델의 한국어 질의응답 능력 연구,"김진성, 구선민(고려대학교), 박기남(Human-inspired AI 연구원), 임희석(고려대학교)",text,False,True,False,False,"llm,question_answering,human,evaluation"
+hclt2024-p421,2024,401,421,연쇄적인 프롬프팅을 통한 문맥 기반 기계번역,"이민재(고려대학교), 노영빈, 이승진((주)엔씨소프트)",text,False,True,False,False,"llm,translation"
+hclt2024-p427,2024,407,427,[우수논문] 감정 자극을 활용한 거대 언어 모델의 창의성 향상,"김재현, 정근영, 김학수(건국대학교)",text,False,True,False,False,"llm,multimodal,human,evaluation"
+hclt2024-p433,2024,413,433,[우수논문] OCR 한글 인식 오류 교정을 위한 프롬프트 기법 연구 - 텍스트 손상 복원에서의 성능 개선을 중심으로,"박수현, 이효진, 최성필(경기대학교 문헌정보학과)",ocr,False,True,False,False,"llm,multimodal"
+hclt2024-p439,2024,419,439,RAG 기반 한국어 뉴스기사 질의응답 및 팩트체크 시스템,"이서영, 최성필(경기대학교)",text,False,True,False,False,"llm,rag,question_answering,evaluation"
+hclt2024-p447,2024,427,447,MoA-COMM: Mixture-of-Agents에 기반한 협력형 다중 에이전트 및 다중 추론 경로 Prompting 통합,"조주민, 나승훈(전북대학교), 김태형, 류휘정, 장두성(KT)",text,True,True,True,True,"llm,evaluation"
+hclt2024-p453,2024,433,453,Mixture of Models: 거대 언어모델 기반 효과적 도메인 전문가 앙상블 기법 연구,"심규호, 어수경, 홍성태, 김진성(고려대학교), 전상윤, 김훈동(KT), 임희석(고려대학교 컴퓨터학과 /",text,False,True,False,False,"llm,evaluation"
+hclt2024-p459,2024,439,459,효율적인 거대 언어모델 앙상블을 위한 점진적 기법,"어수경(고려대학교), 박찬준(업스테이지), 허윤아(Human-inspired AI 연구원), 임희석(고려대학교 /",text,False,True,False,False,llm
+hclt2024-p465,2024,445,465,Contrastive CAD: 대형 언어 모델의 환각 완화를 위한 대조적 Context-Aware Decoding,"장규식, 나승훈(전북대학교), 김태형, 류휘정, 장두성(KT)",text,False,True,False,False,"llm,question_answering,translation"
+hclt2024-p471,2024,451,471,질의 확장에 기반한 대규모 언어 모델의 점진적 추론 능력 향상,"이정, 윤준호(전북대학교), 서대룡, 전동현, 강인호(네이버), 나승훈(전북대학교)",text,False,True,False,False,"llm,rag,question_answering,evaluation"
+hclt2024-p479,2024,459,479,생성 확률 기반 신뢰도 측정 연구,"정훈(딥모달), 최정윤(미디어젠), 김민서, 고준용(딥모달), 신호(공정거래위원회)",text,False,True,False,False,llm
+hclt2024-p483,2024,463,483,[우수논문] 생성형 검색 시스템의 자동 결함 판단,"신재훈, 김세종, 심상진, 한형동, 임경태, 송수민, 유승학, 김용범(네이버)",text,False,True,False,False,"llm,rag,evaluation"
+hclt2024-p489,2024,469,489,계층적 텍스트 분류를 활용한 대규모 법령 조문 분류 연구,"조경우, 임상훈, 김경민, 오흥선(KOREATECH)",text,False,False,False,False,evaluation
+hclt2024-p494,2024,474,494,대화 상태 분석을 통한 대화 연속성 판별 및 다중 의도 식별,"박시현, 김민상, 박찬솔, 최승호, 김지윤, 왕준호, 김봉수(와이즈넛)",text,False,False,False,False,
+hclt2024-p500,2024,480,500,초거대 언어모델을 활용한 교육 도메인의 구조적 정보 추출,"강명훈(고려대학교), 홍진표(생코에듀(주)), 허윤아(Human-inspired AI 연구원), 임희석(고려대학교 /",text,False,True,False,False,"llm,human,evaluation"
+hclt2024-p506,2024,486,506,의미 구조 유사도 기반 예제 선택을 활용한 In-context Learning 기반 한국어 의미역 결정,"황현선, 정영준, 이창기(강원대학교)",text,False,True,False,False,llm
+hclt2024-p515,2024,495,515,모두의 말뭉치를 위한 용례 검색기의 설계 및 구현,"전승진(동국대학교), 이상곤(전주대학교)",text,False,False,False,False,safety
+hclt2024-p521,2024,501,521,대학논술문항을 활용한 거대언어모델의 한국어 서술형 평가,"노성훈, 김주애(한국외국어대학교), 조한서",text,False,True,False,False,"llm,translation,human,evaluation"
+hclt2024-p525,2024,505,525,구구조 문법 기반 한국어 파싱: 규칙성과 불규칙성의 구별을 중심으로,"이효은, 계은진, 최재원, 안민경, 김경희, 임은숙, 채희락(한국외국어대학교)",text,False,False,False,False,human
+hclt2024-p531,2024,511,531,멀티모달 데이터를 활용한 거대언어모델 기반 수학 문제 해결,"김민주, 김태현(숙명여자대학교), 임준호(튜터러스랩스), 박수현(숙명여자대학교)",text,False,True,False,False,"llm,multimodal"
+hclt2024-p535,2024,515,535,한국어 그림 기반 문장 생성 성능 향상을 위한 대규모 비전-언어 모델 비교 연구,"백상원 , 윤도균 , 박우명 (사이오닉 에이아이)",text,False,True,False,False,"llm,transformer,multimodal,fine_tuning,simulation,evaluation"
+hclt2024-p539,2024,519,539,문서 간 상호보완성을 활용한 마스킹 오토인코더 기반 밀집 검색 모델 사전학습의 개선,"강동찬(전북대학교), 류지희, 임수종, 권오욱(ETRI), 나승훈(전북대학교)",text,False,False,False,False,
+hclt2024-p543,2024,523,543,한국 패션 도메인 합성 데이터 구축,"정헌영(디자이노블), 신기영(한양대학교)",text,False,False,False,False,"multimodal,safety,evaluation"
+hclt2024-p546,2024,526,546,ECG 텍스트 데이터 기반 CE 및 Non-CE 분류,"김수연, 김철호, 김유섭(한림대학교)",text,False,False,False,False,
+hclt2024-p550,2024,530,550,대규모 언어 모델을 활용한 최적화된 교육용 플랫폼 개발,"김규민, 길상현, 안승빈, 이민주, 김유섭(한림대학교)",text,False,True,False,False,"llm,rag,tool,human"
+hclt2024-p556,2024,536,556,KULLM을 활용한 중학교 정보 교과 디지털 교과서용 AI 튜터 개발,"김예현, 조정원, 조재춘(제주대학교)",text,False,True,False,False,"llm,rag,tool,evaluation"
+hclt2024-p560,2024,540,560,검색 증강 생성 방식을 이용한 PICO 추출 방법론에 대한 연구,"편고운, 강현석, 정상근(충남대학교)",text,False,True,False,False,"llm,rag"
+hclt2024-p567,2024,547,567,멀티모달 우울증 상담 대화 시스템,"박연수, 강석훈(POSTECH), 김윤수(aiXplain), 이근배(POSTECH)",text,False,False,False,False,"multimodal,evaluation"
+hclt2024-p575,2024,555,575,소형 LLM을 활용한 각 도메인별 평가 데이터를 이용한 표 질의응답 일반화 성능 평가,"조상현(부산대학교), 정민수, 이정훈(동의대학교), 권혁철(부산대학교)",text,False,True,False,False,"llm,question_answering,evaluation"
+hclt2024-p580,2024,560,580,감정적 타당화 이론을 기반으로 하는 대규모 언어 모델의 공감 발화 생성 능력 향상,"손수현(고려대학교), 임정우(삼성전자), 강명훈, 홍성태(고려대학교), 허윤아, 소아람(Human-inspired AI",text,True,True,True,True,"llm,simulation,human,evaluation"
+hclt2024-p586,2024,566,586,대규모 언어모델을 활용한 지식기반 대화 환각 현상 자동 평가,"강준영, 김자경, 이은송, 김성은, 오동석(경북대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2024-p590,2024,570,590,경량화 언어 모델의 독해 능력 향상을 위한 데이터 세트 구축 방법,"박은아(고려대학교), 남충현(주식회사 메이식스), 장경식(한국기술교육대학교)",text,False,True,False,False,"llm,rag,fine_tuning"
+hclt2024-p596,2024,576,596,한정성과 상호참조해결의 만남: 딥러닝 언어모델의 활용,"강아름(충남대학교), 송영숙((주) 사이오닉 에이아이)",text,False,True,False,False,"llm,physical"
+hclt2024-p601,2024,581,601,학술 연구 문헌 초록에서의 사회문제-해결방안 추출을 위한 SLLM 기반 반자동 데이터셋 구축에 관한 연구,"안효준(경기대학교),  신현호, 전홍우, 이재민(한국과학기술정보연구원), 최성필(경기대학교)",text,False,True,False,False,"llm,transformer,fine_tuning,tool,simulation"
+hclt2024-p607,2024,587,607,데이터 증강과 Few-shot Prompting을 이용한 LLM 기반 테이블 데이터 추론,"이정우, 홍민기, 이은수, 김지희(동국대학교)",text,False,True,False,False,"llm,fine_tuning,tabular"
+hclt2024-p610,2024,590,610,Locate-Then-Edit 지식 편집 방법에서의 지식 망각 문제 분석,"염시형, 이성희, 박성식, 김학수(건국대학교)",text,False,True,False,False,llm
+hclt2024-p615,2024,595,615,국가적 인공지능 데이터 플랫폼 발전 모델 비교 연구: 한·중·일 사례분석 중심으로,"비립, 윤영민, 박서윤, 김한샘(연세대학교)",text,False,True,False,False,llm
+hclt2024-p628,2024,608,628,생활기록부 작성지원을 위한 언어모델 미세조정의 편향성 완화 방안,"박재완(테디썸), 신동재, 최창수(서울과학기술대학교), 류승찬(와투비에듀), 심규진(창원대학교)",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2024-p632,2024,612,632,감성 분석을 위한 부분 벡터 선택 방법,"김태영, 신형진, 이재성(충북대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2024-p637,2024,617,637,[AI말평 우수논문] 한국어 이미지 캡셔닝 향상을 위한 유창성 개선 모듈,"유용상, 이기훈, 임형준(롯데이노베이트)",text,False,True,False,False,"llm,multimodal"
+hclt2024-p643,2024,623,643,[AI말평 우수논문] Tabular-TX: In-Context Learning을 통한 주제-설명 구조 기반 표 요약,"곽태윤, 김지수, 정기용(성균관대학교), 이동건(포항공과대학교), 박희선(성균관대학교)",text,False,True,False,False,"llm,fine_tuning,tabular,question_answering"
+hclt2024-p649,2024,629,649,[AI말평 우수논문] 프롬프팅과 미세 조정 모델의 의미적 앙상블을 활용한 한국어 Table-to-Text 성능 향상,"강어진, 홍은진, 김이서, 김주애(한국외국어대학교)",text,False,True,False,False,"llm,fine_tuning,tabular"
+hclt2024-p655,2024,635,655,[AI말평 최우수논문] 한국어 표 설명 능력 향상을 위한 전처리 및 학습 방법론 탐구,"김창현, 김승희, 김태욱(한양대학교)",text,False,True,False,False,"llm,tabular,human"
+hclt2025-p23,2025,3,23,초거대 언어모델의 화용 능력에 관한 고찰,"어수경(고려대학교), 허윤아(Human-Inspired AI 연구원), 임희석(고려대학교 / Human-Inspired AI 연구원)",text,True,True,True,True,"llm,human,evaluation"
+hclt2025-p28,2025,8,28,[우수논문] 모델 병합 기반 다중 지식 편집 프레임워크: 간섭 완화와 성능 붕괴 방지,"박건, 선주오, 이성희, 김학수(건국대학교)",text,False,True,False,False,llm
+hclt2025-p34,2025,14,34,대형 언어 모델의 계층 절단을 통한 효율적 텍스트 임베딩,"윤정호(고려대학교), 소아람(Human-Inspired AI 연구원), 임희석(고려대학교 / Human-Inspired AI 연구원)",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2025-p39,2025,19,39,GRPO 기반 다중 보상 강화학습을 통한 텍스트 단순화에서의 가독성-사실성 상충관계 완화,"최연석, 김슬기, 김학수(건국대학교)",text,False,False,False,False,"reinforcement_learning,evaluation"
+hclt2025-p45,2025,25,45,정서적 지지 대화에서 대규모 언어모델의 사용자 경험 중심 평가 프레임워크,"손수현, 구선민, 지하윤(고려대학교), 박정배(Human-Inspired AI 연구원), 임희석(고려대학교,",text,False,True,False,False,"llm,tool,human,evaluation"
+hclt2025-p51,2025,31,51,한국어 대형 언어 모델의 부적절 발화 탐지를 위한 뉴런 식별 및 제어 기법,"김수민, 김슬기, 김학수(건국대학교)",text,False,True,False,False,"llm,fine_tuning"
+hclt2025-p59,2025,39,59,[우수논문] 베이즈 추론을 통한 RAG 기반 팩트 체크 모델의 데이터 활용 최적화,"백성규(고려대학교), 박찬준(숭실대학교), 임희석(고려대학교, Human-inspired AI 연구원)",ocr,False,True,False,False,"llm,rag,multimodal,simulation,human"
+hclt2025-p65,2025,45,65,다중 에이전트 기반 문서 단순화 프레임워크,"정지민, 김명진, 서재형(고려대학교), 박기남(Human-Inspired AI 연구원),",text,True,True,True,True,llm
+hclt2025-p71,2025,51,71,G-HRM: 바이오메디컬 KGQA를 위한 계층적 다중경로 추론 에이전트,"강혜란(건국대학교), 이우진(ETRI), 한미래, 김학수(건국대학교)",text,True,True,True,True,"llm,question_answering,human"
+hclt2025-p77,2025,57,77,PreRanker: LLM 에이전트의 도구 선택 능력 강화를 위한 리랭킹 모델,"홍성태, 장영준(고려대학교), 박정배(Human-Inspired AI 연구원), 임희석(고려대학교/Human-Inspired AI",text,True,True,True,True,"llm,tool,human,evaluation"
+hclt2025-p83,2025,63,83,한국어 멀티모달 뉴스 입장 탐지: 시각 정보의 효과,"이다현(숭실대학교), 한지영(KAIST), 박건우(숭실대학교)",text,False,True,False,False,"llm,multimodal,simulation"
+hclt2025-p89,2025,69,89,다중 에이전트 협업을 활용한 한국 법률 정보 검색 정확도 향상,"정다현, 전용찬, 지하윤(고려대학교), 허윤아(Human-Inspired AI 연구원), 임희석(고려대학교 /",text,True,True,True,True,"llm,rag,question_answering"
+hclt2025-p97,2025,77,97,추론형 초거대언어모델과 스키마연결 기법을 활용한 데이터베이스 검색증강생성 시스템,"강명훈, 손준영, 박찬희(고려대학교), 소아람(Human-Inspired AI 연구원), 임희석(고려대학교 /",text,False,True,False,False,"llm,rag,multimodal,tabular"
+hclt2025-p103,2025,83,103,KULLM-R: 효율적인 한국어 특화 추론 모델,"이승윤, 김동준, 김민혁, 심규호(고려대학교), 박찬준(숭실대학교), 소아람(Human-Inspired AI",text,True,True,True,True,"llm,reinforcement_learning,human"
+hclt2025-p109,2025,89,109,Steering Vector를 통한 거대 언어 모델의 추론 능력 강화,"심규호, 김동준(고려대학교), 박찬준(숭실대학교), 소아람(Human-Inspired AI 연구원),",text,False,True,False,False,"llm,fine_tuning"
+hclt2025-p114,2025,94,114,CoLAB: 영어 지식 전이를 통한 한국어 능력 강화,"김민규, 남예린, 김민준(서울과학기술대학교), 임경태(한국과학기술원)",text,False,True,False,False,"llm,safety,evaluation"
+hclt2025-p120,2025,100,120,대형 언어 모델의 추론 능력 향상을 위한 토큰 신뢰도 기반 자기 일관성 방법론,"윤태웅, 정근영, 김학수(건국대학교)",text,False,True,False,False,"llm,question_answering"
+hclt2025-p125,2025,105,125,한글 자모 단위 오타 공격을 통한 거대 언어 모델의 오타 강건성 분석,"김재현, 정근영, 김학수(건국대학교)",text,False,True,False,False,"llm,human,safety,evaluation"
+hclt2025-p133,2025,113,133,HINT: Scheming 억제를 위한 Sparse AutoEncoder 기반 Feature Steering,"김동준(고려대학교), 박찬준(숭실대학교), 허윤아(Human-inspired AI 연구원),",text,False,True,False,False,"llm,multimodal,question_answering,human,safety"
+hclt2025-p138,2025,118,138,대화 상황에서 거대 언어 모델의 페르소나 갱신 능력 검증 연구,"구선민, 김진성(고려대학교), 박기남(Human-Inspired AI 연구원), 임희석(고려대학교 / Human-Inspired AI",text,False,True,False,False,"llm,human,evaluation"
+hclt2025-p144,2025,124,144,UKoSpeech: 다양한 도메인을 위한 범용 한국어 음성인식 시스템,"전용찬, 문현석(고려대학교), 박정배, 임희석(고려대학교, Human-Inspired AI 연구원)",text,False,False,False,False,evaluation
+hclt2025-p149,2025,129,149,KURE: 한국어 검색에 특화된 임베딩 모델,"장영준, 손준영(고려대학교), 이태민(Human-Inspired AI 연구원), 홍성태(고려대학교),",text,False,False,False,False,"rag,evaluation"
+hclt2025-p155,2025,135,155,[최우수논문] KULLM-RAG: 지능형 자가 검증 기반 RAG 특화 대규모 언어 모델,"이정섭, 김민혁, 윤정호, 홍성태, 장영준, 이승윤, 서재형(고려대학교), 박찬준(숭실대학교),",text,False,True,False,False,"llm,rag,question_answering,human,evaluation"
+hclt2025-p161,2025,141,161,모델 병합 기법을 활용한 수학 튜터링 모델 구축,"선주오, 박건, 송지우, 김학수(건국대학교)",text,False,True,False,False,llm
+hclt2025-p169,2025,149,169,시나리오 전이를 활용한 전자상거래 환경에서의 협상 대화 데이터 증강,"김진성, 구선민(고려대학교), 박기남(Human-Inspired AI 연구원), 임희석(고려대학교",text,True,True,True,True,llm
+hclt2025-p175,2025,155,175,대규모 언어모델의 한국적 가치관과 편향에 대한 분석,"지하윤, 어수경(고려대학교), 박기남(Human-Inspired AI 연구원),",text,False,True,False,False,"llm,multimodal,translation,simulation,human"
+hclt2025-p181,2025,161,181,Ko-MIRAGE: 한국어 검색 증강 생성 모델의 심층 평가를 위한 벤치마크,"박찬희(고려대학교), 허윤아(Human-inspired AI 연구원), 임희석(고려대학교, Human-inspired AI 연구원)",text,False,True,False,False,"llm,rag,question_answering,human,evaluation"
+hclt2025-p187,2025,167,187,[COLING 2022 특별 논문] 학생 이해 상태 기반 수학 튜터링 데이터셋 구축,"송지우, 선주오, 박건, 김학수(건국대학교)",text,True,False,False,True,"human,evaluation"
+hclt2025-p193,2025,173,193,AI 안전성 정렬 데이터셋 설계 및 학습 전략 연구,"강조은, 강채안, 김희재, 왕소남, 김한샘(연세대학교)",text,False,True,False,False,"llm,multimodal,reinforcement_learning,safety"
+hclt2025-p199,2025,179,199,보이스피싱 탐지 모델 평가를 위한 벤치마크 데이터셋 설계 연구,"강조은, 최규리, 최혜지(연세대학교), 윤찬혁, 정용빈, 함영균(테디썸), 김한샘(연세대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2025-p207,2025,187,207,사전학습된 Bi-RWKV 모델,"조경빈, 이동혁, 박정연, 이재성(충북대학교)",text,False,True,False,False,llm
+hclt2025-p211,2025,191,211,수식 OCR 환각 현상 정의 및 VLM 환각 분석 프레임워크,"이성준, 황태욱, 정상근(충남대학교 인공지능학과)",text,False,True,False,False,"llm,multimodal,evaluation"
+hclt2025-p217,2025,197,217,정서지능 기반 LLM 학습전략 추천시스템: EFL 학습자를 위한 맞춤형 전략 연구,"김성은(부산외국어대학교), 이만유, 이승호, 오동석(경북대학교)",text,True,True,True,True,"llm,evaluation"
+hclt2025-p221,2025,201,221,[COLING 2022 특별 논문] 다중 에이전트 성찰 패턴의 반복이 개체명 인식 문제에 미치는 영향 분석,"편고운, 강현석, 정상근(충남대학교)",text,True,True,True,True,"llm,evaluation"
+hclt2025-p227,2025,207,227,온프레미스환경 LLM 머메이드 다이어그램 코드 해석능력 연구,"추건호, 최종천(LIG System)",text,False,True,False,False,"llm,multimodal,evaluation"
+hclt2025-p233,2025,213,233,욕망의 사슬: 긴 이야기 생성을 위한 서사 추론 프레임워크,"조수아, 문경민, 정민경, 박세영, 이승진(NC AI)",text,False,True,False,False,"llm,robotics,evaluation,physical"
+hclt2025-p241,2025,221,241,자동 음성 인식 오류에 강인한 한국어 말하기 채점 모델,"곽건영(포항공과대학교), 이근배(포항공과대학교 인공지능대학원)",text,False,False,False,False,"simulation,human,safety"
+hclt2025-p247,2025,227,247,한국어 sLLM 기반 말하기 문제 자동 생성 및 적합성 평가 파이프라인,"서준, 황선정(포항공과대학교), 이근배(포항공과대학교 인공지능대학원/컴퓨터공학과)",text,False,True,False,False,"llm,evaluation"
+hclt2025-p253,2025,233,253,고정점 집합을 활용한 비참조 기계번역 평가 기법,조찬우(부산대학교),text,False,True,False,False,"llm,translation,evaluation"
+hclt2025-p257,2025,237,257,대규모 언어 모델을 활용한 통합 추론 및 신뢰도 조정 방법,"신승민, 김대건, 이웅기, 김광륜, 최일호, 이기훈, 전봉지(롯데이노베이트)",text,False,True,False,False,"llm,safety"
+hclt2025-p269,2025,249,269,한국어 인터넷 밈 데이터셋 구축 방법과 LLM의 인간적 대화 능력 평가,"유용상(롯데이노베이트, HuggingFace KREW), 김하림(GS네오텍, HuggingFace KREW),",text,False,True,False,False,"llm,human,evaluation"
+hclt2025-p277,2025,257,277,[우수논문] Multi Agent System을 활용한 제안서 요약,"고동혁, 정인재, 노동원(국립한밭대학교), 도수종(LG AI 연구원),",text,True,True,True,True,"llm,evaluation"
+hclt2025-p283,2025,263,283,대규모 언어모델은 학생 수준별 영어 발화를 만들수 있는가? : 영어 교과서 데이터 중심 사례 분석,"한예림, 남궁혁, 정상근(충남대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2025-p289,2025,269,289,가이던스 기반 이중 에이전트 프레임워크를 통한 실시간 검색 성능 향상,"김민상, 박찬솔, 최승호, 박시현, 김봉수(와이즈넛)",text,True,False,False,True,"rag,question_answering,evaluation"
+hclt2025-p295,2025,275,295,SLM 기반 Agentic AI: Planner–Caller–Generator 설계와 평가,"홍민지, 전창현, 박진희, 최정우, 김건우, 김지수(한글과컴퓨터)",text,True,True,True,True,"llm,tool,safety,evaluation"
+hclt2025-p301,2025,281,301,시계열 데이터 속성 자동 선정 기법을 사용한 에이전트형 검색증강생성 프레임워크,"김봉수, 최승호, 박시현, 김민상, 박찬솔, 양재석(와이즈넛)",text,True,True,True,True,"llm,rag,robotics,fine_tuning,evaluation,physical"
+hclt2025-p307,2025,287,307,LLM 기반 e-커머스 구매협상 AI 에이전트의 상품 속성 분류 체계 다차원화 연구: 2차원에서 3차원으로의 확장을 중심으로,"안성민, 박동길, 이은찬, 오우석, 윤태건((주)에이아이오투오)",text,True,True,True,True,"llm,simulation,human,evaluation"
+hclt2025-p315,2025,295,315,[우수논문] 한국어 대규모 언어모델의 수학 문제 풀이 능력 향상을 위한 한국적 수학 말뭉치 합성,"이동건(포항공과대학교), 백지수, 박원재(KT), 유환조(포항공과대학교)",text,False,True,False,False,"llm,fine_tuning,translation,evaluation"
+hclt2025-p321,2025,301,321,이종 그래프 기반 구조적 정보 활용과 문맥적 정렬을 통한 다중 레이블 텍스트 분류,"정수환(고등기술연구원), 박종민(충남대학교), 김준영(고등기술연구원), 윤수식(고려대학교),",text,False,False,False,False,safety
+hclt2025-p327,2025,307,327,의미 기반 스키마 및 도메인 지식을 활용한 비정형 수산물 인보이스 정보 추출 시스템,"전문기, 임성원, 류법모(부산외국어대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2025-p333,2025,313,333,효율적 셀프 어텐션을 위한 토큰 수준 엔트로피 기반 동적 윈도우 조정,"이승호, 이만유(경북대학교), 김성은(부산외국어대학교), 오동석(경북대학교)",text,False,False,False,False,transformer
+hclt2025-p337,2025,317,337,BERT 기반 기업 뉴스 감성 분석을 위한 데이터 처리 방법 비교 연구,"이성현, 최윤성(한동대), 류재훈, 문영술(오토오 모니터), 홍참길(한동대)",text,False,True,False,False,llm
+hclt2025-p343,2025,323,343,합성 대화 데이터 기반 자살 충동 실시간 조기 탐지,"양성준, 이근배(포항공과대학교)",text,False,True,False,False,"llm,simulation,human"
+hclt2025-p351,2025,331,351,자동차 클레임 요소 예측을 위한 단어 임베딩 기반 웹 모니터링 시스템,"정민수(동의대학교), 심용보(현대자동차), 이정훈(국립한국해양대학교)",text,False,True,False,False,"llm,multimodal,human,evaluation"
+hclt2025-p357,2025,337,357,검색 증강 생성을 활용한 특허 거절 대응 청구항 보정 자동화 프레임워크 연구,"최윤성, 이성현, 이상호, 홍참길(한동대학교)",text,False,True,False,False,"llm,rag,human"
+hclt2025-p363,2025,343,363,NetConfigQA: 네트워크 설정 해석 능력 평가를 위한 질의응답 데이터셋,"박유진, 진경은(국립한밭대학교), 박찬진, 김기현(한국과학기술정보연구원),",text,False,True,False,False,"llm,question_answering,evaluation"
+hclt2025-p368,2025,348,368,[우수논문] LLM Workflow를 활용한 경로 계획,"전승재, 박천음(국립한밭대학교)",text,False,True,False,False,llm
+hclt2025-p373,2025,353,373,RRF와 연결형 청킹을 통한 RAG 시스템의 효율성 최적화,"김현수, 하태빈, 박호진, 안영민(아이브릭스)",ocr,False,False,False,False,rag
+hclt2025-p379,2025,359,379,검증-보강 하이브리드 대화 요약: 주제 분할과 키포인트 커버리지 제어,"정호준, 강상우(가천대학교)",text,False,True,False,False,llm
+hclt2025-p387,2025,367,387,다국어 혼합 문서 환경에서 한글 인식 성능 향상을 위한 오픈소스 OCR 기반 미세 조정에 관한 실험적 연구,"전정운, 정선기, 최성필(경기대학교)",text,False,True,False,False,"llm,multimodal,fine_tuning,evaluation"
+hclt2025-p393,2025,373,393,LED: 문서 구조 이해를 위한 레이아웃 오류 검출 벤치마크,"허인범, 황태욱, 정지수, 정상근(충남대학교)",text,False,True,False,False,"llm,multimodal,evaluation"
+hclt2025-p399,2025,379,399,문화 특수적 요소를 고려한 한국어 복합 지시문 벤치마크,"오유림, 진현, 송현제(전북대학교)",text,False,True,False,False,"llm,translation,evaluation"
+hclt2025-p405,2025,385,405,주체적 관점의 한국어 언어 모델 평가를 위한 벤치마크 구축 방안 연구,"신동혁, 이지미, 노영록, 신사임, 장진예(한국전자기술연구원)",text,False,True,False,False,"llm,simulation,evaluation"
+hclt2025-p409,2025,389,409,상태 일관성을 반영한 연쇄적 도구 호출 기반 대화 데이터 구축 벤치마크,"성수진, 김산, 임영서, 신사임(한국전자기술연구원)",text,True,True,True,True,"llm,tool,simulation,human,evaluation"
+hclt2025-p415,2025,395,415,대규모 언어 모델의 RAG QA 적용 성능 평가를 위한 요구사항 기반 기능 단위 벤치마크,"박찬솔, 최승호, 박시현, 김민상, 김봉수(와이즈넛)",text,True,True,True,True,"llm,rag,question_answering,tool,evaluation"
+hclt2025-p423,2025,403,423,[우수논문] 거대언어모델의 한국어 뉴런 역할 탐구 및 분석,"김홍진, 신종훈, 임수종, 권오욱(한국전자통신연구원)",text,False,True,False,False,llm
+hclt2025-p429,2025,409,429,전문적 도메인 텍스트에서의 한국어 문맥적 오류 수정을 위한 유의어 대체 작업,"유승욱, 박근형, 김영빈(중앙대학교)",text,False,True,False,False,llm
+hclt2025-p435,2025,415,435,GRPO 기반 생성 및 Hybrid 리랭킹을 통한 텍스트 생성의 다양성-품질 공동 최적화,"박소언, 최성민, 김균엽, 김주형, 강상우(가천대학교)",text,False,False,False,False,reinforcement_learning
+hclt2025-p440,2025,420,440,LLM의 학습 성능 향상을 위한 레이어 벡터 간 유사도 기반 내재 지식 탐지 기법,"박시현, 김민상, 박찬솔, 최승호, 김봉수(와이즈넛)",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2025-p447,2025,427,447,[우수논문] 언어 모델에서 페르소나 벡터의 언어 간 전이,"정영준, 황현선, 이창기(강원대학교)",text,False,True,False,False,llm
+hclt2025-p452,2025,432,452,임베딩 기반 클러스터링을 통한 대규모 언어모델 프롬프트 최적화와 추론 효율화,"김태우, 김경민(제주대학교)",text,False,True,False,False,"llm,fine_tuning,human,evaluation"
+hclt2025-p461,2025,441,461,추출 정확도 향상을 위한 개체정보와 LLM 기반 증거 문장 추출 기법,"강이의, 전승훈, 김경민(제주대학교)",text,False,True,False,False,"llm,rag,question_answering,evaluation"
+hclt2025-p468,2025,448,468,문서 청크 지식 생성을 통한 생성형 검색 시스템의 정확도 향상 방법,"김지수, 박진희, 전창현, 최정우, 김건우, 홍민지, 김세현(한글과컴퓨터)",text,False,True,False,False,"llm,rag,human,evaluation"
+hclt2025-p474,2025,454,474,다국어 다중레이블 혐오표현 탐지에서 언어-레이블 데이터 희소성 개선,"임성원, 류법모(부산외국어대학교)",text,False,False,False,False,evaluation
+hclt2025-p480,2025,460,480,어순 변형을 통한 한국어 질의응답 모델의 의미 이해 강화,"유하영, 김영빈(중앙대학교)",text,False,True,False,False,"llm,question_answering,evaluation"
+hclt2025-p486,2025,466,486,"[우수논문] 형태를 넘어: 자음, 모음 단위 뒤섞기에서 한국어 LLM 의미 복원","김동연, 송호윤(KAIST), 최창수(서울과학기술대학교), 임경태(KAIST)",text,False,True,False,False,llm
+hclt2025-p492,2025,472,492,대규모 언어 모델에서 불필요한 추론 단계 탐지: 증강된 수학적 추론 체인을 이용한 평가,"이대엽, 유환조(포항공과대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2025-p503,2025,483,503,절차적 사고 흐름을 활용한 언어 모델 학습과 성능 분석,전현규(롯데이노베이트(주)),text,True,True,True,True,"llm,rag,question_answering,translation,evaluation"
+hclt2025-p508,2025,488,508,원본 의미 보존을 위한 한국어 텍스트 스타일 변환: 합성 데이터 생성과 대규모 평가,"송영숙, 강정석(래블업), 김태은(래블업, 에모리대학교), 유현조(충남대학교), 황은진(래블업)",text,False,True,False,False,"llm,human,evaluation"
+hclt2025-p518,2025,498,518,[우수논문] 외국인 유학생 지원 챗봇을 위한 다국어 멀티턴 데이터셋 구축 및 활용,"맥슈웰 데이브, 임성원, 로버트 수위타 말라르, 돌리예브 자수르벡, 류법모(부산외국어대학교)",text,False,True,False,False,"llm,question_answering"
+hclt2025-p524,2025,504,524,다국어 기계번역 모델의 언어 확장,"장진희(중앙대학교), 홍승희(NC AI), 김영빈(중앙대학교)",text,False,False,False,False,"translation,evaluation"
+hclt2025-p530,2025,510,530,사막에서 바늘 찾기: 한국어 장문 이해 능력 평가를 위한 벤치마크,"유한결(서울과학기술대학교), 임경태, 송호윤(한국과학기술원)",text,False,True,False,False,"llm,evaluation"
+hclt2025-p536,2025,516,536,기술–산업 분류 체계 매핑의 설명 가능성 확보를 위한 택소노미 설계,"곽지호, 정유철(국립금오공과대학교)",text,False,True,False,False,llm
+hclt2025-p543,2025,523,543,대규모 언어 모델의 편향성에 대한 질적 사전 연구: 독도 영유권 답변 사례를 중심으로,"신동혁, 노영록, 이지미, 신사임, 장진예(한국전자기술연구원)",text,False,True,False,False,"llm,simulation,evaluation"
+hclt2025-p548,2025,528,548,LLM 기반 한국어 번역의 성별 편향 분석,"조민석, 이공주(충남대학교)",text,False,True,False,False,"llm,translation"
+hclt2025-p558,2025,538,558,생성형 AI를 이용한 전문용어 어휘망의 상위어 추천 알고리듬,"김완수, 옥철영(울산대학교)",ocr,False,True,False,False,"llm,fine_tuning,tool,human,evaluation"
+hclt2025-p567,2025,547,567,LLMs의 한국어 부사절 인식과 변환 능력 연구,유성희(국립국어원),ocr,False,True,False,False,"llm,evaluation"
+hclt2025-p572,2025,552,572,생성 NER task에서 Decoder-only 모델과 Sequence-to-Sequence 모델의 성능 비교 분석,"박준호, 박성배(경희대학교)",text,False,True,False,False,"llm,fine_tuning"
+hclt2025-p578,2025,558,578,대화 맥락 추론 향상을 위한 리즈닝 피드백 기반 학습,"손유리, 김태욱(한양대학교)",text,False,True,False,False,"llm,fine_tuning,question_answering"
+hclt2025-p584,2025,564,584,담화구문분석을 통한 인간과 대규모 언어모델 텍스트의 구조적 차이 분석,"오원준(성균관대학교), 임경태(KAIST)",text,False,True,False,False,"llm,human"
+hclt2025-p590,2025,570,590,[우수논문] 한국어 시각적 질의응답 성능 향상을 위한 이미지 설명 활용 전략 연구,"김이서, 홍은진, 박정원, 김주애(한국외국어대학교)",text,False,True,False,False,"llm,multimodal,question_answering,tool"
+hclt2025-p596,2025,576,596,CoT 기반 자동 생성 설명을 활용한 NLI 학습데이터 생성 규칙 발굴,"한주영, 이창기(강원대학교)",text,False,True,False,False,"llm,human"
+hclt2025-p605,2025,585,605,금융권 특화 유해 발화 벤치마크 구축 및 생성형 AI 안전성 평가,"최수원, 황혜수(에이아이웍스), 김신우(SK 쉴더스), 윤정우(플리토)",text,False,True,False,False,"llm,safety,evaluation"
+hclt2025-p609,2025,589,609,Paper Facet 지식 그래프: 학술 논문 이해와 탐색을 지원하는 구조화 데이터셋,"남궁혁, 한예림, 김은빈, 허인범, 정상근(충남대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2025-p615,2025,595,615,IntroPref : 학술 논문 서론 개선 피드백 데이터셋,"김은빈, 남궁혁, 정상근(충남대학교)",text,False,True,False,False,"llm,tool,evaluation"
+hclt2025-p621,2025,601,621,북한 로동신문 자료의 코퍼스 구축 및 담화 언어 평가: 외교적 메시지 분석을 중심으로,강경민(모스크바시립사범대학교),text,False,False,False,False,"safety,evaluation"
+hclt2025-p625,2025,605,625,질의 과적합 완화를 위한 하드 네거티브 질의 증강 임베딩 모델 학습,"장우혁, 이승원(와이즈넛)",text,False,False,False,False,"rag,fine_tuning,evaluation"
+hclt2025-p633,2025,613,633,CASCADE: 임상 인식 기반 전략 제어형 AI 상담 엔진,"김광일, 김슬기, 김학수(건국대학교)",text,False,True,False,False,"llm,human,safety"
+hclt2025-p639,2025,619,639,KomuRet: 한국어 커뮤니티 스타일 검색 벤치마크 데이터셋,"손준영, 장영준(고려대학교), 이태민(Human-Inspired AI 연구원), 홍성태(고려대학교),",text,False,True,False,False,"llm,rag,evaluation"
+hclt2025-p645,2025,625,645,Multi-Hop을 요구하는 복잡한 질의처리 검색 효율화를 위한 RAG와 Graph RAG의 결합 프레임워크,"이성민, 김희은, 이동영, 강민선, 김민재(고려대학교), 양수열(크라우드웍스), 황영숙(고려대학교)",text,True,False,False,True,"rag,evaluation"
+hclt2025-p651,2025,631,651,멀티모달 AI 안전성 데이터셋 번역 구축 방법론 연구,"강조은, 강채안, 박서윤, 최규리, 안수빈, 김한샘(연세대학교)",text,False,False,False,False,"multimodal,translation,human,safety,evaluation"
+hclt2025-p656,2025,636,656,CoEx: 다중 언어 코드 실행 라이브러리,"김민혁(고려대학교), 박찬준(숭실대학교), 박기남(Human-Inspired AI 연구원),",text,False,True,False,False,"llm,reinforcement_learning,tool,safety,evaluation"
+hclt2025-p660,2025,640,660,인간과 AI의 한국어 유머 이해에 대한 비교 연구,"강조은(연세대학교), 김민선(테디썸), 김희재, 최규리, 김한샘(연세대학교)",text,False,True,False,False,"llm,simulation,human,evaluation"
+hclt2025-p666,2025,646,666,한국어 풍자 인식 강화를 위한 데이터 코퍼스 생성 및 활용 파이프라인,"서정훈, 양성재, 장유리, 강명구(경희대학교)",ocr,False,False,False,False,fine_tuning
+hclt2025-p672,2025,652,672,외부 분류기를 활용한 반복적 검색 증강 생성의 효율성 개선,"염시형, 정근영, 이성희, 김학수(건국대학교)",text,False,True,False,False,"llm,rag,question_answering"
+hclt2025-p678,2025,658,678,LLM 의사 결정 제어: 지식 충돌 상황에서의 뉴런 가중치 조정,"박성배, 이성희, 김학수(건국대학교)",text,False,True,False,False,"llm,question_answering,human,evaluation"
+hclt2025-p684,2025,664,684,소규모 LLM의 수학 문제 풀이를 위한 언어 보상 적용 GRPO 강화학습,"백종우, 황현선, 이창기(강원대학교)",text,False,True,False,False,"llm,reinforcement_learning"
+hclt2025-p690,2025,670,690,거대언어모델의 한국어 다방언 번역 성능 분석,"박근형, 김영빈(중앙대학교)",text,False,True,False,False,"llm,translation,evaluation"
+hclt2025-p696,2025,676,696,다지선다형 질의응답에서 초거대언어모델의 필연적 환각현상,"문현석(고려대학교), 소아람(Human-Inspired AI 연구원), 임희석(고려대학교,Human-Inspired AI 연구원)",text,False,True,False,False,"llm,question_answering,evaluation"
+hclt2025-p702,2025,682,702,생활기록부 기반 긍-부정 요약을 활용한 대입 면접 질의응답 생성 프레임워크,"이찬우, 염정, 김하은, 임효진, 서영은, 박지숙(서울여자대학교), 박천음(국립한밭대학교)",text,False,True,False,False,"llm,question_answering,evaluation"
+hclt2025-p708,2025,688,708,한국어 노이즈 텍스트에 대한 LLM의 강건성 평가 연구 - 에어비앤비체를 중심으로 -,"안수빈, 김한샘(연세대학교)",ocr,False,True,False,False,"llm,tool,safety,evaluation"
+hclt2025-p714,2025,694,714,인공지능의 한국어 및 한국 문화 이해 능력 평가 - 2025 국립국어원 인공지능(AI)말평 사례를 중심으로,"박서윤(연세대학교), 김소희(국립국어원), 김민선, 함영균(테디썸), 이충희, 임준호(튜터러스랩스),",ocr,False,False,False,False,"rag,question_answering,evaluation"
+hclt2025-p721,2025,701,721,안전성 데이터셋의 현지화(localization) 효과,"강조은, 강채안(연세대학교), 황제민(TTA), 김한샘(연세대학교)",text,False,True,False,False,"llm,translation,safety,evaluation"
+hclt2025-p729,2025,709,729,[AI말평 최우수논문] 한국어 문장 간 논리 관계 판별을 위한 담화 표지 기반 데이터 증강과 스팬 라벨 가중 학습,"박지홍, 김주영, 이세연(경상국립대학교), 박수진(경상국립대학교), 김건우(경상국립대학교)",text,False,True,False,False,"llm,rag,fine_tuning,evaluation"
+hclt2025-p734,2025,714,734,[AI말평 우수논문] 대규모 언어 모델을 활용하는 부적절 발언 탐지를 위한 추론 관점을 명시하는 소프트 귀납적 편향 접근법,"김주영, 박지홍, 이세연(경상국립대학교), 박수진(경상국립대학교), 김건우(경상국립대학교)",text,False,True,False,False,"llm,fine_tuning,simulation,evaluation"
+hclt2025-p740,2025,720,740,[AI말평 우수논문] 보상함수 설계 기반 Self-Feedback 강화학습을 통한 LLM 추론 능력 향상,"김아진, 김균엽, 강상우(가천대학교)",text,False,True,False,False,"llm,reinforcement_learning,question_answering"
+hclt2025-p746,2025,726,746,[AI말평 우수논문] TOUR: 공감적 에이전트 기반 한국어 과제 지향 발화 재작성,"김지수, 곽태윤(성균관대학교)",text,True,True,True,True,"llm,reinforcement_learning"
+hclt2025-p752,2025,732,752,Adversarial Correction: 하드 네거티브 튜닝을 통한 실제 환경 이미지 텍스트에 대한 VLM 일반화 성능 향상,"임형준, 유용상, 이기훈(롯데이노베이트)",ocr,False,True,False,False,"llm,multimodal,fine_tuning,safety"
+hclt2026-p29,2026,3,29,네이티브 삼진 언어 모델의 슈퍼 웨이트 부재에 대한 인과 분석,"황현선(강원대학교), 정영준(강원대학교), 이창기(강원대학교)",text,False,True,False,False,"llm,transformer"
+hclt2026-p35,2026,9,35,[우수 논문] KoEvoSkillBench: 자기진화형 에이전트의 스킬 주입 보안을 위한 한국어 벤치마크,"김도윤(숭실대학교), 김찬우(숭실대학교), 조성현(숭실대학교), 금지우(숭실대학교), 송은서(숭실대학교),",text,True,True,True,True,"llm,human,safety,evaluation"
+hclt2026-p41,2026,15,41,한국어 상충 페르소나 지시에서의 LLM 해결 양상 분석: 동일 우선순위를 중심으로,"이시현(숭실대학교), 금지우(숭실대학교), 송지훈(숭실대학교), 추교준(숭실대학교), 김찬우(숭실대학교),",text,False,True,False,False,"llm,evaluation"
+hclt2026-p46,2026,20,46,개별 뉴런을 넘어: 언어 특화 뉴런 기반 SNMF 특징 분해를 통한 LLM 출력 언어 제어,"이아림(강원대학교), 황현선(강원대학교), 이창기(강원대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p52,2026,26,52,SkillAdaptor를 활용한 서베이 논문 생성 Multi-Agent System,"이현정(국립한밭대학교), 고동혁(국립한밭대학교), 강어진(한국외국어대학교), 이우주(한국외국어대학교),",text,True,True,True,True,"llm,evaluation"
+hclt2026-p61,2026,35,61,한국문화 멀티모달 질의응답을 위한 불일치 기반 선택적 순서 교환 판정,"신재호(한양대학교), 주찬양(한양대학교), 김재영(한양대학교), 유승찬(한양대학교), 전지훈(한양대학교),",text,False,True,False,False,"llm,multimodal,question_answering"
+hclt2026-p66,2026,40,66,한국어 멀티페이지 문서에서 복수 관련 페이지를 찾기 위한 Document-Aware Hierarchical Retrieval,"신중민, 심규호, Thanh, 윤태건, 서재형, 임희석",text,False,False,False,False,"rag,multimodal,evaluation"
+hclt2026-p72,2026,46,72,세밀한 시각 정보에 대한 질의응답 성능 향상을 위한 Evidence Coverage 기반 Crop Scale 선택 방법,"정승환(중앙대학교), 권준형(중앙대학교), 조선희(중앙대학교), 임병극(중앙대학교), 김영빈(중앙대학교),",text,False,True,False,False,"llm,rag,multimodal,question_answering,evaluation"
+hclt2026-p78,2026,52,78,[우수 논문] VLM 내부 표현을 활용한 이미지-질문 불일치 판별과 선택적 이미지 사용,"조수민(한국외국어대학교), 강어진(한국외국어대학교), 김주애(한국외국어대학교)",text,False,True,False,False,"llm,rag,multimodal,question_answering"
+hclt2026-p84,2026,58,84,[최우수 논문] 긴 시각 문서 질의응답을 위한 계층적 이종 문서 그래프 구축 및 에이전트 기반 탐색,"최연석(건국대학교), 김슬기(건국대학교), 김학수(건국대학교)",text,True,True,True,True,"llm,rag,multimodal,question_answering,evaluation"
+hclt2026-p93,2026,67,93,[우수 논문] 희소 오토인코더를 활용한 대규모 언어 모델의 한국어 언어현상 처리 양상 분석,"이수민(연세대학교), 이상화(연세대학교), 성호건(연세대학교), 최의준(연세대학교), 신준현(연세대학교),",text,False,True,False,False,"llm,evaluation"
+hclt2026-p99,2026,73,99,언어 모델의 한국어 청자 높임 종결어미 선호 안정성 분석,"조성현(숭실대학교), 장지윤(숭실대학교), 이시현(숭실대학교), 송지훈(숭실대학교), 송은서(숭실대학교),",text,False,True,False,False,"llm,evaluation"
+hclt2026-p105,2026,79,105,[우수 논문] 방송심의 위반 사례 기반 합성 벤치마크를 활용한 에이전트 규정 검색 평가,"조소영(서강대학교), 허윤석(서강대학교)",text,True,True,True,True,"llm,rag,evaluation"
+hclt2026-p111,2026,85,111,많은 정보가 더 나은 예측을 만드는가? 대규모 언어 모델의 인간 어휘 이해도 예측 분석,"송은서(숭실대학교), 조성현(숭실대학교), 남채린(숭실대학교), 추교준(숭실대학교), 금지우(숭실대학교),",text,False,True,False,False,"llm,tool,simulation,human,evaluation"
+hclt2026-p117,2026,91,117,시간 제약에 따른 대규모 언어 모델의 행동 분석,"허재원(충남대학교), 편고운(충남대학교), 이성준(충남대학교), 김은빈(충남대학교), 정상근(충남대학교)",text,False,True,False,False,"llm,reinforcement_learning"
+hclt2026-p125,2026,99,125,소형 데이터셋에서 신뢰도 기반 보정의 유효성 분석,"신준현(연세대학교), 이상화(연세대학교), 성호건(연세대학교), 조정웅(연세대학교), 최의준(연세대학교),",text,True,True,True,True,"llm,tool,evaluation"
+hclt2026-p131,2026,105,131,한국어 LLM 에이전트의 지시 수행 권한 판단 평가,"이정섭(고려대학교), 어수경(연세대학교 미래캠퍼스), 이승윤(고려대학교), 홍성태(고려대학교), 장영준",text,True,True,True,True,"llm,human,safety,evaluation"
+hclt2026-p137,2026,111,137,온디바이스 소형 언어모델의 호출 전 평가 가능성 기반 도구 게이팅,"정지혜(포항공과대학교), 임도연(포항공과대학교), 유환조(포항공과대학교)",text,True,True,True,True,"llm,tool,evaluation"
+hclt2026-p143,2026,117,143,[우수 논문] 영어와 국어로 제시한 병렬 문항에서 범주 기반 LLM 라우팅의 배정 변화와 선별 성능,"송영숙(래블업), 황은진(래블업), 이준범(래블업), 신정규(래블업)",text,False,True,False,False,"llm,translation"
+hclt2026-p149,2026,123,149,"추론 단계 중요도에 따른 오류의 탐지, 전파 및 복구 분석","양건(고려대학교),",text,False,False,False,False,evaluation
+hclt2026-p157,2026,131,157,한국어의 미세 · 문맥 의존적 문법 오류에 대한 대규모 언어 모델의 교정 성능 분석,"유하영(중앙대학교), 권회준(중앙대학교), 유승욱(중앙대학교), 조선희(중앙대학교), 김영빈(중앙대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p163,2026,137,163,다중 에이전트 토론을 활용한 언어모델의 한국어 추론 오류 진단,"금지우(숭실대학교), 송민수(숭실대학교), 김찬우(숭실대학교), 이시현(숭실대학교), 김도윤(숭실대학교),",text,True,True,True,True,"llm,translation,evaluation"
+hclt2026-p169,2026,143,169,K-Press: 한국어 벤치마크 능력 프로파일링을 위한 문항 기반 능력 축 유도,"장지윤(숭실대학교), 조성현(숭실대학교), 김도윤(숭실대학교), 송지훈(숭실대학교), 추교준(숭실대학교),",text,False,True,False,False,"llm,evaluation"
+hclt2026-p175,2026,149,175,행동적 타당성 감사를 통한 리더보드 강건성 분석 연구,"추교준(숭실대학교), 송민수(숭실대학교), 조성현(숭실대학교), 장지윤(숭실대학교), 남채린(숭실대학교),",text,False,True,False,False,"llm,evaluation"
+hclt2026-p181,2026,155,181,사고 과정의 언어가 한국어 언어학 과제 수행 능력에 미치는 영향: Qwen3.8-27B 모델과 한중일영 언어 사례 연구,"임준호(튜터러스랩스, 경북대학교), 박지은(튜터러스랩스), 정호영(경북대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2026-p189,2026,163,189,한국어 LLM Judge는 의미를 보존하는가? 척도와 응답 순서에 대한 표현 불변성 분석,"김찬우(숭실대학교), 김도윤(숭실대학교), 송민수(숭실대학교), 이시현(숭실대학교), 송지훈(숭실대학교),",text,False,True,False,False,"llm,human,safety,evaluation"
+hclt2026-p195,2026,169,195,[COLING 2022 특별 논문] 보상 모델의 길이 편향 보정을 통한 직접 선호 최적화 개선,"이승윤(고려대학교), 이정섭(고려대학교), 한성빈(고려대학교), 허윤아(Human-Inspired AI 연구원), 임희",text,False,False,False,False,reinforcement_learning
+hclt2026-p201,2026,175,201,[우수 논문] 오답의 의미적 타당성 제거를 통한 LLM 벤치마크 결함 문항 식별,"송민수(숭실대학교), 김찬우(숭실대학교), 추교준(숭실대학교), 송은서(숭실대학교), 장지윤(숭실대학교),",text,False,True,False,False,"llm,question_answering,evaluation"
+hclt2026-p207,2026,181,207,SABS: 블록 좌표 하강법 기반 파인튜닝을 위한 민감도 인지 샘플링 예산 조정,"조은영(한국외국어대학교), 김진희(한국외국어대학교), 김예찬(한국외국어대학교)",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2026-p213,2026,187,213,LoRA 파인튜닝을 통해 엔티티-속성 바인딩 능력을 향상시켜 Speaker Misattribution을 완화하는 연구,"윤희균(경희대학교), 박성배(경희대학교)",text,True,True,True,True,"llm,fine_tuning,safety,evaluation"
+hclt2026-p221,2026,195,221,한국어-한국수어 기계번역에서 증강 데이터의 수어 생성 방식이 성능에 미치는 영향,"심수정(전남대학교), 배수연(전남대학교), 박혁로(전남대학교)",text,False,False,False,False,translation
+hclt2026-p224,2026,198,224,Telco-FAS: 다중 형식 요약을 지원하는 통신 도메인 상담 요약 모델,"조한희(LG유플러스 / 서강대학교), 권기덕(LG유플러스), 신동수(LG유플러스), 김동욱(LG유플러스), 조충",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2026-p230,2026,204,230,한국어 질의의 범주별 한영 혼용에 따른 대규모 언어 모델의 성능 변화,"민세원(중앙대학교), 유승욱(중앙대학교), 김영빈(중앙대학교)",text,False,True,False,False,"llm,tabular,translation,evaluation"
+hclt2026-p236,2026,210,236,[우수 논문] 문화 및 언어 특성 기반 다중 LLM을 통한 다국어 의료 대화 데이터셋 구축,"노동원(국립한밭대학교), 김규완(UCSB), 김윤수(LILT), 박진영(성균관대학교), 어수경(연세대학교), 박천",text,False,True,False,False,"llm,translation,evaluation"
+hclt2026-p242,2026,216,242,형식 표현 기반 한국어 논리 추론 문제 해결 및 생성,"김선아(서강대학교), 홍석영(서강대학교), 구명완(서강대학교), 장두성(서강대학교)",text,False,True,False,False,llm
+hclt2026-p251,2026,225,251,한국어 음성 응답에서 감정 정보의 텍스트 노출: 주입 방식과 출력 제약의 효과,"최관우(한양대학교 ERICA), 김한우((주)스피치툴스)",text,False,True,False,False,llm
+hclt2026-p256,2026,230,256,적응형 순차 체크리스트 기반 한국어 멀티모달 응답 평가,"문정수(조선대학교), 박채훈(전남대학교)",text,False,True,False,False,"llm,multimodal,evaluation"
+hclt2026-p262,2026,236,262,[우수 논문] AFlow 기반 워크플로우 최적화를 활용한 서베이 논문 생성,"고동혁(국립한밭대학교), 이현정(국립한밭대학교), 강어진(한국외국어대학교), 이우주(한국외국어대학교),",text,True,False,False,True,"human,evaluation"
+hclt2026-p267,2026,241,267,한국어 필기체 인식에서 학습자 오류 표현 보존을 위한 합성 데이터 구축 및 VLM 과교정 완화,"전문기(부산외국어대학교), 맥슈웰 데이브(부산외국어대학교), 펠리시아 위자야(고려대학교), 오지영(부",text,False,True,False,False,"llm,multimodal,fine_tuning,evaluation"
+hclt2026-p273,2026,247,273,한국어 실시간 음성-대본 정렬을 위한 자모 기반 문자 정렬과 위치 확정 정책,"김동우(인하대학교), 권민성(성균관대학교), 이유준(한양대학교)",text,False,False,False,False,"reinforcement_learning,safety"
+hclt2026-p281,2026,255,281,한국어 수 표기에 따른 수리 추론 격차 완화를 위한 프로브 기반 결합 학습,"정성경(가천대학교), 김주형(가천대학교), 강상우(가천대학교)",text,False,True,False,False,"llm,fine_tuning,evaluation"
+hclt2026-p287,2026,261,287,지식 충돌 상황에서 대화 맥락이 대규모 언어 모델의 입장 선택과 설명에 미치는 영향,"송지훈(숭실대학교), 김찬우(숭실대학교), 김도윤(숭실대학교), 장지윤(숭실대학교), 남채린(숭실대학교),",text,False,True,False,False,"llm,tool,simulation"
+hclt2026-p293,2026,267,293,대규모 언어 모델의 도구 호출에서의 이름 의존성 분석,"남채린(숭실대학교), 조성현(숭실대학교), 이시현(숭실대학교), 금지우(숭실대학교), 송민수(숭실대학교),",text,False,True,False,False,"llm,tool,evaluation"
+hclt2026-p299,2026,273,299,KCI 한국어 학술문헌 메타데이터의 결손 저자키워드 복원을 위한 Adaptive Composite Keyword Scoring의 개발과 검증,류병래(충남대학교),text,False,False,False,False,
+hclt2026-p305,2026,279,305,한국어 생성형 AI의 오류 위치와 유형 진단을 위한 세그먼트 수준 진실성 코퍼스 구축,"신동혁(한국전자기술연구원), 김민혁(한국전자기술연구원), 신사임(한국전자기술연구원), 장진예(한국전",text,False,True,False,False,"llm,multimodal"
+hclt2026-p313,2026,287,313,부분 발화 기반 선제적 툴 호출: 영어·한국어 비교와 안정성 기반 조기 실행,"양동운(전남대학교), 박채훈(전남대학교)",text,True,True,True,True,"llm,tool,human,evaluation"
+hclt2026-p319,2026,293,319,한국어 3인 대화의 VAP 기반 다음 화자 예측: 모달리티와 예측 구간의 영향,"임영범(한국전자기술연구원), 장진예(한국전자기술연구원)",text,False,False,False,False,"multimodal,evaluation"
+hclt2026-p324,2026,298,324,한국어 다중 에이전트의 KV 캐시 재사용: 엔트로피 게이트 판정의 언어 간 차이,"이승현(건국대학교), 서재형(건국대학교)",text,True,False,False,True,translation
+hclt2026-p330,2026,304,330,uGROWTH: 사용자 피드백 기반 자기 진화 설명 전략 하네스,"유광훈(DICORA 연구센터), 남지순(한국외국어대학교)",text,True,False,False,True,human
+hclt2026-p336,2026,310,336,협업형 임상 에이전트를 위한 자기진화 루브릭 기반 강화학습,"장현준(연세대학교), Kai Tzu-iunn Ong(연세대학교), 우상준(연세대학교), 최은영(연세대학교), 김경원",ocr,True,True,True,True,"llm,reinforcement_learning,question_answering,human"
+hclt2026-p345,2026,319,345,한국어 보안 권고문의 CVE-제품-버전 관계 추출을 위한 LLM 및 규칙 기반 하이브리드 정보 추출 시스템,"전승진(동국대학교 국제정보보호대학원), 이상곤(전주대학교 소프트웨어융합대학 컴퓨터공학과)",text,False,True,False,False,"llm,safety,evaluation"
+hclt2026-p351,2026,325,351,한국어 온라인 상담 위기도 탐지를 위한 임상 근거 기반 LLM Chain-of- Thought 와 RLVR 의 비교,"유동제(주식회사 퐁), 최인설(주식회사 퐁)",text,False,True,False,False,"llm,reinforcement_learning,translation,safety,evaluation"
+hclt2026-p354,2026,328,354,[우수논문] 분포 외 탐지와 언어특징을 활용한 한국어 기계 생성 텍스트 탐지,"최민석(국립한국해양대학교), 김재훈(국립한국해양대학교)",text,False,True,False,False,"llm,human"
+hclt2026-p360,2026,334,360,AI 오탐 제어를 위한 경계 구간 선별 프레임워크: 인간 작성 텍스트 보호를 중심으로,이규원(명지대학교),text,False,False,False,False,"human,safety,evaluation"
+hclt2026-p366,2026,340,366,CAPER: 저작권 위험 완화를 위한 표현적 독립성 선호 학습 기반 문서 재작성,"이가연(동국대학교), 장욱(동국대학교), 김지희(동국대학교)",text,False,True,False,False,"llm,reinforcement_learning,human,evaluation"
+hclt2026-p375,2026,349,375,Sparse MoE 기반 EEG 의미 관련성 분류: 성능 비교와 조건별 라우팅 분석,"이은송(경북대학교), 김자경(경북대학교), 오동석(경북대학교)",text,False,False,False,False,"reinforcement_learning,human"
+hclt2026-p380,2026,354,380,한국어 반어 유형 간 변환,"이지학(충남대학교), 이기상(충남대학교), 이공주(충남대학교)",text,False,False,False,False,
+hclt2026-p382,2026,356,382,공정위 계약 조항 공정성 판단을 위한 도메인 검색 기반 RAG의 효과 분석,"안지윤(딥모달), 양종인(딥모달), 정서진(딥모달), 심재우(미디어젠), 장진우(미디어젠), 박진경(공정거래",text,False,True,False,False,"llm,rag,evaluation"
+hclt2026-p387,2026,361,387,RBO: 대규모 추론 모델의 선택적 조기 종료를 위한 추론 경계 최적화,"서채영(한국외국어대학교), 김예찬(한국외국어대학교)",text,False,False,False,False,"fine_tuning,evaluation"
+hclt2026-p393,2026,367,393,형태소 범주 정보에 따른 한국어 서브워드 토큰화 분석,"김상민(고려대학교), 이예람(고려대학교), 이영제(고려대학교)",text,False,False,False,False,
+hclt2026-p401,2026,375,401,LLM 기반 순차적 추천을 위한 대안 인식형 근거 설명 지도 학습,"강태혁(중앙대학교), 권회준(중앙대학교), 김가현(중앙대학교), 최주원(중앙대학교), 김영빈(중앙대학교)",text,False,True,False,False,"llm,reinforcement_learning,fine_tuning,human,evaluation"
+hclt2026-p412,2026,386,412,순환 기반 K/V 압축 어텐션에서의 층별 청크 구성과 연상 회상 성능,"강효민(제주대학교), 김경민(제주대학교)",text,False,False,False,False,"question_answering,evaluation"
+hclt2026-p418,2026,392,418,코드 생성 언어모델의 지침 준수 실패: 어텐션 배분과 Value 경로의 분리,"한정석(건국대학교), 서재형(건국대학교)",text,False,True,False,False,llm
+hclt2026-p424,2026,398,424,한국어 의미 해석을 위한 언어 모델 활용 방안,"유성희(국립국어원), 김예영(국립국어원)",text,False,True,False,False,"llm,fine_tuning,tool,evaluation"
+hclt2026-p433,2026,407,433,[우수 논문] 법률 판단에서의 LLM Overswitching: 국가명 신호 효과 분석,"최의준(연세대학교), 이상화(연세대학교), 성호건(연세대학교), 조정웅(연세대학교), 이수민(연세대학교),",text,False,True,False,False,"llm,question_answering,evaluation"
+hclt2026-p439,2026,413,439,복합 상황에서 운영 제약에 따른 LLM 행동 우선순위 결정 및 수정 능력 평가,"성호건(연세대학교), 이상화(연세대학교), 이수민(연세대학교), 최의준(연세대학교), 조정웅(연세대학교),",text,False,True,False,False,"llm,safety,evaluation"
+hclt2026-p444,2026,418,444,한국어 부정 의문문에 대한 언어 모델의 응답 판정과 생성,"송영숙(래블업 주식회사), 송치성(서강대학교), 조원익(AI Center, Samsung Electronics)",text,False,True,False,False,"llm,question_answering,human,evaluation"
+hclt2026-p450,2026,424,450,한국어 비정형 담화에서의 개념적 은유 판정에 대한 대규모 언어 모델 내부 분석,"최윤성(한동대학교), 박슬기(경희대학교), 김종복(경희대학교), 홍참길(한동대학교)",text,False,True,False,False,"llm,human"
+hclt2026-p456,2026,430,456,조사를 몇 개 떼어야 하는가? 한국어 서브워드 토큰화에서 부분 분리의 토큰 비용과 어간 일관성,"남성현(건국대학교), 이지민(건국대학교), 차정민(건국대학교), 서재형(건국대학교)",text,False,True,False,False,llm
+hclt2026-p465,2026,439,465,사회 추론 게임 3종에서 관찰된 대규모 언어 모델의 은닉 정보 복원 경향,"김언지, 김은빈, 편고운, 정상근(충남대학교)",text,False,True,False,False,"llm,simulation"
+hclt2026-p471,2026,445,471,검증 가능한 신호 기반 DPO를 통한 아첨 현상 완화의 한계,"엄정석(건국대학교), 서재형(건국대학교)",text,False,True,False,False,"llm,reinforcement_learning,question_answering,human,evaluation"
+hclt2026-p477,2026,451,477,K-RLC: 다듬은 말의 장르별 사용과 거대 언어모델의 명칭 선택을 연결한 벤치마크,"서창덕(건국대학교), 서재형(건국대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2026-p483,2026,457,483,의미 변화 기반 전역 문맥을 활용한 동적 단문 신경 토픽 모델,"송지우(건국대학교), 한미래(건국대학교), 김학수(건국대학교)",text,False,False,False,False,safety
+hclt2026-p489,2026,463,489,가치 충돌 상황별 If-Then 프로필 구축을 통한 개인의 도덕 판단 예측,"김유신(건국대학교), 한미래(건국대학교), 김학수(건국대학교)",text,False,True,False,False,llm
+hclt2026-p497,2026,471,497,뉴스 입장 탐지를 위한 다중 에이전트 토론,"김진우(숭실대학교), 이다현(숭실대학교), 박건우(숭실대학교)",text,True,True,True,True,llm
+hclt2026-p502,2026,476,502,KRA-Bench: 시뮬레이션 연구개발 행정에서의 자료 확보와 규정 적용 평가,"김재현(한국전자기술연구원)*, 강혜란(한국전자기술연구원)*, 김산(한국전자기술연구원)(*은 공동 저자)",text,True,True,True,True,"llm,simulation,human,evaluation"
+hclt2026-p508,2026,482,508,[우수 논문] 번역이 아니라 검색이 문제다: 쿼리-코퍼스 언어 불일치로 보는 검색 에이전트 격차,"정의찬(건국대학교), 서재형(건국대학교)",text,True,True,True,True,"llm,question_answering,translation"
+hclt2026-p514,2026,488,514,세부 혐오 대상을 명시한 한국어 혐오 표현 데이터셋과 LLM 대상 편향 분석,"최종현(숭실대학교), 박건우(숭실대학교)",text,False,True,False,False,"llm,simulation,human,evaluation"
+hclt2026-p520,2026,494,520,한국어 대용 표현의 명시 단계가 대규모 언어모델의 멀티 턴 안전성에 미치는 영향,"배성필(중앙대학교), 유승욱(중앙대학교), 김영빈(중앙대학교)",text,False,True,False,False,"llm,safety,evaluation"
+hclt2026-p529,2026,503,529,한국어 검색 에이전트 환경에서 조사 단위 프레이밍이 미치는 영향 분석,"최윤혁(연세대학교), 곽나연(연세대학교), 이현준(연세대학교), 이강원(연세대학교), 현진명(연세대학교)",text,True,True,True,True,"llm,evaluation"
+hclt2026-p535,2026,509,535,에이전트 기반 RAG 비평,"백성규(고려대학교), 박정배(Human-Inspired AI 연구원), 임희석(고려대학교, Human-Inspired AI 연구",text,True,True,True,True,"llm,rag,evaluation"
+hclt2026-p541,2026,515,541,KURE-Reranker: 지식증류 기반한국어-영어 경량 리랭킹 모델,"홍성태(고려대학교), 장영준(고려대학교), 손준영(고려대학교), 이태민(Human-Inspired AI 연구원), 이정",text,False,False,False,False,"rag,evaluation"
+hclt2026-p547,2026,521,547,도입부 미끼: 문서 내 근거 검색의 위치 편향과 요소별 비대칭 문맥 보강,"윤태건(고려대학교), 박정배(Human-Inspired AI Research), 임희석(고려대학교, Human-Inspired AI",text,False,False,False,False,"rag,question_answering"
+hclt2026-p553,2026,527,553,KURE-v2: 한국어-영어 이중언어 후기 상호작용 검색 모델,"장영준(고려대학교), 손준영(고려대학교), 홍성태(고려대학교), 이태민(Human-Inspired AI 연구원), 이정",text,False,False,False,False,"rag,fine_tuning,human,evaluation"
+hclt2026-p559,2026,533,559,생성 모델의 순방향 잔차 궤적을 이용한 RAG 문서 재순위화,"정다현(고려대학교), 박정배(Human-Inspired AI 연구원), 임희석(고려대학교/Human-Inspired AI 연구",text,False,False,False,False,"rag,evaluation"
+hclt2026-p567,2026,541,567,거대언어모델의 언어 특화 뉴런 공유 구조 분석,"안효준(경기대학교), 정태훈(경기대학교), 이효진(경기대학교), 정선기(경기대학교), 최성필(경기대학교)",text,False,True,False,False,"llm,translation"
+hclt2026-p573,2026,547,573,LAGSA: 거대 언어 모델의 효율적 미세조정을 위한 계층 적응형 그룹 공유 적응,"김진희(한국외국어대학교), 조은영(한국외국어대학교), 김예찬(한국외국어대학교)",text,False,True,False,False,"llm,fine_tuning"
+hclt2026-p579,2026,553,579,제한된 토큰 예산의 한영 사전학습에서 MoE와 MLA의 통제 비교,"이우진(한국전자통신연구원), 강명철(한국전자통신연구원), 신종훈(한국전자통신연구원), 황금하(한국전",text,False,True,False,False,"llm,question_answering"
+hclt2026-p585,2026,559,585,한국어 추론 모델은 어떻게 사고하는가? 언어 표지 기반 추론 분석,"박찬희(고려대학교), 소아람(Human-Inspired AI 연구원), 임희석(고려대학교, Human-Inspired AI 연구",text,False,True,False,False,llm
+hclt2026-p591,2026,565,591,영어 탈옥 탐지 지식의 언어 간 전이를 활용한 한국어 탈옥 탐지,"강이의(제주대학교), 김경민(제주대학교)",text,False,True,False,False,"llm,safety,evaluation"
+hclt2026-p599,2026,573,599,한국어 정정 발화의 명시성에 따른 LLM 도구 에이전트의 상태 갱신 성능 평가,"지하윤(고려대학교), 박정배(Human-Inspired AI 연구원), 임희석(고려대학교/Human-Inspired AI 연구",text,True,True,True,True,"llm,tabular,tool,human,evaluation"
+hclt2026-p605,2026,579,605,법령 검색 성능에 따른 언어모델의 불공정 약관 심사 역량 분석,"이주형(미디어젠), 윤종성(미디어젠), 박진경(공정거래위원회)",text,False,True,False,False,"llm,rag,evaluation"
+hclt2026-p611,2026,585,611,삼단논법 체인 기반 한·중·일 LLM의 역사 편향 연구: 야스쿠니 신사 문제를 중심으로,"이진(세종대학교), 이승준(세종대학교), 김도형(세종대학교), 하두진(경기대학교)",text,False,True,False,False,"llm,safety"
+hclt2026-p617,2026,591,617,AskWhom: 명확화 질문의 내용을 채점하는 한국어 에이전트 벤치마크,"강혜란(한국전자기술연구원), 김산(한국전자기술연구원), 김재현(한국전자기술연구원)",text,True,True,True,True,"llm,fine_tuning,tool,human,evaluation"
+hclt2026-p629,2026,603,629,[COLING 2022 특별 논문] 활성값 스티어링 기반 적대적 접미어 공격 방어: 단일 레이어 방향 제거를 통한 탈옥 차단,"이지훈(강원대학교), 황현선(강원대학교), 이창기(강원대학교)",text,False,True,False,False,"llm,safety"
+hclt2026-p637,2026,611,637,대화 상태 기반 GRPO를 활용한 다중 턴 사용자 요구 변화 대응 모델,"손수현(고려대학교), 정다현(고려대학교), 지하윤(고려대학교), 박기남(Human-Inspired AI 연구원), 임희",text,False,True,False,False,"llm,reinforcement_learning,tabular,human"
+hclt2026-p650,2026,624,650,과정 보상 기반 단계적 검증을 통한 한국어 손글씨 문법 오류 진단 및 교정,"맥슈웰 데이브(부산외국어대학교), 전문기(부산외국어대학교), 위자야 펠리시아 엔젤(고려대학교), 오지",text,False,True,False,False,"llm,multimodal,reinforcement_learning,fine_tuning,evaluation"
+hclt2026-p656,2026,630,656,[우수 논문] 임상 협업 에이전트를 위한 진화형 행동정책에 대한 연구,"성유민(연세대학교 인공지능학과), Kai Tzu-iunn Ong(연세대학교 인공지능학과), 최은영(연세대학교 의",text,True,True,True,True,"llm,reinforcement_learning,human"
+hclt2026-p662,2026,636,662,온디바이스 개인화 모바일 에이전트의 실행–질문 결정: 사용자 행동 일관성 사전의 활용,"임도연(포항공과대학교), 정지혜(포항공과대학교), 유환조(포항공과대학교)",text,True,True,True,True,"llm,multimodal,human,safety"
+hclt2026-p671,2026,645,671,도덕적 딜레마 상황에서 LLM의 윤리 판단 안정성 평가,"박세은(연세대학교), 강채안(연세대학교), 김한샘(연세대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p677,2026,651,677,[우수 논문] 환자정보를 어디까지 제공할 것인가: 정보 제공 제약 하 LLM의 임상 추론,"김채연(충남대학교), 허인범(충남대학교), 정상근(충남대학교)",text,False,True,False,False,"llm,translation,evaluation"
+hclt2026-p683,2026,657,683,국어생활종합상담 기반 거대언어모델의 한국어 활용 능력 평가: 표현 적격성 판별과 규범 근거 접지를 중심으로,"강명훈(고려대학교), 박찬희(고려대학교), 정지민(고려대학교), 윤정호(고려대학교), 박혜진(연세대학교),",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p689,2026,663,689,사용자의 입장 노출 정도에 따른 거대언어모델의 아첨: 한국어 논쟁 논제를 중심으로,"김태현(연세대학교), 강조은(연세대학교), 김한샘(연세대학교)",text,False,True,False,False,"llm,human"
+hclt2026-p701,2026,675,701,원본 이미지/텍스트 전송 없이 민감 정보를 처리하는 멀티모달 표현 정렬 및 도메인 학습 프레임워크,"윤정호(고려대학교),",text,False,True,False,False,"llm,multimodal,question_answering,human,safety"
+hclt2026-p711,2026,685,711,한국문화 멀티모달 질의응답을 위한 근거 기반 반복형 다중 에이전트 검증,임형준(롯데이노베이트),text,True,False,False,True,"multimodal,question_answering,evaluation"
+hclt2026-p717,2026,691,717,도구 호출을 통한 멀티모달 모델의 한국 문화 이해 능력 향상,"이주성(CJ), 이동호(CJ)",text,True,False,False,True,"multimodal,question_answering,tool,simulation"
+hclt2026-p723,2026,697,723,한국문화 멀티모달 질의응답을 위한 멀티모달 검색 증강 생성,"김준형(홍익대학교), 곽혜진(숙명여자대학교), 이신영(고려대학교), 이정빈(성균관대학교)<4인 공동 제1",text,False,True,False,False,"llm,rag,multimodal,question_answering"
+hclt2026-p729,2026,703,729,저자원 한국 문화 멀티모달 질의응답을 위한 소형 VLM의 유형별 적응과 구조화 추론,"이지영(울산과학기술대학교), 허태희(성신여자대학교)",text,False,True,False,False,"llm,multimodal,question_answering,evaluation"
+hclt2026-p735,2026,709,735,한국문화 멀티모달 질의응답의 근거 분해 지시와 응답형식 제약 - 2026 AI말평 검증 200문항의 직접응답과 K-CAVE 비교 -,이건근(동신대학교),text,False,False,False,False,"multimodal,question_answering"
+hclt2026-p739,2026,713,739,중첩 도구 호출 지표와 과업 수행 성능 간 불일치 분석,"김산(한국전자기술연구원), 성수진(한국전자기술연구원)",text,True,False,False,True,"fine_tuning,tool,evaluation"
+hclt2026-p742,2026,716,742,창의적 유추를위한 한국어 구조 카드와 사전 비의존 평가,"이상화(연세대학교), 성호건(연세대학교), 최의준(연세대학교), 이수민(연세대학교), 신준현(연세대학교),",text,False,True,False,False,"llm,human,safety,evaluation"
+hclt2026-p748,2026,722,748,한국어 중심 다영역 데이터셋을 활용한 공개 가중치 LLM 및 VLM 성능 분석,"김민혁(한국전자기술연구원), 신동혁(한국전자기술연구원), 신사임(한국전자기술연구원), 장진예(한국전",text,False,True,False,False,"llm,multimodal,evaluation"
+hclt2026-p753,2026,727,753,금융 에이전트 환경의 개인정보 탐지: 텍스트 교란에 대한 강건성과 도메인 적응,오성우(KB국민은행),text,True,False,False,True,"fine_tuning,tool,evaluation"
+hclt2026-p759,2026,733,759,중첩표·그림표의 판정 기준과 한·미·일 공공 서식 문서에서의 출현율 측정,"서성원(아이브릭스), 하태빈(아이브릭스), 박호진(아이브릭스), 안영민(아이브릭스)",text,False,False,False,False,tabular
+hclt2026-p765,2026,739,765,한국 미술 작품을 활용한 LLM 기반 한국어 숙달도별 도슨트 콘텐츠 생성: RAG 적용 효과를 중심으로,"이진주(세종대학교), 이진(세종대학교)",text,False,True,False,False,"llm,rag,evaluation"
+hclt2026-p771,2026,745,771,다영역 글쓰기 자동 채점에서 점수 이산화가 모델 평가에 미치는 영향,"이다원(건국대학교), 이어진(건국대학교), 서재형(건국대학교)",text,False,False,False,False,evaluation
+hclt2026-p777,2026,751,777,KLUE-MRC에서 지문 없는 정답 재현의 모델 간 집중 분석,"이강길(한림대학교), 김유섭(한림대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2026-p782,2026,756,782,카페 시뮬레이션에서 순응 유도 공격에 따른 에이전트의 대응 행동 분석,"안효은(충남대학교), 김은빈(충남대학교), 편고운(충남대학교), 허인범(충남대학교), 정상근(충남대학교)",text,True,True,True,True,"llm,simulation,safety"
+hclt2026-p788,2026,762,788,K-Stop: 재식별 위험 임계값 기반 한국어 문서 집합 비식별화,"Duong Tuan Thanh(고려대학교), Kinam Park(Human-Inspired AI Research), Heuiseok Lim(고려대학",text,True,True,True,True,"llm,safety,evaluation"
+hclt2026-p794,2026,768,794,대규모 언어 모델의 코드 생성 신뢰도와 기능성·보안성 간 정렬 분석,"박은환(고려대학교), 박기남(Human-Inspired AI 연구원), 임희석(고려대학교, Human-Inspired AI 연구",text,False,True,False,False,"llm,safety,evaluation"
+hclt2026-p799,2026,773,799,한국어 개체명 인식을 위한 예측 관계와 개체 유형에 따른 조건부 신뢰도 기반 NER-LLM 선택적 결합,"김태린(동국대학교), 강병민(동국대학교), 김지희(동국대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2026-p805,2026,779,805,한국어 학습자 작문 자동채점에서 거대언어모델의 한국어 특화 여부와 프롬프팅 방식에 따른 성능 및 채점 엄격도 비교,"권은주(세종대학교), 이진(세종대학교)",text,False,True,False,False,"llm,simulation,human,evaluation"
+hclt2026-p811,2026,785,811,"LLM 기반 분석적 글쓰기 채점의 차원별 반응 분석: 내용, 구성, 어법 변형을 중심으로","배국환(대구교육대학교), 이승현(대구교육대학교), 정영탁(대구교육대학교), 이영호(대구교육대학교)",text,False,True,False,False,"llm,evaluation"
+hclt2026-p814,2026,788,814,LLM 기반 추천을 위한 다차원 rationale 품질 평가 및 선택적 재생성,"홍소은(중앙대학교 AI대학원), 김가현(중앙대학교 AI대학원), 권회준(중앙대학교 AI대학원), 최주원(중앙",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p820,2026,794,820,자연어 기반 한국어 음운 변동 추출 및 조음 매핑 알고리즘 설계,김원경(단국대학교),ocr,False,False,False,False,multimodal
+hclt2026-p825,2026,799,825,Fanxicon: 팬덤 신조어 자동 추출 및 분류를 통한 지식 그래프 구축 - 프로야구 도메인을 중심으로,"이규진(전북대학교), 김군도(전북대학교), 오효정(전북대학교)",text,False,False,False,False,"simulation,human,evaluation"
+hclt2026-p831,2026,805,831,한국어 문서 시각 질의응답을 위한 다중 시각 언어 모델의 합의 기반 선택적 판정,"윤태웅(건국대학교), 김유신(건국대학교), 김학수(건국대학교)",text,False,True,False,False,"llm,multimodal,question_answering"
+hclt2026-p837,2026,811,837,효율적 한국어 정보검색을 위한 점수 마진 기반 선택적 재순위화,"강지석(건국대학교), 서재형(건국대학교)",text,False,False,False,False,"rag,fine_tuning"
+hclt2026-p843,2026,817,843,한국어 시각 질의응답을 위한 질문 분해 기반 정답 노출 억제 이미지 설명 생성 기법,"이태이(제주대학교), 박정민(제주대학교), 전승훈(제주대학교), 김경민(제주대학교)",text,False,True,False,False,"llm,multimodal,question_answering"
+hclt2026-p849,2026,823,849,한국어 임상 언어를 활용한 정상인지·경도인지장애·치매 분류: Transformer 모델 비교 연구,"김성은(경북대학교), 강준영(경북대학교), 이승호(경북대학교), 이만유(경북대학교), 신창환(경북대학교),",text,False,True,False,False,"llm,transformer"
+hclt2026-p854,2026,828,854,언어모델의 지속학습에서 태스크 변환에 따른 지식 인출 효과 분석,"조상현, 허정, 신종훈, 이명진, 이기영, 성진, 임수종(한국전자통신연구원)",text,False,True,False,False,"llm,rag,question_answering"
+hclt2026-p860,2026,834,860,LLM 기반 대화 증강과 문맥 기반 발화 단위 라벨링을 통한 실시간 보이스피싱 탐지,"정수흠(건국대학교 컴퓨터공학부), 이다민(건국대학교 컴퓨터공학부), 임지예(건국대학교 컴퓨터공학부),",text,False,True,False,False,"llm,fine_tuning,human"
+hclt2026-p866,2026,840,866,NL2SQL 의미 오류 교정에서 구조적 국소화 신호와 명시적 추론의 간섭 현상 분석,"이수찬(POSTECH), 송우민(KAIST), 유환조(POSTECH), 모상우(POSTECH)",text,False,True,False,False,"llm,tabular"
+hclt2026-p870,2026,844,870,다중 에이전트 기반 병원 안내 및 진료 지원 챗봇 시스템,"정지민(고려대학교), 박찬희(고려대학교), 이태민(Human-Inspired AI 연구원), 박정배(Human-Inspired",text,True,False,False,True,"rag,human,safety,evaluation"
+hclt2026-p876,2026,850,876,함수 호출 성능에 대한 합성 대화 이력 길이와 도구 재선언의 회복 효과,"한성빈(고려대학교), 소아람(Human-Inspired AI 연구원), 임희석(고려대학교 / Human-Inspired AI 연구",text,False,False,False,False,"tool,human,evaluation"
+hclt2026-p882,2026,856,882,북한 정보 특화 에이전트의 위험 행동 통제를 위한 가드레일 방법론 연구,"최규리(연세대학교 언어정보연구원), 박서윤(연세대학교언어정보연구원), 김한샘(연세대학교 언어정보학",text,True,False,False,True,human
+hclt2026-p888,2026,862,888,스트리밍 생성형 슬롯 스키마 유도의 실증적 진단과 개선: 편입 게이트와 근거 필터를 이용한 2단 검증,"노윤형(한국전자통신연구원), 황금하(한국전자통신연구원)",text,False,True,False,False,llm
+hclt2026-p892,2026,866,892,한국어 다자간 회의에서 임베딩 및 대규모 언어모델 기반 주제 분할 성능 분석,"강점자(한국전자통신연구원), 최우용(한국전자통신연구원), 한란(한국전자통신연구원), 송화전(한국전자",ocr,False,True,False,False,llm
+hclt2026-p899,2026,873,899,자동 글쓰기 채점은 어디에서 막히는가?,박재규(주식회사 한국지식미디어연구원),text,False,False,False,False,evaluation
+hclt2026-p905,2026,879,905,선택적 검색 증강과 단답형 특화 적응을 활용한 한국문화 멀티모달 질의응답,"박지홍(경상국립대학교), 이세연(경상국립대학교), 김주영(경상국립대학교), 김건우(경상국립대학교)",text,False,True,False,False,"rag,multimodal,fine_tuning,question_answering,simulation,evaluation"
+hclt2026-p911,2026,885,911,언어 기반 이미지 표현 정렬을 통한 VLM의 교차언어 응답 불일치 완화,"남경민(가천대학교), 김균엽(가천대학교), 박소언(가천대학교), 강상우(가천대학교)",text,False,True,False,False,"llm,multimodal,safety"
+hclt2026-p917,2026,891,917,한국문화 멀티모달 질의응답을 위한 스키마 매칭 기반 페르소나 검색 증강,"김주영(경상국립대학교), 박지홍(경상국립대학교), 이세연(경상국립대학교), 김건우(경상국립대학교)",text,True,True,True,True,"llm,rag,multimodal,question_answering,evaluation"
+hclt2026-p923,2026,897,923,인간-LLM 판단 단서 결합을 활용한 효율적인 AI 생성 리뷰 탐지 방법,"배수연(전남대학교), 심수정(전남대학교), 박혁로(전남대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p929,2026,903,929,NativeKo-Arena: 모델 간 성능 구분을 위한 한국어 실사용 질문 벤치마크,"박승현(부산대학교), 최동희(부산대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p935,2026,909,935,한국어 초·중등 논술문 채점에서 인간 채점자와 상용 LLM의 일치도 및 텍스트 특성 반응 비교,"정영탁(대구교육대학교), 이승현(대구교육대학교), 배국환(대구교육대학교), 이영호(대구교육대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p939,2026,913,939,사회적 맥락에 따른 언어모델의 한국어 상대높임 분석,"이예빈(충남대학교), 편고운(충남대학교), 김은빈(충남대학교), 정상근(충남대학교)",text,False,True,False,False,"llm,simulation,evaluation"
+hclt2026-p945,2026,919,945,한국어 프롬프트의 과제 지시 위치에 따른 LLM 과제 성능 분석,"김상원(가톨릭대학교), 김연길(경희대학교), 정희영(경희대학교), 강재우(가톨릭대학교), 안재언(가톨릭대",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p951,2026,925,951,대규모 한국어 검색어 데이터셋 KoAIO 구축을 통한 AI 검색 요약 활성화 경향 분석,"이정찬(충남대학교), 남궁혁(충남대학교), 강현석(충남대학교), 정상근(충남대학교)",text,False,True,False,False,llm
+hclt2026-p957,2026,931,957,LLM 기반 SNS 게시물 생성 및 유통에 관한 연구,"하예린(ETRI), 손정우(ETRI)",text,True,True,True,True,"llm,evaluation"
+hclt2026-p963,2026,937,963,사건 단위 증거 집합과 사실 단위 Claim 검증을 이용한 가짜뉴스 탐지,"임찬규(건국대학교), 한미래(건국대학교), 김학수(건국대학교)",text,True,True,True,True,"llm,evaluation"
+hclt2026-p969,2026,943,969,한국어 어문 규범 질의응답에서 지식 구조화에 따른 LLM 성능 비교 연구,"강조은(연세대학교), 강채안(연세대학교), 강혜린(연세대학교), 김은비(연세대학교), 박혜진(연세대학교),",text,False,True,False,False,"llm,rag,question_answering,evaluation"
+hclt2026-p975,2026,949,975,생성형 AI 기반 편향 평가 데이터 구축 파이프라인 연구,"강조은(연세대학교), 강채안(연세대학교), 김한샘(연세대학교)",text,False,True,False,False,"llm,simulation,evaluation"
+hclt2026-p981,2026,955,981,LLM의 동북아시아 문화 이해 강건성 및 재현성 평가,"강조은(연세대학교), 박세은(연세대학교), 김지학(연세대학교), 김한샘(연세대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p987,2026,961,987,한국어 데이터베이스 에이전트 평가: 질의의 도메인 용어 명시성과 언어 환경의 영향,"손준영(고려대학교), 강명훈(고려대학교), 박기남(Human-Inspired AI 연구원), 임희석(Human-Inspired",text,True,True,True,True,"llm,tabular,human,evaluation"
+hclt2026-p993,2026,967,993,MLLM의 개인정보 탐지 성능 및 오류 분석,"강채안(연세대학교), 왕소남(연세대학교), 육정훈(카이스트), 김동수(국립한밭대학교), 임경태(카이스트),",text,False,True,False,False,"llm,multimodal,evaluation"
+hclt2026-p999,2026,973,999,가격 예측에서 대규모 언어 모델의 뉴스 사용 자기보고와 행동적 민감성 분석,"이성현(한동대학교), 정희원(임팩티브AI), 정두희(임팩티브AI), 홍참길(한동대학교)",text,False,True,False,False,"llm,human,evaluation"
+hclt2026-p1005,2026,979,1005,한국어 어절의 결합 예측 강도에 따른 점화 효과,"강진원(광주과학기술원), 태진이(광주과학기술원), 최원일(광주과학기술원)",text,False,False,False,False,
+hclt2026-p1008,2026,982,1008,LLM 에이전틱 루프를 활용한 한국어 전문용어의 상위어 탐색 방법,"김완수(울산대학교), 옥철영(울산대학교)",text,True,True,True,True,"llm,fine_tuning,human,evaluation"
+hclt2026-p1013,2026,987,1013,초등 EFL 학습자 작문의 학년 판단에 대한 대규모 언어모델의 예측 양상,"김희재(언어정보연구원, 연세대학교), 박서윤(언어정보연구원, 연세대학교), 강조은(언어정보학협동과정,",text,False,True,False,False,llm
+hclt2026-p1020,2026,994,1020,2음절 초성과제 수행에 영향을 미치는 요인에 관한 탐색적 연구,"이여규(광주과학기술원), 박종현(광주과학기술원), 강진원(광주과학기술원), 최원일(광주과학기술원)",text,False,False,False,False,
+hclt2026-p1024,2026,998,1024,한국어 어휘·격 정보의 처리 비용은 어디서 실현되는가: 인간 읽기시간과 언어모델 surprisal의 위치별 비교,"서민재(고려대학교), 조예리(고려대학교), 하성엽(고려대학교), 허영선(고려대학교), 남기춘(고려대학교),",text,False,True,False,False,"llm,human"
+hclt2026-p1030,2026,1004,1030,지식 증류와 수사 구조 이론을 활용한 그래프 기반 데이터 합성,"조수아(NC AI), 문아영(NC AI), 이승진(NC AI)",text,False,True,False,False,"llm,simulation,evaluation"
+hclt2026-p1036,2026,1010,1036,장문맥 KV 캐시 압축을 위한 Retrieval-Reasoning Head 중요도의 영어-한국어 간 전이 분석,"정하영(중앙대학교), 윤정민(중앙대학교), 유하영(중앙대학교), 권민정(중앙대학교), 김영빈(중앙대학교)",text,False,True,False,False,"llm,rag,question_answering,evaluation"
+hclt2026-p1042,2026,1016,1042,RAG 기반 한국어교육 챗봇의 어휘 오류 교정 기능 확장 방안 - 표준국어대사전 Open API 연계를 중심으로,조수현(연세대학교),text,False,True,False,False,"llm,rag,tool,evaluation"
+hclt2026-p1047,2026,1021,1047,과학 그래프의 구조화 데이터 추출을 위한 멀티모달 에이전트 프레임워크,"신현호(한국과학기술정보연구원), 전홍우(한국과학기술정보연구원), 이재민(한국과학기술정보연구원)",text,True,False,False,True,multimodal
+hclt2026-p1053,2026,1027,1053,기하학 MLLM의 커리큘럼 학습 효과 분석을 위한 기하 추론 세부 능력 평가,"한웅(중앙대학교), 이동진(중앙대학교), 이은주(중앙대학교), 이승훈(중앙대학교), 김영빈(중앙대학교)",text,False,True,False,False,"llm,multimodal,evaluation"
+hclt2026-p1087,2026,1061,1087,[AI말평 우수 논문] K-CMAS: 한국문화 멀티모달 질의응답을 위한 다중 에이전트 시스템,"허인범(충남대학교), 정상근(충남대학교)",text,True,True,True,True,"llm,multimodal,question_answering,evaluation"
+hclt2026-p1093,2026,1067,1093,[AI말평 우수 논문] 문화지식 자동수집과 순차적 지식주입 게이트를 통한 시각질의응답 단계적 확장,"하세인(서강대학교), 정현우(서강대학교), 장두성(서강대학교)",text,False,True,False,False,"llm,rag,multimodal,fine_tuning,question_answering,evaluation"
+hclt2026-p1105,2026,1079,1105,[AI말평 우수 논문] 지식 재구성과 답변 기여도 기반 시각적 집중을 활용한 한국 문화 멀티모달 질의응답,"이세연(경상국립대학교), 김주영(경상국립대학교), 박지홍(경상국립대학교), 박수진(경상국립대학교), 김",text,False,True,False,False,"llm,rag,multimodal,question_answering,evaluation"
+hclt2026-p1059,2026,1033,1059,LLM의 20세기 초 한국어 교재 OCR 성능 평가,"박서윤(연세대학교 언어정보연구원), 최규리(연세대학교 언어정보연구원), 김희재(연세대학교 언어정보연",text,False,True,False,False,"llm,multimodal,human,evaluation"
+hclt2026-p1064,2026,1038,1064,STP-8: 시간 구간별 프레임 쌍 선택을 통한 VideoLLM 의 모션 환각 완화,"주가빈(중앙대학교), 조선희(중앙대학교), 권준형(중앙대학교), 임병극(중앙대학교), 김영빈(중앙대학교)",text,False,True,False,False,"llm,safety"
+hclt2026-p1070,2026,1044,1070,영어-한국어 기계번역에서 직업단서에 따른 상대 높임법 선택 편향 분석,"길기정(충남대학교), 이공주(충남대학교)",text,False,False,False,False,"tabular,translation,evaluation"
+hclt2026-p1072,2026,1046,1072,전문용어를 통제하면서 자동 번역 품질을 유지할 수 있는가?: 화학 · 생물 난이도별 한국어 과학 벤치마크 구축,"강두찬(홍익대학교), 박소현(서울과학기술대학교), 양현진(경희대학교), 성진(ETRI), 조상현(ETRI), 허정",text,False,True,False,False,"llm,translation,human,evaluation"
+hclt2026-p1078,2026,1052,1078,한글 자모 기반의 가역 한글-로마자 전환 시스템 구현,김선일(국립부경대학교),text,False,True,False,False,llm
