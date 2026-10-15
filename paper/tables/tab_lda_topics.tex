@@ -1,40 +1,40 @@
 % 자동 생성: paper/scripts/05_make_paper_tables.py --lda (정본 topics_lda_20261015.json)
 \begin{widetable}
 \centering
-\caption{LDA 토픽 25개(arXiv 20,107편, 전체 편수가 많은 순). 상위 단어는 각 토픽에서 단어 확률이 높은 다섯 개의 단어이다. 세계 열은 총 편수(비중 \%)와 연도별 편수 2023/2024/2025/2026(1$\sim$9월), 기울기는 연도별 점유율의 직선 기울기(pp/년)이다. 언어 열은 사람의 검수로 확정한 집합의 관측 편수(세계 전체 기준 기대 편수; 언어명을 언급한 세계 논문 기준 기대 편수)이며 기대 = 토픽 비중 $\times$ 집합 크기. $\uparrow$는 관측 편수가 세계 전체 기준 기대 편수의 1.5배 초과, $\downarrow$는 절반 미만(기대 1편 미만은 표시하지 않음). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 굵은 수치는 한국어 연구 방향의 비교 근거이다.}
+\caption{LDA 토픽 25개(arXiv 20,107편, 전체 편수가 많은 순). 상위 단어는 각 토픽에서 단어 확률이 높은 다섯 개의 단어이다. 세계 열은 총 편수(비중 \%)와 연도별 편수 2023/2024/2025/2026(1$\sim$9월)이다. 언어 열은 사람의 검수로 확정한 집합의 관측 편수(세계 전체 기준 기대 편수; 언어명을 언급한 세계 논문 기준 기대 편수)이며 기대 = 토픽 비중 $\times$ 집합 크기. $\uparrow$는 관측 편수가 세계 전체 기준 기대 편수의 1.5배 초과, $\downarrow$는 절반 미만(기대 1편 미만은 표시하지 않음). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 화살표는 기술적 비교 표시이며 통계적 유의성을 뜻하지 않는다. 굵은 수치는 한국어 연구 후보의 비교 근거이다.}
 \label{tab:topics}
 \resizebox{\textwidth}{!}{
-\begin{tabular}{rlrrrrrr}
+\begin{tabular}{rlrrrrr}
 \toprule
-순위 & 상위 단어 & 세계 편수 (\%) & 연도별 편수 & 기울기 & 한국어 (25) & 중국어 (186) & 일본어 (17) \\
+순위 & 상위 단어 & 세계 편수 (\%) & 연도별 편수 & 한국어 (25) & 중국어 (186) & 일본어 (17) \\
 \midrule
-1 & benchmark, score, run, control, evaluation & 1,602 (8.0) & 1/1/36/1,564 & +4.3 & 2 (2.0; 3.4) & 13 (14.8; 25.5) & 1 (1.4; 2.3) \\
-2 & evaluation, benchmark, evaluate, capability, research & 1,300 (6.5) & 25/173/559/543 & +0.6 & 2 (1.6; 1.5) & 27 (12.0; 11.3)$\uparrow$ & 2 (1.1; 1.0)$\uparrow$ \\
-3 & workflow, clinical, design, medical, multi & 1,264 (6.3) & 29/224/565/446 & -0.1 & 2 (1.6; 1.8) & 14 (11.7; 13.6) & 1 (1.1; 1.2) \\
-4 & learning, game, environment, learn, decision & 1,100 (5.5) & 168/317/443/172 & -7.5 & 0 (1.4; 0.8)$\downarrow$ & 6 (10.2; 5.9) & 2 (0.9; 0.5) \\
-5 & reasoning, multi, enhance, dataset, generate & 1,091 (5.4) & 68/321/515/187 & -3.0 & 3 (1.4; 2.8)$\uparrow$ & 41 (10.1; 20.7)$\uparrow$ & 0 (0.9; 1.9) \\
-6 & software, execution, failure, test, workflow & \textbf{997} (5.0) & 4/38/184/771 & +2.1 & \textbf{0} (1.2; 1.5)$\downarrow$ & 1 (9.2; 11.3)$\downarrow$ & 0 (0.8; 1.0) \\
-7 & optimization, design, search, generation, agentic & 966 (4.8) & 10/55/302/599 & +1.5 & 0 (1.2; 0.5)$\downarrow$ & 4 (8.9; 3.6)$\downarrow$ & 0 (0.8; 0.3) \\
-8 & retrieval, graph, knowledge, query, answer & \textbf{926} (4.6) & 17/72/278/559 & +1.0 & \textbf{0} (1.2; 2.1)$\downarrow$ & \textbf{13} (8.6; 15.4)$\uparrow$ & 0 (0.8; 1.4) \\
+1 & benchmark, score, run, control, evaluation & 1,602 (8.0) & 1/1/36/1,564 & 2 (2.0; 3.4) & 13 (14.8; 25.5) & 1 (1.4; 2.3) \\
+2 & evaluation, benchmark, evaluate, capability, research & 1,300 (6.5) & 25/173/559/543 & 2 (1.6; 1.5) & 27 (12.0; 11.3)$\uparrow$ & 2 (1.1; 1.0)$\uparrow$ \\
+3 & workflow, clinical, design, medical, multi & 1,264 (6.3) & 29/224/565/446 & 2 (1.6; 1.8) & 14 (11.7; 13.6) & 1 (1.1; 1.2) \\
+4 & learning, game, environment, learn, decision & 1,100 (5.5) & 168/317/443/172 & 0 (1.4; 0.8)$\downarrow$ & 6 (10.2; 5.9) & 2 (0.9; 0.5) \\
+5 & reasoning, multi, enhance, dataset, generate & 1,091 (5.4) & 68/321/515/187 & 3 (1.4; 2.8)$\uparrow$ & 41 (10.1; 20.7)$\uparrow$ & 0 (0.9; 1.9) \\
+6 & software, execution, failure, test, workflow & \textbf{997} (5.0) & 4/38/184/771 & \textbf{0} (1.2; 1.5)$\downarrow$ & 1 (9.2; 11.3)$\downarrow$ & 0 (0.8; 1.0) \\
+7 & optimization, design, search, generation, agentic & 966 (4.8) & 10/55/302/599 & 0 (1.2; 0.5)$\downarrow$ & 4 (8.9; 3.6)$\downarrow$ & 0 (0.8; 0.3) \\
+8 & retrieval, graph, knowledge, query, answer & \textbf{926} (4.6) & 17/72/278/559 & \textbf{0} (1.2; 2.1)$\downarrow$ & \textbf{13} (8.6; 15.4)$\uparrow$ & 0 (0.8; 1.4) \\
 \midrule
-9 & planning, action, reasoning, plan, environment & 924 (4.6) & 57/138/323/406 & -1.4 & 0 (1.1; 0.2)$\downarrow$ & 1 (8.5; 1.8)$\downarrow$ & 0 (0.8; 0.2) \\
-10 & social, human, simulation, behavior, generative & 888 (4.4) & 55/175/342/316 & -1.7 & 2 (1.1; 2.5)$\uparrow$ & 6 (8.2; 19.0) & 4 (0.8; 1.7) \\
-11 & memory, skill, long, context, experience & 882 (4.4) & 6/11/108/757 & +2.0 & 0 (1.1; 0.1)$\downarrow$ & 2 (8.2; 0.6)$\downarrow$ & 0 (0.7; 0.1) \\
-12 & behavior, bias, alignment, decision, uncertainty & 848 (4.2) & 23/81/234/510 & +0.4 & 0 (1.1; 0.5)$\downarrow$ & 3 (7.8; 3.6)$\downarrow$ & 2 (0.7; 0.3) \\
-13 & reward, policy, learning, trajectory, reinforcement & 828 (4.1) & 20/48/201/559 & +0.8 & 0 (1.0; 0.0)$\downarrow$ & 1 (7.7; 0.0)$\downarrow$ & 0 (0.7; 0.0) \\
-14 & cost, token, inference, gui, time & 762 (3.8) & 1/42/213/506 & +1.5 & 2 (0.9; 1.0) & 5 (7.0; 7.1) & 0 (0.6; 0.6) \\
-15 & training, fine, train, tuning, domain & 712 (3.5) & 29/71/260/352 & -0.2 & \textbf{6} (0.9; 0.9) & 10 (6.6; 6.5)$\uparrow$ & 1 (0.6; 0.6) \\
-16 & video, semantic, object, scene, temporal & 701 (3.5) & 25/105/207/364 & -0.2 & 0 (0.9; 0.3) & 5 (6.5; 2.4) & 0 (0.6; 0.2) \\
-17 & human, web, problem, instruction, solve & 647 (3.2) & 72/187/242/146 & -3.1 & 0 (0.8; 0.9) & 1 (6.0; 6.5)$\downarrow$ & 1 (0.5; 0.6) \\
+9 & planning, action, reasoning, plan, environment & 924 (4.6) & 57/138/323/406 & 0 (1.1; 0.2)$\downarrow$ & 1 (8.5; 1.8)$\downarrow$ & 0 (0.8; 0.2) \\
+10 & social, human, simulation, behavior, generative & 888 (4.4) & 55/175/342/316 & 2 (1.1; 2.5)$\uparrow$ & 6 (8.2; 19.0) & 4 (0.8; 1.7) \\
+11 & memory, skill, long, context, experience & 882 (4.4) & 6/11/108/757 & 0 (1.1; 0.1)$\downarrow$ & 2 (8.2; 0.6)$\downarrow$ & 0 (0.7; 0.1) \\
+12 & behavior, bias, alignment, decision, uncertainty & 848 (4.2) & 23/81/234/510 & 0 (1.1; 0.5)$\downarrow$ & 3 (7.8; 3.6)$\downarrow$ & 2 (0.7; 0.3) \\
+13 & reward, policy, learning, trajectory, reinforcement & 828 (4.1) & 20/48/201/559 & 0 (1.0; 0.0)$\downarrow$ & 1 (7.7; 0.0)$\downarrow$ & 0 (0.7; 0.0) \\
+14 & cost, token, inference, gui, time & 762 (3.8) & 1/42/213/506 & 2 (0.9; 1.0) & 5 (7.0; 7.1) & 0 (0.6; 0.6) \\
+15 & training, fine, train, tuning, domain & 712 (3.5) & 29/71/260/352 & \textbf{6} (0.9; 0.9) & 10 (6.6; 6.5)$\uparrow$ & 1 (0.6; 0.6) \\
+16 & video, semantic, object, scene, temporal & 701 (3.5) & 25/105/207/364 & 0 (0.9; 0.3) & 5 (6.5; 2.4) & 0 (0.6; 0.2) \\
+17 & human, web, problem, instruction, solve & 647 (3.2) & 72/187/242/146 & 0 (0.8; 0.9) & 1 (6.0; 6.5)$\downarrow$ & 1 (0.5; 0.6) \\
 \midrule
-18 & user, dialogue, conversational, interaction, conversation & 564 (2.8) & 34/75/186/269 & -0.8 & 1 (0.7; 1.1) & 12 (5.2; 8.3)$\uparrow$ & 1 (0.5; 0.8) \\
-19 & safety, risk, security, agentic, detection & 563 (2.8) & 4/13/151/395 & +1.1 & 1 (0.7; 0.5) & 1 (5.2; 3.6)$\downarrow$ & 0 (0.5; 0.3) \\
-20 & multi, reasoning, communication, collaboration, debate & 546 (2.7) & 12/45/180/309 & +0.4 & 1 (0.7; 0.5) & 5 (5.1; 3.6) & 1 (0.5; 0.3) \\
-21 & attack, prompt, defense, adversarial, injection & 479 (2.4) & 9/52/163/255 & +0.4 & 0 (0.6; 0.3) & 0 (4.4; 2.4)$\downarrow$ & 0 (0.4; 0.2) \\
-22 & multimodal, visual, vision, image, vlm & 446 (2.2) & 9/51/152/234 & +0.3 & 0 (0.6; 0.4) & 4 (4.1; 3.0) & 0 (0.4; 0.3) \\
-23 & tool, mcp, execution, privacy, external & 388 (1.9) & 3/27/94/264 & +0.6 & 1 (0.5; 0.1) & 0 (3.6; 0.6)$\downarrow$ & 0 (0.3; 0.1) \\
-24 & decision, prediction, financial, causal, market & 372 (1.9) & 0/23/110/239 & +0.7 & 1 (0.5; 0.7) & 6 (3.4; 5.3)$\uparrow$ & 1 (0.3; 0.5) \\
-25 & scientific, research, discovery, review, science & 311 (1.5) & 8/37/101/165 & +0.1 & 1 (0.4; 0.6) & 5 (2.9; 4.7)$\uparrow$ & 0 (0.3; 0.4) \\
+18 & user, dialogue, conversational, interaction, conversation & 564 (2.8) & 34/75/186/269 & 1 (0.7; 1.1) & 12 (5.2; 8.3)$\uparrow$ & 1 (0.5; 0.8) \\
+19 & safety, risk, security, agentic, detection & 563 (2.8) & 4/13/151/395 & 1 (0.7; 0.5) & 1 (5.2; 3.6)$\downarrow$ & 0 (0.5; 0.3) \\
+20 & multi, reasoning, communication, collaboration, debate & 546 (2.7) & 12/45/180/309 & 1 (0.7; 0.5) & 5 (5.1; 3.6) & 1 (0.5; 0.3) \\
+21 & attack, prompt, defense, adversarial, injection & 479 (2.4) & 9/52/163/255 & 0 (0.6; 0.3) & 0 (4.4; 2.4)$\downarrow$ & 0 (0.4; 0.2) \\
+22 & multimodal, visual, vision, image, vlm & 446 (2.2) & 9/51/152/234 & 0 (0.6; 0.4) & 4 (4.1; 3.0) & 0 (0.4; 0.3) \\
+23 & tool, mcp, execution, privacy, external & 388 (1.9) & 3/27/94/264 & 1 (0.5; 0.1) & 0 (3.6; 0.6)$\downarrow$ & 0 (0.3; 0.1) \\
+24 & decision, prediction, financial, causal, market & 372 (1.9) & 0/23/110/239 & 1 (0.5; 0.7) & 6 (3.4; 5.3)$\uparrow$ & 1 (0.3; 0.5) \\
+25 & scientific, research, discovery, review, science & 311 (1.5) & 8/37/101/165 & 1 (0.4; 0.6) & 5 (2.9; 4.7)$\uparrow$ & 0 (0.3; 0.4) \\
 \bottomrule
 \end{tabular}}
 \end{widetable}

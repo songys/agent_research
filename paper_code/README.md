@@ -7,8 +7,9 @@
 | 전체 | 분모·관측·기대 편수 | `corpus_counts.pipeline`, `topics_lda.world_topic_table` | [분모 검증](../analysis/scripts/17_check_paper_denominators.py) | [ ] |
 | 3장 표 1 | 연도별 자료 규모 | `overview_notebook.table1` | [01](../analysis/notebooks/01_corpus_overview.ipynb) | [ ] |
 | 4장 표 2 | 25개 토픽과 언어 분포 | `topics_lda.world_topic_table`, `lang_mention_baseline` | [02](../analysis/notebooks/02_lda.ipynb) | [ ] |
-| 4장 그림 1 | 두 기준의 기대 편수 | `topics_lda.project_lang` | [02](../analysis/notebooks/02_lda.ipynb) | [ ] |
-| 4.1 | 반복 학습의 추세 | `topics_lda.slope_by_seed`, `stability_mean_jaccard` | [02](../analysis/notebooks/02_lda.ipynb) | [ ] |
+| 4장 그림 1 | 두 기준의 기대 편수 | `topics_lda.project_lang` | [그림 생성](../analysis/scripts/19_plot_paper_figures.py) | [ ] |
+| 4.1 그림 2 | 연도별 편수·비율 | `overview_notebook.table1` | [그림 생성](../analysis/scripts/19_plot_paper_figures.py) | [ ] |
+| 4장·4.1 | 토픽 구성의 안정성과 연도별 비중 | `topics_lda.stability_mean_jaccard`, `world_topic_table` | [02](../analysis/notebooks/02_lda.ipynb) | [ ] |
 | 4.1.1 | 인접 연어의 비율 | `agent_colloc.world`, `set_sizes` | [추출](../analysis/scripts/12_agent_collocations.py), [07](../analysis/notebooks/07_agent_collocations.ipynb) | [ ] |
 | 4.1.1 | 특징 어휘의 비율 | `meta_keyness.y2026_top`, `n_2026`, `n_prior` | [08](../analysis/notebooks/08_keyness.ipynb) | [ ] |
 | 4.2.1 | 전체 분포 순열 검정 | `topics_lda.permutation` | [02](../analysis/notebooks/02_lda.ipynb) | [ ] |
@@ -20,6 +21,7 @@
 
 ```bash
 python paper_code/run.py check
+python analysis/scripts/19_plot_paper_figures.py
 python paper_code/run.py tables --output /tmp/agent-tables
 python paper_code/run.py notebooks --output /tmp/agent-analysis
 ```

@@ -3,7 +3,7 @@
 
 입력: preprocessing/output, analysis/output, verification(20261015 기준).
 출력: check는 터미널만, tables/notebooks는 --output의 새 격리 사본과 실행 기록.
-논문 위치: 3장 표 1, 4장 표 2·3/그림 1/본문 수치. 수집/API 호출은 하지 않는다.
+논문 위치: 3장 표 1, 4장 표 2·3/그림 1·2/본문 수치. 수집/API 호출은 하지 않는다.
 """
 from __future__ import annotations
 
@@ -71,7 +71,7 @@ def prepare(output):
     ignore = shutil.ignore_patterns("__pycache__", "*.aux", "*.log", "*.fls", "*.fdb_latexmk", "*.pdf", "hclt_ocr")
     for rel in paths:
         shutil.copytree(ROOT / rel, work / rel, ignore=ignore)
-    for rel in ["analysis/output/cache/lemmas_2023_2026q3.jsonl", "analysis/output/cache/agent_colloc_2023_2026q3.jsonl", "analysis/output/hclt_tokens.csv", "analysis/output/arxiv_lemma_families_2023_2026q3.csv", "analysis/output/figures/fig2b_lda_obs_vs_exp_lang.png"]:
+    for rel in ["analysis/output/cache/lemmas_2023_2026q3.jsonl", "analysis/output/cache/agent_colloc_2023_2026q3.jsonl", "analysis/output/hclt_tokens.csv", "analysis/output/arxiv_lemma_families_2023_2026q3.csv", "analysis/output/figures/fig2b_lda_obs_vs_exp_lang.png", "analysis/output/figures/fig1_corpus_growth.png"]:
         dst = work / rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / rel, dst)

@@ -34,3 +34,13 @@ python paper_code/run.py notebooks --notebooks 01 02 05 07 08 10 --output /tmp/a
 확인한 범위와 미실행 항목은 [검증 기록](paper_code/VALIDATION.md)에 있다.
 
 학술대회 요약·OCR 텍스트 및 형태소 텍스트는 배포하지 않는다. 학술대회 키워드 판정을 처음부터 다시 추출하려면 원문 요약을 별도로 확보하고 경계를 검수해야 한다. 공개 판정은 기존 분석에 사용한 값이며, OCR 요약 경계 오류를 교정한 재분석 결과는 아니다. 상위 명사 탐색은 공개 재현에서 제외한다.
+
+## 원고 그림
+
+```bash
+python analysis/scripts/19_plot_paper_figures.py
+```
+
+저장된 정본에서 그림 1(대상 언어별 토픽 분포)과 그림 2(연도별 편수·비율)를 만든다. 토픽명은 영어 원문을 유지하고 설명은 국문으로 표시한다. NanumGothic, Noto Sans CJK KR, AppleGothic, Malgun Gothic 중 하나가 필요하다. 분석과 모델 학습은 다시 실행하지 않는다.
+
+표 2에는 기울기를 표시하지 않는다. 기존 정본의 기울기와 반복 학습 값은 분석 기록으로 보존하며, 원고의 주제 변화는 연도별 비중으로 설명한다. 토픽별 검정은 선택한 전처리와 LDA 모델에 조건부인 결과이다. 전처리·토픽 수 변경에 따른 체계적인 민감도 분석(sensitivity analysis)은 완료하지 않았다.

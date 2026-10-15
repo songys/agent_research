@@ -73,13 +73,14 @@ tex=(R/'paper/tables/tab_lda_topics.tex').read_text()
 for line in tex.splitlines():
  line=re.sub(r'\\textbf\{([^{}]*)\}',r'\1',line)  # 표의 강조는 수치와 분리한다.
  if not re.match(r'^\d+ &',line):continue
- parts=line.split(' & ');rank=int(parts[0]);w=next(x for x in t['world_topic_table'].values() if x['world_rank']==rank)
+ parts=line.split(' & ');assert len(parts)==7, 'table 2 must contain seven columns';rank=int(parts[0]);w=next(x for x in t['world_topic_table'].values() if x['world_rank']==rank)
  check(int(parts[2].split(' (')[0].replace(',',''))==w['world_total'],f'table 2 rank {rank}: world count agrees')
- for part,l in zip(parts[5:8],['ko','zh','ja']):
+ for part,l in zip(parts[4:7],['ko','zh','ja']):
   vals=re.search(r'(\d+) \(([\d.]+); ([\d.]+)\)',part).groups()
   check(tuple(map(float,vals))==(w[f'{l}_obs'],w[f'{l}_exp'],w[f'{l}_exp_lm']),f'table 2 rank {rank}: {l} cell agrees')
-fig=Path('figures/fig2b_lda_obs_vs_exp_lang.png')
-check((R/'paper'/fig).read_bytes()==(R/'analysis/output'/fig).read_bytes(),'paper figure byte-identical to current analysis figure')
+for name in ['fig2b_lda_obs_vs_exp_lang.png', 'fig1_corpus_growth.png']:
+ fig=Path('figures')/name
+ check((R/'paper'/fig).read_bytes()==(R/'analysis/output'/fig).read_bytes(),'paper figure byte-identical to current analysis figure: '+name)
 for entry in json.loads((R/'preprocessing/output/corpus_manifest.json').read_text())['files'][:2]:
  check(hashlib.sha256((R/entry['path']).read_bytes()).hexdigest()==entry['sha256'],'current corpus hash matches manifest: '+entry['path'])
 print('DENOMINATORS',{'world':N,**sizes,'target_union':226,'signals':257,'language_mention':len(lm),'year':dict(years),'HCLT':62})

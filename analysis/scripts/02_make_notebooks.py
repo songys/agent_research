@@ -360,18 +360,10 @@ for l, m in groups.items():
     null = np.array([jsd_vs_rest(np.isin(np.arange(len(m)), rng.choice(len(m), n, replace=False))) for _ in range(2000)])
     perm[f"lang:{l}"] = {"n": n, "jsd_vs_rest": round(point, 4), "null_mean": round(float(null.mean()), 4), "null_q95": round(float(np.quantile(null, 0.95)), 4), "p_perm": round(float((np.sum(null >= point) + 1) / 2001), 4)}
 print(json.dumps(perm, indent=1)); display(t_lang.sort_values("n_all", ascending=False))
-fig, axes = plt.subplots(1, 3, figsize=(13, 0.3 * K + 1.8), sharey=True); order = t_lang.sort_values("n_all", ascending=False).index
-for ax, l in zip(axes, LANGS):
-    sub = t_lang.loc[order]; y = np.arange(K)
-    ax.barh(y - 0.27, sub[f"obs_{l}"], 0.27, color=C["green"], label="observed", zorder=3); ax.barh(y, sub[f"exp_{l}"], 0.27, color=C["gray_light"], label="expected: world share × n", zorder=3)
-    ax.barh(y + 0.27, sub[f"exp_lm_{l}"], 0.27, color=C["orange_light"], label="expected: language-mentioning papers' share × n", zorder=3)
-    xmax = max(sub[f"obs_{l}"].max(), sub[f"exp_{l}"].max(), sub[f"exp_lm_{l}"].max())
-    for i, t in enumerate(order): ax.text(max(sub.loc[t, f"obs_{l}"], sub.loc[t, f"exp_{l}"], sub.loc[t, f"exp_lm_{l}"]) + 0.02 * xmax, i, f"{int(sub.loc[t, f'obs_{l}'])} ({sub.loc[t, f'exp_{l}']:.1f} | {sub.loc[t, f'exp_lm_{l}']:.1f})", va="center", fontsize=6.5, color=C["text"])
-    for cut in (7.5, 16.5): ax.axhline(cut, color=C["gray"], lw=0.7, ls=":")
-    ax.set_yticks(y); ax.set_yticklabels([f"{i + 1}. {sub.label[t]}" for i, t in enumerate(order)], fontsize=7.5); ax.invert_yaxis(); ax.set_title(f"{LANG_NAME[l]} (n={int(groups[l].sum())})"); ax.set_xlabel("papers"); ax.grid(axis="y", visible=False)
-    ax.set_xlim(0, xmax * 1.4)
-axes[1].legend(loc="lower right"); fig.suptitle("Observed papers per topic vs two expected baselines (rank = Table 2; dotted lines = top 8 / middle 9 / bottom 8)", y=1.0, fontsize=11, fontweight="bold")
-plt.tight_layout(); plt.savefig(FIG / "fig2b_lda_obs_vs_exp_lang.png", dpi=200, bbox_inches="tight"); plt.show()'''),
+import importlib
+sys.path.insert(0, str(ROOT / "analysis/scripts"))
+paper_figures = importlib.import_module("19_plot_paper_figures")
+paper_figures.plot_language_topics(t_lang, {l: int(groups[l].sum()) for l in LANGS}, FIG / "fig2b_lda_obs_vs_exp_lang.png")'''),
     ("md", """## 7. 연도별 토픽 점유율(세계 전체)
 
 - 계산: 연도 × 토픽 점유율(열 합 1). 2026은 1~9월. 2026 대 2023 차이(퍼센트포인트)로 정렬

@@ -49,7 +49,7 @@ def make_lda_tables() -> None:
             "\\setlength{\\tabcolsep}{2.5pt}\n\\resizebox{\\columnwidth}{!}{\n\\begin{tabular}{lrrrrrrr}\n\\toprule\n연도 & 전체 & \\shortstack{LLM\\\\에이전트} & 비중(\\%) & 한국어 & 중국어 & 일본어 & 합집합 \\\\\n\\midrule\n"
             + "\n".join(rows) + "\n\\bottomrule\n\\end{tabular}}\n\\end{table}\n")
     (out_dir / "tab_data_year.tex").write_text(tex1)
-    # 표 2 ─ LDA 토픽 25개: 순위, 상위 단어, 세계 편수(연도별), 기울기, 언어 집합 관측(기대)
+    # 표 2 ─ LDA 토픽 25개: 순위, 상위 단어, 세계 편수(연도별), 언어 집합 관측(기대)
     wt = sorted(ld["world_topic_table"].items(), key=lambda kv: kv[1]["world_rank"])
     N = ld["n_docs"]; sizes = {l: int(sum(r[f"{l}_obs"] for _, r in wt)) for l in ("ko", "zh", "ja")}
     def cell(r, l, highlight=False):
@@ -68,16 +68,15 @@ def make_lda_tables() -> None:
         if expansion:
             world = f"\\textbf{{{world}}}"
         yc = "/".join(f"{int(r[f'world_n_{y}']):,}" for y in (2023, 2024, 2025, 2026))
-        sl = r1(r["world_slope_pp_per_year"]); sl = sl if sl.startswith("-") else "+" + sl
-        lines.append(f"{int(r['world_rank'])} & {words} & {world} ({r1(100 * r['world_total'] / N)}) & {yc} & {sl} & {cell(r, 'ko', ko_focus)} & {cell(r, 'zh', zh_focus)} & {cell(r, 'ja')} \\\\")
+        lines.append(f"{int(r['world_rank'])} & {words} & {world} ({r1(100 * r['world_total'] / N)}) & {yc} & {cell(r, 'ko', ko_focus)} & {cell(r, 'zh', zh_focus)} & {cell(r, 'ja')} \\\\")
         if int(r["world_rank"]) in (8, 17):
             lines.append("\\midrule")
     tex2 = ("% 자동 생성: paper/scripts/05_make_paper_tables.py --lda (정본 topics_lda_" + ld["generated"] + ".json)\n"
-            "\\begin{widetable}\n\\centering\n\\caption{LDA 토픽 " + str(ld["K"]) + f"개(arXiv {N:,}편, 전체 편수가 많은 순). 상위 단어는 각 토픽에서 단어 확률이 높은 다섯 개의 단어이다. 세계 열은 총 편수(비중 \\%)와 연도별 편수 2023/2024/2025/2026(1$\\sim$9월), "
-            "기울기는 연도별 점유율의 직선 기울기(pp/년)이다. 언어 열은 사람의 검수로 확정한 집합의 관측 편수(세계 전체 기준 기대 편수; 언어명을 언급한 세계 논문 기준 기대 편수)이며 기대 = 토픽 비중 $\\times$ 집합 크기. "
-            "$\\uparrow$는 관측 편수가 세계 전체 기준 기대 편수의 1.5배 초과, $\\downarrow$는 절반 미만(기대 1편 미만은 표시하지 않음). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 굵은 수치는 한국어 연구 방향의 비교 근거이다.}\n\\label{tab:topics}\n"
-            "\\resizebox{\\textwidth}{!}{\n\\begin{tabular}{rlrrrrrr}\n\\toprule\n"
-            f"순위 & 상위 단어 & 세계 편수 (\\%) & 연도별 편수 & 기울기 & 한국어 ({sizes['ko']}) & 중국어 ({sizes['zh']}) & 일본어 ({sizes['ja']}) \\\\\n\\midrule\n"
+            "\\begin{widetable}\n\\centering\n\\caption{LDA 토픽 " + str(ld["K"]) + f"개(arXiv {N:,}편, 전체 편수가 많은 순). 상위 단어는 각 토픽에서 단어 확률이 높은 다섯 개의 단어이다. 세계 열은 총 편수(비중 \\%)와 연도별 편수 2023/2024/2025/2026(1$\\sim$9월)이다. "
+            "언어 열은 사람의 검수로 확정한 집합의 관측 편수(세계 전체 기준 기대 편수; 언어명을 언급한 세계 논문 기준 기대 편수)이며 기대 = 토픽 비중 $\\times$ 집합 크기. "
+            "$\\uparrow$는 관측 편수가 세계 전체 기준 기대 편수의 1.5배 초과, $\\downarrow$는 절반 미만(기대 1편 미만은 표시하지 않음). 가로줄은 상위 8개·중위 9개·하위 8개의 경계이다. 화살표는 기술적 비교 표시이며 통계적 유의성을 뜻하지 않는다. 굵은 수치는 한국어 연구 후보의 비교 근거이다.}\n\\label{tab:topics}\n"
+            "\\resizebox{\\textwidth}{!}{\n\\begin{tabular}{rlrrrrr}\n\\toprule\n"
+            f"순위 & 상위 단어 & 세계 편수 (\\%) & 연도별 편수 & 한국어 ({sizes['ko']}) & 중국어 ({sizes['zh']}) & 일본어 ({sizes['ja']}) \\\\\n\\midrule\n"
             + "\n".join(lines) + "\n\\bottomrule\n\\end{tabular}}\n\\end{widetable}\n")
     (out_dir / "tab_lda_topics.tex").write_text(tex2)
     # 표 4 ─ 키워드군 비율: 세계 · 언어 집합 · HCLT
