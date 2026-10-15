@@ -1,0 +1,5329 @@
+{
+  "analysis": "fixed-corpus LDA sensitivity",
+  "n_docs": 20107,
+  "language_n": {
+    "ko": 25,
+    "zh": 186,
+    "ja": 17
+  },
+  "year_n": {
+    "2023": 689,
+    "2024": 2382,
+    "2025": 6149,
+    "2026": 10887
+  },
+  "input_sha256": {
+    "corpus": "426f74f8c655493bf885ec73c1377337e38e7d5314d0ec40b4ac42c0971c8537",
+    "lemmas": "c4e6211dba1de6678a6a49a1e979d973c45625f6f1bb5b6ad2d5ad8885adbd4b",
+    "reference": "16b5874d575186dec2990e1c2675c780e73d3a34ac6721d4571ab5d93b727a1c",
+    "assignments": "6a6425bff3e6fc8c6d7639b061cd53d791c8d1713e3a541c0b6e163621084448",
+    "topics": "dcc10712e633ae5c110bec7c160f60d480cf80c628fe55961e77bc5ec82c3b7b"
+  },
+  "code_sha256": "e4e74fb9fde0fab2e40b595000ba8c2d195d199f62f84519b62dfc096bb1afc9",
+  "parameters": {
+    "max_iter": 25,
+    "learning_method": "batch",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "k": [
+      10,
+      25
+    ]
+  },
+  "matching": "max top10 word Jaccard and max assigned-document Jaccard, reported separately",
+  "runs": [
+    {
+      "name": "current_k10_s42",
+      "mode": "current",
+      "k": 10,
+      "seed": 42,
+      "elapsed_seconds": 10.63,
+      "vocab_size": 6675,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 3,
+              "top_words": [
+                "learning",
+                "training",
+                "reward",
+                "policy",
+                "learn",
+                "reinforcement",
+                "trajectory",
+                "improve",
+                "optimization",
+                "self",
+                "train",
+                "action"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.08794228787358296,
+              "overall_n": 2455,
+              "language_n": {
+                "ko": 1,
+                "zh": 5,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.32760896130346234,
+              "ko_rank_min": 6,
+              "year_n": {
+                "2023": 66,
+                "2024": 196,
+                "2025": 646,
+                "2026": 1547
+              },
+              "year_share_pct": {
+                "2023": 9.57910014513788,
+                "2024": 8.228379513014273,
+                "2025": 10.50577329647097,
+                "2026": 14.209607789106274
+              },
+              "change_2026_minus_2023_pp": 4.630507643968393,
+              "original_docs_retained": 256,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2506.20332",
+                "2508.21476",
+                "2607.26642",
+                "2609.28609",
+                "2609.29014"
+              ]
+            },
+            "documents": {
+              "topic": 3,
+              "top_words": [
+                "learning",
+                "training",
+                "reward",
+                "policy",
+                "learn",
+                "reinforcement",
+                "trajectory",
+                "improve",
+                "optimization",
+                "self",
+                "train",
+                "action"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.08794228787358296,
+              "overall_n": 2455,
+              "language_n": {
+                "ko": 1,
+                "zh": 5,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.32760896130346234,
+              "ko_rank_min": 6,
+              "year_n": {
+                "2023": 66,
+                "2024": 196,
+                "2025": 646,
+                "2026": 1547
+              },
+              "year_share_pct": {
+                "2023": 9.57910014513788,
+                "2024": 8.228379513014273,
+                "2025": 10.50577329647097,
+                "2026": 14.209607789106274
+              },
+              "change_2026_minus_2023_pp": 4.630507643968393,
+              "original_docs_retained": 256,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2506.20332",
+                "2508.21476",
+                "2607.26642",
+                "2609.28609",
+                "2609.29014"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 201,
+            "1": 46,
+            "2": 11,
+            "3": 256,
+            "4": 1,
+            "5": 20,
+            "6": 96,
+            "7": 63,
+            "8": 10,
+            "9": 8
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 1,
+              "top_words": [
+                "design",
+                "agentic",
+                "workflow",
+                "tool",
+                "execution",
+                "architecture",
+                "software",
+                "multi",
+                "cost",
+                "generation",
+                "end",
+                "gui"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.07683658170914542,
+              "overall_n": 1876,
+              "language_n": {
+                "ko": 4,
+                "zh": 8,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 1.7148827292110873,
+              "ko_rank_min": 3,
+              "year_n": {
+                "2023": 20,
+                "2024": 157,
+                "2025": 655,
+                "2026": 1044
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 6.591099916036944,
+                "2025": 10.652138559115304,
+                "2026": 9.589418572609535
+              },
+              "change_2026_minus_2023_pp": 6.686660952870783,
+              "original_docs_retained": 205,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2505.20733",
+                "2509.19369",
+                "2607.20062",
+                "2608.04505"
+              ],
+              "zh_ids": [
+                "2306.07209",
+                "2404.11459",
+                "2407.04346",
+                "2506.08972",
+                "2509.02444",
+                "2601.20380",
+                "2603.08533",
+                "2607.27562"
+              ]
+            },
+            "documents": {
+              "topic": 5,
+              "top_words": [
+                "benchmark",
+                "skill",
+                "failure",
+                "tool",
+                "evaluate",
+                "evaluation",
+                "control",
+                "test",
+                "harness",
+                "evidence",
+                "execution",
+                "run"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.1438235294117647,
+              "overall_n": 2892,
+              "language_n": {
+                "ko": 3,
+                "zh": 15,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.8343153526970953,
+              "ko_rank_min": 5,
+              "year_n": {
+                "2023": 1,
+                "2024": 9,
+                "2025": 117,
+                "2026": 2765
+              },
+              "year_share_pct": {
+                "2023": 0.14513788098693758,
+                "2024": 0.3778337531486146,
+                "2025": 1.9027484143763214,
+                "2026": 25.397262790484064
+              },
+              "change_2026_minus_2023_pp": 25.252124909497127,
+              "original_docs_retained": 489,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2605.01704",
+                "2607.08028",
+                "2609.05395"
+              ],
+              "zh_ids": [
+                "2511.14439",
+                "2604.13064",
+                "2605.22841",
+                "2605.27276",
+                "2605.28359",
+                "2606.08932",
+                "2607.19794",
+                "2607.23442",
+                "2607.27595",
+                "2607.29196",
+                "2608.02046",
+                "2608.04009",
+                "2608.12476",
+                "2609.24002",
+                "2609.32220"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 126,
+            "1": 205,
+            "2": 17,
+            "3": 32,
+            "4": 1,
+            "5": 489,
+            "6": 10,
+            "7": 83,
+            "8": 26,
+            "9": 8
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 2,
+              "top_words": [
+                "memory",
+                "long",
+                "context",
+                "tool",
+                "retrieval",
+                "reasoning",
+                "graph",
+                "query",
+                "multi",
+                "information",
+                "search",
+                "horizon"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.16104039845047038,
+              "overall_n": 1172,
+              "language_n": {
+                "ko": 0,
+                "zh": 7,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 8,
+              "year_n": {
+                "2023": 10,
+                "2024": 39,
+                "2025": 280,
+                "2026": 843
+              },
+              "year_share_pct": {
+                "2023": 1.4513788098693758,
+                "2024": 1.63727959697733,
+                "2025": 4.553585948934786,
+                "2026": 7.743179939377239
+              },
+              "change_2026_minus_2023_pp": 6.291801129507863,
+              "original_docs_retained": 291,
+              "original_zh_docs_retained": 4,
+              "ko_ids": [],
+              "zh_ids": [
+                "2508.09129",
+                "2604.16349",
+                "2605.17946",
+                "2605.22140",
+                "2605.27882",
+                "2606.13120",
+                "2608.10444"
+              ]
+            },
+            "documents": {
+              "topic": 7,
+              "top_words": [
+                "knowledge",
+                "generation",
+                "domain",
+                "retrieval",
+                "reasoning",
+                "evaluation",
+                "generate",
+                "multi",
+                "analysis",
+                "scientific",
+                "agentic",
+                "dataset"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.17580266249021143,
+              "overall_n": 2077,
+              "language_n": {
+                "ko": 4,
+                "zh": 55,
+                "ja": 2
+              },
+              "ko_share_ratio_to_overall": 1.5489263360616274,
+              "ko_rank_min": 3,
+              "year_n": {
+                "2023": 32,
+                "2024": 208,
+                "2025": 808,
+                "2026": 1029
+              },
+              "year_share_pct": {
+                "2023": 4.644412191582003,
+                "2024": 8.732157850545759,
+                "2025": 13.140348024068954,
+                "2026": 9.451639570129512
+              },
+              "change_2026_minus_2023_pp": 4.807227378547509,
+              "original_docs_retained": 449,
+              "original_zh_docs_retained": 7,
+              "ko_ids": [
+                "2505.24553",
+                "2506.02351",
+                "2510.20099",
+                "2604.24645"
+              ],
+              "zh_ids": [
+                "2308.09975",
+                "2403.02959",
+                "2406.11277",
+                "2407.16252",
+                "2407.21646",
+                "2409.06289",
+                "2410.21414",
+                "2501.09444",
+                "2502.16789",
+                "2503.02760",
+                "2504.10167",
+                "2504.15716",
+                "2505.10278",
+                "2506.00549",
+                "2506.18511",
+                "2507.00875",
+                "2507.03311",
+                "2507.17186",
+                "2507.21471",
+                "2508.07950",
+                "2508.16674",
+                "2508.19633",
+                "2509.00366",
+                "2509.12440",
+                "2510.09116",
+                "2510.21557",
+                "2510.22967",
+                "2510.23870",
+                "2511.15408",
+                "2512.10121",
+                "2512.12950",
+                "2512.23300",
+                "2601.05520",
+                "2601.17692",
+                "2602.00082",
+                "2602.00642",
+                "2602.03130",
+                "2602.11918",
+                "2602.23845",
+                "2603.17930",
+                "2603.22305",
+                "2604.06711",
+                "2604.10470",
+                "2605.14857",
+                "2606.01276",
+                "2606.17220",
+                "2607.20872",
+                "2608.00764",
+                "2608.18103",
+                "2608.24011",
+                "2608.27127",
+                "2608.27998",
+                "2609.08171",
+                "2609.15695",
+                "2609.29428"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 49,
+            "1": 12,
+            "2": 291,
+            "3": 38,
+            "4": 11,
+            "5": 50,
+            "6": 14,
+            "7": 449,
+            "8": 9,
+            "9": 3
+          }
+        }
+      },
+      "record_sha256": "59fcb27a4e953a3b42c5bb29b03d348a05b006952f144dba29c61423ac869440"
+    },
+    {
+      "name": "current_k10_s43",
+      "mode": "current",
+      "k": 10,
+      "seed": 43,
+      "elapsed_seconds": 10.5,
+      "vocab_size": 6675,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 8,
+              "top_words": [
+                "learning",
+                "training",
+                "reward",
+                "skill",
+                "policy",
+                "reinforcement",
+                "learn",
+                "trajectory",
+                "improve",
+                "self",
+                "optimization",
+                "reasoning"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.09186085781830462,
+              "overall_n": 2521,
+              "language_n": {
+                "ko": 1,
+                "zh": 11,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.31903213010710035,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 94,
+                "2024": 229,
+                "2025": 685,
+                "2026": 1513
+              },
+              "year_share_pct": {
+                "2023": 13.642960812772133,
+                "2024": 9.613769941225861,
+                "2025": 11.140022767929745,
+                "2026": 13.897308716818223
+              },
+              "change_2026_minus_2023_pp": 0.25434790404609053,
+              "original_docs_retained": 272,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [
+                "2607.20062"
+              ],
+              "zh_ids": [
+                "2405.16579",
+                "2505.10278",
+                "2506.20332",
+                "2508.21476",
+                "2601.18225",
+                "2602.21053",
+                "2604.12867",
+                "2606.17220",
+                "2607.27562",
+                "2609.28609",
+                "2609.29014"
+              ]
+            },
+            "documents": {
+              "topic": 8,
+              "top_words": [
+                "learning",
+                "training",
+                "reward",
+                "skill",
+                "policy",
+                "reinforcement",
+                "learn",
+                "trajectory",
+                "improve",
+                "self",
+                "optimization",
+                "reasoning"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.09186085781830462,
+              "overall_n": 2521,
+              "language_n": {
+                "ko": 1,
+                "zh": 11,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.31903213010710035,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 94,
+                "2024": 229,
+                "2025": 685,
+                "2026": 1513
+              },
+              "year_share_pct": {
+                "2023": 13.642960812772133,
+                "2024": 9.613769941225861,
+                "2025": 11.140022767929745,
+                "2026": 13.897308716818223
+              },
+              "change_2026_minus_2023_pp": 0.25434790404609053,
+              "original_docs_retained": 272,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [
+                "2607.20062"
+              ],
+              "zh_ids": [
+                "2405.16579",
+                "2505.10278",
+                "2506.20332",
+                "2508.21476",
+                "2601.18225",
+                "2602.21053",
+                "2604.12867",
+                "2606.17220",
+                "2607.27562",
+                "2609.28609",
+                "2609.29014"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 8,
+            "1": 20,
+            "2": 27,
+            "3": 12,
+            "4": 14,
+            "5": 25,
+            "6": 8,
+            "7": 81,
+            "8": 272,
+            "9": 245
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 3,
+              "top_words": [
+                "benchmark",
+                "failure",
+                "evaluation",
+                "evidence",
+                "score",
+                "control",
+                "evaluate",
+                "tool",
+                "harness",
+                "run",
+                "judge",
+                "test"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.08355350066050198,
+              "overall_n": 2284,
+              "language_n": {
+                "ko": 2,
+                "zh": 20,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.7042732049036777,
+              "ko_rank_min": 6,
+              "year_n": {
+                "2023": 1,
+                "2024": 8,
+                "2025": 88,
+                "2026": 2187
+              },
+              "year_share_pct": {
+                "2023": 0.14513788098693758,
+                "2024": 0.33585222502099077,
+                "2025": 1.4311270125223614,
+                "2026": 20.088178561587213
+              },
+              "change_2026_minus_2023_pp": 19.943040680600276,
+              "original_docs_retained": 253,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2503.17963",
+                "2607.08028"
+              ],
+              "zh_ids": [
+                "2502.16789",
+                "2604.00022",
+                "2605.14542",
+                "2605.14857",
+                "2605.17079",
+                "2605.27276",
+                "2605.28359",
+                "2606.08932",
+                "2607.19794",
+                "2607.20872",
+                "2607.23442",
+                "2607.27595",
+                "2607.29196",
+                "2608.01204",
+                "2608.02046",
+                "2608.04009",
+                "2608.12476",
+                "2609.08171",
+                "2609.24002",
+                "2609.32220"
+              ]
+            },
+            "documents": {
+              "topic": 7,
+              "top_words": [
+                "generation",
+                "generate",
+                "design",
+                "workflow",
+                "agentic",
+                "scientific",
+                "automate",
+                "research",
+                "benchmark",
+                "evaluation",
+                "software",
+                "domain"
+              ],
+              "word_jaccard": 0.05263157894736842,
+              "document_jaccard": 0.1921529175050302,
+              "overall_n": 2558,
+              "language_n": {
+                "ko": 0,
+                "zh": 16,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 8,
+              "year_n": {
+                "2023": 37,
+                "2024": 260,
+                "2025": 883,
+                "2026": 1378
+              },
+              "year_share_pct": {
+                "2023": 5.370101596516691,
+                "2024": 10.9151973131822,
+                "2025": 14.360058546105058,
+                "2026": 12.657297694498025
+              },
+              "change_2026_minus_2023_pp": 7.287196097981334,
+              "original_docs_retained": 573,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [],
+              "zh_ids": [
+                "2407.21646",
+                "2412.01130",
+                "2504.21625",
+                "2507.00875",
+                "2507.21471",
+                "2508.07999",
+                "2509.23395",
+                "2509.25244",
+                "2510.09116",
+                "2512.12950",
+                "2602.23845",
+                "2603.07940",
+                "2605.13167",
+                "2607.26642",
+                "2608.27998",
+                "2609.29428"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 6,
+            "1": 30,
+            "2": 21,
+            "3": 253,
+            "4": 4,
+            "5": 15,
+            "6": 34,
+            "7": 573,
+            "8": 38,
+            "9": 23
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 0,
+              "top_words": [
+                "memory",
+                "retrieval",
+                "graph",
+                "context",
+                "knowledge",
+                "long",
+                "query",
+                "information",
+                "rag",
+                "answer",
+                "question",
+                "search"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.34099868593955324,
+              "overall_n": 1115,
+              "language_n": {
+                "ko": 0,
+                "zh": 11,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 8,
+              "year_n": {
+                "2023": 20,
+                "2024": 83,
+                "2025": 301,
+                "2026": 711
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 3.484466834592779,
+                "2025": 4.895104895104895,
+                "2026": 6.530724717553045
+              },
+              "change_2026_minus_2023_pp": 3.627967097814293,
+              "original_docs_retained": 519,
+              "original_zh_docs_retained": 6,
+              "ko_ids": [],
+              "zh_ids": [
+                "2402.13718",
+                "2412.18093",
+                "2505.18105",
+                "2507.03311",
+                "2508.09129",
+                "2511.13410",
+                "2601.05520",
+                "2601.17692",
+                "2605.22140",
+                "2606.13120",
+                "2608.24011"
+              ]
+            },
+            "documents": {
+              "topic": 0,
+              "top_words": [
+                "memory",
+                "retrieval",
+                "graph",
+                "context",
+                "knowledge",
+                "long",
+                "query",
+                "information",
+                "rag",
+                "answer",
+                "question",
+                "search"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.34099868593955324,
+              "overall_n": 1115,
+              "language_n": {
+                "ko": 0,
+                "zh": 11,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 8,
+              "year_n": {
+                "2023": 20,
+                "2024": 83,
+                "2025": 301,
+                "2026": 711
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 3.484466834592779,
+                "2025": 4.895104895104895,
+                "2026": 6.530724717553045
+              },
+              "change_2026_minus_2023_pp": 3.627967097814293,
+              "original_docs_retained": 519,
+              "original_zh_docs_retained": 6,
+              "ko_ids": [],
+              "zh_ids": [
+                "2402.13718",
+                "2412.18093",
+                "2505.18105",
+                "2507.03311",
+                "2508.09129",
+                "2511.13410",
+                "2601.05520",
+                "2601.17692",
+                "2605.22140",
+                "2606.13120",
+                "2608.24011"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 519,
+            "1": 102,
+            "2": 17,
+            "3": 60,
+            "4": 7,
+            "5": 28,
+            "6": 11,
+            "7": 59,
+            "8": 54,
+            "9": 69
+          }
+        }
+      },
+      "record_sha256": "0eb2c247132496c600b7261b8e3ee0ba2ba51ff58382f5b6aef78edfe8bb290f"
+    },
+    {
+      "name": "current_k10_s44",
+      "mode": "current",
+      "k": 10,
+      "seed": 44,
+      "elapsed_seconds": 11.06,
+      "vocab_size": 6675,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 1,
+              "top_words": [
+                "memory",
+                "learning",
+                "environment",
+                "long",
+                "action",
+                "policy",
+                "skill",
+                "trajectory",
+                "learn",
+                "training",
+                "reward",
+                "reinforcement"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.05521692362854069,
+              "overall_n": 2231,
+              "language_n": {
+                "ko": 0,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 102,
+                "2024": 238,
+                "2025": 520,
+                "2026": 1371
+              },
+              "year_share_pct": {
+                "2023": 14.804063860667634,
+                "2024": 9.991603694374476,
+                "2025": 8.456659619450317,
+                "2026": 12.593000826674015
+              },
+              "change_2026_minus_2023_pp": -2.2110630339936197,
+              "original_docs_retained": 154,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [],
+              "zh_ids": [
+                "2506.20332",
+                "2602.21053",
+                "2609.28609"
+              ]
+            },
+            "documents": {
+              "topic": 7,
+              "top_words": [
+                "reasoning",
+                "retrieval",
+                "multi",
+                "knowledge",
+                "graph",
+                "search",
+                "generation",
+                "tool",
+                "query",
+                "fine",
+                "answer",
+                "question"
+              ],
+              "word_jaccard": 0.05263157894736842,
+              "document_jaccard": 0.08052930056710775,
+              "overall_n": 2146,
+              "language_n": {
+                "ko": 0,
+                "zh": 31,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 68,
+                "2024": 261,
+                "2025": 817,
+                "2026": 1000
+              },
+              "year_share_pct": {
+                "2023": 9.869375907111756,
+                "2024": 10.957178841309824,
+                "2025": 13.286713286713287,
+                "2026": 9.185266832001469
+              },
+              "change_2026_minus_2023_pp": -0.6841090751102872,
+              "original_docs_retained": 213,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2402.13718",
+                "2405.16579",
+                "2406.11277",
+                "2409.01854",
+                "2412.01130",
+                "2412.18093",
+                "2504.10167",
+                "2504.15716",
+                "2504.19314",
+                "2505.18105",
+                "2507.03311",
+                "2508.09129",
+                "2508.19633",
+                "2508.21476",
+                "2509.00366",
+                "2510.23870",
+                "2511.15408",
+                "2512.10121",
+                "2601.05520",
+                "2601.17692",
+                "2602.00642",
+                "2602.23845",
+                "2604.10470",
+                "2604.12867",
+                "2605.17946",
+                "2606.13120",
+                "2606.17220",
+                "2608.10444",
+                "2608.24011",
+                "2608.29326"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 17,
+            "1": 154,
+            "2": 19,
+            "3": 10,
+            "4": 13,
+            "5": 6,
+            "6": 136,
+            "7": 213,
+            "8": 7,
+            "9": 137
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 3,
+              "top_words": [
+                "benchmark",
+                "evidence",
+                "failure",
+                "run",
+                "harness",
+                "control",
+                "score",
+                "test",
+                "tool",
+                "point",
+                "single",
+                "evaluate"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.09976643309976643,
+              "overall_n": 2299,
+              "language_n": {
+                "ko": 3,
+                "zh": 13,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 1.04951718138321,
+              "ko_rank_min": 4,
+              "year_n": {
+                "2023": 0,
+                "2024": 3,
+                "2025": 66,
+                "2026": 2230
+              },
+              "year_share_pct": {
+                "2023": 0.0,
+                "2024": 0.12594458438287154,
+                "2025": 1.073345259391771,
+                "2026": 20.48314503536328
+              },
+              "change_2026_minus_2023_pp": 20.48314503536328,
+              "original_docs_retained": 299,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2606.02404",
+                "2607.08028",
+                "2609.05395"
+              ],
+              "zh_ids": [
+                "2605.14857",
+                "2605.17079",
+                "2605.22841",
+                "2605.27276",
+                "2606.08932",
+                "2607.19794",
+                "2607.23442",
+                "2607.27595",
+                "2607.29196",
+                "2608.02046",
+                "2608.04009",
+                "2608.12476",
+                "2609.24002"
+              ]
+            },
+            "documents": {
+              "topic": 6,
+              "top_words": [
+                "design",
+                "research",
+                "benchmark",
+                "agentic",
+                "workflow",
+                "generation",
+                "tool",
+                "domain",
+                "evaluation",
+                "generate",
+                "multi",
+                "automate"
+              ],
+              "word_jaccard": 0.05263157894736842,
+              "document_jaccard": 0.12755102040816327,
+              "overall_n": 3644,
+              "language_n": {
+                "ko": 4,
+                "zh": 17,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.8828540065861691,
+              "ko_rank_min": 3,
+              "year_n": {
+                "2023": 95,
+                "2024": 517,
+                "2025": 1399,
+                "2026": 1633
+              },
+              "year_share_pct": {
+                "2023": 13.788098693759071,
+                "2024": 21.704450041981527,
+                "2025": 22.75166693771345,
+                "2026": 14.9995407366584
+              },
+              "change_2026_minus_2023_pp": 1.2114420428993284,
+              "original_docs_retained": 525,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2503.17753",
+                "2505.20733",
+                "2603.18788",
+                "2608.04505"
+              ],
+              "zh_ids": [
+                "2306.07209",
+                "2412.13682",
+                "2412.17259",
+                "2412.20787",
+                "2504.21625",
+                "2507.17186",
+                "2507.21471",
+                "2508.07999",
+                "2509.25244",
+                "2510.06800",
+                "2512.20491",
+                "2512.23300",
+                "2603.07940",
+                "2605.13167",
+                "2607.27562",
+                "2608.27998",
+                "2609.29014"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 5,
+            "1": 27,
+            "2": 11,
+            "3": 299,
+            "4": 50,
+            "5": 3,
+            "6": 525,
+            "7": 31,
+            "8": 27,
+            "9": 19
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 7,
+              "top_words": [
+                "reasoning",
+                "retrieval",
+                "multi",
+                "knowledge",
+                "graph",
+                "search",
+                "generation",
+                "tool",
+                "query",
+                "fine",
+                "answer",
+                "question"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.28859060402684567,
+              "overall_n": 2146,
+              "language_n": {
+                "ko": 0,
+                "zh": 31,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 68,
+                "2024": 261,
+                "2025": 817,
+                "2026": 1000
+              },
+              "year_share_pct": {
+                "2023": 9.869375907111756,
+                "2024": 10.957178841309824,
+                "2025": 13.286713286713287,
+                "2026": 9.185266832001469
+              },
+              "change_2026_minus_2023_pp": -0.6841090751102872,
+              "original_docs_retained": 688,
+              "original_zh_docs_retained": 9,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2402.13718",
+                "2405.16579",
+                "2406.11277",
+                "2409.01854",
+                "2412.01130",
+                "2412.18093",
+                "2504.10167",
+                "2504.15716",
+                "2504.19314",
+                "2505.18105",
+                "2507.03311",
+                "2508.09129",
+                "2508.19633",
+                "2508.21476",
+                "2509.00366",
+                "2510.23870",
+                "2511.15408",
+                "2512.10121",
+                "2601.05520",
+                "2601.17692",
+                "2602.00642",
+                "2602.23845",
+                "2604.10470",
+                "2604.12867",
+                "2605.17946",
+                "2606.13120",
+                "2606.17220",
+                "2608.10444",
+                "2608.24011",
+                "2608.29326"
+              ]
+            },
+            "documents": {
+              "topic": 7,
+              "top_words": [
+                "reasoning",
+                "retrieval",
+                "multi",
+                "knowledge",
+                "graph",
+                "search",
+                "generation",
+                "tool",
+                "query",
+                "fine",
+                "answer",
+                "question"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.28859060402684567,
+              "overall_n": 2146,
+              "language_n": {
+                "ko": 0,
+                "zh": 31,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 68,
+                "2024": 261,
+                "2025": 817,
+                "2026": 1000
+              },
+              "year_share_pct": {
+                "2023": 9.869375907111756,
+                "2024": 10.957178841309824,
+                "2025": 13.286713286713287,
+                "2026": 9.185266832001469
+              },
+              "change_2026_minus_2023_pp": -0.6841090751102872,
+              "original_docs_retained": 688,
+              "original_zh_docs_retained": 9,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2402.13718",
+                "2405.16579",
+                "2406.11277",
+                "2409.01854",
+                "2412.01130",
+                "2412.18093",
+                "2504.10167",
+                "2504.15716",
+                "2504.19314",
+                "2505.18105",
+                "2507.03311",
+                "2508.09129",
+                "2508.19633",
+                "2508.21476",
+                "2509.00366",
+                "2510.23870",
+                "2511.15408",
+                "2512.10121",
+                "2601.05520",
+                "2601.17692",
+                "2602.00642",
+                "2602.23845",
+                "2604.10470",
+                "2604.12867",
+                "2605.17946",
+                "2606.13120",
+                "2606.17220",
+                "2608.10444",
+                "2608.24011",
+                "2608.29326"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 8,
+            "1": 3,
+            "2": 2,
+            "3": 78,
+            "4": 10,
+            "5": 2,
+            "6": 45,
+            "7": 688,
+            "8": 66,
+            "9": 24
+          }
+        }
+      },
+      "record_sha256": "b609f46a6567b8f0e17a9fdca0a2b9f84fb33eef1abd0070bb118ed5a991171c"
+    },
+    {
+      "name": "current_k25_s42",
+      "mode": "current",
+      "k": 25,
+      "seed": 42,
+      "elapsed_seconds": 14.64,
+      "vocab_size": 6675,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 6,
+              "top_words": [
+                "training",
+                "fine",
+                "train",
+                "tuning",
+                "domain",
+                "open",
+                "scale",
+                "dataset",
+                "environment",
+                "learning",
+                "tune",
+                "capability"
+              ],
+              "word_jaccard": 1.0,
+              "document_jaccard": 1.0,
+              "overall_n": 712,
+              "language_n": {
+                "ko": 6,
+                "zh": 10,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 6.777640449438202,
+              "ko_rank_min": 1,
+              "year_n": {
+                "2023": 29,
+                "2024": 71,
+                "2025": 260,
+                "2026": 352
+              },
+              "year_share_pct": {
+                "2023": 4.2089985486211905,
+                "2024": 2.9806884970612932,
+                "2025": 4.2283298097251585,
+                "2026": 3.2332139248645175
+              },
+              "change_2026_minus_2023_pp": -0.975784623756673,
+              "original_docs_retained": 712,
+              "original_zh_docs_retained": 10,
+              "ko_ids": [
+                "2601.03286",
+                "2601.04632",
+                "2603.18788",
+                "2606.02404",
+                "2607.20062",
+                "2608.04505"
+              ],
+              "zh_ids": [
+                "2409.14818",
+                "2506.01391",
+                "2511.19647",
+                "2512.20491",
+                "2601.20380",
+                "2602.00642",
+                "2604.12867",
+                "2606.12817",
+                "2607.13125",
+                "2609.29014"
+              ]
+            },
+            "documents": {
+              "topic": 6,
+              "top_words": [
+                "training",
+                "fine",
+                "train",
+                "tuning",
+                "domain",
+                "open",
+                "scale",
+                "dataset",
+                "environment",
+                "learning",
+                "tune",
+                "capability"
+              ],
+              "word_jaccard": 1.0,
+              "document_jaccard": 1.0,
+              "overall_n": 712,
+              "language_n": {
+                "ko": 6,
+                "zh": 10,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 6.777640449438202,
+              "ko_rank_min": 1,
+              "year_n": {
+                "2023": 29,
+                "2024": 71,
+                "2025": 260,
+                "2026": 352
+              },
+              "year_share_pct": {
+                "2023": 4.2089985486211905,
+                "2024": 2.9806884970612932,
+                "2025": 4.2283298097251585,
+                "2026": 3.2332139248645175
+              },
+              "change_2026_minus_2023_pp": -0.975784623756673,
+              "original_docs_retained": 712,
+              "original_zh_docs_retained": 10,
+              "ko_ids": [
+                "2601.03286",
+                "2601.04632",
+                "2603.18788",
+                "2606.02404",
+                "2607.20062",
+                "2608.04505"
+              ],
+              "zh_ids": [
+                "2409.14818",
+                "2506.01391",
+                "2511.19647",
+                "2512.20491",
+                "2601.20380",
+                "2602.00642",
+                "2604.12867",
+                "2606.12817",
+                "2607.13125",
+                "2609.29014"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 712,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 20,
+              "top_words": [
+                "software",
+                "execution",
+                "failure",
+                "test",
+                "workflow",
+                "engineering",
+                "verification",
+                "harness",
+                "repair",
+                "repository",
+                "agentic",
+                "specification"
+              ],
+              "word_jaccard": 1.0,
+              "document_jaccard": 1.0,
+              "overall_n": 997,
+              "language_n": {
+                "ko": 0,
+                "zh": 1,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 14,
+              "year_n": {
+                "2023": 4,
+                "2024": 38,
+                "2025": 184,
+                "2026": 771
+              },
+              "year_share_pct": {
+                "2023": 0.5805515239477503,
+                "2024": 1.595298068849706,
+                "2025": 2.992356480728574,
+                "2026": 7.081840727473133
+              },
+              "change_2026_minus_2023_pp": 6.501289203525383,
+              "original_docs_retained": 997,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [],
+              "zh_ids": [
+                "2605.13167"
+              ]
+            },
+            "documents": {
+              "topic": 20,
+              "top_words": [
+                "software",
+                "execution",
+                "failure",
+                "test",
+                "workflow",
+                "engineering",
+                "verification",
+                "harness",
+                "repair",
+                "repository",
+                "agentic",
+                "specification"
+              ],
+              "word_jaccard": 1.0,
+              "document_jaccard": 1.0,
+              "overall_n": 997,
+              "language_n": {
+                "ko": 0,
+                "zh": 1,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 14,
+              "year_n": {
+                "2023": 4,
+                "2024": 38,
+                "2025": 184,
+                "2026": 771
+              },
+              "year_share_pct": {
+                "2023": 0.5805515239477503,
+                "2024": 1.595298068849706,
+                "2025": 2.992356480728574,
+                "2026": 7.081840727473133
+              },
+              "change_2026_minus_2023_pp": 6.501289203525383,
+              "original_docs_retained": 997,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [],
+              "zh_ids": [
+                "2605.13167"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 997,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 22,
+              "top_words": [
+                "retrieval",
+                "graph",
+                "knowledge",
+                "query",
+                "answer",
+                "question",
+                "search",
+                "evidence",
+                "reasoning",
+                "rag",
+                "information",
+                "augment"
+              ],
+              "word_jaccard": 1.0,
+              "document_jaccard": 1.0,
+              "overall_n": 926,
+              "language_n": {
+                "ko": 0,
+                "zh": 13,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 14,
+              "year_n": {
+                "2023": 17,
+                "2024": 72,
+                "2025": 278,
+                "2026": 559
+              },
+              "year_share_pct": {
+                "2023": 2.467343976777939,
+                "2024": 3.022670025188917,
+                "2025": 4.521060335013823,
+                "2026": 5.134564159088821
+              },
+              "change_2026_minus_2023_pp": 2.6672201823108823,
+              "original_docs_retained": 926,
+              "original_zh_docs_retained": 13,
+              "ko_ids": [],
+              "zh_ids": [
+                "2505.18105",
+                "2506.18511",
+                "2508.09129",
+                "2509.00366",
+                "2510.21557",
+                "2601.05520",
+                "2601.17692",
+                "2605.17946",
+                "2606.13120",
+                "2607.20872",
+                "2607.27562",
+                "2608.10444",
+                "2608.24011"
+              ]
+            },
+            "documents": {
+              "topic": 22,
+              "top_words": [
+                "retrieval",
+                "graph",
+                "knowledge",
+                "query",
+                "answer",
+                "question",
+                "search",
+                "evidence",
+                "reasoning",
+                "rag",
+                "information",
+                "augment"
+              ],
+              "word_jaccard": 1.0,
+              "document_jaccard": 1.0,
+              "overall_n": 926,
+              "language_n": {
+                "ko": 0,
+                "zh": 13,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 14,
+              "year_n": {
+                "2023": 17,
+                "2024": 72,
+                "2025": 278,
+                "2026": 559
+              },
+              "year_share_pct": {
+                "2023": 2.467343976777939,
+                "2024": 3.022670025188917,
+                "2025": 4.521060335013823,
+                "2026": 5.134564159088821
+              },
+              "change_2026_minus_2023_pp": 2.6672201823108823,
+              "original_docs_retained": 926,
+              "original_zh_docs_retained": 13,
+              "ko_ids": [],
+              "zh_ids": [
+                "2505.18105",
+                "2506.18511",
+                "2508.09129",
+                "2509.00366",
+                "2510.21557",
+                "2601.05520",
+                "2601.17692",
+                "2605.17946",
+                "2606.13120",
+                "2607.20872",
+                "2607.27562",
+                "2608.10444",
+                "2608.24011"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 926,
+            "23": 0,
+            "24": 0
+          }
+        }
+      },
+      "record_sha256": "b415cc2a0b723c93811660f8041be0da70feac1bddfeee8f73aa77d27ac5f06b",
+      "baseline_reproduction": {
+        "assignment_mismatches": 0,
+        "top_word_mismatches": 0
+      }
+    },
+    {
+      "name": "current_k25_s43",
+      "mode": "current",
+      "k": 25,
+      "seed": 43,
+      "elapsed_seconds": 13.4,
+      "vocab_size": 6675,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 22,
+              "top_words": [
+                "learning",
+                "training",
+                "reward",
+                "reinforcement",
+                "policy",
+                "learn",
+                "train",
+                "fine",
+                "environment",
+                "tuning",
+                "trajectory",
+                "improve"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.17951541850220265,
+              "overall_n": 1430,
+              "language_n": {
+                "ko": 1,
+                "zh": 5,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.5624335664335665,
+              "ko_rank_min": 6,
+              "year_n": {
+                "2023": 96,
+                "2024": 208,
+                "2025": 483,
+                "2026": 643
+              },
+              "year_share_pct": {
+                "2023": 13.933236574746008,
+                "2024": 8.732157850545759,
+                "2025": 7.854935761912506,
+                "2026": 5.9061265729769445
+              },
+              "change_2026_minus_2023_pp": -8.027110001769064,
+              "original_docs_retained": 326,
+              "original_zh_docs_retained": 3,
+              "ko_ids": [
+                "2608.04505"
+              ],
+              "zh_ids": [
+                "2504.15716",
+                "2506.01391",
+                "2506.20332",
+                "2601.20380",
+                "2609.29014"
+              ]
+            },
+            "documents": {
+              "topic": 22,
+              "top_words": [
+                "learning",
+                "training",
+                "reward",
+                "reinforcement",
+                "policy",
+                "learn",
+                "train",
+                "fine",
+                "environment",
+                "tuning",
+                "trajectory",
+                "improve"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.17951541850220265,
+              "overall_n": 1430,
+              "language_n": {
+                "ko": 1,
+                "zh": 5,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.5624335664335665,
+              "ko_rank_min": 6,
+              "year_n": {
+                "2023": 96,
+                "2024": 208,
+                "2025": 483,
+                "2026": 643
+              },
+              "year_share_pct": {
+                "2023": 13.933236574746008,
+                "2024": 8.732157850545759,
+                "2025": 7.854935761912506,
+                "2026": 5.9061265729769445
+              },
+              "change_2026_minus_2023_pp": -8.027110001769064,
+              "original_docs_retained": 326,
+              "original_zh_docs_retained": 3,
+              "ko_ids": [
+                "2608.04505"
+              ],
+              "zh_ids": [
+                "2504.15716",
+                "2506.01391",
+                "2506.20332",
+                "2601.20380",
+                "2609.29014"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 12,
+            "1": 0,
+            "2": 4,
+            "3": 2,
+            "4": 1,
+            "5": 9,
+            "6": 2,
+            "7": 58,
+            "8": 14,
+            "9": 116,
+            "10": 3,
+            "11": 3,
+            "12": 12,
+            "13": 17,
+            "14": 9,
+            "15": 7,
+            "16": 10,
+            "17": 0,
+            "18": 16,
+            "19": 3,
+            "20": 1,
+            "21": 5,
+            "22": 326,
+            "23": 11,
+            "24": 71
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 12,
+              "top_words": [
+                "harness",
+                "software",
+                "test",
+                "engineering",
+                "repository",
+                "bench",
+                "swe",
+                "claude",
+                "file",
+                "benchmark",
+                "repair",
+                "issue"
+              ],
+              "word_jaccard": 0.3333333333333333,
+              "document_jaccard": 0.27651858567543064,
+              "overall_n": 411,
+              "language_n": {
+                "ko": 0,
+                "zh": 0,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 3,
+                "2024": 31,
+                "2025": 89,
+                "2026": 288
+              },
+              "year_share_pct": {
+                "2023": 0.43541364296081275,
+                "2024": 1.3014273719563392,
+                "2025": 1.4473898194828427,
+                "2026": 2.6453568476164233
+              },
+              "change_2026_minus_2023_pp": 2.2099432046556107,
+              "original_docs_retained": 305,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [],
+              "zh_ids": []
+            },
+            "documents": {
+              "topic": 12,
+              "top_words": [
+                "harness",
+                "software",
+                "test",
+                "engineering",
+                "repository",
+                "bench",
+                "swe",
+                "claude",
+                "file",
+                "benchmark",
+                "repair",
+                "issue"
+              ],
+              "word_jaccard": 0.3333333333333333,
+              "document_jaccard": 0.27651858567543064,
+              "overall_n": 411,
+              "language_n": {
+                "ko": 0,
+                "zh": 0,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 3,
+                "2024": 31,
+                "2025": 89,
+                "2026": 288
+              },
+              "year_share_pct": {
+                "2023": 0.43541364296081275,
+                "2024": 1.3014273719563392,
+                "2025": 1.4473898194828427,
+                "2026": 2.6453568476164233
+              },
+              "change_2026_minus_2023_pp": 2.2099432046556107,
+              "original_docs_retained": 305,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [],
+              "zh_ids": []
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 32,
+            "1": 3,
+            "2": 28,
+            "3": 91,
+            "4": 2,
+            "5": 24,
+            "6": 19,
+            "7": 48,
+            "8": 28,
+            "9": 49,
+            "10": 2,
+            "11": 0,
+            "12": 305,
+            "13": 12,
+            "14": 17,
+            "15": 2,
+            "16": 79,
+            "17": 0,
+            "18": 66,
+            "19": 12,
+            "20": 2,
+            "21": 150,
+            "22": 18,
+            "23": 1,
+            "24": 7
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 23,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "graph",
+                "query",
+                "search",
+                "rag",
+                "answer",
+                "question",
+                "information",
+                "augment",
+                "document",
+                "generation"
+              ],
+              "word_jaccard": 0.6666666666666666,
+              "document_jaccard": 0.5009671179883946,
+              "overall_n": 626,
+              "language_n": {
+                "ko": 0,
+                "zh": 7,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 12,
+                "2024": 81,
+                "2025": 208,
+                "2026": 325
+              },
+              "year_share_pct": {
+                "2023": 1.741654571843251,
+                "2024": 3.4005037783375314,
+                "2025": 3.382663847780127,
+                "2026": 2.9852117204004776
+              },
+              "change_2026_minus_2023_pp": 1.2435571485572265,
+              "original_docs_retained": 518,
+              "original_zh_docs_retained": 4,
+              "ko_ids": [],
+              "zh_ids": [
+                "2403.02959",
+                "2412.18093",
+                "2509.00366",
+                "2601.17692",
+                "2604.10470",
+                "2605.17946",
+                "2607.20872"
+              ]
+            },
+            "documents": {
+              "topic": 23,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "graph",
+                "query",
+                "search",
+                "rag",
+                "answer",
+                "question",
+                "information",
+                "augment",
+                "document",
+                "generation"
+              ],
+              "word_jaccard": 0.6666666666666666,
+              "document_jaccard": 0.5009671179883946,
+              "overall_n": 626,
+              "language_n": {
+                "ko": 0,
+                "zh": 7,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 12,
+                "2024": 81,
+                "2025": 208,
+                "2026": 325
+              },
+              "year_share_pct": {
+                "2023": 1.741654571843251,
+                "2024": 3.4005037783375314,
+                "2025": 3.382663847780127,
+                "2026": 2.9852117204004776
+              },
+              "change_2026_minus_2023_pp": 1.2435571485572265,
+              "original_docs_retained": 518,
+              "original_zh_docs_retained": 4,
+              "ko_ids": [],
+              "zh_ids": [
+                "2403.02959",
+                "2412.18093",
+                "2509.00366",
+                "2601.17692",
+                "2604.10470",
+                "2605.17946",
+                "2607.20872"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 13,
+            "1": 0,
+            "2": 15,
+            "3": 47,
+            "4": 2,
+            "5": 8,
+            "6": 11,
+            "7": 31,
+            "8": 7,
+            "9": 43,
+            "10": 9,
+            "11": 1,
+            "12": 2,
+            "13": 74,
+            "14": 29,
+            "15": 8,
+            "16": 11,
+            "17": 0,
+            "18": 20,
+            "19": 5,
+            "20": 28,
+            "21": 13,
+            "22": 11,
+            "23": 518,
+            "24": 20
+          }
+        }
+      },
+      "record_sha256": "743044f760f2371e3d402d9de8f2aceb940f63b0f3a41cde81821204f6fa83f1"
+    },
+    {
+      "name": "current_k25_s44",
+      "mode": "current",
+      "k": 25,
+      "seed": 44,
+      "elapsed_seconds": 14.94,
+      "vocab_size": 6675,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 18,
+              "top_words": [
+                "learning",
+                "environment",
+                "learn",
+                "training",
+                "reinforcement",
+                "action",
+                "world",
+                "train",
+                "policy",
+                "self",
+                "improve",
+                "knowledge"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.10864745011086474,
+              "overall_n": 788,
+              "language_n": {
+                "ko": 0,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 87,
+                "2024": 160,
+                "2025": 253,
+                "2026": 288
+              },
+              "year_share_pct": {
+                "2023": 12.62699564586357,
+                "2024": 6.717044500419815,
+                "2025": 4.114490161001789,
+                "2026": 2.6453568476164233
+              },
+              "change_2026_minus_2023_pp": -9.981638798247147,
+              "original_docs_retained": 147,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [],
+              "zh_ids": [
+                "2411.00820",
+                "2511.19647",
+                "2606.17220"
+              ]
+            },
+            "documents": {
+              "topic": 18,
+              "top_words": [
+                "learning",
+                "environment",
+                "learn",
+                "training",
+                "reinforcement",
+                "action",
+                "world",
+                "train",
+                "policy",
+                "self",
+                "improve",
+                "knowledge"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.10864745011086474,
+              "overall_n": 788,
+              "language_n": {
+                "ko": 0,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 87,
+                "2024": 160,
+                "2025": 253,
+                "2026": 288
+              },
+              "year_share_pct": {
+                "2023": 12.62699564586357,
+                "2024": 6.717044500419815,
+                "2025": 4.114490161001789,
+                "2026": 2.6453568476164233
+              },
+              "change_2026_minus_2023_pp": -9.981638798247147,
+              "original_docs_retained": 147,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [],
+              "zh_ids": [
+                "2411.00820",
+                "2511.19647",
+                "2606.17220"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 6,
+            "1": 3,
+            "2": 12,
+            "3": 2,
+            "4": 10,
+            "5": 6,
+            "6": 42,
+            "7": 35,
+            "8": 4,
+            "9": 15,
+            "10": 0,
+            "11": 7,
+            "12": 1,
+            "13": 68,
+            "14": 39,
+            "15": 68,
+            "16": 2,
+            "17": 26,
+            "18": 147,
+            "19": 53,
+            "20": 12,
+            "21": 24,
+            "22": 5,
+            "23": 120,
+            "24": 5
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 17,
+              "top_words": [
+                "test",
+                "software",
+                "benchmark",
+                "repository",
+                "swe",
+                "repair",
+                "claude",
+                "engineering",
+                "bench",
+                "verification",
+                "rate",
+                "program"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.2884195193008012,
+              "overall_n": 772,
+              "language_n": {
+                "ko": 0,
+                "zh": 1,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 6,
+                "2024": 38,
+                "2025": 136,
+                "2026": 592
+              },
+              "year_share_pct": {
+                "2023": 0.8708272859216255,
+                "2024": 1.595298068849706,
+                "2025": 2.2117417466254676,
+                "2026": 5.43767796454487
+              },
+              "change_2026_minus_2023_pp": 4.566850678623244,
+              "original_docs_retained": 396,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [],
+              "zh_ids": [
+                "2605.27276"
+              ]
+            },
+            "documents": {
+              "topic": 17,
+              "top_words": [
+                "test",
+                "software",
+                "benchmark",
+                "repository",
+                "swe",
+                "repair",
+                "claude",
+                "engineering",
+                "bench",
+                "verification",
+                "rate",
+                "program"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.2884195193008012,
+              "overall_n": 772,
+              "language_n": {
+                "ko": 0,
+                "zh": 1,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 6,
+                "2024": 38,
+                "2025": 136,
+                "2026": 592
+              },
+              "year_share_pct": {
+                "2023": 0.8708272859216255,
+                "2024": 1.595298068849706,
+                "2025": 2.2117417466254676,
+                "2026": 5.43767796454487
+              },
+              "change_2026_minus_2023_pp": 4.566850678623244,
+              "original_docs_retained": 396,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [],
+              "zh_ids": [
+                "2605.27276"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 1,
+            "1": 2,
+            "2": 5,
+            "3": 1,
+            "4": 238,
+            "5": 3,
+            "6": 140,
+            "7": 16,
+            "8": 8,
+            "9": 4,
+            "10": 12,
+            "11": 3,
+            "12": 5,
+            "13": 4,
+            "14": 1,
+            "15": 68,
+            "16": 2,
+            "17": 396,
+            "18": 3,
+            "19": 1,
+            "20": 25,
+            "21": 10,
+            "22": 17,
+            "23": 19,
+            "24": 13
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 7,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "graph",
+                "query",
+                "generation",
+                "rag",
+                "answer",
+                "question",
+                "gui",
+                "document",
+                "augment",
+                "information"
+              ],
+              "word_jaccard": 0.5384615384615384,
+              "document_jaccard": 0.4457455113192818,
+              "overall_n": 926,
+              "language_n": {
+                "ko": 0,
+                "zh": 16,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 20,
+                "2024": 121,
+                "2025": 357,
+                "2026": 428
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 5.079764903442485,
+                "2025": 5.805822084891853,
+                "2026": 3.931294204096629
+              },
+              "change_2026_minus_2023_pp": 1.0285365843578775,
+              "original_docs_retained": 571,
+              "original_zh_docs_retained": 6,
+              "ko_ids": [],
+              "zh_ids": [
+                "2412.18093",
+                "2505.18105",
+                "2506.01391",
+                "2507.03311",
+                "2508.08645",
+                "2509.00366",
+                "2512.10121",
+                "2512.12950",
+                "2601.05520",
+                "2601.17692",
+                "2602.23845",
+                "2603.08533",
+                "2604.10470",
+                "2605.17946",
+                "2606.01276",
+                "2608.24011"
+              ]
+            },
+            "documents": {
+              "topic": 7,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "graph",
+                "query",
+                "generation",
+                "rag",
+                "answer",
+                "question",
+                "gui",
+                "document",
+                "augment",
+                "information"
+              ],
+              "word_jaccard": 0.5384615384615384,
+              "document_jaccard": 0.4457455113192818,
+              "overall_n": 926,
+              "language_n": {
+                "ko": 0,
+                "zh": 16,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 20,
+                "2024": 121,
+                "2025": 357,
+                "2026": 428
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 5.079764903442485,
+                "2025": 5.805822084891853,
+                "2026": 3.931294204096629
+              },
+              "change_2026_minus_2023_pp": 1.0285365843578775,
+              "original_docs_retained": 571,
+              "original_zh_docs_retained": 6,
+              "ko_ids": [],
+              "zh_ids": [
+                "2412.18093",
+                "2505.18105",
+                "2506.01391",
+                "2507.03311",
+                "2508.08645",
+                "2509.00366",
+                "2512.10121",
+                "2512.12950",
+                "2601.05520",
+                "2601.17692",
+                "2602.23845",
+                "2603.08533",
+                "2604.10470",
+                "2605.17946",
+                "2606.01276",
+                "2608.24011"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 3,
+            "1": 34,
+            "2": 4,
+            "3": 4,
+            "4": 8,
+            "5": 3,
+            "6": 8,
+            "7": 571,
+            "8": 46,
+            "9": 17,
+            "10": 16,
+            "11": 2,
+            "12": 0,
+            "13": 6,
+            "14": 6,
+            "15": 31,
+            "16": 2,
+            "17": 3,
+            "18": 1,
+            "19": 6,
+            "20": 12,
+            "21": 18,
+            "22": 54,
+            "23": 63,
+            "24": 8
+          }
+        }
+      },
+      "record_sha256": "90d53d79b479d13561c051678c58f615b327a2aab9e488daea272350c6bbe8b6"
+    },
+    {
+      "name": "keep_datum_cod_k10_s42",
+      "mode": "keep_datum_cod",
+      "k": 10,
+      "seed": 42,
+      "elapsed_seconds": 11.12,
+      "vocab_size": 6677,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 5,
+              "top_words": [
+                "environment",
+                "learning",
+                "world",
+                "datum",
+                "planning",
+                "training",
+                "capability",
+                "learn",
+                "action",
+                "real",
+                "knowledge",
+                "complex"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.11101163831692032,
+              "overall_n": 1770,
+              "language_n": {
+                "ko": 0,
+                "zh": 12,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 8,
+              "year_n": {
+                "2023": 264,
+                "2024": 600,
+                "2025": 621,
+                "2026": 285
+              },
+              "year_share_pct": {
+                "2023": 38.31640058055152,
+                "2024": 25.188916876574307,
+                "2025": 10.099203122458936,
+                "2026": 2.6178010471204187
+              },
+              "change_2026_minus_2023_pp": -35.69859953343111,
+              "original_docs_retained": 248,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2405.16579",
+                "2410.15164",
+                "2411.00820",
+                "2412.01130",
+                "2412.13682",
+                "2504.21625",
+                "2506.01391",
+                "2506.08972",
+                "2508.19633",
+                "2508.21767",
+                "2511.19647"
+              ]
+            },
+            "documents": {
+              "topic": 5,
+              "top_words": [
+                "environment",
+                "learning",
+                "world",
+                "datum",
+                "planning",
+                "training",
+                "capability",
+                "learn",
+                "action",
+                "real",
+                "knowledge",
+                "complex"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.11101163831692032,
+              "overall_n": 1770,
+              "language_n": {
+                "ko": 0,
+                "zh": 12,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 8,
+              "year_n": {
+                "2023": 264,
+                "2024": 600,
+                "2025": 621,
+                "2026": 285
+              },
+              "year_share_pct": {
+                "2023": 38.31640058055152,
+                "2024": 25.188916876574307,
+                "2025": 10.099203122458936,
+                "2026": 2.6178010471204187
+              },
+              "change_2026_minus_2023_pp": -35.69859953343111,
+              "original_docs_retained": 248,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2405.16579",
+                "2410.15164",
+                "2411.00820",
+                "2412.01130",
+                "2412.13682",
+                "2504.21625",
+                "2506.01391",
+                "2506.08972",
+                "2508.19633",
+                "2508.21767",
+                "2511.19647"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 4,
+            "1": 13,
+            "2": 73,
+            "3": 77,
+            "4": 180,
+            "5": 248,
+            "6": 86,
+            "7": 15,
+            "8": 6,
+            "9": 10
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 6,
+              "top_words": [
+                "benchmark",
+                "tool",
+                "evaluation",
+                "evaluate",
+                "generation",
+                "generate",
+                "workflow",
+                "design",
+                "agentic",
+                "test",
+                "software",
+                "scientific"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.2562887349617207,
+              "overall_n": 2449,
+              "language_n": {
+                "ko": 1,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.3284115965700286,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 20,
+                "2024": 159,
+                "2025": 661,
+                "2026": 1609
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 6.675062972292191,
+                "2025": 10.749715400878191,
+                "2026": 14.779094332690365
+              },
+              "change_2026_minus_2023_pp": 11.876336712951613,
+              "original_docs_retained": 703,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2609.05395"
+              ],
+              "zh_ids": [
+                "2507.21471",
+                "2510.06800",
+                "2605.13167"
+              ]
+            },
+            "documents": {
+              "topic": 6,
+              "top_words": [
+                "benchmark",
+                "tool",
+                "evaluation",
+                "evaluate",
+                "generation",
+                "generate",
+                "workflow",
+                "design",
+                "agentic",
+                "test",
+                "software",
+                "scientific"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.2562887349617207,
+              "overall_n": 2449,
+              "language_n": {
+                "ko": 1,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.3284115965700286,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 20,
+                "2024": 159,
+                "2025": 661,
+                "2026": 1609
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 6.675062972292191,
+                "2025": 10.749715400878191,
+                "2026": 14.779094332690365
+              },
+              "change_2026_minus_2023_pp": 11.876336712951613,
+              "original_docs_retained": 703,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2609.05395"
+              ],
+              "zh_ids": [
+                "2507.21471",
+                "2510.06800",
+                "2605.13167"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 4,
+            "1": 2,
+            "2": 10,
+            "3": 33,
+            "4": 35,
+            "5": 3,
+            "6": 703,
+            "7": 30,
+            "8": 20,
+            "9": 157
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 3,
+              "top_words": [
+                "reasoning",
+                "retrieval",
+                "knowledge",
+                "multi",
+                "question",
+                "answer",
+                "benchmark",
+                "query",
+                "datum",
+                "evaluation",
+                "graph",
+                "generation"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.26917057902973396,
+              "overall_n": 2318,
+              "language_n": {
+                "ko": 11,
+                "zh": 71,
+                "ja": 2
+              },
+              "ko_share_ratio_to_overall": 3.816686798964625,
+              "ko_rank_min": 1,
+              "year_n": {
+                "2023": 38,
+                "2024": 271,
+                "2025": 920,
+                "2026": 1089
+              },
+              "year_share_pct": {
+                "2023": 5.515239477503629,
+                "2024": 11.376994122586062,
+                "2025": 14.961782403642868,
+                "2026": 10.0027555800496
+              },
+              "change_2026_minus_2023_pp": 4.487516102545971,
+              "original_docs_retained": 688,
+              "original_zh_docs_retained": 12,
+              "ko_ids": [
+                "2408.07531",
+                "2503.17963",
+                "2506.02351",
+                "2510.15558",
+                "2510.20099",
+                "2601.03286",
+                "2601.04632",
+                "2604.24645",
+                "2605.01704",
+                "2605.27984",
+                "2606.02404"
+              ],
+              "zh_ids": [
+                "2308.09975",
+                "2402.09742",
+                "2402.13718",
+                "2403.02959",
+                "2406.11277",
+                "2407.16252",
+                "2409.01854",
+                "2410.21414",
+                "2412.17259",
+                "2412.18093",
+                "2412.20787",
+                "2502.15690",
+                "2503.02760",
+                "2503.16463",
+                "2504.10167",
+                "2504.15716",
+                "2504.19314",
+                "2505.18105",
+                "2506.00549",
+                "2506.18511",
+                "2507.00875",
+                "2507.03311",
+                "2507.07870",
+                "2507.17186",
+                "2508.07950",
+                "2508.07999",
+                "2508.09129",
+                "2508.16674",
+                "2509.00366",
+                "2509.12440",
+                "2510.09116",
+                "2510.12224",
+                "2510.21557",
+                "2510.22967",
+                "2510.23870",
+                "2511.09919",
+                "2511.14439",
+                "2511.15408",
+                "2512.10121",
+                "2512.12950",
+                "2512.20491",
+                "2601.05520",
+                "2601.17692",
+                "2602.00642",
+                "2602.03130",
+                "2602.09379",
+                "2602.23845",
+                "2603.23520",
+                "2603.28474",
+                "2604.06711",
+                "2604.10470",
+                "2604.12867",
+                "2604.16349",
+                "2605.17946",
+                "2605.27882",
+                "2606.01276",
+                "2606.03157",
+                "2606.08938",
+                "2606.09632",
+                "2606.13120",
+                "2606.17220",
+                "2607.20872",
+                "2607.27595",
+                "2608.00764",
+                "2608.10444",
+                "2608.24011",
+                "2608.27998",
+                "2609.08171",
+                "2609.15695",
+                "2609.24002",
+                "2609.32220"
+              ]
+            },
+            "documents": {
+              "topic": 3,
+              "top_words": [
+                "reasoning",
+                "retrieval",
+                "knowledge",
+                "multi",
+                "question",
+                "answer",
+                "benchmark",
+                "query",
+                "datum",
+                "evaluation",
+                "graph",
+                "generation"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.26917057902973396,
+              "overall_n": 2318,
+              "language_n": {
+                "ko": 11,
+                "zh": 71,
+                "ja": 2
+              },
+              "ko_share_ratio_to_overall": 3.816686798964625,
+              "ko_rank_min": 1,
+              "year_n": {
+                "2023": 38,
+                "2024": 271,
+                "2025": 920,
+                "2026": 1089
+              },
+              "year_share_pct": {
+                "2023": 5.515239477503629,
+                "2024": 11.376994122586062,
+                "2025": 14.961782403642868,
+                "2026": 10.0027555800496
+              },
+              "change_2026_minus_2023_pp": 4.487516102545971,
+              "original_docs_retained": 688,
+              "original_zh_docs_retained": 12,
+              "ko_ids": [
+                "2408.07531",
+                "2503.17963",
+                "2506.02351",
+                "2510.15558",
+                "2510.20099",
+                "2601.03286",
+                "2601.04632",
+                "2604.24645",
+                "2605.01704",
+                "2605.27984",
+                "2606.02404"
+              ],
+              "zh_ids": [
+                "2308.09975",
+                "2402.09742",
+                "2402.13718",
+                "2403.02959",
+                "2406.11277",
+                "2407.16252",
+                "2409.01854",
+                "2410.21414",
+                "2412.17259",
+                "2412.18093",
+                "2412.20787",
+                "2502.15690",
+                "2503.02760",
+                "2503.16463",
+                "2504.10167",
+                "2504.15716",
+                "2504.19314",
+                "2505.18105",
+                "2506.00549",
+                "2506.18511",
+                "2507.00875",
+                "2507.03311",
+                "2507.07870",
+                "2507.17186",
+                "2508.07950",
+                "2508.07999",
+                "2508.09129",
+                "2508.16674",
+                "2509.00366",
+                "2509.12440",
+                "2510.09116",
+                "2510.12224",
+                "2510.21557",
+                "2510.22967",
+                "2510.23870",
+                "2511.09919",
+                "2511.14439",
+                "2511.15408",
+                "2512.10121",
+                "2512.12950",
+                "2512.20491",
+                "2601.05520",
+                "2601.17692",
+                "2602.00642",
+                "2602.03130",
+                "2602.09379",
+                "2602.23845",
+                "2603.23520",
+                "2603.28474",
+                "2604.06711",
+                "2604.10470",
+                "2604.12867",
+                "2604.16349",
+                "2605.17946",
+                "2605.27882",
+                "2606.01276",
+                "2606.03157",
+                "2606.08938",
+                "2606.09632",
+                "2606.13120",
+                "2606.17220",
+                "2607.20872",
+                "2607.27595",
+                "2608.00764",
+                "2608.10444",
+                "2608.24011",
+                "2608.27998",
+                "2609.08171",
+                "2609.15695",
+                "2609.24002",
+                "2609.32220"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 2,
+            "1": 5,
+            "2": 16,
+            "3": 688,
+            "4": 81,
+            "5": 5,
+            "6": 12,
+            "7": 16,
+            "8": 5,
+            "9": 96
+          }
+        }
+      },
+      "record_sha256": "cea45adbc0b855d015406b9cfd8dde031d07d98e1bdbf7eb9346797bc5038295"
+    },
+    {
+      "name": "keep_datum_cod_k10_s43",
+      "mode": "keep_datum_cod",
+      "k": 10,
+      "seed": 43,
+      "elapsed_seconds": 11.02,
+      "vocab_size": 6677,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 3,
+              "top_words": [
+                "learning",
+                "training",
+                "skill",
+                "reward",
+                "reasoning",
+                "policy",
+                "trajectory",
+                "improve",
+                "reinforcement",
+                "learn",
+                "optimization",
+                "self"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.08166761850371217,
+              "overall_n": 3076,
+              "language_n": {
+                "ko": 0,
+                "zh": 10,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 9,
+              "year_n": {
+                "2023": 83,
+                "2024": 223,
+                "2025": 792,
+                "2026": 1978
+              },
+              "year_share_pct": {
+                "2023": 12.04644412191582,
+                "2024": 9.361880772460118,
+                "2025": 12.880143112701253,
+                "2026": 18.168457793698906
+              },
+              "change_2026_minus_2023_pp": 6.122013671783085,
+              "original_docs_retained": 286,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [],
+              "zh_ids": [
+                "2505.10278",
+                "2506.20332",
+                "2508.21476",
+                "2602.21053",
+                "2605.27276",
+                "2606.08938",
+                "2607.26642",
+                "2609.28609",
+                "2609.29014",
+                "2609.29428"
+              ]
+            },
+            "documents": {
+              "topic": 3,
+              "top_words": [
+                "learning",
+                "training",
+                "skill",
+                "reward",
+                "reasoning",
+                "policy",
+                "trajectory",
+                "improve",
+                "reinforcement",
+                "learn",
+                "optimization",
+                "self"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.08166761850371217,
+              "overall_n": 3076,
+              "language_n": {
+                "ko": 0,
+                "zh": 10,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 9,
+              "year_n": {
+                "2023": 83,
+                "2024": 223,
+                "2025": 792,
+                "2026": 1978
+              },
+              "year_share_pct": {
+                "2023": 12.04644412191582,
+                "2024": 9.361880772460118,
+                "2025": 12.880143112701253,
+                "2026": 18.168457793698906
+              },
+              "change_2026_minus_2023_pp": 6.122013671783085,
+              "original_docs_retained": 286,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [],
+              "zh_ids": [
+                "2505.10278",
+                "2506.20332",
+                "2508.21476",
+                "2602.21053",
+                "2605.27276",
+                "2606.08938",
+                "2607.26642",
+                "2609.28609",
+                "2609.29014",
+                "2609.29428"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 6,
+            "1": 262,
+            "2": 14,
+            "3": 286,
+            "4": 5,
+            "5": 92,
+            "6": 6,
+            "7": 6,
+            "8": 23,
+            "9": 12
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 0,
+              "top_words": [
+                "agentic",
+                "execution",
+                "workflow",
+                "design",
+                "multi",
+                "architecture",
+                "tool",
+                "software",
+                "level",
+                "autonomous",
+                "control",
+                "engineering"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.1917808219178082,
+              "overall_n": 1961,
+              "language_n": {
+                "ko": 2,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.820275369709332,
+              "ko_rank_min": 5,
+              "year_n": {
+                "2023": 7,
+                "2024": 76,
+                "2025": 483,
+                "2026": 1395
+              },
+              "year_share_pct": {
+                "2023": 1.0159651669085632,
+                "2024": 3.190596137699412,
+                "2025": 7.854935761912506,
+                "2026": 12.81344723064205
+              },
+              "change_2026_minus_2023_pp": 11.797482063733487,
+              "original_docs_retained": 476,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2509.19369",
+                "2510.20099"
+              ],
+              "zh_ids": [
+                "2502.16789",
+                "2509.02444",
+                "2603.07191"
+              ]
+            },
+            "documents": {
+              "topic": 0,
+              "top_words": [
+                "agentic",
+                "execution",
+                "workflow",
+                "design",
+                "multi",
+                "architecture",
+                "tool",
+                "software",
+                "level",
+                "autonomous",
+                "control",
+                "engineering"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.1917808219178082,
+              "overall_n": 1961,
+              "language_n": {
+                "ko": 2,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.820275369709332,
+              "ko_rank_min": 5,
+              "year_n": {
+                "2023": 7,
+                "2024": 76,
+                "2025": 483,
+                "2026": 1395
+              },
+              "year_share_pct": {
+                "2023": 1.0159651669085632,
+                "2024": 3.190596137699412,
+                "2025": 7.854935761912506,
+                "2026": 12.81344723064205
+              },
+              "change_2026_minus_2023_pp": 11.797482063733487,
+              "original_docs_retained": 476,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2509.19369",
+                "2510.20099"
+              ],
+              "zh_ids": [
+                "2502.16789",
+                "2509.02444",
+                "2603.07191"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 476,
+            "1": 116,
+            "2": 13,
+            "3": 79,
+            "4": 114,
+            "5": 16,
+            "6": 24,
+            "7": 5,
+            "8": 152,
+            "9": 2
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 4,
+              "top_words": [
+                "memory",
+                "context",
+                "tool",
+                "retrieval",
+                "evidence",
+                "token",
+                "answer",
+                "cost",
+                "benchmark",
+                "long",
+                "accuracy",
+                "failure"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.06741223982603294,
+              "overall_n": 2510,
+              "language_n": {
+                "ko": 3,
+                "zh": 5,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.9612908366533863,
+              "ko_rank_min": 3,
+              "year_n": {
+                "2023": 1,
+                "2024": 15,
+                "2025": 129,
+                "2026": 2365
+              },
+              "year_share_pct": {
+                "2023": 0.14513788098693758,
+                "2024": 0.6297229219143576,
+                "2025": 2.097902097902098,
+                "2026": 21.723156057683475
+              },
+              "change_2026_minus_2023_pp": 21.57801817669654,
+              "original_docs_retained": 217,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2607.08028",
+                "2607.20062",
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2606.08932",
+                "2607.19794",
+                "2608.04009",
+                "2608.12476",
+                "2609.24002"
+              ]
+            },
+            "documents": {
+              "topic": 1,
+              "top_words": [
+                "datum",
+                "tool",
+                "knowledge",
+                "multi",
+                "generation",
+                "benchmark",
+                "domain",
+                "design",
+                "reasoning",
+                "capability",
+                "challenge",
+                "complex"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.0928872250818905,
+              "overall_n": 3745,
+              "language_n": {
+                "ko": 8,
+                "zh": 50,
+                "ja": 2
+              },
+              "ko_share_ratio_to_overall": 1.7180881174899867,
+              "ko_rank_min": 1,
+              "year_n": {
+                "2023": 209,
+                "2024": 910,
+                "2025": 1778,
+                "2026": 848
+              },
+              "year_share_pct": {
+                "2023": 30.333817126269956,
+                "2024": 38.2031905961377,
+                "2025": 28.91527077573589,
+                "2026": 7.7891062735372465
+              },
+              "change_2026_minus_2023_pp": -22.54471085273271,
+              "original_docs_retained": 397,
+              "original_zh_docs_retained": 7,
+              "ko_ids": [
+                "2503.17753",
+                "2505.20733",
+                "2510.15558",
+                "2601.03286",
+                "2603.18788",
+                "2606.02404",
+                "2608.04505",
+                "2609.05395"
+              ],
+              "zh_ids": [
+                "2302.08817",
+                "2306.07209",
+                "2308.09975",
+                "2401.01275",
+                "2402.13718",
+                "2402.17505",
+                "2403.02959",
+                "2404.11459",
+                "2405.16579",
+                "2406.11277",
+                "2407.16252",
+                "2407.21646",
+                "2409.01854",
+                "2410.21414",
+                "2412.01130",
+                "2412.17259",
+                "2412.18093",
+                "2412.20787",
+                "2501.09444",
+                "2502.15690",
+                "2504.10167",
+                "2504.15716",
+                "2504.19314",
+                "2504.21625",
+                "2505.18105",
+                "2507.03311",
+                "2507.17186",
+                "2507.21471",
+                "2508.07999",
+                "2508.09129",
+                "2508.21767",
+                "2509.00366",
+                "2510.12224",
+                "2511.09919",
+                "2511.19647",
+                "2512.12950",
+                "2512.20491",
+                "2512.23300",
+                "2601.17692",
+                "2601.20380",
+                "2602.00642",
+                "2604.10470",
+                "2604.12867",
+                "2604.16349",
+                "2605.17946",
+                "2606.09632",
+                "2606.13120",
+                "2606.17220",
+                "2607.13125",
+                "2607.27562"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 13,
+            "1": 397,
+            "2": 6,
+            "3": 78,
+            "4": 217,
+            "5": 88,
+            "6": 9,
+            "7": 5,
+            "8": 106,
+            "9": 7
+          }
+        }
+      },
+      "record_sha256": "076d33154ee1be1178300887616c57e87c385554625931f2b72c4826ff66a219"
+    },
+    {
+      "name": "keep_datum_cod_k10_s44",
+      "mode": "keep_datum_cod",
+      "k": 10,
+      "seed": 44,
+      "elapsed_seconds": 11.43,
+      "vocab_size": 6677,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 3,
+              "top_words": [
+                "training",
+                "learning",
+                "reward",
+                "policy",
+                "reasoning",
+                "optimization",
+                "reinforcement",
+                "learn",
+                "trajectory",
+                "improve",
+                "train",
+                "self"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.11037891268533773,
+              "overall_n": 2658,
+              "language_n": {
+                "ko": 3,
+                "zh": 9,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.9077652370203161,
+              "ko_rank_min": 2,
+              "year_n": {
+                "2023": 77,
+                "2024": 219,
+                "2025": 787,
+                "2026": 1575
+              },
+              "year_share_pct": {
+                "2023": 11.175616835994195,
+                "2024": 9.193954659949622,
+                "2025": 12.798829077898846,
+                "2026": 14.466795260402314
+              },
+              "change_2026_minus_2023_pp": 3.2911784244081197,
+              "original_docs_retained": 335,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [
+                "2607.20062",
+                "2608.04505",
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2506.20332",
+                "2508.19633",
+                "2508.21476",
+                "2602.00642",
+                "2602.21053",
+                "2606.17220",
+                "2607.26642",
+                "2609.28609",
+                "2609.29014"
+              ]
+            },
+            "documents": {
+              "topic": 3,
+              "top_words": [
+                "training",
+                "learning",
+                "reward",
+                "policy",
+                "reasoning",
+                "optimization",
+                "reinforcement",
+                "learn",
+                "trajectory",
+                "improve",
+                "train",
+                "self"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.11037891268533773,
+              "overall_n": 2658,
+              "language_n": {
+                "ko": 3,
+                "zh": 9,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.9077652370203161,
+              "ko_rank_min": 2,
+              "year_n": {
+                "2023": 77,
+                "2024": 219,
+                "2025": 787,
+                "2026": 1575
+              },
+              "year_share_pct": {
+                "2023": 11.175616835994195,
+                "2024": 9.193954659949622,
+                "2025": 12.798829077898846,
+                "2026": 14.466795260402314
+              },
+              "change_2026_minus_2023_pp": 3.2911784244081197,
+              "original_docs_retained": 335,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [
+                "2607.20062",
+                "2608.04505",
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2506.20332",
+                "2508.19633",
+                "2508.21476",
+                "2602.00642",
+                "2602.21053",
+                "2606.17220",
+                "2607.26642",
+                "2609.28609",
+                "2609.29014"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 55,
+            "1": 26,
+            "2": 117,
+            "3": 335,
+            "4": 34,
+            "5": 2,
+            "6": 117,
+            "7": 12,
+            "8": 5,
+            "9": 9
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 4,
+              "top_words": [
+                "skill",
+                "tool",
+                "execution",
+                "benchmark",
+                "failure",
+                "workflow",
+                "level",
+                "verification",
+                "test",
+                "harness",
+                "evaluate",
+                "agentic"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.2964509394572025,
+              "overall_n": 2108,
+              "language_n": {
+                "ko": 3,
+                "zh": 4,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 1.1446110056925995,
+              "ko_rank_min": 2,
+              "year_n": {
+                "2023": 5,
+                "2024": 36,
+                "2025": 245,
+                "2026": 1822
+              },
+              "year_share_pct": {
+                "2023": 0.7256894049346879,
+                "2024": 1.5113350125944585,
+                "2025": 3.9843877053179377,
+                "2026": 16.735556167906676
+              },
+              "change_2026_minus_2023_pp": 16.00986676297199,
+              "original_docs_retained": 710,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2509.19369",
+                "2606.02404",
+                "2609.05395"
+              ],
+              "zh_ids": [
+                "2510.23870",
+                "2605.13167",
+                "2605.27276",
+                "2606.08932"
+              ]
+            },
+            "documents": {
+              "topic": 4,
+              "top_words": [
+                "skill",
+                "tool",
+                "execution",
+                "benchmark",
+                "failure",
+                "workflow",
+                "level",
+                "verification",
+                "test",
+                "harness",
+                "evaluate",
+                "agentic"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.2964509394572025,
+              "overall_n": 2108,
+              "language_n": {
+                "ko": 3,
+                "zh": 4,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 1.1446110056925995,
+              "ko_rank_min": 2,
+              "year_n": {
+                "2023": 5,
+                "2024": 36,
+                "2025": 245,
+                "2026": 1822
+              },
+              "year_share_pct": {
+                "2023": 0.7256894049346879,
+                "2024": 1.5113350125944585,
+                "2025": 3.9843877053179377,
+                "2026": 16.735556167906676
+              },
+              "change_2026_minus_2023_pp": 16.00986676297199,
+              "original_docs_retained": 710,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2509.19369",
+                "2606.02404",
+                "2609.05395"
+              ],
+              "zh_ids": [
+                "2510.23870",
+                "2605.13167",
+                "2605.27276",
+                "2606.08932"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 9,
+            "1": 30,
+            "2": 11,
+            "3": 16,
+            "4": 710,
+            "5": 4,
+            "6": 166,
+            "7": 6,
+            "8": 5,
+            "9": 40
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 7,
+              "top_words": [
+                "memory",
+                "retrieval",
+                "context",
+                "graph",
+                "knowledge",
+                "long",
+                "query",
+                "answer",
+                "reasoning",
+                "question",
+                "rag",
+                "information"
+              ],
+              "word_jaccard": 0.5384615384615384,
+              "document_jaccard": 0.3125695216907675,
+              "overall_n": 1434,
+              "language_n": {
+                "ko": 0,
+                "zh": 17,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 10,
+              "year_n": {
+                "2023": 22,
+                "2024": 96,
+                "2025": 360,
+                "2026": 956
+              },
+              "year_share_pct": {
+                "2023": 3.193033381712627,
+                "2024": 4.030226700251889,
+                "2025": 5.854610505773296,
+                "2026": 8.781115091393405
+              },
+              "change_2026_minus_2023_pp": 5.588081709680777,
+              "original_docs_retained": 562,
+              "original_zh_docs_retained": 9,
+              "ko_ids": [],
+              "zh_ids": [
+                "2402.13718",
+                "2504.19314",
+                "2505.18105",
+                "2507.03311",
+                "2508.09129",
+                "2509.00366",
+                "2510.21557",
+                "2512.10121",
+                "2601.17692",
+                "2604.16349",
+                "2605.17946",
+                "2605.22140",
+                "2606.01276",
+                "2606.13120",
+                "2608.10444",
+                "2608.24011",
+                "2609.29428"
+              ]
+            },
+            "documents": {
+              "topic": 7,
+              "top_words": [
+                "memory",
+                "retrieval",
+                "context",
+                "graph",
+                "knowledge",
+                "long",
+                "query",
+                "answer",
+                "reasoning",
+                "question",
+                "rag",
+                "information"
+              ],
+              "word_jaccard": 0.5384615384615384,
+              "document_jaccard": 0.3125695216907675,
+              "overall_n": 1434,
+              "language_n": {
+                "ko": 0,
+                "zh": 17,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 10,
+              "year_n": {
+                "2023": 22,
+                "2024": 96,
+                "2025": 360,
+                "2026": 956
+              },
+              "year_share_pct": {
+                "2023": 3.193033381712627,
+                "2024": 4.030226700251889,
+                "2025": 5.854610505773296,
+                "2026": 8.781115091393405
+              },
+              "change_2026_minus_2023_pp": 5.588081709680777,
+              "original_docs_retained": 562,
+              "original_zh_docs_retained": 9,
+              "ko_ids": [],
+              "zh_ids": [
+                "2402.13718",
+                "2504.19314",
+                "2505.18105",
+                "2507.03311",
+                "2508.09129",
+                "2509.00366",
+                "2510.21557",
+                "2512.10121",
+                "2601.17692",
+                "2604.16349",
+                "2605.17946",
+                "2605.22140",
+                "2606.01276",
+                "2606.13120",
+                "2608.10444",
+                "2608.24011",
+                "2609.29428"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 18,
+            "1": 109,
+            "2": 32,
+            "3": 53,
+            "4": 39,
+            "5": 11,
+            "6": 74,
+            "7": 562,
+            "8": 4,
+            "9": 24
+          }
+        }
+      },
+      "record_sha256": "d7b270d13b7d8534a233fdea88db283e6dc1673fbc2468a4eade7c415e505fc0"
+    },
+    {
+      "name": "keep_datum_cod_k25_s42",
+      "mode": "keep_datum_cod",
+      "k": 25,
+      "seed": 42,
+      "elapsed_seconds": 13.02,
+      "vocab_size": 6677,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 5,
+              "top_words": [
+                "datum",
+                "training",
+                "fine",
+                "learning",
+                "train",
+                "dataset",
+                "tuning",
+                "learn",
+                "domain",
+                "knowledge",
+                "instruction",
+                "robot"
+              ],
+              "word_jaccard": 0.5384615384615384,
+              "document_jaccard": 0.19840743198407432,
+              "overall_n": 1094,
+              "language_n": {
+                "ko": 0,
+                "zh": 9,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 155,
+                "2024": 358,
+                "2025": 369,
+                "2026": 212
+              },
+              "year_share_pct": {
+                "2023": 22.496371552975326,
+                "2024": 15.029387069689337,
+                "2025": 6.000975768417629,
+                "2026": 1.9472765683843116
+              },
+              "change_2026_minus_2023_pp": -20.549094984591015,
+              "original_docs_retained": 299,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2304.12026",
+                "2306.07209",
+                "2405.16579",
+                "2406.11277",
+                "2409.01854",
+                "2412.01130",
+                "2506.01391",
+                "2511.19647"
+              ]
+            },
+            "documents": {
+              "topic": 5,
+              "top_words": [
+                "datum",
+                "training",
+                "fine",
+                "learning",
+                "train",
+                "dataset",
+                "tuning",
+                "learn",
+                "domain",
+                "knowledge",
+                "instruction",
+                "robot"
+              ],
+              "word_jaccard": 0.5384615384615384,
+              "document_jaccard": 0.19840743198407432,
+              "overall_n": 1094,
+              "language_n": {
+                "ko": 0,
+                "zh": 9,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 155,
+                "2024": 358,
+                "2025": 369,
+                "2026": 212
+              },
+              "year_share_pct": {
+                "2023": 22.496371552975326,
+                "2024": 15.029387069689337,
+                "2025": 6.000975768417629,
+                "2026": 1.9472765683843116
+              },
+              "change_2026_minus_2023_pp": -20.549094984591015,
+              "original_docs_retained": 299,
+              "original_zh_docs_retained": 2,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2304.12026",
+                "2306.07209",
+                "2405.16579",
+                "2406.11277",
+                "2409.01854",
+                "2412.01130",
+                "2506.01391",
+                "2511.19647"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 0,
+            "1": 5,
+            "2": 17,
+            "3": 68,
+            "4": 3,
+            "5": 299,
+            "6": 25,
+            "7": 11,
+            "8": 1,
+            "9": 9,
+            "10": 103,
+            "11": 5,
+            "12": 5,
+            "13": 0,
+            "14": 11,
+            "15": 11,
+            "16": 27,
+            "17": 0,
+            "18": 5,
+            "19": 7,
+            "20": 18,
+            "21": 60,
+            "22": 4,
+            "23": 18,
+            "24": 0
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 16,
+              "top_words": [
+                "research",
+                "scientific",
+                "software",
+                "engineering",
+                "discovery",
+                "cod",
+                "test",
+                "repository",
+                "science",
+                "datum",
+                "analysis",
+                "development"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.163855421686747,
+              "overall_n": 935,
+              "language_n": {
+                "ko": 0,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 14,
+                "2024": 117,
+                "2025": 332,
+                "2026": 472
+              },
+              "year_share_pct": {
+                "2023": 2.0319303338171264,
+                "2024": 4.91183879093199,
+                "2025": 5.399251910879818,
+                "2026": 4.335445944704694
+              },
+              "change_2026_minus_2023_pp": 2.3035156108875676,
+              "original_docs_retained": 272,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [],
+              "zh_ids": [
+                "2603.07940",
+                "2607.27562",
+                "2608.27998"
+              ]
+            },
+            "documents": {
+              "topic": 6,
+              "top_words": [
+                "tool",
+                "execution",
+                "workflow",
+                "mcp",
+                "verification",
+                "agentic",
+                "specification",
+                "protocol",
+                "step",
+                "error",
+                "executable",
+                "failure"
+              ],
+              "word_jaccard": 0.17647058823529413,
+              "document_jaccard": 0.1956668923493568,
+              "overall_n": 769,
+              "language_n": {
+                "ko": 1,
+                "zh": 0,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 1.0458777633289986,
+              "ko_rank_min": 5,
+              "year_n": {
+                "2023": 5,
+                "2024": 40,
+                "2025": 159,
+                "2026": 565
+              },
+              "year_share_pct": {
+                "2023": 0.7256894049346879,
+                "2024": 1.6792611251049538,
+                "2025": 2.5857863067165394,
+                "2026": 5.1896757600808305
+              },
+              "change_2026_minus_2023_pp": 4.463986355146143,
+              "original_docs_retained": 289,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2509.19369"
+              ],
+              "zh_ids": []
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 2,
+            "1": 1,
+            "2": 3,
+            "3": 46,
+            "4": 19,
+            "5": 4,
+            "6": 289,
+            "7": 43,
+            "8": 6,
+            "9": 36,
+            "10": 16,
+            "11": 71,
+            "12": 23,
+            "13": 3,
+            "14": 19,
+            "15": 9,
+            "16": 272,
+            "17": 2,
+            "18": 19,
+            "19": 8,
+            "20": 8,
+            "21": 5,
+            "22": 17,
+            "23": 72,
+            "24": 4
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 20,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "graph",
+                "query",
+                "answer",
+                "question",
+                "search",
+                "reasoning",
+                "rag",
+                "generation",
+                "information",
+                "augment"
+              ],
+              "word_jaccard": 0.8181818181818182,
+              "document_jaccard": 0.5210819411296739,
+              "overall_n": 986,
+              "language_n": {
+                "ko": 1,
+                "zh": 20,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.8156997971602434,
+              "ko_rank_min": 5,
+              "year_n": {
+                "2023": 27,
+                "2024": 131,
+                "2025": 382,
+                "2026": 446
+              },
+              "year_share_pct": {
+                "2023": 3.918722786647315,
+                "2024": 5.499580184718724,
+                "2025": 6.212392258903887,
+                "2026": 4.096629007072655
+              },
+              "change_2026_minus_2023_pp": 0.17790622042534032,
+              "original_docs_retained": 655,
+              "original_zh_docs_retained": 10,
+              "ko_ids": [
+                "2505.24553"
+              ],
+              "zh_ids": [
+                "2403.02959",
+                "2412.18093",
+                "2505.18105",
+                "2506.18511",
+                "2507.00875",
+                "2507.03311",
+                "2508.09129",
+                "2509.00366",
+                "2510.21557",
+                "2510.22967",
+                "2510.23870",
+                "2601.05520",
+                "2601.17692",
+                "2602.00642",
+                "2604.10470",
+                "2605.17946",
+                "2606.01276",
+                "2607.20872",
+                "2608.24011",
+                "2609.15695"
+              ]
+            },
+            "documents": {
+              "topic": 20,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "graph",
+                "query",
+                "answer",
+                "question",
+                "search",
+                "reasoning",
+                "rag",
+                "generation",
+                "information",
+                "augment"
+              ],
+              "word_jaccard": 0.8181818181818182,
+              "document_jaccard": 0.5210819411296739,
+              "overall_n": 986,
+              "language_n": {
+                "ko": 1,
+                "zh": 20,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.8156997971602434,
+              "ko_rank_min": 5,
+              "year_n": {
+                "2023": 27,
+                "2024": 131,
+                "2025": 382,
+                "2026": 446
+              },
+              "year_share_pct": {
+                "2023": 3.918722786647315,
+                "2024": 5.499580184718724,
+                "2025": 6.212392258903887,
+                "2026": 4.096629007072655
+              },
+              "change_2026_minus_2023_pp": 0.17790622042534032,
+              "original_docs_retained": 655,
+              "original_zh_docs_retained": 10,
+              "ko_ids": [
+                "2505.24553"
+              ],
+              "zh_ids": [
+                "2403.02959",
+                "2412.18093",
+                "2505.18105",
+                "2506.18511",
+                "2507.00875",
+                "2507.03311",
+                "2508.09129",
+                "2509.00366",
+                "2510.21557",
+                "2510.22967",
+                "2510.23870",
+                "2601.05520",
+                "2601.17692",
+                "2602.00642",
+                "2604.10470",
+                "2605.17946",
+                "2606.01276",
+                "2607.20872",
+                "2608.24011",
+                "2609.15695"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 0,
+            "1": 1,
+            "2": 3,
+            "3": 37,
+            "4": 8,
+            "5": 6,
+            "6": 8,
+            "7": 10,
+            "8": 3,
+            "9": 28,
+            "10": 24,
+            "11": 30,
+            "12": 3,
+            "13": 2,
+            "14": 19,
+            "15": 6,
+            "16": 11,
+            "17": 2,
+            "18": 9,
+            "19": 10,
+            "20": 655,
+            "21": 13,
+            "22": 12,
+            "23": 3,
+            "24": 23
+          }
+        }
+      },
+      "record_sha256": "19db497b41aad6fdd2b9286e5c73aacc8737bf290a63d02c40069dfacfd42d7a"
+    },
+    {
+      "name": "keep_datum_cod_k25_s43",
+      "mode": "keep_datum_cod",
+      "k": 25,
+      "seed": 43,
+      "elapsed_seconds": 13.41,
+      "vocab_size": 6677,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 6,
+              "top_words": [
+                "datum",
+                "fine",
+                "dataset",
+                "text",
+                "training",
+                "tuning",
+                "instruction",
+                "generate",
+                "image",
+                "prompt",
+                "train",
+                "tune"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.13237924865831843,
+              "overall_n": 554,
+              "language_n": {
+                "ko": 0,
+                "zh": 11,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 48,
+                "2024": 123,
+                "2025": 222,
+                "2026": 161
+              },
+              "year_share_pct": {
+                "2023": 6.966618287373004,
+                "2024": 5.163727959697733,
+                "2025": 3.610343145226866,
+                "2026": 1.4788279599522367
+              },
+              "change_2026_minus_2023_pp": -5.487790327420767,
+              "original_docs_retained": 148,
+              "original_zh_docs_retained": 3,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2304.12026",
+                "2405.16579",
+                "2406.11277",
+                "2409.01854",
+                "2409.14818",
+                "2410.21414",
+                "2508.00391",
+                "2511.19647",
+                "2603.28474",
+                "2607.13125"
+              ]
+            },
+            "documents": {
+              "topic": 6,
+              "top_words": [
+                "datum",
+                "fine",
+                "dataset",
+                "text",
+                "training",
+                "tuning",
+                "instruction",
+                "generate",
+                "image",
+                "prompt",
+                "train",
+                "tune"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.13237924865831843,
+              "overall_n": 554,
+              "language_n": {
+                "ko": 0,
+                "zh": 11,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 48,
+                "2024": 123,
+                "2025": 222,
+                "2026": 161
+              },
+              "year_share_pct": {
+                "2023": 6.966618287373004,
+                "2024": 5.163727959697733,
+                "2025": 3.610343145226866,
+                "2026": 1.4788279599522367
+              },
+              "change_2026_minus_2023_pp": -5.487790327420767,
+              "original_docs_retained": 148,
+              "original_zh_docs_retained": 3,
+              "ko_ids": [],
+              "zh_ids": [
+                "2302.08817",
+                "2304.12026",
+                "2405.16579",
+                "2406.11277",
+                "2409.01854",
+                "2409.14818",
+                "2410.21414",
+                "2508.00391",
+                "2511.19647",
+                "2603.28474",
+                "2607.13125"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 7,
+            "1": 43,
+            "2": 7,
+            "3": 31,
+            "4": 5,
+            "5": 39,
+            "6": 148,
+            "7": 1,
+            "8": 10,
+            "9": 19,
+            "10": 22,
+            "11": 1,
+            "12": 9,
+            "13": 1,
+            "14": 105,
+            "15": 19,
+            "16": 2,
+            "17": 3,
+            "18": 158,
+            "19": 8,
+            "20": 2,
+            "21": 45,
+            "22": 4,
+            "23": 21,
+            "24": 2
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 3,
+              "top_words": [
+                "harness",
+                "token",
+                "cod",
+                "run",
+                "bench",
+                "benchmark",
+                "context",
+                "swe",
+                "repository",
+                "cache",
+                "test",
+                "skill"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.12659033078880408,
+              "overall_n": 774,
+              "language_n": {
+                "ko": 2,
+                "zh": 1,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 2.0782428940568476,
+              "ko_rank_min": 4,
+              "year_n": {
+                "2023": 3,
+                "2024": 9,
+                "2025": 53,
+                "2026": 709
+              },
+              "year_share_pct": {
+                "2023": 0.43541364296081275,
+                "2024": 0.3778337531486146,
+                "2025": 0.8619287689055131,
+                "2026": 6.512354183889042
+              },
+              "change_2026_minus_2023_pp": 6.076940540928229,
+              "original_docs_retained": 199,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2607.20062",
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2605.27276"
+              ]
+            },
+            "documents": {
+              "topic": 3,
+              "top_words": [
+                "harness",
+                "token",
+                "cod",
+                "run",
+                "bench",
+                "benchmark",
+                "context",
+                "swe",
+                "repository",
+                "cache",
+                "test",
+                "skill"
+              ],
+              "word_jaccard": 0.1111111111111111,
+              "document_jaccard": 0.12659033078880408,
+              "overall_n": 774,
+              "language_n": {
+                "ko": 2,
+                "zh": 1,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 2.0782428940568476,
+              "ko_rank_min": 4,
+              "year_n": {
+                "2023": 3,
+                "2024": 9,
+                "2025": 53,
+                "2026": 709
+              },
+              "year_share_pct": {
+                "2023": 0.43541364296081275,
+                "2024": 0.3778337531486146,
+                "2025": 0.8619287689055131,
+                "2026": 6.512354183889042
+              },
+              "change_2026_minus_2023_pp": 6.076940540928229,
+              "original_docs_retained": 199,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2607.20062",
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2605.27276"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 40,
+            "1": 231,
+            "2": 4,
+            "3": 199,
+            "4": 15,
+            "5": 18,
+            "6": 5,
+            "7": 73,
+            "8": 9,
+            "9": 19,
+            "10": 53,
+            "11": 13,
+            "12": 21,
+            "13": 2,
+            "14": 73,
+            "15": 1,
+            "16": 134,
+            "17": 2,
+            "18": 8,
+            "19": 1,
+            "20": 57,
+            "21": 4,
+            "22": 0,
+            "23": 13,
+            "24": 2
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 12,
+              "top_words": [
+                "graph",
+                "retrieval",
+                "knowledge",
+                "skill",
+                "rag",
+                "query",
+                "generation",
+                "document",
+                "augment",
+                "information",
+                "semantic",
+                "domain"
+              ],
+              "word_jaccard": 0.3333333333333333,
+              "document_jaccard": 0.30201342281879195,
+              "overall_n": 626,
+              "language_n": {
+                "ko": 0,
+                "zh": 7,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 12,
+                "2024": 68,
+                "2025": 199,
+                "2026": 347
+              },
+              "year_share_pct": {
+                "2023": 1.741654571843251,
+                "2024": 2.8547439126784213,
+                "2025": 3.2362985851357946,
+                "2026": 3.18728759070451
+              },
+              "change_2026_minus_2023_pp": 1.4456330188612592,
+              "original_docs_retained": 360,
+              "original_zh_docs_retained": 4,
+              "ko_ids": [],
+              "zh_ids": [
+                "2506.18511",
+                "2509.00366",
+                "2510.23870",
+                "2512.12950",
+                "2601.05520",
+                "2601.17692",
+                "2604.10470"
+              ]
+            },
+            "documents": {
+              "topic": 12,
+              "top_words": [
+                "graph",
+                "retrieval",
+                "knowledge",
+                "skill",
+                "rag",
+                "query",
+                "generation",
+                "document",
+                "augment",
+                "information",
+                "semantic",
+                "domain"
+              ],
+              "word_jaccard": 0.3333333333333333,
+              "document_jaccard": 0.30201342281879195,
+              "overall_n": 626,
+              "language_n": {
+                "ko": 0,
+                "zh": 7,
+                "ja": 1
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 12,
+              "year_n": {
+                "2023": 12,
+                "2024": 68,
+                "2025": 199,
+                "2026": 347
+              },
+              "year_share_pct": {
+                "2023": 1.741654571843251,
+                "2024": 2.8547439126784213,
+                "2025": 3.2362985851357946,
+                "2026": 3.18728759070451
+              },
+              "change_2026_minus_2023_pp": 1.4456330188612592,
+              "original_docs_retained": 360,
+              "original_zh_docs_retained": 4,
+              "ko_ids": [],
+              "zh_ids": [
+                "2506.18511",
+                "2509.00366",
+                "2510.23870",
+                "2512.12950",
+                "2601.05520",
+                "2601.17692",
+                "2604.10470"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 4,
+            "1": 12,
+            "2": 5,
+            "3": 7,
+            "4": 115,
+            "5": 156,
+            "6": 9,
+            "7": 2,
+            "8": 10,
+            "9": 6,
+            "10": 13,
+            "11": 10,
+            "12": 360,
+            "13": 40,
+            "14": 44,
+            "15": 7,
+            "16": 6,
+            "17": 2,
+            "18": 29,
+            "19": 2,
+            "20": 21,
+            "21": 29,
+            "22": 1,
+            "23": 27,
+            "24": 9
+          }
+        }
+      },
+      "record_sha256": "88000e38d0f800c7787e1f32e6130e592d397a2a78c03cdf2b897c3d91c1b232"
+    },
+    {
+      "name": "keep_datum_cod_k25_s44",
+      "mode": "keep_datum_cod",
+      "k": 25,
+      "seed": 44,
+      "elapsed_seconds": 13.94,
+      "vocab_size": 6677,
+      "n_iter": 25,
+      "targets": {
+        "training": {
+          "reference_topic": 6,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 8,
+              "top_words": [
+                "training",
+                "fine",
+                "open",
+                "scale",
+                "train",
+                "tuning",
+                "parameter",
+                "frontier",
+                "weight",
+                "time",
+                "agentic",
+                "test"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.11222444889779559,
+              "overall_n": 398,
+              "language_n": {
+                "ko": 3,
+                "zh": 2,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 6.062412060301507,
+              "ko_rank_min": 2,
+              "year_n": {
+                "2023": 2,
+                "2024": 13,
+                "2025": 74,
+                "2026": 309
+              },
+              "year_share_pct": {
+                "2023": 0.29027576197387517,
+                "2024": 0.5457598656591099,
+                "2025": 1.203447715075622,
+                "2026": 2.838247451088454
+              },
+              "change_2026_minus_2023_pp": 2.547971689114579,
+              "original_docs_retained": 112,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2607.20062",
+                "2608.04505",
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2605.27276",
+                "2607.13125"
+              ]
+            },
+            "documents": {
+              "topic": 8,
+              "top_words": [
+                "training",
+                "fine",
+                "open",
+                "scale",
+                "train",
+                "tuning",
+                "parameter",
+                "frontier",
+                "weight",
+                "time",
+                "agentic",
+                "test"
+              ],
+              "word_jaccard": 0.42857142857142855,
+              "document_jaccard": 0.11222444889779559,
+              "overall_n": 398,
+              "language_n": {
+                "ko": 3,
+                "zh": 2,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 6.062412060301507,
+              "ko_rank_min": 2,
+              "year_n": {
+                "2023": 2,
+                "2024": 13,
+                "2025": 74,
+                "2026": 309
+              },
+              "year_share_pct": {
+                "2023": 0.29027576197387517,
+                "2024": 0.5457598656591099,
+                "2025": 1.203447715075622,
+                "2026": 2.838247451088454
+              },
+              "change_2026_minus_2023_pp": 2.547971689114579,
+              "original_docs_retained": 112,
+              "original_zh_docs_retained": 1,
+              "ko_ids": [
+                "2607.20062",
+                "2608.04505",
+                "2608.30181"
+              ],
+              "zh_ids": [
+                "2605.27276",
+                "2607.13125"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 128,
+            "1": 3,
+            "2": 0,
+            "3": 7,
+            "4": 7,
+            "5": 0,
+            "6": 38,
+            "7": 0,
+            "8": 112,
+            "9": 3,
+            "10": 72,
+            "11": 2,
+            "12": 9,
+            "13": 93,
+            "14": 8,
+            "15": 2,
+            "16": 1,
+            "17": 15,
+            "18": 13,
+            "19": 16,
+            "20": 48,
+            "21": 0,
+            "22": 6,
+            "23": 53,
+            "24": 76
+          }
+        },
+        "software": {
+          "reference_topic": 20,
+          "matching_methods_agree": false,
+          "matches": {
+            "top_words": {
+              "topic": 4,
+              "top_words": [
+                "failure",
+                "error",
+                "verification",
+                "evidence",
+                "execution",
+                "benchmark",
+                "trace",
+                "ground",
+                "fail",
+                "repair",
+                "trajectory",
+                "step"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.13561741613133477,
+              "overall_n": 594,
+              "language_n": {
+                "ko": 1,
+                "zh": 3,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 1.3540067340067339,
+              "ko_rank_min": 7,
+              "year_n": {
+                "2023": 0,
+                "2024": 12,
+                "2025": 68,
+                "2026": 514
+              },
+              "year_share_pct": {
+                "2023": 0.0,
+                "2024": 0.5037783375314862,
+                "2025": 1.1058708733127338,
+                "2026": 4.721227151648756
+              },
+              "change_2026_minus_2023_pp": 4.721227151648756,
+              "original_docs_retained": 190,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [
+                "2605.01704"
+              ],
+              "zh_ids": [
+                "2510.21557",
+                "2602.23845",
+                "2606.08932"
+              ]
+            },
+            "documents": {
+              "topic": 19,
+              "top_words": [
+                "software",
+                "engineering",
+                "generation",
+                "design",
+                "cod",
+                "test",
+                "program",
+                "generate",
+                "repository",
+                "swe",
+                "specification",
+                "development"
+              ],
+              "word_jaccard": 0.25,
+              "document_jaccard": 0.30884450784593437,
+              "overall_n": 838,
+              "language_n": {
+                "ko": 0,
+                "zh": 0,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 13,
+              "year_n": {
+                "2023": 10,
+                "2024": 75,
+                "2025": 256,
+                "2026": 497
+              },
+              "year_share_pct": {
+                "2023": 1.4513788098693758,
+                "2024": 3.1486146095717884,
+                "2025": 4.163278581883233,
+                "2026": 4.56507761550473
+              },
+              "change_2026_minus_2023_pp": 3.1136988056353543,
+              "original_docs_retained": 433,
+              "original_zh_docs_retained": 0,
+              "ko_ids": [],
+              "zh_ids": []
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 2,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 190,
+            "5": 3,
+            "6": 38,
+            "7": 2,
+            "8": 11,
+            "9": 96,
+            "10": 10,
+            "11": 3,
+            "12": 2,
+            "13": 14,
+            "14": 17,
+            "15": 24,
+            "16": 19,
+            "17": 4,
+            "18": 38,
+            "19": 433,
+            "20": 10,
+            "21": 3,
+            "22": 14,
+            "23": 7,
+            "24": 52
+          }
+        },
+        "retrieval": {
+          "reference_topic": 22,
+          "matching_methods_agree": true,
+          "matches": {
+            "top_words": {
+              "topic": 17,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "answer",
+                "question",
+                "query",
+                "rag",
+                "search",
+                "graph",
+                "augment",
+                "evidence",
+                "information",
+                "generation"
+              ],
+              "word_jaccard": 0.8181818181818182,
+              "document_jaccard": 0.48138056312443234,
+              "overall_n": 705,
+              "language_n": {
+                "ko": 0,
+                "zh": 9,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 13,
+              "year_n": {
+                "2023": 20,
+                "2024": 85,
+                "2025": 237,
+                "2026": 363
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 3.568429890848027,
+                "2025": 3.8542852496340867,
+                "2026": 3.3342518600165336
+              },
+              "change_2026_minus_2023_pp": 0.43149424027778194,
+              "original_docs_retained": 530,
+              "original_zh_docs_retained": 6,
+              "ko_ids": [],
+              "zh_ids": [
+                "2505.18105",
+                "2506.18511",
+                "2510.22967",
+                "2601.17692",
+                "2604.10470",
+                "2605.17946",
+                "2606.09632",
+                "2607.20872",
+                "2608.24011"
+              ]
+            },
+            "documents": {
+              "topic": 17,
+              "top_words": [
+                "retrieval",
+                "knowledge",
+                "answer",
+                "question",
+                "query",
+                "rag",
+                "search",
+                "graph",
+                "augment",
+                "evidence",
+                "information",
+                "generation"
+              ],
+              "word_jaccard": 0.8181818181818182,
+              "document_jaccard": 0.48138056312443234,
+              "overall_n": 705,
+              "language_n": {
+                "ko": 0,
+                "zh": 9,
+                "ja": 0
+              },
+              "ko_share_ratio_to_overall": 0.0,
+              "ko_rank_min": 13,
+              "year_n": {
+                "2023": 20,
+                "2024": 85,
+                "2025": 237,
+                "2026": 363
+              },
+              "year_share_pct": {
+                "2023": 2.9027576197387517,
+                "2024": 3.568429890848027,
+                "2025": 3.8542852496340867,
+                "2026": 3.3342518600165336
+              },
+              "change_2026_minus_2023_pp": 0.43149424027778194,
+              "original_docs_retained": 530,
+              "original_zh_docs_retained": 6,
+              "ko_ids": [],
+              "zh_ids": [
+                "2505.18105",
+                "2506.18511",
+                "2510.22967",
+                "2601.17692",
+                "2604.10470",
+                "2605.17946",
+                "2606.09632",
+                "2607.20872",
+                "2608.24011"
+              ]
+            }
+          },
+          "reference_doc_destination_n": {
+            "0": 9,
+            "1": 1,
+            "2": 4,
+            "3": 2,
+            "4": 37,
+            "5": 5,
+            "6": 38,
+            "7": 37,
+            "8": 5,
+            "9": 9,
+            "10": 58,
+            "11": 1,
+            "12": 9,
+            "13": 4,
+            "14": 6,
+            "15": 3,
+            "16": 39,
+            "17": 530,
+            "18": 2,
+            "19": 4,
+            "20": 30,
+            "21": 2,
+            "22": 11,
+            "23": 21,
+            "24": 59
+          }
+        }
+      },
+      "record_sha256": "33eed8f12b50950901dbec1c35bfc3e77d1673fd7d474cd20b4a9d0fa75becae"
+    }
+  ],
+  "completed": true
+}

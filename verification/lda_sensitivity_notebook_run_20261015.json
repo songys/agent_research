@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "saved assignments aggregation, preserved JSON comparison, independent crosstab counts",
+  "model_refit_during_notebook": false,
+  "elapsed_seconds": 2.66,
+  "python": "3.13.5",
+  "notebook_sha256": "8afeaadcc1bbcd52763f0c4b321e2985bb0a52352ecbaf11fa860a0d32b5d4e8",
+  "reference_sha256": "aa7fce14515bd0f00f47dff1dd2553487295cc4b6a0d57bfc062f32fd6f3812b",
+  "executed_cells": 4,
+  "independent_count_checks": 864,
+  "kernel_shutdown_warning": "All cells completed; ipykernel child-process enumeration during shutdown was denied by sandbox (sysctl)."
+}

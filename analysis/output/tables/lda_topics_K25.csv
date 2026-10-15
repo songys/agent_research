@@ -1,0 +1,26 @@
+topic,label,top_words,n_docs,share_pct
+0,human·web,"human, web, problem, instruction, solve, generate, ability, evaluate, open, benchmark, perform, student",647,3.22
+1,cost·token,"cost, token, inference, gui, time, latency, reduce, efficient, accuracy, cache, resource, efficiency",762,3.79
+2,video·semantic,"video, semantic, object, scene, temporal, generation, representation, spatial, text, understanding, motion, world",701,3.49
+3,reward·policy,"reward, policy, learning, trajectory, reinforcement, training, learn, optimization, level, improve, turn, step",828,4.12
+4,multi·reasoning,"multi, reasoning, communication, collaboration, debate, mas, role, collaborative, coordination, single, team, interaction",546,2.72
+5,benchmark·score,"benchmark, score, run, control, evaluation, judge, point, evidence, failure, single, reach, report",1602,7.97
+6,training·fine,"training, fine, train, tuning, domain, open, scale, dataset, environment, learning, tune, capability",712,3.54
+7,decision·prediction,"decision, prediction, financial, causal, market, time, sql, explanation, confidence, reasoning, accuracy, score",372,1.85
+8,evaluation·benchmark,"evaluation, benchmark, evaluate, capability, research, real, world, gap, challenge, provide, comprehensive, agentic",1300,6.47
+9,user·dialogue,"user, dialogue, conversational, interaction, conversation, turn, human, preference, response, real, intent, persona",564,2.8
+10,multimodal·visual,"multimodal, visual, vision, image, vlm, reasoning, mllm, perception, text, spatial, modal, understanding",446,2.22
+11,attack·prompt,"attack, prompt, defense, adversarial, injection, vulnerability, security, malicious, proof, rate, success, attacker",479,2.38
+12,scientific·research,"scientific, research, discovery, review, science, human, literature, speech, hypothesis, generate, idea, scientist",311,1.55
+13,planning·action,"planning, action, reasoning, plan, environment, execution, step, world, navigation, multi, level, complex",924,4.6
+14,reasoning·multi,"reasoning, multi, enhance, dataset, generate, generation, prompt, address, challenge, quality, process, strategy",1091,5.43
+15,safety·risk,"safety, risk, security, agentic, detection, layer, autonomous, architecture, governance, deployment, control, policy",563,2.8
+16,learning·game,"learning, game, environment, learn, decision, human, intelligence, knowledge, challenge, network, capability, reinforcement",1100,5.47
+17,behavior·bias,"behavior, bias, alignment, decision, uncertainty, prompt, information, value, behavioral, belief, control, reveal",848,4.22
+18,optimization·design,"optimization, design, search, generation, agentic, loop, problem, feedback, self, space, refinement, multi",966,4.8
+19,workflow·clinical,"workflow, clinical, design, medical, multi, automate, analysis, domain, support, expert, process, generation",1264,6.29
+20,software·execution,"software, execution, failure, test, workflow, engineering, verification, harness, repair, repository, agentic, specification",997,4.96
+21,memory·skill,"memory, skill, long, context, experience, evolve, horizon, self, evolution, term, update, improve",882,4.39
+22,retrieval·graph,"retrieval, graph, knowledge, query, answer, question, search, evidence, reasoning, rag, information, augment",926,4.61
+23,social·human,"social, human, simulation, behavior, generative, simulate, dynamic, personality, interaction, design, research, platform",888,4.42
+24,tool·mcp,"tool, mcp, execution, privacy, external, context, user, action, api, prompt, access, agentic",388,1.93

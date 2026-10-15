@@ -16,3 +16,7 @@
 말뭉치 해시는 `preprocessing/output/corpus_manifest.json`, 배포 입력 해시는 `paper_code/data_manifest.json`에 있다. 언어별 25·186·17편의 합은 중복을 포함한 228편이다. arXiv 자료는 메타데이터이고, 학술대회 원문 PDF와 OCR 원문은 Release에 포함하지 않는다.
 
 학술대회 요약·OCR 텍스트·주제어 텍스트·명사와 표제어 열은 Git과 Release에 포함하지 않는다. `hclt_tokens.csv`는 파일명만 유지하며 문서 식별자와 판정 열만 담는다. 학술대회 자료 출처: [논문집 안내](http://www.hclt.kr/symp/?lnb=conference).
+
+## 추가 검증
+
+12개 LDA 설정의 배정·단어는 `analysis/output/tables/lda_sensitivity_runs_20261015.json`, 비교 수치는 `verification/lda_sensitivity_20261015.json`에 있다. `analysis/notebooks/13_lda_sensitivity.ipynb`에서 재집계한다. OCR 검증 결과는 `verification/hclt_ocr_audit_20261015.json`이며, 원문과 보정 텍스트는 배포하지 않는다. 현재 본문은 회귀·순열 검정값 대신 설정 변화와 개별 연구 사례를 설명한다.

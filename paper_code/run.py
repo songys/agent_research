@@ -42,7 +42,7 @@ def digest(path):
 
 
 def compare(expected, actual, path=""):
-    """정수는 정확히, 실수는 저장 반올림보다 작은 1e-10의 절대 오차로 대조."""
+    """정수는 값의 일치 여부로, 실수는 저장 반올림보다 작은 1e-10의 절대 오차로 대조."""
     if isinstance(expected, dict) and isinstance(actual, dict):
         if expected.keys() != actual.keys():
             return [path + ": keys differ"]

@@ -51,16 +51,13 @@ def plot_language_topics(table, sizes, output):
         ]:
             ax.barh(y + offset, sub[field], 0.27, color=color, label=label, zorder=3)
         xmax = max(sub[f'obs_{lang}'].max(), sub[f'exp_{lang}'].max(), sub[f'exp_lm_{lang}'].max())
-        for i, t in enumerate(order):
-            obs, exp, lm = (sub.loc[t, f'{field}_{lang}'] for field in ['obs', 'exp', 'exp_lm'])
-            ax.text(max(obs, exp, lm) + 0.02 * xmax, i, f'{int(obs)} ({exp:.1f} | {lm:.1f})', va='center', fontsize=6.5)
         for cut in (7.5, 16.5):
             ax.axhline(cut, color='#7F8C8D', lw=0.7, ls=':')
         ax.set_yticks(y)
         ax.set_yticklabels([f'{i+1}. {sub.loc[t, "label"]}' for i, t in enumerate(order)], fontsize=7.5)
         ax.set_title(f'{names[lang]} ({sizes[lang]}편)')
         ax.set_xlabel('논문 수(편)')
-        ax.set_xlim(0, xmax * 1.4)
+        ax.set_xlim(0, xmax * 1.08)
         ax.grid(axis='y', visible=False)
     axes[0].invert_yaxis()
     axes[1].legend(loc='lower right', fontsize=8)
