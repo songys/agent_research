@@ -15,12 +15,14 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-Python 3.13.5 환경에서 동작을 확인했습니다. [확인한 패키지 버전](paper_code/requirements-observed.txt)은 테스트 당시의 환경 기록일 뿐, 모든 의존성을 고정하는 잠금 파일(lock file)은 아닙니다.
+Python 3.13.5 환경에서 동작을 확인했습니다.     
+[확인한 패키지 버전](paper_code/requirements-observed.txt)            
 
 ## 데이터
 
-[v1.0.0 Release](https://github.com/songys/agent_research/releases/tag/v1.0.0)에서 `agent-research-data-20261015.tar.gz`를 내려받은 뒤 아래 명령어로 설치합니다. 압축 파일에는 대용량 말뭉치와 표제어·연어 캐시가 들어 있습니다.
-
+[v1.0.0 Release](https://github.com/songys/agent_research/releases/tag/v1.0.0)에서 `agent-research-data-20261015.tar.gz`를 내려받은 뒤 아래 명령어로 설치합니다.     
+압축 파일에는 대용량 말뭉치와 표제어·연어 캐시가 들어 있습니다.
+   
 ```bash
 python paper_code/data.py install /path/to/agent-research-data-20261015.tar.gz
 ```
