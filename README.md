@@ -2,7 +2,8 @@
 
 **LLM 에이전트 연구의 주제 변화와 중국어·한국어·일본어 대상 연구의 분포** 논문 재현 코드입니다.
 
-2023년 1월부터 2026년 9월까지 arXiv 전산학 분야에 올라온 LLM 에이전트 논문 20,107편을 분석했습니다. 이 중 특정 언어를 다룬 논문은 한국어 25편, 중국어 186편, 일본어 17편으로, 중복을 빼면 총 226편입니다. 여기에 한글 및 한국어 정보처리 학술대회(HCLT) 논문집의 에이전트 논문 62편을 함께 비교했습니다.
+2023년 1월부터 2026년 9월까지 arXiv 전산학 분야에 올라온 LLM 에이전트 논문 20,107편과 한글 및 한국어 정보처리 학술대회(HCLT) 논문집의 에이전트 논문 62편을 비교했습니다.  
+이 중 특정 언어를 다룬 논문은 한국어 25편, 중국어 186편, 일본어 17편으로 총 226편입니다.
 
 ## 설치
 
@@ -62,10 +63,6 @@ python -m pytest -q tests
 [상세 재현 안내](REPRODUCIBILITY.md) · [표·그림과 코드 대응](paper_code/README.md) · [검증 범위](paper_code/VALIDATION.md)
 
 ## 인용
-
-이 코드나 데이터를 사용하실 때는 아래 논문을 인용해 주세요.
-
-> Youngsook Song. 2026. 에이전트 연구의 주제 변화와 한중일 언어권별 분포 [Topic shifts in agent research and its distribution across Korean, Chinese, and Japanese language communities]. *Communications of the Korean Institute of Information Scientists and Engineers (정보과학회지)*, 44(11), 46–51.
 
 ```bibtex
 @article{song2026agent,
